@@ -1,27 +1,29 @@
 {
-  "name": "domaine-simone",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
-  },
   "dependencies": {
     "next": "16.2.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.0",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@biomejs/biome": "2.4.12",
+    "@tailwindcss/postcss": "4.2.2",
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "babel-plugin-react-compiler": "1.0.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "tailwindcss": "4.2.2",
+    "typescript": "6.0.3"
+  },
+  "name": "domaine-simone",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "format": "biome format --write",
+    "lint": "biome check .",
+    "lint:ci": "biome ci",
+    "lint:fix": "biome check . --write",
+    "start": "next start"
+  },
+  "version": "0.1.0"
 }

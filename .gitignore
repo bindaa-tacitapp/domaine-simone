@@ -39,3 +39,41 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage
+
+# Build Outputs
+.next/
+out/
+build
+dist
+
+# IDE
+.idea
+.vscode
+/supabase/.temp/cli-latest
+/supabase/.temp/gotrue-version
+/supabase/.temp/pooler-url
+/supabase/.temp/postgres-version
+/supabase/.temp/project-ref
+/supabase/.temp/rest-version
+/supabase/.temp/storage-migration
+/supabase/.temp/storage-version
+/apps/landing/next-env.d.ts
+
+.output.txt
