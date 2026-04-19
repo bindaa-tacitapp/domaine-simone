@@ -1,5 +1,39 @@
 {
+  "brand": {
+    "title": "The Brand"
+  },
+  "common": {
+    "nav": {
+      "brand": "The Brand",
+      "domain": "The Domain",
+      "home": "Coat of Arms",
+      "men": "The Men",
+      "wines": "The Wines"
+    }
+  },
+  "domain": {
+    "text": {
+      "intro": "Geneva has produced bankers, diplomats, watchmakers of genius. It was time it produced a great wine. That is the Domaine Simone project: a wine built for excellence, rooted in an exceptional terroir cultivated with a single ambition: to rival the greatest references in the world.",
+      "outro": "A terroir built for excellence, in the image of the estate's wines.",
+      "slope": {
+        "alt": "Image of the vineyard slope",
+        "text": "Slopes of 30 to 40% discipline the vine, encourage deep rooting and induce a controlled water stress, a vector of concentration and complexity.<br></br><br></br>Facing due West, these plots generously embrace the late afternoon sun, conducive to a slow and complete phenolic ripeness. Half of our vines are old vines, whose deep roots draw patiently from the depths of the terroir, offering a substance of rare intensity and natural complexity that only time can build."
+      },
+      "soil": {
+        "alt": "Image of the vineyard soil",
+        "text": "Registered in the AOC Premier Cru Côtes de Russin, our plots rest on generously stony clay-silt soils, a legacy of the great glacial migrations of the Quaternary and the Tertiary molasse. A balanced terroir, where the fine retention of silts dialogues with the natural drainage of the stones."
+      }
+    },
+    "title": "Geneva is not a detail. It is the subject."
+  },
   "home": {
-    "title": "Sic itur ad astra EN"
+    "imageAlt": "Bottle or red wine Calvaire",
+    "title": "Sic itur ad astra"
+  },
+  "men": {
+    "title": "The Men"
+  },
+  "wines": {
+    "title": "The Wines"
   }
 }

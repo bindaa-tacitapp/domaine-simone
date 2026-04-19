@@ -1,5 +1,39 @@
 {
+  "brand": {
+    "title": "Il Marchio"
+  },
+  "common": {
+    "nav": {
+      "brand": "Il Marchio",
+      "domain": "La Tenuta",
+      "home": "Stemma",
+      "men": "Gli Uomini",
+      "wines": "I Vini"
+    }
+  },
+  "domain": {
+    "text": {
+      "intro": "Ginevra ha prodotto banchieri, diplomatici, orologiai di genio. Era tempo che producesse un grande vino. Questo è il progetto del Domaine Simone: un vino fatto per l'esigenza, radicato in un terroir d'eccezione coltivato con una sola ambizione: non avere nulla da invidiare ai grandi riferimenti mondiali.",
+      "outro": "Un terroir votato all'eccellenza, a immagine dei vini del domaine.",
+      "slope": {
+        "alt": "Immagine del pendio del vigneto",
+        "text": "Pendii dal 30 al 40% disciplinano la vite, favoriscono un radicamento profondo e inducono uno stress idrico controllato, vettore di concentrazione e complessità.<br></br><br></br>Esposte a pieno Ovest, queste parcelle si offrono generosamente al sole del tardo pomeriggio, propizio a una maturità fenolica lenta e completa. La metà delle nostre viti sono vecchie vigne, le cui radici profonde attingono con pazienza alle viscere del terroir, offrendo una materia di rara intensità e di una complessità naturale che solo il tempo sa costruire."
+      },
+      "soil": {
+        "alt": "Immagine della terra del vigneto",
+        "text": "Iscritte nell'AOC Premier Cru Côtes de Russin, le nostre parcelle poggiano su suoli argillo-limosi generosamente sassosi, eredità delle grandi migrazioni glaciali del Quaternario e della molassa terziaria. Un terroir d'equilibrio, dove la fine ritenzione dei limi dialoga con il drenaggio naturale dei sassi."
+      }
+    },
+    "title": "Ginevra non è un dettaglio. È il soggetto."
+  },
   "home": {
-    "title": "Sic itur ad astra IT"
+    "imageAlt": "Bottiglia di vino rosso Calvaire",
+    "title": "Sic itur ad astra"
+  },
+  "men": {
+    "title": "Gli Uomini"
+  },
+  "wines": {
+    "title": "I Vini"
   }
 }

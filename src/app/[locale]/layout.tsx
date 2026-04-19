@@ -1,18 +1,23 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Barlow, Imbue } from 'next/font/google';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import '../globals.css';
 import { notFound } from 'next/navigation';
+import { ReactNode } from 'react';
+import { Header } from '@/app/components/Header/Header';
+import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
 import { routing } from '@/i18n/routing';
 
-const geistSans = Geist({
+const imbue = Imbue({
   subsets: ['latin'],
-  variable: '--font-geist-sans',
+  variable: '--font-imbue',
 });
 
-const geistMono = Geist_Mono({
+const barlow = Barlow({
+  display: 'swap',
   subsets: ['latin'],
-  variable: '--font-geist-mono',
+  variable: '--font-barlow',
+  weight: ['300', '700'],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +26,7 @@ export const metadata: Metadata = {
 };
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   params: Promise<{ locale: string }>;
 };
 
@@ -34,11 +39,17 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-      lang="en"
+      className={`${imbue.variable} ${barlow.className} antialiased`}
+      lang={locale}
     >
-      <body className="min-h-full flex flex-col">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      <body className="min-h-screen p-10 flex flex-col gap-10">
+        <NextIntlClientProvider>
+          <Header />
+
+          <main className="relative grow">{children}</main>
+
+          <LanguageSwitcher />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

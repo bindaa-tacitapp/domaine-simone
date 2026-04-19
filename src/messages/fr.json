@@ -1,5 +1,39 @@
 {
+  "brand": {
+    "title": "Calvaire. Du relief naît le caractère."
+  },
+  "common": {
+    "nav": {
+      "brand": "La Marque",
+      "domain": "Le Domaine",
+      "home": "Armoiries",
+      "men": "Les Hommes",
+      "wines": "Les Vins"
+    }
+  },
+  "domain": {
+    "text": {
+      "intro": "Genève a produit des banquiers, des diplomates, des horlogers de génie. Il était temps qu'elle produise un grand vin. C'est le projet du Domaine Simone : un vin taillé pour l'exigence, ancré dans un terroir d'exception cultivé avec une seule ambition : ne rien avoir à envier aux grandes références mondiales.",
+      "outro": "Un terroir taillé pour l'exigence, à l'image des vins du domaine.",
+      "slope": {
+        "alt": "Image de la pente du vignoble",
+        "text": "Des pentes de 30 à 40 % disciplinent la vigne, favorisent un enracinement profond et induisent un stress hydrique maîtrisé, vecteur de concentration et de complexité.<br></br><br></br>Tournées plein Ouest, ces parcelles s'offrent généreusement au soleil de fin de journée, propice à une maturité phénolique lente et complète. La moitié de nos vignes sont des vieilles vignes, dont les racines profondes puisent avec patience dans les entrailles du terroir, offrant une matière d'une rare intensité et d'une complexité naturelle que seul le temps sait construire."
+      },
+      "soil": {
+        "alt": "Image de la terre du vignoble",
+        "text": "Inscrites dans l'AOC Premier Cru Côtes de Russin, nos parcelles reposent sur des sols argilo-limoneux généreusement caillouteux, héritage des grandes migrations glaciaires du Quaternaire et de la molasse tertiaire. Un terroir d'équilibre, où la rétention fine des limons dialogue avec le drainage naturel des cailloux."
+      }
+    },
+    "title": "Genève n'est pas un détail. C'est le sujet."
+  },
   "home": {
-    "title": "Sic itur ad astra FR"
+    "imageAlt": "Bouteille de vin rouge Calvaire",
+    "title": "Sic itur ad astra"
+  },
+  "men": {
+    "title": "Les Hommes"
+  },
+  "wines": {
+    "title": "Les Vins"
   }
 }
