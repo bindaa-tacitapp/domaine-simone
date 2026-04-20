@@ -20,8 +20,10 @@ export default async function DomainePage() {
       <div className="relative w-1/2 h-[75vh] m-auto mb-50">
         <Image
           alt={t('alt')}
+          blurDataURL="/img/placeholder-blur-picture.webp"
           layout="fill"
           objectFit="cover"
+          placeholder="blur"
           src="/img/grape.webp"
         />
       </div>

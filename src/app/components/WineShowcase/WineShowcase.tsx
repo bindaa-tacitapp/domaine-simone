@@ -37,8 +37,10 @@ const WineShowcase = async ({
         <div className="h-[calc(100vh-10vh)] relative animate-slide-up -translate-y-7">
           <Image
             alt={`Calvaire ${name}`}
+            blurDataURL="/img/placeholder-blur-picture.webp"
             layout="fill"
             objectFit="contain"
+            placeholder="blur"
             src={src}
           />
         </div>

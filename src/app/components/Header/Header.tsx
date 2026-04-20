@@ -30,8 +30,10 @@ const Header = async () => {
           <Link className="h-full" href="/">
             <Image
               alt={t('home')}
+              blurDataURL="/img/placeholder-blur-picture.webp"
               className="max-h-full object-contain"
               height={140}
+              placeholder="blur"
               src="/img/coat-arms.webp"
               width={127}
             />

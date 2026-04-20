@@ -3,7 +3,7 @@ import { ROUTES } from '@/constants/routes';
 
 export default async function WinesPage() {
   return (
-    <div className="grid grid-cols-2 gap-10 max-w-7xl m-auto">
+    <div className="grid grid-cols-2 gap-10 max-w-7xl m-auto mb-50">
       <WineCard
         price={30}
         src="/img/bottle.white.wine.full.webp"

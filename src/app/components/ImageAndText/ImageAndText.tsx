@@ -43,8 +43,16 @@ const ImageAndText = ({
       >
         <Image
           alt={alt}
+          blurDataURL={
+            src.startsWith('https://placekeanu.com')
+              ? undefined
+              : '/img/placeholder-blur-picture.webp'
+          }
           layout="fill"
           objectFit="cover"
+          placeholder={
+            src.startsWith('https://placekeanu.com') ? undefined : 'blur'
+          }
           src={src}
           unoptimized={src.startsWith('https://placekeanu.com')}
         />

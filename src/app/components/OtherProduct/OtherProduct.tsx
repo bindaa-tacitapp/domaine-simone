@@ -11,13 +11,7 @@ type OtherProductProps = {
   type: 'red' | 'white';
 };
 
-const OtherProduct = async ({
-  url,
-  name,
-  src,
-  alt,
-  type,
-}: OtherProductProps) => {
+const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
   const t = await getTranslations('otherProducts');
 
   return (
@@ -37,7 +31,14 @@ const OtherProduct = async ({
         href={url}
       >
         <div className="w-60 aspect-square relative">
-          <Image alt={alt} layout="fill" objectFit="contain" src={src} />
+          <Image
+            alt={alt}
+            blurDataURL="/img/placeholder-blur-picture.webp"
+            layout="fill"
+            objectFit="contain"
+            placeholder="blur"
+            src={src}
+          />
         </div>
 
         <h4 className="font-imbue text-3xl">{name}</h4>

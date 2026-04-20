@@ -13,9 +13,11 @@ export default async function HomePage() {
     >
       <Image
         alt={t('imageAlt')}
+        blurDataURL="/img/placeholder-blur-picture.webp"
         className="h-full w-full object-cover"
         fetchPriority="high"
         height={1024}
+        placeholder="blur"
         priority
         src="/img/red-trunk.webp"
         width={1536}
