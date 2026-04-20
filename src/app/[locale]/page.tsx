@@ -8,7 +8,7 @@ export default async function HomePage() {
   return (
     <div
       className={cn(
-        'absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center',
+        'absolute top-0 right-0 bottom-10 left-0 flex items-center justify-center',
       )}
     >
       <Image

@@ -8,17 +8,24 @@ type OtherProductProps = {
   name: string;
   src: string;
   alt: string;
+  type: 'red' | 'white';
 };
 
-const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
+const OtherProduct = async ({
+  url,
+  name,
+  src,
+  alt,
+  type,
+}: OtherProductProps) => {
   const t = await getTranslations('otherProducts');
 
   return (
     <div
       className={cn(
-        'px-10 py-15 bg-primary-green -ml-10 -mr-10',
+        'px-10 py-15  -ml-10 -mr-10',
         'flex',
-        'text-white',
+        'bg-gray-100 text-gray-700',
       )}
     >
       <h3 className="font-imbue text-5xl uppercase grow">
@@ -26,7 +33,7 @@ const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
       </h3>
 
       <Link
-        className="flex flex-col gap-5 items-center border-l border-primary-green-light"
+        className="flex flex-col gap-5 items-center border-l border-gray-300"
         href={url}
       >
         <div className="w-60 aspect-square relative">

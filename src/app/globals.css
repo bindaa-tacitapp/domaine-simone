@@ -20,7 +20,6 @@
   --color-primary-red: oklch(0.3999 0.1641 29.23);
   --color-primary-black: oklch(0 0 0);
   --color-primary-green: oklch(0.3594 0.082 153.78);
-  --color-primary-green-light: oklch(0.4368 0.082 153.78);
 
   --font-imbue: var(--font-imbue), serif;
   --font-barlow: var(--font-barlow), system-ui, sans-serif;

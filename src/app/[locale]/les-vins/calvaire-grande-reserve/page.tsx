@@ -89,6 +89,7 @@ export default async function RedWinePage() {
         alt="Sélection"
         name="Sélection"
         src="/img/bottle.white.wine.webp"
+        type="white"
         url={ROUTES.wine.selection}
       />
     </>

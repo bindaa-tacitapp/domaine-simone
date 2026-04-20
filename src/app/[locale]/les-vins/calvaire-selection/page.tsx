@@ -89,6 +89,7 @@ export default async function WhiteWinePage() {
         alt="Grande Réserve"
         name="Grande Réserve"
         src="/img/bottle.red.wine.webp"
+        type="red"
         url={ROUTES.wine.reserve}
       />
     </>
