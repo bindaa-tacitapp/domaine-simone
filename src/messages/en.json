@@ -51,6 +51,72 @@
     "outro": "Together, they chose to plant in Russin: an appellation with some of the strictest rules in the canton of Geneva, on slopes that complicate every viticultural gesture and grant no concessions. Here, yields are regulated, practices monitored, and the specifications leave no room for mediocrity.<br></br><br></br>That is precisely what the two partners came looking for. Not a convenient terroir, but a demanding one. The kind that, when mastered, produces wines of rare precision and depth. Russin is not a default choice. It is a choice of conviction.",
     "title": "One does not build a reputation to sell wine. One makes wine. The rest follows."
   },
+  "otherProducts": {
+    "title": "Other estate wine"
+  },
+  "wine": {
+    "common": {
+      "alcohol": "Alcohol",
+      "properties": {
+        "alcoholicFermentation": "Alcoholic Fermentation",
+        "bottling": "Bottling",
+        "clearing": "Settling",
+        "harvest": "Harvest",
+        "harvestProcessing": "Harvest Processing",
+        "maceration": "Maceration",
+        "malolacticFermentation": "Malolactic Fermentation",
+        "maturing": "Ageing",
+        "orientation": "Orientation",
+        "pressing": "Pressing",
+        "quantity": "Quantity",
+        "ripeness": "Ripeness",
+        "soil": "Soil",
+        "tasting": "Tasting",
+        "variety": "Grape Variety",
+        "viticulture": "Viticulture"
+      },
+      "vintage": "Vintage"
+    },
+    "reserve": {
+      "intro": "This is the founding wine, the one that carries the estate's ambition and sets its standard of excellence. It bears an uncompromising vision: to reach what the terroir, Man and time can offer at their highest, in the spirit of the family crest's motto, Sic itur ad astra. The cornerstone of the project, Calvaire \"Grande Réserve\" expresses our will to create a wine that is at once a work of art, a strong identity and an international reference.",
+      "properties": {
+        "alcoholicFermentation": "In stainless steel tank",
+        "bottling": "Unfiltered and unfined",
+        "harvest": "Hand-harvested in 13 kg crates, on September 16th, 24th and 25th",
+        "harvestProcessing": "Destemming, no crushing",
+        "maceration": "Cold pre-fermentation maceration for 48h at 2°C",
+        "malolacticFermentation": "In barrel",
+        "maturing": "36 months in new white oak and French oak barrels and 12 months in bottle",
+        "orientation": "Due West",
+        "pressing": "Slow and low pressure",
+        "quantity": "300 bottles of 750 ml",
+        "ripeness": "93°Oe, 85°Oe and 85°Oe respectively",
+        "soil": "Clay-silt with abundant colluvium, from Quaternary glacial deposits (moraines)",
+        "variety": "33% Merlot, 33% Cabernet Sauvignon and 34% Cabernet Franc",
+        "viticulture": "Traditional"
+      },
+      "quote": "We make no compromises. We make wine."
+    },
+    "selection": {
+      "intro": "Le Calvaire \"Sélection\" is the first step of a story we intend to inscribe in time. A wine born from a simple conviction: greatness is built, not claimed. Through it, we seek less to seduce than to reveal a place, a tension, an identity. It is a promise we make, and one that every Collection will have to deserve.",
+      "properties": {
+        "alcoholicFermentation": "In stainless steel tank at low temperature (< 20°C)",
+        "bottling": "Unfiltered and unfined",
+        "clearing": "Static settling",
+        "harvest": "Hand-harvested in 13 kg crates, on September 8th and 11th",
+        "harvestProcessing": "Destemming, no crushing",
+        "maceration": "Cold pre-fermentation maceration for 48h at 2°C",
+        "malolacticFermentation": "Chardonnay only",
+        "maturing": "6 months on fine lees with regular stirring, in stainless steel tank, with a fraction (16% of the Chardonnay) aged in new white oak barrels (Quercus Alba).",
+        "orientation": "Due West",
+        "pressing": "Slow and low pressure",
+        "quantity": "5492 bottles of 750 ml",
+        "soil": "Clay-silt with abundant colluvium, from Quaternary glacial deposits (moraines)",
+        "viticulture": "Traditional"
+      },
+      "quote": "This wine tells a story: that of an underestimated terroir and a man determined to reveal it."
+    }
+  },
   "wines": {
     "title": "The Wines"
   }

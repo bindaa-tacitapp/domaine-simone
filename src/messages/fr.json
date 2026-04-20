@@ -51,6 +51,72 @@
     "outro": "Ensemble, ils ont choisi de planter à Russin : une appellation aux règles parmi les plus strictes du canton de Genève, sur des pentes qui compliquent chaque geste viticole et n'accordent aucune facilité. Ici, les rendements sont encadrés, les pratiques surveillées, et le cahier des charges ne laisse aucune place à la médiocrité.<br></br><br></br>C'est précisément ce que les deux associés sont venus chercher. Pas un terroir commode, mais un terroir exigeant. Celui qui, lorsqu'il est maîtrisé, produit des vins d'une précision et d'une profondeur rares. Russin n'est pas un choix par défaut. C'est un choix de conviction.",
     "title": "On ne construit pas une réputation pour vendre du vin. On fait du vin. Le reste suit."
   },
+  "otherProducts": {
+    "title": "Autre vin du Domaine"
+  },
+  "wine": {
+    "common": {
+      "alcohol": "Alcool",
+      "properties": {
+        "alcoholicFermentation": "Fermentation alcoolique",
+        "bottling": "Mise en bouteille",
+        "clearing": "Débourbage",
+        "harvest": "Vendanges",
+        "harvestProcessing": "Traitement de la vendange",
+        "maceration": "Macération",
+        "malolacticFermentation": "Fermentation malolactique",
+        "maturing": "Élevage",
+        "orientation": "Orientation",
+        "pressing": "Pressurage",
+        "quantity": "Quantité",
+        "ripeness": "Maturités",
+        "soil": "Sol",
+        "tasting": "Dégustation",
+        "variety": "Cépage",
+        "viticulture": "Viticulture"
+      },
+      "vintage": "Millésime"
+    },
+    "reserve": {
+      "intro": "C’est le vin fondateur, celui qui porte l’ambition du domaine et qui en fixe le niveau d’exigence. Il porte une vision sans compromis : atteindre ce que le terroir, l’Homme et le temps peuvent offrir de plus élevé, dans le sillage de la devise du blason familial, Sic itur ad astra. Pierre angulaire du projet, Calvaire « Grande réserve » exprime notre volonté de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale.",
+      "properties": {
+        "alcoholicFermentation": "En cuve inox",
+        "bottling": "Sans filtration ni collage",
+        "harvest": "Vendangés à la main en caissettes de 13 kg, le 16, 24 et le 25 septembre",
+        "harvestProcessing": "Éraflage, pas de foulage",
+        "maceration": "Macération pré-fermentaire à froid de 48h à 2°C",
+        "malolacticFermentation": "En barrique",
+        "maturing": "36 mois en barriques neuves de chêne blanc et de chêne français et 12 mois en bouteille",
+        "orientation": "Plein Ouest",
+        "pressing": "Lent et à base pression",
+        "quantity": "300 bouteilles de 750 ml",
+        "ripeness": "Respectivement 93°Oe, 85°Oe et 85°Oe",
+        "soil": "Argilo-limoneux à colluvions abondants, issu de dépôts glaciaires quaternaires (moraines)",
+        "variety": "33% Merlot, 33% Cabernet Sauvignon et 34% Cabernet franc",
+        "viticulture": "Traditionnelle"
+      },
+      "quote": "Nous ne faisons pas de compromis. Nous faisons du vin."
+    },
+    "selection": {
+      "intro": "Le Calvaire « Sélection » est le premier pas d’une histoire que nous voulons inscrire dans le temps. Un vin né d’une conviction simple : la grandeur se construit, elle ne se revendique pas. À travers lui, nous cherchons moins à séduire qu’à révéler un lieu, une tension, une identité. C’est une promesse que nous faisons, et que chaque Collection devra mériter.",
+      "properties": {
+        "alcoholicFermentation": "En cuve inox à basse température (< 20°C)",
+        "bottling": "Sans filtration ni collage",
+        "clearing": "Statique",
+        "harvest": "Vendangés à la main en caissettes de 13 kg, le 8 et le 11 septembre",
+        "harvestProcessing": "Eraflage, pas de foulage",
+        "maceration": "Macération pré-fermentaire à froid de 48h à 2°C",
+        "malolacticFermentation": "Seulement sur le Chardonnay",
+        "maturing": "6 mois sur lies fines avec bâtonnages réguliers, en cuve inox, avec une fraction (16% du Chardonnay) élevée en barriques neuves de chêne blanc (Quercus Alba).",
+        "orientation": "Plein Ouest",
+        "pressing": "Lent et à base pression",
+        "quantity": "5492 bouteilles de 750 ml",
+        "soil": "Argilo-limoneux à colluvions abondants, issu de dépôts glaciaires quaternaires (moraines)",
+        "viticulture": "Traditionnelle"
+      },
+      "quote": "Ce vin raconte une histoire : celle d'un terroir sous-estimé et d'un homme déterminé à le révéler."
+    }
+  },
   "wines": {
     "title": "Les Vins"
   }

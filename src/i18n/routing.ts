@@ -22,5 +22,13 @@ export const routing = defineRouting({
       en: '/the-wines',
       it: '/i-vini',
     },
+    '/les-vins/calvaire-grande-reserve': {
+      en: '/the-wines/calvaire-grande-reserve',
+      it: '/i-vini/calvaire-grande-reserve',
+    },
+    '/les-vins/calvaire-selection': {
+      en: '/the-wines/calvaire-selection',
+      it: '/i-vini/calvaire-selection',
+    },
   },
 });

@@ -51,6 +51,72 @@
     "outro": "Insieme, hanno scelto di piantare a Russin: un'appellation con alcune delle regole più severe del canton Ginevra, su pendii che complicano ogni gesto viticolo e non concedono alcuna facilità. Qui, le rese sono regolamentate, le pratiche monitorate, e il disciplinare non lascia alcuno spazio alla mediocrità.<br></br><br></br>È precisamente ciò che i due soci sono venuti a cercare. Non un terroir comodo, ma un terroir esigente. Quello che, quando è padroneggiato, produce vini di rara precisione e profondità. Russin non è una scelta di ripiego. È una scelta di convinzione.",
     "title": "Non si costruisce una reputazione per vendere vino. Si fa vino. Il resto viene da sé."
   },
+  "otherProducts": {
+    "title": "Altro vino del Domaine"
+  },
+  "wine": {
+    "common": {
+      "alcohol": "Alcol",
+      "properties": {
+        "alcoholicFermentation": "Fermentazione alcolica",
+        "bottling": "Imbottigliamento",
+        "clearing": "Sfecciatura",
+        "harvest": "Vendemmia",
+        "harvestProcessing": "Trattamento della vendemmia",
+        "maceration": "Macerazione",
+        "malolacticFermentation": "Fermentazione malolattica",
+        "maturing": "Affinamento",
+        "orientation": "Esposizione",
+        "pressing": "Pressatura",
+        "quantity": "Quantità",
+        "ripeness": "Maturità",
+        "soil": "Suolo",
+        "tasting": "Degustazione",
+        "variety": "Vitigno",
+        "viticulture": "Viticoltura"
+      },
+      "vintage": "Annata"
+    },
+    "reserve": {
+      "intro": "È il vino fondatore, quello che porta l'ambizione del domaine e ne fissa il livello di esigenza. Porta una visione senza compromessi: raggiungere ciò che il terroir, l'Uomo e il tempo possono offrire di più elevato, nel solco del motto dello stemma di famiglia, Sic itur ad astra. Pietra angolare del progetto, Calvaire \"Grande Réserve\" esprime la nostra volontà di creare un vino che sia allo stesso tempo un'opera, un'identità forte e un riferimento internazionale.",
+      "properties": {
+        "alcoholicFermentation": "In vasca d'acciaio inox",
+        "bottling": "Senza filtrazione né collaggio",
+        "harvest": "Vendemmia manuale in cassette da 13 kg, il 16, 24 e 25 settembre",
+        "harvestProcessing": "Diraspatura, senza pigiatura",
+        "maceration": "Macerazione prefermentativa a freddo di 48h a 2°C",
+        "malolacticFermentation": "In barrique",
+        "maturing": "36 mesi in barriques nuove di rovere bianco e rovere francese e 12 mesi in bottiglia",
+        "orientation": "Pieno Ovest",
+        "pressing": "Lenta e a bassa pressione",
+        "quantity": "300 bottiglie da 750 ml",
+        "ripeness": "Rispettivamente 93°Oe, 85°Oe e 85°Oe",
+        "soil": "Argillo-limoso con abbondanti colluvioni, da depositi glaciali quaternari (morene)",
+        "variety": "33% Merlot, 33% Cabernet Sauvignon e 34% Cabernet Franc",
+        "viticulture": "Tradizionale"
+      },
+      "quote": "Non facciamo compromessi. Facciamo vino."
+    },
+    "selection": {
+      "intro": "Le Calvaire \"Sélection\" è il primo passo di una storia che vogliamo iscrivere nel tempo. Un vino nato da una convinzione semplice: la grandezza si costruisce, non si rivendica. Attraverso di esso, cerchiamo meno di sedurre che di rivelare un luogo, una tensione, un'identità. È una promessa che facciamo, e che ogni Collection dovrà meritare.",
+      "properties": {
+        "alcoholicFermentation": "In vasca d'acciaio inox a bassa temperatura (< 20°C)",
+        "bottling": "Senza filtrazione né collaggio",
+        "clearing": "Sfecciatura statica",
+        "harvest": "Vendemmia manuale in cassette da 13 kg, l'8 e l'11 settembre",
+        "harvestProcessing": "Diraspatura, senza pigiatura",
+        "maceration": "Macerazione prefermentativa a freddo di 48h a 2°C",
+        "malolacticFermentation": "Solo sullo Chardonnay",
+        "maturing": "6 mesi sui lieviti fini con batonnage regolari, in vasca d'acciaio inox, con una frazione (16% dello Chardonnay) affinata in barriques nuove di rovere bianco (Quercus Alba).",
+        "orientation": "Pieno Ovest",
+        "pressing": "Lenta e a bassa pressione",
+        "quantity": "5492 bottiglie da 750 ml",
+        "soil": "Argillo-limoso con abbondanti colluvioni, da depositi glaciali quaternari (morene)",
+        "viticulture": "Tradizionale"
+      },
+      "quote": "Questo vino racconta una storia: quella di un terroir sottovalutato e di un uomo determinato a rivelarlo."
+    }
+  },
   "wines": {
     "title": "I Vini"
   }

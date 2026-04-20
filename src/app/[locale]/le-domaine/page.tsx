@@ -11,7 +11,7 @@ export default async function DomainePage() {
     <div>
       <h1 className="sr-only">{tCommon('nav.domain')}</h1>
 
-      <HeroImage src="/img/domain.webp" title={t('title')} />
+      <HeroImage src="/img/domain.fake.webp" title={t('title')} />
 
       <Text align="center" textSize="lg">
         {t('text.intro')}

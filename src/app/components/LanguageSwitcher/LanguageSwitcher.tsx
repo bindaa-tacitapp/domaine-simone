@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
 
   return (
-    <ul className="flex flex-col flex-wrap gap-2 font-imbue uppercase fixed bottom-0 right-0 py-2 px-3 bg-white">
+    <ul className="flex flex-col flex-wrap gap-2 font-imbue uppercase fixed top-1/2 -translate-y-1/2 right-0 py-2 px-3 bg-white">
       {locales.map((locale) => (
         <li key={locale}>
           <Link
