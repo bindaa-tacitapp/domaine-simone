@@ -1,6 +1,9 @@
 {
   "brand": {
-    "title": "The Brand"
+    "alt": "Photo of a bunch of grapes on the plot",
+    "intro": "\"Le Calvaire\" is the name the winegrowers of Russin gave to this small plot with extreme slopes, where every intervention was once a true ordeal. Among the most steep vineyards in the canton of Geneva, it is the first that the Domaine took over and replanted; it is at the origin of its history and its exigence.",
+    "outro": "Today, Le Calvaire gives its name to our range, in tribute to this founding land and to the man who entrusted it to us.<br></br><br></br>Our range consists of a white \"Sélection\" and a red \"Grande Réserve\", a single-plot cuvée made exclusively from the grapes of the Calvaire plot. They are crafted with the same care on slopes of equal intensity, then produced in limited, numbered quantities.",
+    "title": "Calvaire. From the slopes, character is born."
   },
   "common": {
     "nav": {
@@ -16,11 +19,11 @@
       "intro": "Geneva has produced bankers, diplomats, watchmakers of genius. It was time it produced a great wine. That is the Domaine Simone project: a wine built for excellence, rooted in an exceptional terroir cultivated with a single ambition: to rival the greatest references in the world.",
       "outro": "A terroir built for excellence, in the image of the estate's wines.",
       "slope": {
-        "alt": "Image of the vineyard slope",
+        "alt": "Picture of the vineyard slope",
         "text": "Slopes of 30 to 40% discipline the vine, encourage deep rooting and induce a controlled water stress, a vector of concentration and complexity.<br></br><br></br>Facing due West, these plots generously embrace the late afternoon sun, conducive to a slow and complete phenolic ripeness. Half of our vines are old vines, whose deep roots draw patiently from the depths of the terroir, offering a substance of rare intensity and natural complexity that only time can build."
       },
       "soil": {
-        "alt": "Image of the vineyard soil",
+        "alt": "Picture of the vineyard soil",
         "text": "Registered in the AOC Premier Cru Côtes de Russin, our plots rest on generously stony clay-silt soils, a legacy of the great glacial migrations of the Quaternary and the Tertiary molasse. A balanced terroir, where the fine retention of silts dialogues with the natural drainage of the stones."
       }
     },

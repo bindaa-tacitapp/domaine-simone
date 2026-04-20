@@ -1,5 +1,8 @@
 {
   "brand": {
+    "alt": "Photo d'une grappe de raisins sur la parcelle",
+    "intro": "« Le Calvaire » est le nom que les vignerons de Russin donnaient à cette petite parcelle aux pentes extrêmes, où chaque intervention relevait autrefois d’une véritable épreuve. Parmi les vignes les plus escarpées du canton de Genève, elle est la première que le Domaine ait reprise et replantée ; elle est à l’origine de son histoire et de son exigence.",
+    "outro": "Aujourd’hui, le Calvaire donne son nom à notre gamme, en hommage à cette terre fondatrice et à l’homme qui nous l’a confiée.<br></br><br></br>Notre gamme se compose d’un blanc « Sélection » et d’un rouge « Grande Réserve », cuvée parcellaire issue exclusivement des raisins de la parcelle du Calvaire. Ils sont façonnés avec le même soin sur des pentes de même intensité, puis produites en quantités confidentielles et numérotées.",
     "title": "Calvaire. Du relief naît le caractère."
   },
   "common": {
@@ -16,11 +19,11 @@
       "intro": "Genève a produit des banquiers, des diplomates, des horlogers de génie. Il était temps qu'elle produise un grand vin. C'est le projet du Domaine Simone : un vin taillé pour l'exigence, ancré dans un terroir d'exception cultivé avec une seule ambition : ne rien avoir à envier aux grandes références mondiales.",
       "outro": "Un terroir taillé pour l'exigence, à l'image des vins du domaine.",
       "slope": {
-        "alt": "Image de la pente du vignoble",
+        "alt": "Photo de la pente du vignoble",
         "text": "Des pentes de 30 à 40 % disciplinent la vigne, favorisent un enracinement profond et induisent un stress hydrique maîtrisé, vecteur de concentration et de complexité.<br></br><br></br>Tournées plein Ouest, ces parcelles s'offrent généreusement au soleil de fin de journée, propice à une maturité phénolique lente et complète. La moitié de nos vignes sont des vieilles vignes, dont les racines profondes puisent avec patience dans les entrailles du terroir, offrant une matière d'une rare intensité et d'une complexité naturelle que seul le temps sait construire."
       },
       "soil": {
-        "alt": "Image de la terre du vignoble",
+        "alt": "Photo de la terre du vignoble",
         "text": "Inscrites dans l'AOC Premier Cru Côtes de Russin, nos parcelles reposent sur des sols argilo-limoneux généreusement caillouteux, héritage des grandes migrations glaciaires du Quaternaire et de la molasse tertiaire. Un terroir d'équilibre, où la rétention fine des limons dialogue avec le drainage naturel des cailloux."
       }
     },

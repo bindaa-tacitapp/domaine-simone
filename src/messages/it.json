@@ -1,6 +1,9 @@
 {
   "brand": {
-    "title": "Il Marchio"
+    "alt": "Foto di un grappolo d'uva sulla parcella",
+    "intro": "\"Le Calvaire\" è il nome che i viticoltori di Russin davano a questa piccola parcella dai pendii estremi, dove ogni intervento era un tempo una vera e propria prova. Tra i vigneti più scoscesi del canton Ginevra, è la prima che il Domaine abbia ripreso e ripiantato; è all'origine della sua storia e della sua esigenza.",
+    "outro": "Oggi, Le Calvaire dà il nome alla nostra gamma, in omaggio a questa terra fondatrice e all'uomo che ce l'ha affidata.<br></br><br></br>La nostra gamma si compone di un bianco \"Sélection\" e di un rosso \"Grande Réserve\", una cuvée parcellaire prodotta esclusivamente con le uve della parcella del Calvaire. Sono elaborati con la stessa cura su pendii della stessa intensità, poi prodotti in quantità limitate e numerate.",
+    "title": "Calvaire. Dal rilievo nasce il carattere."
   },
   "common": {
     "nav": {
@@ -16,11 +19,11 @@
       "intro": "Ginevra ha prodotto banchieri, diplomatici, orologiai di genio. Era tempo che producesse un grande vino. Questo è il progetto del Domaine Simone: un vino fatto per l'esigenza, radicato in un terroir d'eccezione coltivato con una sola ambizione: non avere nulla da invidiare ai grandi riferimenti mondiali.",
       "outro": "Un terroir votato all'eccellenza, a immagine dei vini del domaine.",
       "slope": {
-        "alt": "Immagine del pendio del vigneto",
+        "alt": "Foto del pendio del vigneto",
         "text": "Pendii dal 30 al 40% disciplinano la vite, favoriscono un radicamento profondo e inducono uno stress idrico controllato, vettore di concentrazione e complessità.<br></br><br></br>Esposte a pieno Ovest, queste parcelle si offrono generosamente al sole del tardo pomeriggio, propizio a una maturità fenolica lenta e completa. La metà delle nostre viti sono vecchie vigne, le cui radici profonde attingono con pazienza alle viscere del terroir, offrendo una materia di rara intensità e di una complessità naturale che solo il tempo sa costruire."
       },
       "soil": {
-        "alt": "Immagine della terra del vigneto",
+        "alt": "Foto della terra del vigneto",
         "text": "Iscritte nell'AOC Premier Cru Côtes de Russin, le nostre parcelle poggiano su suoli argillo-limosi generosamente sassosi, eredità delle grandi migrazioni glaciali del Quaternario e della molassa terziaria. Un terroir d'equilibrio, dove la fine ritenzione dei limi dialoga con il drenaggio naturale dei sassi."
       }
     },
