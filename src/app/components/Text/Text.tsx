@@ -6,6 +6,7 @@ type TextProps = {
   align?: 'left' | 'center' | 'right';
   textSize?: 'sm' | 'md' | 'lg';
   className?: string;
+  snug?: boolean;
 };
 
 const Text = ({
@@ -13,12 +14,17 @@ const Text = ({
   align = 'left',
   textSize = 'md',
   className,
+  snug = false,
 }: TextProps) => {
   return (
     <div
       className={cn(
-        'max-w-3xl m-auto mb-50',
+        'max-w-3xl m-auto',
         'font-barlow font-thin',
+        {
+          'mb-10': snug,
+          'mb-50': !snug,
+        },
         {
           'text-center': align === 'center',
           'text-left': align === 'left',

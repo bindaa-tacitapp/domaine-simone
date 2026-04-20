@@ -34,7 +34,22 @@
     "title": "Sic itur ad astra"
   },
   "men": {
-    "title": "The Men"
+    "alt": "Photo of a young woman drinking a glass of wine with Damien Simone in the background",
+    "damien": {
+      "alt": "Damien Simone – Oenologist",
+      "text": "With no family estate, no viticultural heritage, he built himself alone. A graduate of Changins, Haute École de Viticulture et Œnologie, then trained in the cellars of recognised estates in the canton before deciding it was time to create his own.<br></br><br></br>He tends the vines, crafts the wines and has sat for several years as a tasting judge at some of the most prestigious competitions in the wine world: the Sélection des Vins de Genève, the Concours Général Agricole de Paris, the Grand Prix des Vins Suisses and the International Wine Challenge in London. His obsession: excellence at every stage, from the plot to the bottle.",
+      "title": "<strong>Damien Simone</strong> – Oenologist"
+    },
+    "intro": "Domaine Simone was born from a simple conviction: to produce wines that meet the highest standards of excellence.",
+    "introDamien": "<strong>Damien Simone</strong>, an oenologist trained at Changins, leads every stage of the estate alone, from vine to cellar, with the precision gained over the years and solid experience as a judge at leading wine competitions.",
+    "introNatalio": "By his side, <strong>Natalio Cano</strong> brings rigour, strategy and direction, ensuring that every wine finds its rightful place at the table. He is the one who structures, who builds relationships with restaurateurs, wine merchants and export markets.",
+    "natalio": {
+      "alt": "Natalio Cano – Operating Partner",
+      "text": "Rigorous, methodical and deeply committed to the success of the estate, he ensures its structure and direction with a keen sense of precision.<br></br><br></br>He is the one who builds partnerships with restaurateurs, wine merchants and export markets, and who ensures that every bottle finds the tables it deserves. His dedication and rigour have allowed the estate to establish itself quickly and in the best conditions.",
+      "title": "<strong>Natalio Cano</strong> – Operating Partner"
+    },
+    "outro": "Together, they chose to plant in Russin: an appellation with some of the strictest rules in the canton of Geneva, on slopes that complicate every viticultural gesture and grant no concessions. Here, yields are regulated, practices monitored, and the specifications leave no room for mediocrity.<br></br><br></br>That is precisely what the two partners came looking for. Not a convenient terroir, but a demanding one. The kind that, when mastered, produces wines of rare precision and depth. Russin is not a default choice. It is a choice of conviction.",
+    "title": "One does not build a reputation to sell wine. One makes wine. The rest follows."
   },
   "wines": {
     "title": "The Wines"

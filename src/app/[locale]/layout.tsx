@@ -17,7 +17,7 @@ const barlow = Barlow({
   display: 'swap',
   subsets: ['latin'],
   variable: '--font-barlow',
-  weight: ['300', '700'],
+  weight: ['300', '500'],
 });
 
 export const metadata: Metadata = {

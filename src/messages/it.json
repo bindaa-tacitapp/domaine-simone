@@ -34,7 +34,22 @@
     "title": "Sic itur ad astra"
   },
   "men": {
-    "title": "Gli Uomini"
+    "alt": "Foto di una giovane donna che beve un bicchiere di vino con Damien Simone sullo sfondo",
+    "damien": {
+      "alt": "Damien Simone – Enologo",
+      "text": "Senza domaine di famiglia, senza eredità viticola, si è costruito da solo. Laureato a Changins, Haute École de Viticulture et Œnologie, poi formatosi nelle cantine di domaine riconosciuti del cantone prima di decidere che era giunto il momento di crearne uno proprio.<br></br><br></br>Conduce la vigna, elabora i vini e siede da diversi anni in qualità di giurato di degustazione in alcuni dei concorsi più prestigiosi del mondo viticolo: la Sélection des Vins de Genève, il Concours Général Agricole de Paris, il Grand Prix des Vins Suisses e l'International Wine Challenge di Londra. La sua ossessione: l'esigenza a ogni tappa, dalla parcella alla bottiglia.",
+      "title": "<strong>Damien Simone</strong> – Enologo"
+    },
+    "intro": "Il Domaine Simone è nato da una convinzione semplice: far nascere vini all'altezza delle più grandi esigenze.",
+    "introDamien": "<strong>Damien Simone</strong>, enologo formato a Changins, conduce da solo ogni tappa del domaine, dalla vigna alla cantina, con la precisione acquisita nel corso degli anni e una solida esperienza come giurato in concorsi di riferimento.",
+    "introNatalio": "Al suo fianco, <strong>Natalio Cano</strong> apporta rigore, strategia e direzione, assicurandosi che ogni vino trovi il posto che merita sulla tavola. È lui che struttura, che tesse i legami con i ristoratori, gli enoteche e i mercati all'export.",
+    "natalio": {
+      "alt": "Natalio Cano – Socio Operativo",
+      "text": "Rigoroso, metodico e profondamente investito nel successo del domaine, ne assicura la struttura e la direzione con un acuto senso della precisione.<br></br><br></br>È lui che tesse le partnership con i ristoratori, le enoteche e i mercati all'export, e che si assicura che ogni bottiglia trovi le tavole che merita. La sua dedizione e il suo rigore hanno permesso al domaine di affermarsi rapidamente e nelle migliori condizioni.\n",
+      "title": "<strong>Natalio Cano</strong> – Socio Operativo"
+    },
+    "outro": "Insieme, hanno scelto di piantare a Russin: un'appellation con alcune delle regole più severe del canton Ginevra, su pendii che complicano ogni gesto viticolo e non concedono alcuna facilità. Qui, le rese sono regolamentate, le pratiche monitorate, e il disciplinare non lascia alcuno spazio alla mediocrità.<br></br><br></br>È precisamente ciò che i due soci sono venuti a cercare. Non un terroir comodo, ma un terroir esigente. Quello che, quando è padroneggiato, produce vini di rara precisione e profondità. Russin non è una scelta di ripiego. È una scelta di convinzione.",
+    "title": "Non si costruisce una reputazione per vendere vino. Si fa vino. Il resto viene da sé."
   },
   "wines": {
     "title": "I Vini"

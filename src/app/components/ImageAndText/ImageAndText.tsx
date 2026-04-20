@@ -8,6 +8,7 @@ type ImageAndTextProps = {
   alt: string;
   text: ReactNode;
   reverse?: boolean;
+  title?: ReactNode;
 };
 
 const ImageAndText = ({
@@ -15,6 +16,7 @@ const ImageAndText = ({
   alt,
   text,
   reverse = false,
+  title,
 }: ImageAndTextProps) => {
   return (
     <div className={cn('grid grid-cols-2 gap-10 mb-50')}>
@@ -28,6 +30,8 @@ const ImageAndText = ({
           className="mb-0 justify-self-right"
           textSize="md"
         >
+          {title ? <h2 className="font-imbue text-4xl mb-8">{title}</h2> : null}
+
           {text}
         </Text>
       </div>
@@ -37,7 +41,13 @@ const ImageAndText = ({
           'order-1': reverse,
         })}
       >
-        <Image alt={alt} layout="fill" objectFit="cover" src={src} />
+        <Image
+          alt={alt}
+          layout="fill"
+          objectFit="cover"
+          src={src}
+          unoptimized={src.startsWith('https://placekeanu.com')}
+        />
       </div>
     </div>
   );

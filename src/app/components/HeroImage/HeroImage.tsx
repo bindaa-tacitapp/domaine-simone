@@ -22,7 +22,7 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
       <p
         className={cn(
           'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
-          'font-imbue text-7xl text-white text-center',
+          'font-imbue text-7xl text-white text-center leading-20',
         )}
       >
         {title}

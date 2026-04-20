@@ -5,9 +5,12 @@ import { Text } from '@/app/components/Text/Text';
 
 export default async function DomainePage() {
   const t = await getTranslations('domain');
+  const tCommon = await getTranslations('common');
 
   return (
     <div>
+      <h1 className="sr-only">{tCommon('nav.domain')}</h1>
+
       <HeroImage src="/img/domain.webp" title={t('title')} />
 
       <Text align="center" textSize="lg">
