@@ -6,6 +6,9 @@
     "title": "Calvaire. From the slopes, character is born."
   },
   "common": {
+    "menu": {
+      "toggle": "Open / close navigation"
+    },
     "nav": {
       "brand": "The Brand",
       "domain": "The Domain",

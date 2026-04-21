@@ -6,6 +6,9 @@
     "title": "Calvaire. Dal rilievo nasce il carattere."
   },
   "common": {
+    "menu": {
+      "toggle": "Apri / chiudi la navigazione"
+    },
     "nav": {
       "brand": "Il Marchio",
       "domain": "La Tenuta",

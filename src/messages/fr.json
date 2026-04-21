@@ -6,6 +6,9 @@
     "title": "Calvaire. Du relief naît le caractère."
   },
   "common": {
+    "menu": {
+      "toggle": "Ouvrir / fermer la navigation"
+    },
     "nav": {
       "brand": "La Marque",
       "domain": "Le Domaine",

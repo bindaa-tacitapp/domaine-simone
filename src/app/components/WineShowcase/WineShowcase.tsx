@@ -22,7 +22,7 @@ const WineShowcase = async ({
 
   return (
     <div className="mb-50">
-      <header className="text-center">
+      <header className="text-center mb-20">
         <h1
           className={cn('font-imbue text-8xl', {
             'text-primary-red': type === 'red',
@@ -34,13 +34,15 @@ const WineShowcase = async ({
       </header>
 
       <section>
-        <div className="h-[calc(100vh-10vh)] relative animate-slide-up -translate-y-7">
+        <div className="h-[calc(100vh-15vh)] relative animate-slide-up">
           <Image
             alt={`Calvaire ${name}`}
             blurDataURL="/img/placeholder-blur-picture.webp"
+            fetchPriority="high"
             layout="fill"
             objectFit="contain"
             placeholder="blur"
+            priority
             src={src}
           />
         </div>
