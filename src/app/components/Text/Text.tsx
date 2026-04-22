@@ -24,9 +24,10 @@ const Text = ({
           'max-w-3xl m-auto',
           'font-barlow font-thin',
           {
+            'lg:text-center': align === 'center',
             'lg:text-left': align === 'left',
             'lg:text-right': align === 'right',
-            'text-center': align === 'center',
+            'text-center': align === 'center' && textSize === 'lg',
           },
           {
             'mb-10': snug,
