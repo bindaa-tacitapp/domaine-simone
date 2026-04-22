@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
 import { Property } from '@/app/components/Property/Property';
 import { cn } from '@/libs/cn';
 
