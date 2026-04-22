@@ -9,6 +9,7 @@ type ImageAndTextProps = {
   text: ReactNode;
   reverse?: boolean;
   title?: ReactNode;
+  className?: string;
 };
 
 const ImageAndText = ({
@@ -17,18 +18,24 @@ const ImageAndText = ({
   text,
   reverse = false,
   title,
+  className,
 }: ImageAndTextProps) => {
   return (
-    <div className={cn('grid grid-cols-2 gap-10 mb-50')}>
+    <div
+      className={cn(
+        'grid grid-cols-1 gap-10 mb-10',
+        'lg:grid-cols-2 lg:mb-50',
+        className,
+      )}
+    >
       <div
         className={cn('self-center', {
-          'order-2': reverse,
+          'lg:order-2': reverse,
         })}
       >
         <Text
           align={reverse ? 'left' : 'right'}
           className="mb-0 justify-self-right"
-          textSize="md"
         >
           {title ? <h2 className="font-imbue text-4xl mb-8">{title}</h2> : null}
 
@@ -38,7 +45,7 @@ const ImageAndText = ({
 
       <div
         className={cn('relative h-[50vh]', {
-          'order-1': reverse,
+          'lg:order-1': reverse,
         })}
       >
         <Image

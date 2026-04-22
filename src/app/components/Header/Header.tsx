@@ -21,7 +21,12 @@ const Header = () => {
   };
 
   return (
-    <ContentWrapper className={cn('sticky top-0 z-50 bg-white')}>
+    <ContentWrapper
+      className={cn(
+        'sticky top-0 z-50 bg-white',
+        'lg:static lg:bg-transparent',
+      )}
+    >
       <nav className={cn('font-imbue uppercase text-2xl', 'mb-5', 'lg:mb-15')}>
         <div
           className={cn(
