@@ -1,26 +1,35 @@
 import { getTranslations } from 'next-intl/server';
+import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
 import { WineCard } from '@/app/components/WineCard/WineCard';
 import { ROUTES } from '@/constants/routes';
+import { cn } from '@/libs/cn';
 
 export default async function WinesPage() {
   const tCommon = await getTranslations('common');
 
   return (
-    <div className="grid grid-cols-2 gap-10 max-w-7xl m-auto mb-50">
-      <h1 className="sr-only">{tCommon('nav.wines')}</h1>
+    <ContentWrapper wide>
+      <div
+        className={cn(
+          'grid grid-cols-1 gap-10 mb-20',
+          'lg:grid-cols-2 lg:max-w-7xl lg:m-auto lg:mb-50',
+        )}
+      >
+        <h1 className="sr-only">{tCommon('nav.wines')}</h1>
 
-      <WineCard
-        price={30}
-        src="/img/bottle.white.wine.full.webp"
-        title="Calvaire – Sélection"
-        url={ROUTES.wine.selection}
-      />
-      <WineCard
-        price={250}
-        src="/img/bottle.red.wine.full.webp"
-        title="Calvaire - Grande Réserve"
-        url={ROUTES.wine.reserve}
-      />
-    </div>
+        <WineCard
+          price={30}
+          src="/img/bottle.white.wine.full.webp"
+          title="Calvaire – Sélection"
+          url={ROUTES.wine.selection}
+        />
+        <WineCard
+          price={250}
+          src="/img/bottle.red.wine.full.webp"
+          title="Calvaire - Grande Réserve"
+          url={ROUTES.wine.reserve}
+        />
+      </div>
+    </ContentWrapper>
   );
 }
