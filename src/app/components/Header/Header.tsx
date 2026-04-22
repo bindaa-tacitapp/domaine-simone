@@ -2,13 +2,23 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { useRef } from 'react';
 import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
 
 const Header = () => {
+  const checkbox = useRef<HTMLInputElement>(null);
   const t = useTranslations('common');
+
+  const handleOnMenuClick = () => {
+    if (!checkbox.current) {
+      return;
+    }
+
+    checkbox.current.checked = false;
+  };
 
   return (
     <ContentWrapper>
@@ -20,7 +30,7 @@ const Header = () => {
           )}
         >
           <div className="aspect-square w-15 relative">
-            <Link className="h-full" href="/">
+            <Link className="h-full" href="/" onClick={handleOnMenuClick}>
               <Image
                 alt={t('nav.home')}
                 blurDataURL="/img/placeholder-blur-picture.webp"
@@ -31,16 +41,17 @@ const Header = () => {
               />
             </Link>
           </div>
-          <label
-            aria-label={t('menu.toggle')}
-            className=""
-            htmlFor="menu-toggle"
-          >
-            Menu
+          <label aria-label={t('menu.toggle')} htmlFor="menu-toggle">
+            {t('menu.label')}
           </label>
         </div>
 
-        <input className="sr-only peer" id="menu-toggle" type="checkbox" />
+        <input
+          className="sr-only peer"
+          id="menu-toggle"
+          ref={checkbox}
+          type="checkbox"
+        />
 
         <div
           className={cn(
@@ -59,6 +70,7 @@ const Header = () => {
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.domain}
+                onClick={handleOnMenuClick}
               >
                 {t('nav.domain')}
               </Link>
@@ -67,12 +79,13 @@ const Header = () => {
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.brand}
+                onClick={handleOnMenuClick}
               >
                 {t('nav.brand')}
               </Link>
             </li>
             <li className={cn('hidden lg:block')}>
-              <Link className="h-full" href="/">
+              <Link className="h-full" href="/" onClick={handleOnMenuClick}>
                 <Image
                   alt={t('nav.home')}
                   blurDataURL="/img/placeholder-blur-picture.webp"
@@ -88,6 +101,7 @@ const Header = () => {
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.wines}
+                onClick={handleOnMenuClick}
               >
                 {t('nav.wines')}
               </Link>
@@ -96,6 +110,7 @@ const Header = () => {
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.men}
+                onClick={handleOnMenuClick}
               >
                 {t('nav.men')}
               </Link>
