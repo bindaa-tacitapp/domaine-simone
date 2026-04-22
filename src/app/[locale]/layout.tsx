@@ -43,12 +43,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${imbue.variable} ${barlow.className} antialiased`}
       lang={locale}
     >
-      <body
-        className={cn(
-          'min-h-svh pt-5 flex flex-col gap-5',
-          'lg:pt-15 lg:gap-15',
-        )}
-      >
+      <body className={cn('min-h-svh pt-5 flex flex-col', 'lg:pt-15')}>
         <NextIntlClientProvider>
           <Header />
 

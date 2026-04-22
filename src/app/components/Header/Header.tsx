@@ -21,8 +21,8 @@ const Header = () => {
   };
 
   return (
-    <ContentWrapper>
-      <nav className="font-imbue uppercase text-2xl">
+    <ContentWrapper className={cn('sticky top-0 z-50 bg-white')}>
+      <nav className={cn('font-imbue uppercase text-2xl', 'mb-5', 'lg:mb-15')}>
         <div
           className={cn(
             'relative z-50 flex justify-between items-center',
@@ -56,7 +56,7 @@ const Header = () => {
         <div
           className={cn(
             'not-peer-checked:opacity-0 not-peer-checked:-translate-y-[2vh] not-peer-checked:hidden starting:peer-checked:opacity-0 starting:peer-checked:transform-[translateY(-2vh)] peer-checked:block peer-checked:opacity-100 peer-checked:translate-y-0 transition-all transition-discrete duration-300 ease-in-out',
-            'absolute z-30 top-0 left-0 right-0 bottom-0 bg-white',
+            'fixed z-30 top-0 left-0 right-0 bottom-0 bg-white',
             'lg:static lg:block lg:opacity-100 lg:not-peer-checked:opacity-100 lg:not-peer-checked:block lg:not-peer-checked:translate-y-0',
           )}
         >
