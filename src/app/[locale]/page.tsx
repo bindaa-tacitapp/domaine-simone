@@ -8,25 +8,26 @@ export default async function HomePage() {
   return (
     <div
       className={cn(
-        'absolute top-0 right-0 bottom-10 left-0 flex items-center justify-center',
+        'absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center',
+        'lg:bottom-10 lg:left-10 lg:right-10',
       )}
     >
       <Image
         alt={t('imageAlt')}
         blurDataURL="/img/placeholder-blur-picture.webp"
-        className="h-full w-full object-cover"
         fetchPriority="high"
-        height={1024}
+        layout="fill"
+        objectFit="cover"
         placeholder="blur"
         priority
         src="/img/red-trunk.webp"
-        width={1536}
       />
 
       <span
         className={cn(
-          'absolute top-1/2 left-2/3 w-1/3',
-          'font-imbue text-[5vw] text-primary-red',
+          'absolute font-imbue text-primary-red',
+          'top-[36%] left-3/5 w-2/5 text-right text-[15vw] pr-5 leading-[15vw]',
+          'lg:text-[5vw] lg:top-1/2 lg:left-2/3 lg:w-1/3 lg:text-left lg:pr-0',
         )}
       >
         {t('title')}

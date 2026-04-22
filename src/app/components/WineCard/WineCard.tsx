@@ -28,7 +28,9 @@ const WineCard = async ({ src, title, price, url }: WineCardProps) => {
           src={src}
         />
       </div>
-      <h2 className="font-imbue font-medium text-4xl mb-2">{title}</h2>
+      <h2 className="font-imbue font-medium text-4xl mb-2 uppercase">
+        {title}
+      </h2>
       <p className="text-muted-foreground">{formattedPrice}</p>
     </Link>
   );

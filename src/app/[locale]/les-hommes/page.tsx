@@ -31,6 +31,7 @@ export default async function MenPage() {
 
       <ImageAndText
         alt={t('damien.alt')}
+        className="mb-20"
         reverse
         src="/img/damien.webp"
         text={t.rich('damien.text', {
@@ -43,6 +44,7 @@ export default async function MenPage() {
 
       <ImageAndText
         alt={t('natalio.alt')}
+        className="mb-20"
         src="https://placekeanu.com/1600/1200"
         text={t.rich('natalio.text', {
           br: () => <br />,

@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
 import { cn } from '@/libs/cn';
 
 type QuoteProps = {
@@ -8,23 +9,30 @@ type QuoteProps = {
 
 const Quote = ({ children, className }: QuoteProps) => {
   return (
-    <div
-      className={cn(
-        className,
-        'max-w-4xl m-auto mb-50',
-        'font-imbue text-5xl text-center leading-15',
-      )}
-    >
-      <span
+    <ContentWrapper>
+      <div
         className={cn(
-          'relative inline-block',
-          'before:absolute before:content-["“"] before:text-[250px] before:opacity-10 before:top-10 before:-left-20',
-          'after:absolute after:content-["”"] after:text-[250px] after:opacity-10 after:top-10 after:-right-17',
+          className,
+          'font-imbue text-center m-auto',
+          'mb-20 text-4xl leading-12',
+          'lg:max-w-4xl lg:mb-50 lg:text-5xl lg:leading-15',
         )}
       >
-        {children}
-      </span>
-    </div>
+        <span
+          className={cn(
+            'relative inline-block',
+            'before:absolute before:content-["“"] before:opacity-10',
+            'before:text-[250px] before:top-7 before:-left-3',
+            'lg:before:top-10 lg:before:-left-20',
+            'after:text-[250px] after:absolute after:content-["”"] after:opacity-10',
+            'after:bottom-0 after:translate-y-31 after:-right-3',
+            'lg:after:top-10 lg:after:-right-17 lg:after:translate-y-0',
+          )}
+        >
+          {children}
+        </span>
+      </div>
+    </ContentWrapper>
   );
 };
 

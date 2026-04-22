@@ -7,6 +7,7 @@ import { ReactNode } from 'react';
 import { Header } from '@/app/components/Header/Header';
 import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
 import { routing } from '@/i18n/routing';
+import { cn } from '@/libs/cn';
 
 const imbue = Imbue({
   subsets: ['latin'],
@@ -42,13 +43,13 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${imbue.variable} ${barlow.className} antialiased`}
       lang={locale}
     >
-      <body className="min-h-screen px-10 pt-15 flex flex-col gap-15">
+      <body className={cn('min-h-svh pt-5 flex flex-col', 'lg:pt-15')}>
         <NextIntlClientProvider>
           <Header />
 
           <main className="relative grow">{children}</main>
 
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
         </NextIntlClientProvider>
       </body>
     </html>

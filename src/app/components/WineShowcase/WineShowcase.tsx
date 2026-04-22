@@ -21,10 +21,10 @@ const WineShowcase = async ({
   const t = await getTranslations('wine');
 
   return (
-    <div className="mb-50">
-      <header className="text-center">
+    <div className={cn('mb-10', 'lg:mb-50')}>
+      <header className={cn('text-center mb-8', 'lg:mb-20')}>
         <h1
-          className={cn('font-imbue text-8xl', {
+          className={cn('font-imbue uppercase', 'text-6xl', 'lg:text-8xl', {
             'text-primary-red': type === 'red',
             'text-primary-yellow': type === 'white',
           })}
@@ -34,18 +34,31 @@ const WineShowcase = async ({
       </header>
 
       <section>
-        <div className="h-[calc(100vh-10vh)] relative animate-slide-up -translate-y-7">
+        <div
+          className={cn(
+            'relative animate-slide-up',
+            'mb-10 h-[calc(100vh-15vh)]',
+            'lg:mb-0',
+          )}
+        >
           <Image
             alt={`Calvaire ${name}`}
             blurDataURL="/img/placeholder-blur-picture.webp"
+            fetchPriority="high"
             layout="fill"
             objectFit="contain"
             placeholder="blur"
+            priority
             src={src}
           />
         </div>
 
-        <ul className="sticky bottom-10 left-0 right-0 flex items-end justify-end gap-15">
+        <ul
+          className={cn(
+            'grid grid-cols-2 gap-10 px-5',
+            'lg:flex lg:items-end lg:justify-end lg:gap-15 lg:sticky lg:bottom-10 lg:left-0 lg:right-0 lg:px-10',
+          )}
+        >
           <li>
             <Property label={t('common.alcohol')} value={`${alcohol}%`} />
           </li>

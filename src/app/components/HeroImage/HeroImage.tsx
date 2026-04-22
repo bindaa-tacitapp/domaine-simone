@@ -8,7 +8,12 @@ type HeroImageProps = {
 
 const HeroImage = ({ src, title }: HeroImageProps) => {
   return (
-    <div className="h-[50vh] w-full relative mb-50">
+    <div
+      className={cn(
+        'relative h-[60vh] mb-20',
+        'lg:h-[50vh] lg:w-full lg:mb-50',
+      )}
+    >
       <Image
         alt={title}
         blurDataURL="/img/placeholder-blur-picture.webp"
@@ -23,8 +28,10 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
 
       <p
         className={cn(
-          'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
-          'font-imbue text-7xl text-white text-center leading-20',
+          'absolute top-1/2 -translate-y-1/2',
+          'font-imbue text-white text-center',
+          'left-0 w-full px-5 text-5xl leading-15',
+          'lg:left-1/2 lg:-translate-x-1/2 lg:text-7xl lg:leading-20 lg:w-auto lg:px-0',
         )}
       >
         {title}
