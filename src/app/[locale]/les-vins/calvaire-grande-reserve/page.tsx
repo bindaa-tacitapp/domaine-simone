@@ -13,7 +13,7 @@ export default async function RedWinePage() {
   const properties: WineCharacteristicProps[] = [
     {
       label: t('common.properties.variety'),
-      value: '59% Chasselas, 41% Chardonnay',
+      value: '33% Merlot, 33% Cabernet Sauvignon, 34% Cabernet franc',
     },
     {
       label: t('common.properties.soil'),
