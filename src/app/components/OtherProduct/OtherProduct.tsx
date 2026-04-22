@@ -16,18 +16,17 @@ const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
 
   return (
     <div
-      className={cn(
-        'px-10 py-15  -ml-10 -mr-10',
-        'flex',
-        'bg-gray-100 text-gray-700',
-      )}
+      className={cn('flex bg-gray-100 text-gray-700', 'px-5 py-15', 'lg:px-10')}
     >
       <h3 className="font-imbue text-5xl uppercase grow">
         <p className="max-w-60">{t('title')}</p>
       </h3>
 
       <Link
-        className="flex flex-col gap-5 items-center border-l border-gray-300"
+        className={cn(
+          'flex flex-col gap-5 items-center',
+          'lg:border-l lg:border-gray-300',
+        )}
         href={url}
       >
         <div className="w-60 aspect-square relative">
