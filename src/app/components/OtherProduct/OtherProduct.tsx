@@ -16,7 +16,12 @@ const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
 
   return (
     <div
-      className={cn('flex bg-gray-100 text-gray-700', 'px-5 py-15', 'lg:px-10')}
+      className={cn(
+        'flex bg-gray-100 text-gray-700',
+        'px-5 py-15',
+        'sm:px-10',
+        'lg:px-10',
+      )}
     >
       <h3 className="font-imbue text-5xl uppercase grow">
         <p className="max-w-60">{t('title')}</p>

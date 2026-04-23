@@ -17,6 +17,7 @@ const ContentWrapper = ({
     <div
       className={cn(
         'px-5',
+        'sm:px-10',
         'lg:px-10 lg:w-full lg:mx-auto',
         {
           'lg:max-w-5xl': !wide,

@@ -21,6 +21,7 @@ export default async function DomainePage() {
       <div
         className={cn(
           'relative mx-5 h-[75vh] mb-10',
+          'sm:mx-10',
           'lg:w-1/2 lg:mb-50 lg:mx-auto',
         )}
       >

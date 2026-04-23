@@ -44,7 +44,7 @@ const ImageAndText = ({
       </div>
 
       <div
-        className={cn('relative h-[50vh] mx-5', 'lg:mx-0', {
+        className={cn('relative h-[50vh] mx-5', 'sm:mx-10', 'lg:mx-0', {
           'lg:order-1': reverse,
         })}
       >
