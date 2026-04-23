@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
 import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
+import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
@@ -133,6 +134,8 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+
+          <LanguageSwitcher className="lg:hidden" variant="mobile" />
         </div>
       </nav>
     </ContentWrapper>

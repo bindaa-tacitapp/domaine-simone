@@ -51,7 +51,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
           <main className="relative grow">{children}</main>
 
-          {/* <LanguageSwitcher /> */}
+          <LanguageSwitcher className="hidden lg:block" />
         </NextIntlClientProvider>
       </body>
     </html>
