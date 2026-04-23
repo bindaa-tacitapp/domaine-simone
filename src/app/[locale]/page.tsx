@@ -29,7 +29,7 @@ export default async function HomePage() {
           'top-[36%] left-3/5 w-2/5 text-right text-[15vw] pr-5 leading-[15vw]',
           'sm:w-1/3 sm:text-[12vw] sm:leading-[12vw]',
           'lg:text-[8vw] lg:leading-[8vw] lg:pr-10',
-          'xl:text-[5vw] xl:top-1/2 xl:left-2/3 xl:w-1/3 xl:text-left xl:pr-0',
+          '2xl:text-[5vw] 2xl:top-1/2 2xl:left-2/3 2xl:w-1/3 2xl:text-left 2xl:pr-0',
         )}
       >
         {t('title')}

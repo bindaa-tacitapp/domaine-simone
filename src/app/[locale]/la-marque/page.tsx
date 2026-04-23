@@ -23,7 +23,7 @@ export default async function DomainePage() {
           'relative mx-5 h-[75vh] mb-10',
           'sm:mx-10',
           'lg:w-1/2 lg:mb-30 lg:mx-auto',
-          'xl:mb-50',
+          '2xl:mb-50',
         )}
       >
         <Image

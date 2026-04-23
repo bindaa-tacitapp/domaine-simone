@@ -32,7 +32,7 @@ const Header = () => {
           'font-imbue uppercase text-2xl',
           'mb-5',
           'md:mb-10',
-          'xl:mb-15',
+          '2xl:mb-15',
         )}
       >
         <div

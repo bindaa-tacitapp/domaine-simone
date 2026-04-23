@@ -25,7 +25,7 @@ const ImageAndText = ({
       className={cn(
         'grid grid-cols-1 gap-10 mb-10',
         'lg:grid-cols-2 lg:mb-30 lg:items-center lg:gap-5',
-        'xl:mb-50',
+        '2xl:mb-50',
         className,
       )}
     >

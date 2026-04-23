@@ -34,7 +34,7 @@ const Text = ({
           {
             'mb-0': noMargin,
             'mb-10': snug && !noMargin,
-            'mb-20 lg:mb-30 xl:mb-50': !snug && !noMargin,
+            'mb-20 lg:mb-30 2xl:mb-50': !snug && !noMargin,
           },
           {
             'leading-7 lg:text-lg lg:leading-8': textSize === 'md',
