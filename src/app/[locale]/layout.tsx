@@ -44,7 +44,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
     >
       <body
-        className={cn('min-h-svh pt-5 flex flex-col', 'md:pt-10', 'lg:pt-15')}
+        className={cn('min-h-svh pt-5 flex flex-col', 'md:pt-10', 'xl:pt-15')}
       >
         <NextIntlClientProvider>
           <Header />

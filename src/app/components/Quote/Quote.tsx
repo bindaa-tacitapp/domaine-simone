@@ -16,7 +16,7 @@ const Quote = ({ children, className }: QuoteProps) => {
           'font-imbue text-center m-auto',
           'mb-20 text-4xl leading-12',
           'md:mb-30',
-          'lg:max-w-4xl lg:mb-50 lg:text-5xl lg:leading-15',
+          'lg:max-w-4xl lg:mb-30 lg:text-5xl lg:leading-15',
         )}
       >
         <span

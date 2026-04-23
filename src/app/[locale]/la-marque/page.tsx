@@ -22,7 +22,8 @@ export default async function DomainePage() {
         className={cn(
           'relative mx-5 h-[75vh] mb-10',
           'sm:mx-10',
-          'lg:w-1/2 lg:mb-50 lg:mx-auto',
+          'lg:w-1/2 lg:mb-30 lg:mx-auto',
+          'xl:mb-50',
         )}
       >
         <Image

@@ -24,18 +24,20 @@ const ImageAndText = ({
     <div
       className={cn(
         'grid grid-cols-1 gap-10 mb-10',
-        'lg:grid-cols-2 lg:mb-50',
+        'lg:grid-cols-2 lg:mb-30 lg:items-center lg:gap-5',
+        'xl:mb-50',
         className,
       )}
     >
       <div
-        className={cn('self-center', {
+        className={cn({
           'lg:order-2': reverse,
         })}
       >
         <Text
           align={reverse ? 'left' : 'right'}
           className="mb-0 justify-self-right"
+          noMargin
         >
           {title ? <h2 className="font-imbue text-4xl mb-8">{title}</h2> : null}
 

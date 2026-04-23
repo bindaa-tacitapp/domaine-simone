@@ -32,7 +32,7 @@ const Header = () => {
           'font-imbue uppercase text-2xl',
           'mb-5',
           'md:mb-10',
-          'lg:mb-15',
+          'xl:mb-15',
         )}
       >
         <div
@@ -96,16 +96,21 @@ const Header = () => {
                 {t('nav.brand')}
               </Link>
             </li>
-            <li className={cn('hidden lg:block')}>
+            <li
+              className={cn(
+                'hidden',
+                'lg:block lg:aspect-square lg:h-20 lg:relative',
+              )}
+            >
               <Link className="h-full" href="/" onClick={handleOnMenuClick}>
                 <Image
                   alt={t('nav.home')}
                   blurDataURL="/img/placeholder-blur-picture.webp"
                   className="max-h-full object-contain"
-                  height={140}
+                  layout="fill"
+                  objectFit="contain"
                   placeholder="blur"
                   src="/img/coat-arms.webp"
-                  width={127}
                 />
               </Link>
             </li>

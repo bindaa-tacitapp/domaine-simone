@@ -8,6 +8,7 @@ type TextProps = {
   textSize?: 'md' | 'lg';
   className?: string;
   snug?: boolean;
+  noMargin?: boolean;
 };
 
 const Text = ({
@@ -16,6 +17,7 @@ const Text = ({
   textSize = 'md',
   className,
   snug = false,
+  noMargin = false,
 }: TextProps) => {
   return (
     <ContentWrapper>
@@ -30,8 +32,9 @@ const Text = ({
             'text-center': align === 'center' && textSize === 'lg',
           },
           {
-            'mb-10': snug,
-            'mb-20 lg:mb-50': !snug,
+            'mb-0': noMargin,
+            'mb-10': snug && !noMargin,
+            'mb-20 lg:mb-30 xl:mb-50': !snug && !noMargin,
           },
           {
             'leading-7 lg:text-lg lg:leading-8': textSize === 'md',

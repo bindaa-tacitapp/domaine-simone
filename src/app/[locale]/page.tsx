@@ -28,7 +28,8 @@ export default async function HomePage() {
           'absolute font-imbue text-primary-red',
           'top-[36%] left-3/5 w-2/5 text-right text-[15vw] pr-5 leading-[15vw]',
           'sm:w-1/3 sm:text-[12vw] sm:leading-[12vw]',
-          'lg:text-[5vw] lg:top-1/2 lg:left-2/3 lg:w-1/3 lg:text-left lg:pr-0',
+          'lg:text-[8vw] lg:leading-[8vw] lg:pr-10',
+          'xl:text-[5vw] xl:top-1/2 xl:left-2/3 xl:w-1/3 xl:text-left xl:pr-0',
         )}
       >
         {t('title')}

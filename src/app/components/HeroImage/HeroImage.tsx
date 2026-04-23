@@ -11,7 +11,8 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
     <div
       className={cn(
         'relative h-[60vh] mb-20',
-        'lg:h-[50vh] lg:w-full lg:mb-50',
+        'lg:mb-30',
+        'xl:h-[50vh] xl:w-full xl:mb-50',
       )}
     >
       <Image

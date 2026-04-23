@@ -21,8 +21,8 @@ const WineShowcase = async ({
   const t = await getTranslations('wine');
 
   return (
-    <div className={cn('mb-10', 'md:mb-15', 'lg:mb-50')}>
-      <header className={cn('text-center mb-8', 'lg:mb-20')}>
+    <div className={cn('mb-10', 'md:mb-15', 'lg:mb-30')}>
+      <header className={cn('text-center mb-8', 'lg:mb-10')}>
         <h1
           className={cn('font-imbue uppercase', 'text-6xl', 'lg:text-8xl', {
             'text-primary-red': type === 'red',
@@ -39,7 +39,7 @@ const WineShowcase = async ({
             'relative animate-slide-up',
             'mb-10 h-[calc(100vh-15vh)]',
             'md:mb-15',
-            'lg:mb-0',
+            'lg:mb-15',
           )}
         >
           <Image
