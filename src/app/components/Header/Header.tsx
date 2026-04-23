@@ -27,7 +27,14 @@ const Header = () => {
         'lg:static lg:bg-transparent',
       )}
     >
-      <nav className={cn('font-imbue uppercase text-2xl', 'mb-5', 'lg:mb-15')}>
+      <nav
+        className={cn(
+          'font-imbue uppercase text-2xl',
+          'mb-5',
+          'md:mb-10',
+          'lg:mb-15',
+        )}
+      >
         <div
           className={cn(
             'relative z-50 flex justify-between items-center',

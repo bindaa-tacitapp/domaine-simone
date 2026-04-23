@@ -79,7 +79,9 @@ export default async function WhiteWinePage() {
         year={2025}
       />
 
-      <Text align="center">{t('selection.intro')}</Text>
+      <Text align="center" className="md:mb-30">
+        {t('selection.intro')}
+      </Text>
 
       <Quote className="text-primary-yellow">{t('selection.quote')}</Quote>
 

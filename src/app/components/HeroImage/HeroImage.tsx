@@ -31,6 +31,7 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
           'absolute top-1/2 -translate-y-1/2',
           'font-imbue text-white text-center',
           'left-0 w-full px-5 text-5xl leading-15',
+          'sm:px-10 sm:text-6xl sm:leading-18',
           'lg:left-1/2 lg:-translate-x-1/2 lg:text-7xl lg:leading-20 lg:w-auto lg:px-0',
         )}
       >

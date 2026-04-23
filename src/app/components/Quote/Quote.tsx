@@ -15,6 +15,7 @@ const Quote = ({ children, className }: QuoteProps) => {
           className,
           'font-imbue text-center m-auto',
           'mb-20 text-4xl leading-12',
+          'md:mb-30',
           'lg:max-w-4xl lg:mb-50 lg:text-5xl lg:leading-15',
         )}
       >

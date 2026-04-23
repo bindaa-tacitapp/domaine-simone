@@ -45,7 +45,7 @@ const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
           />
         </div>
 
-        <h4 className="font-imbue text-3xl">{name}</h4>
+        <h4 className="font-imbue text-3xl uppercase">{name}</h4>
       </Link>
     </div>
   );

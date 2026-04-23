@@ -12,7 +12,8 @@ export default async function WinesPage() {
       <div
         className={cn(
           'grid grid-cols-1 gap-10 mb-20',
-          'lg:grid-cols-2 lg:max-w-7xl lg:m-auto lg:mb-50',
+          'sm:grid-cols-2 sm:max-w-7xl sm:m-auto',
+          'lg:mb-50',
         )}
       >
         <h1 className="sr-only">{tCommon('nav.wines')}</h1>
