@@ -1,4 +1,4 @@
-const locales = ['fr', 'en', 'it'] as const;
+const locales = ['fr', 'en', 'it', 'de'] as const;
 
 type Locale = (typeof locales)[number];
 

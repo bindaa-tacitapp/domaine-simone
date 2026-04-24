@@ -1,0 +1,127 @@
+{
+  "brand": {
+    "alt": "Foto einer Traube im Rebberg",
+    "intro": "«Le Calvaire» nannten die Winzer von Russin diese kleine Parzelle mit ihren extremen Hängen, wo früher jeder Handgriff eine echte Prüfung war. Sie gehört zu den steilsten Rebbergen des Kantons Genf und ist die erste, die das Weingut übernommen und neu bepflanzt hat; sie ist der Ursprung seiner Geschichte und seines Anspruchs.",
+    "outro": "Heute gibt das Calvaire unserer Linie seinen Namen, als Hommage an diese Gründungsstätte und an den Mann, der sie uns anvertraut hat.<br></br><br></br>Unsere Linie besteht aus einem weissen «Sélection» und einem roten «Grande Réserve», einer Lagen-Cuvée, die ausschliesslich aus den Trauben der Parzelle Calvaire gewonnen wird. Sie werden mit der gleichen Sorgfalt an ebenso steilen Hängen ausgebaut und anschliessend in streng limitierten und nummerierten Mengen produziert.",
+    "title": "Calvaire. Aus dem Relief entsteht Charakter."
+  },
+  "common": {
+    "menu": {
+      "label": "Menü",
+      "toggle": "Navigation öffnen / schliessen"
+    },
+    "nav": {
+      "brand": "Die Marke",
+      "domain": "Das Weingut",
+      "home": "Wappen",
+      "men": "Die Macher",
+      "wines": "Die Weine"
+    }
+  },
+  "domain": {
+    "text": {
+      "intro": "Genf hat Bankiers, Diplomaten und geniale Uhrmacher hervorgebracht. Es war an der Zeit, dass es auch einen grossen Wein hervorbringt. Das ist das Projekt der Domaine Simone: ein Wein, geschaffen für höchste Ansprüche, verwurzelt in einem aussergewöhnlichen Terroir und mit nur einer Ambition angebaut: den grossen weltweiten Referenzen in nichts nachzustehen.",
+      "outro": "Ein Terroir wie geschaffen für höchste Ansprüche, ganz nach dem Vorbild der Weine des Weinguts.",
+      "slope": {
+        "alt": "Foto des Steilhangs im Rebberg",
+        "text": "Steigungen von 30 bis 40 % disziplinieren die Reben, fördern eine tiefe Verwurzelung und bewirken einen kontrollierten Trockenstress, der für Konzentration und Komplexität sorgt.<br></br><br></br>Diese reinen Westlagen fangen die späte Nachmittagssonne grosszügig ein, was eine langsame und vollständige phenolische Reife begünstigt. Die Hälfte unserer Rebstöcke sind alte Reben, deren tiefe Wurzeln geduldig aus dem Innersten des Terroirs schöpfen und eine Substanz von seltener Intensität und natürlicher Komplexität liefern, die nur die Zeit erschaffen kann."
+      },
+      "soil": {
+        "alt": "Foto des Bodens im Rebberg",
+        "text": "Eingebettet in die AOC Premier Cru Côtes de Russin ruhen unsere Parzellen auf tonig-schluffigen, grosszügig mit Kies durchsetzten Böden – ein Erbe der grossen Gletscherbewegungen des Quartärs und der tertiären Molasse. Ein Terroir des Gleichgewichts, in dem der feine Wasserrückhalt des Schluffs mit der natürlichen Drainage der Steine harmoniert."
+      }
+    },
+    "title": "Genf ist kein Detail. Es ist das Thema."
+  },
+  "home": {
+    "imageAlt": "Flasche Rotwein Calvaire",
+    "title": "Sic itur ad astra"
+  },
+  "men": {
+    "alt": "Foto einer jungen Frau, die ein Glas Wein trinkt, mit Damien Simone im Hintergrund",
+    "damien": {
+      "alt": "Damien Simone – Önologe",
+      "text": "Ohne familiäres Weingut, ohne weinbauliches Erbe hat er sich alles selbst aufgebaut. Als Absolvent von Changins, der Hochschule für Weinbau und Önologie, bildete er sich in den Kellern renommierter Weingüter des Kantons weiter, bevor er beschloss, sein eigenes zu gründen.<br></br><br></br>Er pflegt die Reben, keltert die Weine und sitzt seit mehreren Jahren als Degustationsjuror in einigen der prestigeträchtigsten Wettbewerbe der Weinwelt: der Sélection des Vins de Genève, dem Concours Général Agricole in Paris, dem Grand Prix du Vin Suisse und der International Wine Challenge in London. Seine Besessenheit: höchster Anspruch bei jedem Schritt, von der Parzelle bis in die Flasche.",
+      "title": "<strong>Damien Simone</strong> – Önologe"
+    },
+    "intro": "Die Domaine Simone entstand aus einer einfachen Überzeugung: Weine zu erschaffen, die den allerhöchsten Ansprüchen gerecht werden.",
+    "introDamien": "<strong>Damien Simone</strong>, in Changins ausgebildeter Önologe, leitet jeden Schritt auf dem Weingut, vom Rebberg bis zum Keller, in Eigenregie. Dabei greift er auf seine über Jahre erworbene Präzision und fundierte Degustationserfahrung bei führenden Wettbewerben zurück.",
+    "introNatalio": "An seiner Seite sorgt <strong>Natalio Cano</strong> für Struktur, Strategie und Führung. Er wacht darüber, dass jeder Wein den Platz auf dem Tisch findet, den er verdient. Er ist es, der organisiert und die Verbindungen zu Gastronomen, Weinhändlern und Exportmärkten knüpft.",
+    "natalio": {
+      "alt": "Natalio Cano – Operativer Partner",
+      "text": "Streng, methodisch und tief in den Erfolg des Weinguts investiert, sichert er dessen Struktur und Leitung mit einem ausgeprägten Sinn für Präzision.<br></br><br></br>Er ist es, der die Partnerschaften mit Gastronomen, Weinhändlern und Exportmärkten pflegt und dafür sorgt, dass jede Flasche auf den Tischen landet, die sie verdient. Sein Engagement und seine Sorgfalt haben es dem Weingut ermöglicht, sich schnell und unter den besten Bedingungen zu etablieren.\n",
+      "title": "<strong>Natalio Cano</strong> – Operativer Partner"
+    },
+    "outro": "Gemeinsam haben sie beschlossen, in Russin anzupflanzen: eine Appellation mit den wohl strengsten Regeln im Kanton Genf, an Hängen, die jeden Handgriff im Weinbau erschweren und keine Bequemlichkeit zulassen. Hier sind die Erträge limitiert, die Praktiken werden überwacht, und das Pflichtenheft lässt keinen Raum für Mittelmässigkeit.<br></br><br></br>Genau das haben die beiden Partner gesucht. Kein bequemes Terroir, sondern ein anspruchsvolles. Eines, das, wenn man es beherrscht, Weine von seltener Präzision und Tiefe hervorbringt. Russin ist keine Notlösung. Es ist eine Entscheidung aus Überzeugung.",
+    "title": "Man baut sich keinen Ruf auf, um Wein zu verkaufen. Man macht Wein. Der Rest folgt von selbst."
+  },
+  "otherProducts": {
+    "title": "Anderer Wein der Domaine"
+  },
+  "wine": {
+    "common": {
+      "alcohol": "Alkohol",
+      "properties": {
+        "alcoholicFermentation": "Alkoholische Gärung",
+        "bottling": "Abfüllung",
+        "clearing": "Vorklärung",
+        "harvest": "Weinlese",
+        "harvestProcessing": "Traubenverarbeitung",
+        "maceration": "Mazeration",
+        "malolacticFermentation": "Malolaktische Gärung",
+        "maturing": "Ausbau",
+        "orientation": "Ausrichtung",
+        "pressing": "Pressung",
+        "quantity": "Menge",
+        "ripeness": "Reifegrad",
+        "soil": "Boden",
+        "tasting": "Degustation",
+        "variety": "Rebsorte",
+        "viticulture": "Weinbau"
+      },
+      "vintage": "Jahrgang"
+    },
+    "reserve": {
+      "intro": "Dies ist der Gründungswein, der die Ambitionen des Weinguts trägt und den Massstab setzt. Er steht für eine kompromisslose Vision: das Höchste zu erreichen, was Terroir, Mensch und Zeit zu bieten haben, ganz im Sinne des Familienmottos «Sic itur ad astra». Als Grundstein des Projekts drückt der Calvaire «Grande Réserve» unseren Willen aus, einen Wein zu erschaffen, der gleichzeitig ein Meisterwerk, eine starke Marke und eine internationale Referenz ist.",
+      "properties": {
+        "alcoholicFermentation": "Im Edelstahltank",
+        "bottling": "Ohne Filtration und Schönung",
+        "harvest": "Von Hand gelesen in 13-kg-Kisten am 16., 24. und 25. September",
+        "harvestProcessing": "Entrappt, nicht gequetscht",
+        "maceration": "Kaltmazeration vor der Gärung für 48 Stunden bei 2 °C",
+        "malolacticFermentation": "Im Barrique",
+        "maturing": "36 Monate in neuen Fässern aus Weisseiche und französischer Eiche sowie 12 Monate in der Flasche",
+        "orientation": "Reine Westlage",
+        "pressing": "Langsam und bei niedrigem Druck",
+        "quantity": "300 Flaschen à 750 ml",
+        "ripeness": "Jeweils 93 °Oe, 85 °Oe und 85 °Oe",
+        "soil": "Tonig-schluffig mit reichlich Kolluvium, entstanden aus quartären Gletscherablagerungen (Moränen)",
+        "variety": "33 % Merlot, 33 % Cabernet Sauvignon und 34 % Cabernet Franc",
+        "viticulture": "Traditionell"
+      },
+      "quote": "Wir machen keine Kompromisse. Wir machen Wein."
+    },
+    "selection": {
+      "intro": "Der Calvaire «Sélection» ist der erste Schritt einer Geschichte, die wir für die Ewigkeit schreiben wollen. Ein Wein, der aus einer einfachen Überzeugung geboren wurde: Grösse wird erarbeitet, nicht einfach beansprucht. Mit ihm wollen wir weniger verführen, als vielmehr einen Ort, eine Spannung, eine Identität offenbaren. Es ist ein Versprechen, das wir geben und das sich jede Kollektion verdienen muss.",
+      "properties": {
+        "alcoholicFermentation": "Im Edelstahltank bei niedriger Temperatur (< 20 °C)",
+        "bottling": "Ohne Filtration und Schönung",
+        "clearing": "Statisch",
+        "harvest": "Von Hand gelesen in 13-kg-Kisten am 8. und 11. September",
+        "harvestProcessing": "Entrappt, nicht gequetscht",
+        "maceration": "Kaltmazeration vor der Gärung für 48 Stunden bei 2 °C",
+        "malolacticFermentation": "Nur beim Chardonnay",
+        "maturing": "6 Monate auf der Feinhefe mit regelmässiger Bâtonnage im Edelstahltank, wobei ein Teil (16 % des Chardonnays) in neuen Fässern aus Weisseiche (Quercus Alba) ausgebaut wird.",
+        "orientation": "Reine Westlage",
+        "pressing": "Langsam und bei niedrigem Druck",
+        "quantity": "5492 Flaschen à 750 ml",
+        "soil": "Tonig-schluffig mit reichlich Kolluvium, entstanden aus quartären Gletscherablagerungen (Moränen)",
+        "viticulture": "Traditionell"
+      },
+      "quote": "Dieser Wein erzählt eine Geschichte: die eines unterschätzten Terroirs und eines Mannes, der entschlossen ist, es zu offenbaren."
+    }
+  },
+  "wines": {
+    "title": "Die Weine"
+  }
+}
