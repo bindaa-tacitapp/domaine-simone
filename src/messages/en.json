@@ -33,9 +33,62 @@
     },
     "title": "Geneva is not a detail. It is the subject."
   },
+  "footer": {
+    "contact": {
+      "other": "Other contact",
+      "press": "You are a journalist",
+      "restaurant": "You are a restaurant",
+      "title": "Contact"
+    },
+    "legal": {
+      "legalMentions": "Legal Notice",
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "General Terms and Conditions",
+      "title": "Legal information"
+    },
+    "logo": {
+      "alt": "Domaine Simone Coat of Arms",
+      "title": "Domaine Simone"
+    },
+    "title": "Useful information"
+  },
   "home": {
     "imageAlt": "Bottle or red wine Calvaire",
     "title": "Sic itur ad astra"
+  },
+  "legalNotice": {
+    "content": {
+      "applicableLaw": {
+        "content": "<p>This site is subject to Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
+        "title": "7. Applicable Law"
+      },
+      "hosting": {
+        "content": "<p>The site is hosted by:</p><p><bold>Vercel Inc.</bold><br></br>440 N Barranca Ave #4133<br></br>Covina, CA 91723<br></br>United States</p><p>vercel.com</p>",
+        "title": "3. Hosting"
+      },
+      "intellectualProperty": {
+        "content": "<p>All content on the site (texts, images, logo, visual identity) is the exclusive property of Domaine Simone SARL, unless otherwise stated.</p><p>Any reproduction, distribution, or use, in whole or in part, without prior authorization is strictly prohibited.</p>",
+        "title": "4. Intellectual Property"
+      },
+      "liability": {
+        "content": "<p>Domaine Simone SARL strives to ensure the accuracy of the information published on the site.</p><p>However, no guarantee is given regarding its completeness or whether it is up to date.</p><p>The use of the site is under the sole responsibility of the user.</p>",
+        "title": "6. Liability"
+      },
+      "personalData": {
+        "content": "<p>Personal data collected via the site is used solely within the context of the commercial relationship with Domaine Simone SARL.</p><p>You have the right to access, rectify, or delete your data.</p><p>For any request: <link>info@domaine-simone.ch</link></p>",
+        "title": "5. Personal Data"
+      },
+      "publicationDirector": {
+        "content": "<p>The publication director is:</p><p><bold>Pauline Pillon</bold>, in charge of communication</p>",
+        "title": "2. Publication Director"
+      },
+      "siteEditor": {
+        "content": "<p>This site is edited by:</p><p><bold>Domaine Simone SARL</bold><br></br>Limited liability company under Swiss law</p><p>Registered office:<br></br>C/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Geneva<br></br>Switzerland</p><p>UID number: CHE-276.963.736</p><p>Email: <link>info@domaine-simone.ch</link></p>",
+        "title": "1. Site Editor"
+      },
+      "title": "Legal Notice"
+    },
+    "title": "Legal Notice"
   },
   "men": {
     "alt": "Photo of a young woman drinking a glass of wine with Damien Simone in the background",
@@ -57,6 +110,98 @@
   },
   "otherProducts": {
     "title": "Other estate wine"
+  },
+  "privacyPolicy": {
+    "content": {
+      "applicableLaw": {
+        "content": "<p>This policy is subject to Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
+        "title": "8. Applicable Law"
+      },
+      "cookies": {
+        "content": "<p>The site may use cookies to:</p><list><item>ensure its proper functioning</item><item>measure audience</item><item>improve user experience</item></list><p>You can configure your browser to refuse all or some cookies.</p>",
+        "title": "5. Cookies"
+      },
+      "dataCollection": {
+        "content": "<p>The Domaine Simone website may collect certain personal data in the following cases:</p><list><item>contact form</item><item>newsletter subscription</item><item>order or commercial request</item></list><p>The data collected may include: last name, first name, email address, phone number.</p>",
+        "title": "1. Data Collection"
+      },
+      "dataRetention": {
+        "content": "<p>The data is kept only for the time necessary for its use.</p><p>It can be deleted at any time upon request.</p>",
+        "title": "3. Data Retention"
+      },
+      "dataSharing": {
+        "content": "<p>The data may be processed by technical service providers (e.g., Vercel hosting), solely for the purpose of operating the site.</p><p>No transfer to third parties for commercial purposes.</p>",
+        "title": "4. Data Sharing"
+      },
+      "dataUsage": {
+        "content": "<p>The data is used exclusively to:</p><list><item>respond to requests</item><item>manage the commercial relationship</item><item>communicate information related to the domain (if consented)</item></list><p>No data is sold, transferred, or used for external purposes.</p>",
+        "title": "2. Data Usage"
+      },
+      "security": {
+        "content": "<p>Domaine Simone SARL implements appropriate technical and organizational measures to protect personal data.</p>",
+        "title": "7. Security"
+      },
+      "title": "Privacy Policy",
+      "yourRights": {
+        "content": "<p>In accordance with applicable regulations, you have the following rights:</p><list><item>access to your data</item><item>rectification</item><item>deletion</item><item>opposition to processing</item></list><p>To exercise these rights: <link>info@domaine-simone.ch</link></p>",
+        "title": "6. Your Rights"
+      }
+    },
+    "title": "Privacy Policy"
+  },
+  "termsAndConditions": {
+    "content": {
+      "alcoholSales": {
+        "content": "<p>The sale of alcohol is strictly reserved for persons of legal drinking age in their country of residence.</p><p>In Switzerland, this age is set at 16 for wine.</p><p>By placing an order, the customer certifies that they comply with applicable legislation.</p>",
+        "title": "10. Alcohol Sales"
+      },
+      "applicability": {
+        "content": "<p>These General Terms and Conditions (GTC) govern all sales made by Domaine Simone SARL, via its website or through direct sales.</p><p>Any order implies full and unreserved acceptance of these GTC.</p>",
+        "title": "1. Scope of Application"
+      },
+      "applicableLaw": {
+        "content": "<p>These GTC are governed by Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
+        "title": "12. Applicable Law"
+      },
+      "delivery": {
+        "content": "<p>Deliveries are provided in Switzerland and Europe.</p><p>For any request outside these areas, the customer is invited to contact: <link>info@domaine-simone.ch</link></p><p>Delivery times are indicative and depend on the carrier.</p><p>Delivery conditions are those of the mandated carrier.</p><p>In the event of a problem related to transport (delay, breakage, loss), responsibility lies with the carrier.</p>",
+        "title": "6. Delivery"
+      },
+      "liability": {
+        "content": "<p>Domaine Simone SARL cannot be held responsible for poor preservation of the wine after delivery.</p><p>The customer is solely responsible for storage conditions.</p>",
+        "title": "9. Liability"
+      },
+      "orders": {
+        "content": "<p>Any order is considered firm and final after validation.</p><p>Domaine Simone SARL reserves the right to refuse an order, particularly in the event of a previous dispute or doubt about its legitimacy.</p>",
+        "title": "4. Orders"
+      },
+      "payment": {
+        "content": "<p>Payments can be made:</p><list><item>online, via the secure payment methods offered on the site</item><item>by invoice</item></list><p>Payment terms:</p><list><item><bold>Private customers</bold>: the order is shipped only after receipt of full payment</item><item><bold>Professional customers</bold>: payment within 30 days from the invoice date</item></list>",
+        "title": "5. Payment"
+      },
+      "personalData": {
+        "content": "<p>The data collected is used solely within the context of the commercial relationship.</p><p>It is neither resold nor transmitted to third parties without consent.</p>",
+        "title": "11. Personal Data"
+      },
+      "pricing": {
+        "content": "<p>Prices are indicated in Swiss francs (CHF), all taxes included (VAT), excluding delivery costs.</p><list><item><bold>Private customers</bold>: current delivery costs apply</item><item><bold>Professional customers</bold>: deliveries are free of charge in the canton of Geneva starting from one case</item></list><p>Domaine Simone SARL reserves the right to modify its prices at any time. The applicable price is the one in effect at the time of the order.</p>",
+        "title": "3. Prices"
+      },
+      "products": {
+        "content": "<p>The wines offered come from a limited production.</p><p>Each cuvée is the reflection of precise, uncompromising work, and cannot be reproduced identically.</p><p>Domaine Simone SARL reserves the right to modify its offer at any time, depending on availability.</p>",
+        "title": "2. Products"
+      },
+      "qualityAndReturns": {
+        "content": "<p>Domaine Simone SARL makes no compromises on the quality of its wines.</p><p>In the event of a proven organoleptic defect, the bottle may be replaced after verification.</p><p>The customer must first contact: <link>info@domaine-simone.ch</link></p><p>The bottle in question must be returned for analysis.</p><p>Outside of this specific case, no returns or refunds will be accepted.</p>",
+        "title": "8. Quality and Returns"
+      },
+      "reception": {
+        "content": "<p>The customer is required to check the condition of the products upon receipt.</p><p>Any anomaly must be reported directly to the carrier, in accordance with their conditions.</p>",
+        "title": "7. Receipt of Orders"
+      },
+      "title": "General Terms and Conditions – Domaine Simone SARL"
+    },
+    "title": "General Terms and Conditions"
   },
   "wine": {
     "common": {
