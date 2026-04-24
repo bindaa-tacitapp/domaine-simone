@@ -39,7 +39,9 @@ const ImageAndText = ({
           className="mb-0 justify-self-right"
           noMargin
         >
-          {title ? <h2 className="font-imbue text-4xl mb-8">{title}</h2> : null}
+          {title ? (
+            <h2 className="font-imbue text-4xl mb-8 uppercase">{title}</h2>
+          ) : null}
 
           {text}
         </Text>
@@ -57,8 +59,8 @@ const ImageAndText = ({
               ? undefined
               : '/img/placeholder-blur-picture.webp'
           }
-          layout="fill"
-          objectFit="cover"
+          className="object-cover"
+          fill
           placeholder={
             src.startsWith('https://placekeanu.com') ? undefined : 'blur'
           }

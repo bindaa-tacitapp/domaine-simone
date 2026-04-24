@@ -38,8 +38,8 @@ const OtherProduct = async ({ url, name, src, alt }: OtherProductProps) => {
           <Image
             alt={alt}
             blurDataURL="/img/placeholder-blur-picture.webp"
-            layout="fill"
-            objectFit="contain"
+            className="object-contain"
+            fill
             placeholder="blur"
             src={src}
           />

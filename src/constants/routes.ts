@@ -7,7 +7,10 @@ type RoutesConfig = {
 const ROUTES = {
   brand: '/la-marque',
   domain: '/le-domaine',
+  legalNotice: '/mentions-legales',
   men: '/les-hommes',
+  privacyPolicy: '/politique-de-confidentialite',
+  termsAndConditions: '/conditions-generales-de-vente',
   wine: {
     reserve: '/les-vins/calvaire-grande-reserve',
     selection: '/les-vins/calvaire-selection',

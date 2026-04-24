@@ -33,9 +33,31 @@
     },
     "title": "Genève n'est pas un détail. C'est le sujet."
   },
+  "footer": {
+    "contact": {
+      "other": "Autre contact",
+      "press": "Vous êtes un journaliste",
+      "restaurant": "Vous êtes un restaurant",
+      "title": "Contact"
+    },
+    "legal": {
+      "legalMentions": "Mentions Légales",
+      "privacyPolicy": "Politique de Confidentialité",
+      "termsAndConditions": "Conditions Générales de Vente",
+      "title": "Informations légales"
+    },
+    "logo": {
+      "alt": "Armoiries du Domaine Simone",
+      "title": "Domaine Simone"
+    },
+    "title": "Informations utiles"
+  },
   "home": {
     "imageAlt": "Bouteille de vin rouge Calvaire",
     "title": "Sic itur ad astra"
+  },
+  "legalNotice": {
+    "title": "Mentions Légales"
   },
   "men": {
     "alt": "Photo d'une jeune femme buvant un verre de vin avec Damien Simone en fond",
@@ -57,6 +79,12 @@
   },
   "otherProducts": {
     "title": "Autre vin du Domaine"
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité"
+  },
+  "termsAndConditions": {
+    "title": "Conditions Générales de Vente"
   },
   "wine": {
     "common": {

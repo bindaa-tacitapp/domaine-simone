@@ -36,7 +36,7 @@ const Header = () => {
           'font-imbue uppercase text-2xl',
           'mb-5',
           'md:mb-10',
-          '2xl:mb-15',
+          '2xl:mb-15 2xl:text-3xl',
         )}
       >
         <div
@@ -50,10 +50,10 @@ const Header = () => {
               <Image
                 alt={t('nav.home')}
                 blurDataURL="/img/placeholder-blur-picture.webp"
-                layout="fill"
-                objectFit="contain"
+                className="object-contain"
+                fill
                 placeholder="blur"
-                src="/img/coat-arms.webp"
+                src="/img/coat-arms.svg"
               />
             </Link>
           </div>
@@ -102,8 +102,9 @@ const Header = () => {
             </li>
             <li
               className={cn(
-                'hidden',
-                'lg:block lg:aspect-square lg:h-20 lg:relative',
+                'hidden relative',
+                'lg:block lg:aspect-square lg:h-20',
+                '2xl:h-30',
               )}
             >
               <Link className="h-full" href="/" onClick={handleOnMenuClick}>
@@ -111,10 +112,9 @@ const Header = () => {
                   alt={t('nav.home')}
                   blurDataURL="/img/placeholder-blur-picture.webp"
                   className="max-h-full object-contain"
-                  layout="fill"
-                  objectFit="contain"
+                  fill
                   placeholder="blur"
-                  src="/img/coat-arms.webp"
+                  src="/img/coat-arms.svg"
                 />
               </Link>
             </li>

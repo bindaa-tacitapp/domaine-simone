@@ -18,10 +18,9 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
       <Image
         alt={title}
         blurDataURL="/img/placeholder-blur-picture.webp"
-        className="brightness-75"
+        className="brightness-75 object-cover"
         fetchPriority="high"
-        layout="fill"
-        objectFit="cover"
+        fill
         placeholder="blur"
         priority
         src={src}

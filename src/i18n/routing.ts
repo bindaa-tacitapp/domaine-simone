@@ -7,6 +7,11 @@ export const routing = defineRouting({
   locales,
   pathnames: {
     '/': '/',
+    '/conditions-generales-de-vente': {
+      de: '/allgemeine-geschaeftsbedingungen',
+      en: '/general-terms-and-conditions',
+      it: '/condizioni-generali-di-vendita',
+    },
     '/la-marque': {
       de: '/die-marke',
       en: '/the-brand',
@@ -36,6 +41,16 @@ export const routing = defineRouting({
       de: '/die-weine/calvaire-selection',
       en: '/the-wines/calvaire-selection',
       it: '/i-vini/calvaire-selection',
+    },
+    '/mentions-legales': {
+      de: '/impressum',
+      en: '/legal-notice',
+      it: '/note-legali',
+    },
+    '/politique-de-confidentialite': {
+      de: '/datenschutz',
+      en: '/privacy-policy',
+      it: '/informativa-sulla-privacy',
     },
   },
 });

@@ -29,8 +29,8 @@ export default async function DomainePage() {
         <Image
           alt={t('alt')}
           blurDataURL="/img/placeholder-blur-picture.webp"
-          layout="fill"
-          objectFit="cover"
+          className="object-cover"
+          fill
           placeholder="blur"
           src="/img/grape.webp"
         />
