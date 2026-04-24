@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { HeroImage } from '@/app/components/HeroImage/HeroImage';
 import { ImageAndText } from '@/app/components/ImageAndText/ImageAndText';
 import { Text } from '@/app/components/Text/Text';
+import { handleRichTags } from '@/libs/i18n';
 
 export default async function DomainePage() {
   const t = await getTranslations('domain');
@@ -28,9 +29,7 @@ export default async function DomainePage() {
         className="mb-20"
         reverse
         src="/img/slope.webp"
-        text={t.rich('text.slope.text', {
-          br: () => <br />,
-        })}
+        text={t.rich('text.slope.text', handleRichTags)}
       />
 
       <Text align="center" textSize="lg">

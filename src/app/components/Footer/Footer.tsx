@@ -7,20 +7,33 @@ import { cn } from '@/libs/cn';
 
 const Footer = async () => {
   const t = await getTranslations('footer');
-  const year = new Date().getFullYear();
 
   return (
-    <footer className={cn('bg-black text-white relative', 'py-10')}>
+    <footer
+      className={cn(
+        'bg-black text-white relative',
+        'py-10',
+        'sm:py-15',
+        'md:py-20',
+      )}
+    >
       <h3 className="sr-only">{t('title')}</h3>
 
       <ContentWrapper>
-        <div className={cn('grid grid-cols-1 gap-10')}>
+        <div
+          className={cn(
+            'grid grid-cols-1 gap-10',
+            'sm:grid-cols-2 sm:gap-15',
+            'md:grid-cols-3 md:items-start md:gap-10',
+            'lg:gap-20',
+          )}
+        >
           <div>
             <header className={cn('font-medium mb-3')}>
               {t('contact.title')}
             </header>
 
-            <ul>
+            <ul className={cn('')}>
               <li>{t('contact.restaurant')}</li>
               <li>{t('contact.press')}</li>
               <li>{t('contact.other')}</li>
@@ -34,18 +47,21 @@ const Footer = async () => {
 
             <ul>
               <li>
-                <Link href={ROUTES.termsAndConditions}>
+                <Link
+                  className="hover:underline"
+                  href={ROUTES.termsAndConditions}
+                >
                   {t('legal.termsAndConditions')}
                 </Link>
               </li>
               <li>
-                <Link href={ROUTES.legalNotice}>
+                <Link className="hover:underline" href={ROUTES.legalNotice}>
                   {t('legal.legalMentions')}
                 </Link>
               </li>
 
               <li>
-                <Link href={ROUTES.privacyPolicy}>
+                <Link className="hover:underline" href={ROUTES.privacyPolicy}>
                   {t('legal.privacyPolicy')}
                 </Link>
               </li>
