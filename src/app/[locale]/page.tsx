@@ -1,9 +1,13 @@
+'use client';
+
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
+import { useBlockScroll } from '@/app/hooks/useBlockScroll';
 import { cn } from '@/libs/cn';
 
-export default async function HomePage() {
-  const t = await getTranslations('home');
+export default function HomePage() {
+  const { blockScrollOnRef } = useBlockScroll();
+  const t = useTranslations('home');
 
   return (
     <div
@@ -11,6 +15,7 @@ export default async function HomePage() {
         'absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center',
         'lg:bottom-10 lg:left-10 lg:right-10',
       )}
+      ref={blockScrollOnRef}
     >
       <Image
         alt={t('imageAlt')}

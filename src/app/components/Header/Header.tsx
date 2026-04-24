@@ -5,11 +5,13 @@ import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
 import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
 import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
+import { useBlockScroll } from '@/app/hooks/useBlockScroll';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
 
 const Header = () => {
+  const { blockScrollOnRef } = useBlockScroll();
   const checkbox = useRef<HTMLInputElement>(null);
   const t = useTranslations('common');
 
@@ -27,6 +29,7 @@ const Header = () => {
         'sticky top-0 z-50 bg-white',
         'lg:static lg:bg-transparent',
       )}
+      ref={blockScrollOnRef}
     >
       <nav
         className={cn(
