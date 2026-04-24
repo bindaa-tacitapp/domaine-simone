@@ -25,11 +25,11 @@ export default async function HomePage() {
 
       <span
         className={cn(
-          'absolute font-imbue text-primary-red',
-          'top-[36%] left-3/5 w-2/5 text-right text-[15vw] pr-5 leading-[15vw]',
-          'sm:w-1/3 sm:text-[12vw] sm:leading-[12vw]',
-          'lg:text-[8vw] lg:leading-[8vw] lg:pr-10',
-          '2xl:text-[5vw] 2xl:top-1/2 2xl:left-2/3 2xl:w-1/3 2xl:text-left 2xl:pr-0',
+          'absolute font-imbue uppercase',
+          'top-[40%] left-1/2 w-1/2 text-right text-[11vw] pr-5 leading-[11vw]',
+          'sm:w-1/2 sm:text-[8vw] sm:leading-[8vw] sm:pr-10',
+          'lg:text-[6vw] lg:leading-[6vw] lg:pr-10 lg:left-2/3 lg:w-1/3 lg:text-left',
+          '2xl:text-[5vw] 2xl:top-1/2 2xl:pr-0',
         )}
       >
         {t('title')}
