@@ -6,6 +6,11 @@
     "title": "Calvaire. Dal rilievo nasce il carattere."
   },
   "common": {
+    "button": {
+      "askForInfo": "Richiedi maggiori informazioni",
+      "buyWine": "Acquista",
+      "seeWines": "Vedi i vini"
+    },
     "menu": {
       "label": "Menu",
       "toggle": "Apri / chiudi la navigazione"

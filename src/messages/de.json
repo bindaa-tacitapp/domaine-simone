@@ -6,6 +6,11 @@
     "title": "Calvaire. Aus dem Relief entsteht Charakter."
   },
   "common": {
+    "button": {
+      "askForInfo": "Mehr Informationen anfordern",
+      "buyWine": "Kaufen",
+      "seeWines": "Weine ansehen"
+    },
     "menu": {
       "label": "Menü",
       "toggle": "Navigation öffnen / schliessen"

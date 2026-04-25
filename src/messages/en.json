@@ -6,6 +6,11 @@
     "title": "Calvaire. From the slopes, character is born."
   },
   "common": {
+    "button": {
+      "askForInfo": "Request more information",
+      "buyWine": "Buy",
+      "seeWines": "View wines"
+    },
     "menu": {
       "label": "Menu",
       "toggle": "Open / close navigation"
