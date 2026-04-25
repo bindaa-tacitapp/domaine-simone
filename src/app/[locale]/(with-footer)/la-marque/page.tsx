@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
-import { HeroImage } from '@/app/components/HeroImage/HeroImage';
-import { Text } from '@/app/components/Text/Text';
+import { SeeWinesButton } from '@/components/buttons/SeeWinesButton/SeeWinesButton';
+import { HeroImage } from '@/components/HeroImage/HeroImage';
+import { Text } from '@/components/Text/Text';
 import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
@@ -38,6 +39,10 @@ export default async function DomainePage() {
       </div>
 
       <Text align="center">{t.rich('outro', handleRichTags)}</Text>
+
+      <Text align="center" className="text-center">
+        <SeeWinesButton />
+      </Text>
     </div>
   );
 }

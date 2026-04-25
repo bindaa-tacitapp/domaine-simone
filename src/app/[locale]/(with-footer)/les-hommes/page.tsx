@@ -1,7 +1,8 @@
 import { getTranslations } from 'next-intl/server';
-import { HeroImage } from '@/app/components/HeroImage/HeroImage';
-import { ImageAndText } from '@/app/components/ImageAndText/ImageAndText';
-import { Text } from '@/app/components/Text/Text';
+import { SeeWinesButton } from '@/components/buttons/SeeWinesButton/SeeWinesButton';
+import { HeroImage } from '@/components/HeroImage/HeroImage';
+import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
+import { Text } from '@/components/Text/Text';
 import { handleRichTags } from '@/libs/i18n';
 
 export default async function MenPage() {
@@ -44,6 +45,10 @@ export default async function MenPage() {
 
       <Text align="center" textSize="lg">
         {t.rich('outro', handleRichTags)}
+      </Text>
+
+      <Text align="center" className="text-center">
+        <SeeWinesButton />
       </Text>
     </div>
   );

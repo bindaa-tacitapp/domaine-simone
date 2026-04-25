@@ -4,8 +4,8 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import '../globals.css';
 import { notFound } from 'next/navigation';
 import { ReactNode } from 'react';
-import { Header } from '@/app/components/Header/Header';
-import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
+import { Header } from '@/components/Header/Header';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
 import { routing } from '@/i18n/routing';
 import { cn } from '@/libs/cn';
 

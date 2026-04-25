@@ -1,10 +1,11 @@
 import { getTranslations } from 'next-intl/server';
-import { OtherProduct } from '@/app/components/OtherProduct/OtherProduct';
-import { Quote } from '@/app/components/Quote/Quote';
-import { Text } from '@/app/components/Text/Text';
-import { WineCharacteristicProps } from '@/app/components/WineCharacteristics/WineCharacteristic';
-import { WineCharacteristics } from '@/app/components/WineCharacteristics/WineCharacteristics';
-import { WineShowcase } from '@/app/components/WineShowcase/WineShowcase';
+import { OtherProduct } from '@/components/OtherProduct/OtherProduct';
+import { Quote } from '@/components/Quote/Quote';
+import { Text } from '@/components/Text/Text';
+import { WineCharacteristicProps } from '@/components/WineCharacteristics/WineCharacteristic';
+import { WineCharacteristics } from '@/components/WineCharacteristics/WineCharacteristics';
+import { WineCTABox } from '@/components/WineCTABox/WineCTABox';
+import { WineShowcase } from '@/components/WineShowcase/WineShowcase';
 import { ROUTES } from '@/constants/routes';
 
 export default async function RedWinePage() {
@@ -78,6 +79,8 @@ export default async function RedWinePage() {
         type="red"
         year={2025}
       />
+
+      <WineCTABox type="reserve" />
 
       <Text align="center">{t('reserve.intro')}</Text>
 

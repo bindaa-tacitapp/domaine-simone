@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';

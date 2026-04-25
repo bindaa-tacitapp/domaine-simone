@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
-import { WineCard } from '@/app/components/WineCard/WineCard';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
+import { WineCard } from '@/components/WineCard/WineCard';
 import { ROUTES } from '@/constants/routes';
 import { cn } from '@/libs/cn';
 

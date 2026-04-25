@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ReactNode } from 'react';
-import { Text } from '@/app/components/Text/Text';
+import { Text } from '@/components/Text/Text';
 import { cn } from '@/libs/cn';
 
 type ImageAndTextProps = {

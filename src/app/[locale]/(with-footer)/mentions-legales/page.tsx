@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 

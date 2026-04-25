@@ -6,6 +6,11 @@
     "title": "Calvaire. Du relief naît le caractère."
   },
   "common": {
+    "button": {
+      "askForInfo": "Demander plus d'informations",
+      "buyWine": "Acheter",
+      "seeWines": "Voir les vins"
+    },
     "menu": {
       "label": "Menu",
       "toggle": "Ouvrir / fermer la navigation"

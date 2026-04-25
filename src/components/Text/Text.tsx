@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { cn } from '@/libs/cn';
 
 type TextProps = {

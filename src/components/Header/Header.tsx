@@ -3,10 +3,10 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
-import { LanguageSwitcher } from '@/app/components/LanguageSwitcher/LanguageSwitcher';
-import { useBlockScroll } from '@/app/hooks/useBlockScroll';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
 import { ROUTES } from '@/constants/routes';
+import { useBlockScroll } from '@/hooks/useBlockScroll';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
 
@@ -46,7 +46,7 @@ const Header = () => {
           )}
         >
           <div className="aspect-square w-15 relative">
-            <Link className="h-full" href="/" onClick={handleOnMenuClick}>
+            <Link className="h-full" href="/public" onClick={handleOnMenuClick}>
               <Image
                 alt={t('nav.home')}
                 blurDataURL="/img/placeholder-blur-picture.webp"
@@ -107,7 +107,11 @@ const Header = () => {
                 '2xl:h-30',
               )}
             >
-              <Link className="h-full" href="/" onClick={handleOnMenuClick}>
+              <Link
+                className="h-full"
+                href="/public"
+                onClick={handleOnMenuClick}
+              >
                 <Image
                   alt={t('nav.home')}
                   blurDataURL="/img/placeholder-blur-picture.webp"

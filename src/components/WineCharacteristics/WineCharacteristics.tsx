@@ -1,8 +1,8 @@
-import { ContentWrapper } from '@/app/components/ContentWrapper/ContentWrapper';
+import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import {
   WineCharacteristic,
   WineCharacteristicProps,
-} from '@/app/components/WineCharacteristics/WineCharacteristic';
+} from '@/components/WineCharacteristics/WineCharacteristic';
 import { cn } from '@/libs/cn';
 
 type WineCharacteristicsProps = {

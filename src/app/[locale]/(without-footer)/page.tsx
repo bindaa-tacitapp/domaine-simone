@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { useBlockScroll } from '@/app/hooks/useBlockScroll';
+import { useBlockScroll } from '@/hooks/useBlockScroll';
 import { cn } from '@/libs/cn';
 
 export default function HomePage() {

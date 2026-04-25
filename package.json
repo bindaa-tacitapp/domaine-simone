@@ -31,6 +31,7 @@
     "lint": "biome check .",
     "lint:ci": "biome ci",
     "lint:fix": "biome check . --write",
+    "shadcn:add": "pnpm dlx shadcn@latest add",
     "start": "next start"
   },
   "version": "0.1.0"

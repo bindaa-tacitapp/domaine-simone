@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { getLocalizedPathname } from '@/app/components/LanguageSwitcher/libs';
+import { getLocalizedPathname } from '@/components/LanguageSwitcher/libs';
 import { locales } from '@/i18n/config';
 import { usePathname } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';

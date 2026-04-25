@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Footer } from '@/app/components/Footer/Footer';
+import { Footer } from '@/components/Footer/Footer';
 
 export default async function WithFooterLayout({
   children,
