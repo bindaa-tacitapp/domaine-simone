@@ -45,9 +45,9 @@ const WineShowcase = async ({
           <Image
             alt={`Calvaire ${name}`}
             blurDataURL="/img/placeholder-blur-picture.webp"
+            className="object-contain"
             fetchPriority="high"
-            layout="fill"
-            objectFit="contain"
+            fill
             placeholder="blur"
             priority
             src={src}

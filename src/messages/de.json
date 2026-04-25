@@ -33,9 +33,62 @@
     },
     "title": "Genf ist kein Detail. Es ist das Thema."
   },
+  "footer": {
+    "contact": {
+      "other": "Anderer Kontakt",
+      "press": "Sie sind Journalist",
+      "restaurant": "Sie sind ein Restaurant",
+      "title": "Kontakt"
+    },
+    "legal": {
+      "legalMentions": "Impressum",
+      "privacyPolicy": "Datenschutzerklärung",
+      "termsAndConditions": "Allgemeine Geschäftsbedingungen",
+      "title": "Rechtliche Hinweise"
+    },
+    "logo": {
+      "alt": "Wappen der Domaine Simone",
+      "title": "Domaine Simone"
+    },
+    "title": "Nützliche Informationen"
+  },
   "home": {
     "imageAlt": "Flasche Rotwein Calvaire",
     "title": "Sic itur ad astra"
+  },
+  "legalNotice": {
+    "content": {
+      "applicableLaw": {
+        "content": "<p>Diese Website unterliegt dem Schweizer Recht.</p><p>Für allfällige Streitigkeiten sind ausschliesslich die Gerichte des Kantons Genf zuständig.</p>",
+        "title": "7. Anwendbares Recht"
+      },
+      "hosting": {
+        "content": "<p>Die Website wird gehostet von:</p><p><bold>Vercel Inc.</bold><br></br>440 N Barranca Ave #4133<br></br>Covina, CA 91723<br></br>USA</p><p>vercel.com</p>",
+        "title": "3. Hosting"
+      },
+      "intellectualProperty": {
+        "content": "<p>Der gesamte Inhalt dieser Website (Texte, Bilder, Logo, visuelle Identität) ist ausschliessliches Eigentum der Domaine Simone SARL, sofern nicht anders angegeben.</p><p>Jede vollständige oder teilweise Vervielfältigung, Verbreitung oder Nutzung ohne vorherige Genehmigung ist untersagt.</p>",
+        "title": "4. Geistiges Eigentum"
+      },
+      "liability": {
+        "content": "<p>Die Domaine Simone SARL bemüht sich, die Richtigkeit der auf der Website veröffentlichten Informationen sicherzustellen.</p><p>Es wird jedoch keine Garantie für deren Vollständigkeit oder Aktualität übernommen.</p><p>Die Nutzung der Website erfolgt auf alleinige Verantwortung des Nutzers.</p>",
+        "title": "6. Haftung"
+      },
+      "personalData": {
+        "content": "<p>Die über die Website erhobenen Personendaten werden ausschliesslich im Rahmen der Geschäftsbeziehung mit der Domaine Simone SARL verwendet.</p><p>Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer Daten.</p><p>Für alle Anfragen: <link>info@domaine-simone.ch</link></p>",
+        "title": "5. Personendaten"
+      },
+      "publicationDirector": {
+        "content": "<p>Verantwortlich für den Inhalt ist:</p><p><bold>Pauline Pillon</bold>, zuständig für Kommunikation</p>",
+        "title": "2. Publikationsleitung"
+      },
+      "siteEditor": {
+        "content": "<p>Diese Website wird herausgegeben von:</p><p><bold>Domaine Simone SARL</bold><br></br>Gesellschaft mit beschränkter Haftung nach Schweizer Recht</p><p>Sitz:<br></br>C/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Genf<br></br>Schweiz</p><p>UID-Nummer: CHE-276.963.736</p><p>E-Mail: <link>info@domaine-simone.ch</link></p>",
+        "title": "1. Herausgeber der Website"
+      },
+      "title": "Impressum"
+    },
+    "title": "Impressum"
   },
   "men": {
     "alt": "Foto einer jungen Frau, die ein Glas Wein trinkt, mit Damien Simone im Hintergrund",
@@ -57,6 +110,98 @@
   },
   "otherProducts": {
     "title": "Anderer Wein der Domaine"
+  },
+  "privacyPolicy": {
+    "content": {
+      "applicableLaw": {
+        "content": "<p>Diese Richtlinie unterliegt dem Schweizer Recht.</p><p>Für allfällige Streitigkeiten sind ausschliesslich die Gerichte des Kantons Genf zuständig.</p>",
+        "title": "8. Anwendbares Recht"
+      },
+      "cookies": {
+        "content": "<p>Die Website kann Cookies verwenden, um:</p><list><item>das reibungslose Funktionieren zu gewährleisten</item><item>die Reichweite zu messen</item><item>die Nutzererfahrung zu verbessern</item></list><p>Sie können Ihren Browser so konfigurieren, dass er alle oder bestimmte Cookies ablehnt.</p>",
+        "title": "5. Cookies"
+      },
+      "dataCollection": {
+        "content": "<p>Die Website der Domaine Simone kann in folgenden Fällen bestimmte Personendaten erheben:</p><list><item>Kontaktformular</item><item>Anmeldung zum Newsletter</item><item>Bestellung oder geschäftliche Anfrage</item></list><p>Die erhobenen Daten können umfassen: Name, Vorname, E-Mail-Adresse, Telefonnummer.</p>",
+        "title": "1. Datenerhebung"
+      },
+      "dataRetention": {
+        "content": "<p>Die Daten werden nur so lange aufbewahrt, wie es für ihre Nutzung erforderlich ist.</p><p>Sie können auf Anfrage jederzeit gelöscht werden.</p>",
+        "title": "3. Datenaufbewahrung"
+      },
+      "dataSharing": {
+        "content": "<p>Die Daten können von technischen Dienstleistern (z. B. Hosting durch Vercel) verarbeitet werden, jedoch nur im Rahmen des Betriebs der Website.</p><p>Es erfolgt keine Weitergabe an Dritte zu kommerziellen Zwecken.</p>",
+        "title": "4. Datenweitergabe"
+      },
+      "dataUsage": {
+        "content": "<p>Die Daten werden ausschliesslich verwendet, um:</p><list><item>Anfragen zu beantworten</item><item>die Geschäftsbeziehung zu pflegen</item><item>Informationen über das Weingut zu übermitteln (bei Einwilligung)</item></list><p>Es werden keine Daten verkauft, weitergegeben oder für externe Zwecke verwendet.</p>",
+        "title": "2. Datennutzung"
+      },
+      "security": {
+        "content": "<p>Die Domaine Simone SARL setzt angemessene technische und organisatorische Massnahmen um, um die Personendaten zu schützen.</p>",
+        "title": "7. Sicherheit"
+      },
+      "title": "Datenschutzerklärung",
+      "yourRights": {
+        "content": "<p>Gemäss den geltenden Vorschriften haben Sie folgende Rechte:</p><list><item>Auskunft über Ihre Daten</item><item>Berichtigung</item><item>Löschung</item><item>Widerspruch gegen die Verarbeitung</item></list><p>Um diese Rechte auszuüben: <link>info@domaine-simone.ch</link></p>",
+        "title": "6. Ihre Rechte"
+      }
+    },
+    "title": "Datenschutzerklärung"
+  },
+  "termsAndConditions": {
+    "content": {
+      "alcoholSales": {
+        "content": "<p>Der Verkauf von Alkohol ist strikt Personen vorbehalten, die das gesetzliche Mindestalter für den Konsum in ihrem Wohnsitzland erreicht haben.</p><p>In der Schweiz liegt dieses Alter für Wein bei 16 Jahren.</p><p>Mit der Bestellung bestätigt der Kunde, dass er die geltenden gesetzlichen Bestimmungen einhält.</p>",
+        "title": "10. Verkauf von Alkohol"
+      },
+      "applicability": {
+        "content": "<p>Diese Allgemeinen Geschäftsbedingungen (AGB) regeln alle Verkäufe der Domaine Simone SARL, sei es über ihre Website oder im Direktverkauf.</p><p>Jede Bestellung setzt die vollständige und vorbehaltlose Annahme dieser AGB voraus.</p>",
+        "title": "1. Geltungsbereich"
+      },
+      "applicableLaw": {
+        "content": "<p>Diese AGB unterliegen dem Schweizer Recht.</p><p>Für allfällige Streitigkeiten sind ausschliesslich die Gerichte des Kantons Genf zuständig.</p>",
+        "title": "12. Anwendbares Recht"
+      },
+      "delivery": {
+        "content": "<p>Lieferungen erfolgen in die Schweiz und nach Europa.</p><p>Für Anfragen ausserhalb dieser Zonen wird der Kunde gebeten, sich an <link>info@domaine-simone.ch</link> zu wenden.</p><p>Die Lieferfristen sind Richtwerte und hängen vom Transporteur ab.</p><p>Es gelten die Lieferbedingungen des beauftragten Transporteurs.</p><p>Bei Problemen im Zusammenhang mit dem Transport (Verspätung, Bruch, Verlust) liegt die Verantwortung beim Transporteur.</p>",
+        "title": "6. Lieferung"
+      },
+      "liability": {
+        "content": "<p>Die Domaine Simone SARL kann nicht für eine unsachgemässe Lagerung des Weins nach der Lieferung haftbar gemacht werden.</p><p>Der Kunde ist allein für die Lagerbedingungen verantwortlich.</p>",
+        "title": "9. Haftung"
+      },
+      "orders": {
+        "content": "<p>Jede Bestellung gilt nach der Bestätigung als verbindlich und definitiv.</p><p>Die Domaine Simone SARL behält sich das Recht vor, eine Bestellung abzulehnen, insbesondere im Falle einer früheren Streitigkeit oder bei Zweifeln an deren Rechtmässigkeit.</p>",
+        "title": "4. Bestellung"
+      },
+      "payment": {
+        "content": "<p>Zahlungen können wie folgt getätigt werden:</p><list><item>online über die auf der Website angebotenen sicheren Zahlungsmethoden</item><item>auf Rechnung</item></list><p>Zahlungskonditionen:</p><list><item><bold>Privatkunden</bold>: Die Bestellung wird erst nach vollständigem Zahlungseingang versandt</item><item><bold>Geschäftskunden</bold>: Zahlung innert 30 Tagen ab Rechnungsdatum</item></list>",
+        "title": "5. Zahlung"
+      },
+      "personalData": {
+        "content": "<p>Die erhobenen Daten werden ausschliesslich im Rahmen der Geschäftsbeziehung verwendet.</p><p>Sie werden ohne Einwilligung weder weiterverkauft noch an Dritte weitergegeben.</p>",
+        "title": "11. Personendaten"
+      },
+      "pricing": {
+        "content": "<p>Die Preise verstehen sich in Schweizer Franken (CHF), einschliesslich aller Steuern (MWST), exklusive Lieferkosten.</p><list><item><bold>Privatkunden</bold>: Es gelten die aktuellen Lieferkosten</item><item><bold>Geschäftskunden</bold>: Im Kanton Genf erfolgt die Lieferung ab einem Karton kostenlos</item></list><p>Die Domaine Simone SARL behält sich das Recht vor, ihre Preise jederzeit zu ändern. Es gilt der zum Zeitpunkt der Bestellung gültige Preis.</p>",
+        "title": "3. Preise"
+      },
+      "products": {
+        "content": "<p>Die angebotenen Weine stammen aus einer limitierten Produktion.</p><p>Jede Cuvée ist das Ergebnis präziser, kompromissloser Arbeit und kann nicht identisch reproduziert werden.</p><p>Die Domaine Simone SARL behält sich das Recht vor, ihr Angebot jederzeit je nach Verfügbarkeit zu ändern.</p>",
+        "title": "2. Produkte"
+      },
+      "qualityAndReturns": {
+        "content": "<p>Die Domaine Simone SARL geht bei der Qualität ihrer Weine keine Kompromisse ein.</p><p>Bei einem nachgewiesenen organoleptischen Fehler kann die Flasche nach Überprüfung ersetzt werden.</p><p>Der Kunde muss vorab <link>info@domaine-simone.ch</link> kontaktieren.</p><p>Die betreffende Flasche muss zur Analyse zurückgeschickt werden.</p><p>Abgesehen von diesem spezifischen Fall werden keine Rückgaben oder Rückerstattungen akzeptiert.</p>",
+        "title": "8. Qualität und Rückgabe"
+      },
+      "reception": {
+        "content": "<p>Der Kunde ist verpflichtet, den Zustand der Produkte bei Erhalt zu überprüfen.</p><p>Jede Anomalie muss direkt dem Transporteur gemäss dessen Bedingungen gemeldet werden.</p>",
+        "title": "7. Empfang der Bestellungen"
+      },
+      "title": "Allgemeine Geschäftsbedingungen – Domaine Simone SARL"
+    },
+    "title": "Allgemeine Geschäftsbedingungen"
   },
   "wine": {
     "common": {

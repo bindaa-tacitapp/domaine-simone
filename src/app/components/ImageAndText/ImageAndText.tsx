@@ -41,7 +41,9 @@ const ImageAndText = ({
           className="mb-0 justify-self-right"
           noMargin
         >
-          {title ? <h2 className="font-imbue text-4xl mb-8">{title}</h2> : null}
+          {title ? (
+            <h2 className="font-imbue text-4xl mb-8 uppercase">{title}</h2>
+          ) : null}
 
           {text}
         </Text>

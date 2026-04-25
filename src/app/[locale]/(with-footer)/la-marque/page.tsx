@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { HeroImage } from '@/app/components/HeroImage/HeroImage';
 import { Text } from '@/app/components/Text/Text';
 import { cn } from '@/libs/cn';
+import { handleRichTags } from '@/libs/i18n';
 
 export default async function DomainePage() {
   const t = await getTranslations('brand');
@@ -29,18 +30,14 @@ export default async function DomainePage() {
         <Image
           alt={t('alt')}
           blurDataURL="/img/placeholder-blur-picture.webp"
-          layout="fill"
-          objectFit="cover"
+          className="object-cover"
+          fill
           placeholder="blur"
           src="/img/brand.webp"
         />
       </div>
 
-      <Text align="center">
-        {t.rich('outro', {
-          br: () => <br />,
-        })}
-      </Text>
+      <Text align="center">{t.rich('outro', handleRichTags)}</Text>
     </div>
   );
 }

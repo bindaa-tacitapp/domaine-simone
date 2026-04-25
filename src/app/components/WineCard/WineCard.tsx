@@ -22,8 +22,8 @@ const WineCard = async ({ src, title, price, url }: WineCardProps) => {
         <Image
           alt={title}
           blurDataURL="/img/placeholder-blur-picture.webp"
-          layout="fill"
-          objectFit="cover"
+          className="object-cover"
+          fill
           placeholder="blur"
           src={src}
         />

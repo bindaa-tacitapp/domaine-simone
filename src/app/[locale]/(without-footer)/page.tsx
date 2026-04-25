@@ -20,9 +20,9 @@ export default function HomePage() {
       <Image
         alt={t('imageAlt')}
         blurDataURL="/img/placeholder-blur-picture.webp"
+        className="object-cover"
         fetchPriority="high"
-        layout="fill"
-        objectFit="cover"
+        fill
         placeholder="blur"
         priority
         src="/img/red-trunk.webp"
