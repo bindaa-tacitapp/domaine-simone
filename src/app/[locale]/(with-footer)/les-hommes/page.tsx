@@ -36,7 +36,8 @@ export default async function MenPage() {
       <ImageAndText
         alt={t('natalio.alt')}
         className="mb-20"
-        src="https://placekeanu.com/1600/1200"
+        imageClassName="object-top"
+        src="/img/natalio.webp"
         text={t.rich('natalio.text', handleRichTags)}
         title={t.rich('natalio.title', handleRichTags)}
       />

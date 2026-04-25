@@ -10,6 +10,7 @@ type ImageAndTextProps = {
   reverse?: boolean;
   title?: ReactNode;
   className?: string;
+  imageClassName?: string;
 };
 
 const ImageAndText = ({
@@ -19,6 +20,7 @@ const ImageAndText = ({
   reverse = false,
   title,
   className,
+  imageClassName,
 }: ImageAndTextProps) => {
   return (
     <div
@@ -59,7 +61,7 @@ const ImageAndText = ({
               ? undefined
               : '/img/placeholder-blur-picture.webp'
           }
-          className="object-cover"
+          className={cn('object-cover', imageClassName)}
           fill
           placeholder={
             src.startsWith('https://placekeanu.com') ? undefined : 'blur'
