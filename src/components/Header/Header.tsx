@@ -46,7 +46,7 @@ const Header = () => {
           )}
         >
           <div className="aspect-square w-15 relative">
-            <Link className="h-full" href="/public" onClick={handleOnMenuClick}>
+            <Link className="h-full" href="/" onClick={handleOnMenuClick}>
               <Image
                 alt={t('nav.home')}
                 blurDataURL="/img/placeholder-blur-picture.webp"
@@ -107,11 +107,7 @@ const Header = () => {
                 '2xl:h-30',
               )}
             >
-              <Link
-                className="h-full"
-                href="/public"
-                onClick={handleOnMenuClick}
-              >
+              <Link className="h-full" href="/" onClick={handleOnMenuClick}>
                 <Image
                   alt={t('nav.home')}
                   blurDataURL="/img/placeholder-blur-picture.webp"
