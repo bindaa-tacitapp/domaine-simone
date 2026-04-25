@@ -32,7 +32,7 @@ export default async function DomainePage() {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
-          src="/img/grape.webp"
+          src="/img/brand.webp"
         />
       </div>
 
