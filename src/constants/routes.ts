@@ -7,6 +7,13 @@ type RoutesConfig = {
 const ROUTES = {
   brand: '/la-marque',
   domain: '/le-domaine',
+  forms: {
+    error: '/erreur-demande',
+    other: '/contact-autre',
+    press: '/contact-presse',
+    restaurant: '/contact-restaurant',
+    success: '/demande-envoyee',
+  },
   legalNotice: '/mentions-legales',
   men: '/les-hommes',
   privacyPolicy: '/politique-de-confidentialite',
