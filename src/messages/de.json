@@ -1,8 +1,15 @@
 {
   "brand": {
-    "alt": "Foto einer Traube im Rebberg",
-    "intro": "«Le Calvaire» nannten die Winzer von Russin diese kleine Parzelle mit ihren extremen Hängen, wo früher jeder Handgriff eine echte Prüfung war. Sie gehört zu den steilsten Rebbergen des Kantons Genf und ist die erste, die das Weingut übernommen und neu bepflanzt hat; sie ist der Ursprung seiner Geschichte und seines Anspruchs.",
-    "outro": "Heute gibt das Calvaire unserer Linie seinen Namen, als Hommage an diese Gründungsstätte und an den Mann, der sie uns anvertraut hat.<br></br><br></br>Unsere Linie besteht aus einem weissen «Sélection» und einem roten «Grande Réserve», einer Lagen-Cuvée, die ausschliesslich aus den Trauben der Parzelle Calvaire gewonnen wird. Sie werden mit der gleichen Sorgfalt an ebenso steilen Hängen ausgebaut und anschliessend in streng limitierten und nummerierten Mengen produziert.",
+    "content": {
+      "p1": "«Le Calvaire» – so nennen die Winzer von Russin seit jeher diesen aussergewöhnlichen Hang, einen der steilsten im Kanton Genf. Ein so extremes Gefälle, dass jeder Handgriff zur Prüfung wird, dass jeder Arbeitsschritt von Hand, mit Mühe und Präzision ausgeführt werden muss. Ein Terrain, das nur jene akzeptiert, die es auch verdienen.",
+      "p2": "Als der frühere Besitzer beschloss, sich von dieser Parzelle zu trennen, ergriffen wir die Chance, die er uns bot, um sie wieder zum Leben zu erwecken. Es ist unsere erste Parzelle. Wir haben sie mit sorgfältig ausgewählten Rebsorten neu bepflanzt – ausgewählt wegen ihrer Widerstandsfähigkeit gegenüber den klimatischen Herausforderungen von morgen ebenso wie für ihre Fähigkeit, dieses aussergewöhnliche Terroir voll zum Ausdruck zu bringen.",
+      "p3": "Alles Weitere liegt in der Hand der Rebe. Saison für Saison sprechen die Sorgfalt bei der Pflege, der hohe Anspruch an die geleistete Arbeit und die Qualität der ersten Weinlese schliesslich für sich selbst. Die Winzer von Russin, die unsere Ankunft mit Neugierde beobachtet hatten, zollen uns nach und nach ihren Respekt.<br></br><br></br>Eine Anerkennung, die mehr zählt als jede Auszeichnung.",
+      "p4": "Seither ist das Weingut gewachsen, neue Parzellen bereichern unsere Geschichte. Aber es ist dieser Name, <strong>Calvaire</strong>, den wir unserer gesamten Linie gegeben haben – als Hommage an diesen Gründungsrebberg und an den Mann, der uns durch sein Vertrauen ermöglichte, uns den Sternen ein Stück weiter zu nähern. Sic itur ad astra"
+    },
+    "images": {
+      "p2": "Bild eines kürzlich gepflanzten Rebstocks",
+      "p3": "Wunderschöne Traube im Sonnenschein"
+    },
     "title": "Calvaire. Aus dem Relief entsteht Charakter."
   },
   "common": {

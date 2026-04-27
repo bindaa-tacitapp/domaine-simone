@@ -1,9 +1,16 @@
 {
   "brand": {
-    "alt": "Photo of a bunch of grapes on the plot",
-    "intro": "\"Le Calvaire\" is the name the winegrowers of Russin gave to this small plot with extreme slopes, where every intervention was once a true ordeal. Among the most steep vineyards in the canton of Geneva, it is the first that the Domaine took over and replanted; it is at the origin of its history and its exigence.",
-    "outro": "Today, Le Calvaire gives its name to our range, in tribute to this founding land and to the man who entrusted it to us.<br></br><br></br>Our range consists of a white \"Sélection\" and a red \"Grande Réserve\", a single-plot cuvée made exclusively from the grapes of the Calvaire plot. They are crafted with the same care on slopes of equal intensity, then produced in limited, numbered quantities.",
-    "title": "Calvaire. From the slopes, character is born."
+    "content": {
+      "p1": "“Le Calvaire” is how the winemakers of Russin have always referred to this exceptional hillside, one of the steepest in the Canton of Geneva. A slope so severe that every gesture becomes an ordeal, where every operation must be done by hand, with effort and precision. A terrain that only accepts those who earn it.",
+      "p2": "When its former owner decided to part with this plot, we seized the opportunity he offered us to bring it back to life. It is our first plot. We replanted it with carefully selected grape varieties, chosen for their resilience to the climate challenges of tomorrow as much as for their ability to fully express this exceptional terroir.",
+      "p3": "The rest belongs to the vine. Season after season, the care given to its cultivation, the high standards of the work accomplished, and the quality of the first harvests end up speaking for themselves. The winemakers of Russin, who had watched us arrive with curiosity, gradually grant us their respect.<br></br><br></br>An acknowledgment that means more than any award.",
+      "p4": "Since then, the Estate has grown, new plots have come to enrich our history. But it is this name, <strong>Calvaire</strong>, that we have chosen to give to our entire range, as a tribute to this founding vine, and to the man who, by trusting us, allowed us to rise a little closer to the stars. Sic itur ad astra"
+    },
+    "images": {
+      "p2": "Image of a recently planted vine",
+      "p3": "Beautiful bunch of grapes in the sun"
+    },
+    "title": "Calvaire. From the terrain comes character."
   },
   "common": {
     "button": {

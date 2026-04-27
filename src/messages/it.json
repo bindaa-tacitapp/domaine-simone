@@ -1,8 +1,15 @@
 {
   "brand": {
-    "alt": "Foto di un grappolo d'uva sulla parcella",
-    "intro": "\"Le Calvaire\" è il nome che i viticoltori di Russin davano a questa piccola parcella dai pendii estremi, dove ogni intervento era un tempo una vera e propria prova. Tra i vigneti più scoscesi del canton Ginevra, è la prima che il Domaine abbia ripreso e ripiantato; è all'origine della sua storia e della sua esigenza.",
-    "outro": "Oggi, Le Calvaire dà il nome alla nostra gamma, in omaggio a questa terra fondatrice e all'uomo che ce l'ha affidata.<br></br><br></br>La nostra gamma si compone di un bianco \"Sélection\" e di un rosso \"Grande Réserve\", una cuvée parcellaire prodotta esclusivamente con le uve della parcella del Calvaire. Sono elaborati con la stessa cura su pendii della stessa intensità, poi prodotti in quantità limitate e numerate.",
+    "content": {
+      "p1": "“Le Calvaire” è così che i viticoltori di Russin chiamano da sempre questa collina eccezionale, una delle più ripide del Canton Ginevra. Una pendenza così severa che ogni gesto diventa una prova, che ogni operazione deve essere compiuta a mano, con fatica e precisione. Un terreno che accetta solo chi lo merita.",
+      "p2": "Quando il suo ex proprietario ha deciso di separarsi da questo appezzamento, abbiamo colto l'opportunità che ci ha offerto di riportarlo in vita. È la nostra prima parcella. L'abbiamo ripiantata con vitigni accuratamente selezionati, scelti per la loro resilienza alle sfide climatiche di domani tanto quanto per la loro capacità di esprimere appieno questo eccezionale terroir.",
+      "p3": "Il resto appartiene alla vigna. Stagione dopo stagione, la cura dedicata alla sua coltivazione, l'esigenza del lavoro compiuto e la qualità delle prime vendemmie finiscono per parlare da sole. I viticoltori di Russin, che ci avevano visto arrivare con curiosità, ci accordano a poco a poco il loro rispetto.<br></br><br></br>Un riconoscimento che conta più di qualsiasi onorificenza.",
+      "p4": "Da allora la Tenuta è cresciuta, nuove parcelle sono andate ad arricchire la nostra storia. Ma è questo nome, <strong>Calvaire</strong>, che abbiamo scelto di dare a tutta la nostra gamma, in omaggio a questa vigna fondatrice e all'uomo che, dandoci fiducia, ci ha permesso di innalzarci un po' più verso le stelle. Sic itur ad astra"
+    },
+    "images": {
+      "p2": "Immagine di una vite piantata di recente",
+      "p3": "Magnifico grappolo d'uva sotto il sole"
+    },
     "title": "Calvaire. Dal rilievo nasce il carattere."
   },
   "common": {
