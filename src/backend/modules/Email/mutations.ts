@@ -17,6 +17,8 @@ const sendEmail = async ({ subject, html }: SendEmailProps) => {
   });
 
   if (error) {
+    console.log(error);
+
     return {
       data: null,
       error,
