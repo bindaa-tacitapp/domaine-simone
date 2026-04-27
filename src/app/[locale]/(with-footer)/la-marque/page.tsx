@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { SeeWinesButton } from '@/components/buttons/SeeWinesButton/SeeWinesButton';
 import { HeroImage } from '@/components/HeroImage/HeroImage';
+import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
 import { Text } from '@/components/Text/Text';
-import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
 export default async function BrandPage() {
@@ -17,28 +16,23 @@ export default async function BrandPage() {
       <HeroImage src="/img/calvaire.webp" title={t('title')} />
 
       <Text align="center" textSize="lg">
-        {t('intro')}
+        {t('content.p1')}
       </Text>
 
-      <div
-        className={cn(
-          'relative mx-5 h-[75vh] mb-10',
-          'sm:mx-10',
-          'lg:w-1/2 lg:mb-30 lg:mx-auto',
-          '2xl:mb-50',
-        )}
-      >
-        <Image
-          alt={t('alt')}
-          blurDataURL="/img/placeholder-blur-picture.webp"
-          className="object-cover"
-          fill
-          placeholder="blur"
-          src="/img/brand.webp"
-        />
-      </div>
+      <ImageAndText
+        alt={t('images.p2')}
+        src="/img/new.grape.webp"
+        text={t.rich('content.p2', handleRichTags)}
+      />
 
-      <Text align="center">{t.rich('outro', handleRichTags)}</Text>
+      <ImageAndText
+        alt={t('images.p2')}
+        reverse
+        src="/img/new.grown.grape.webp"
+        text={t.rich('content.p3', handleRichTags)}
+      />
+
+      <Text align="center">{t.rich('content.p4', handleRichTags)}</Text>
 
       <Text align="center" className="text-center">
         <SeeWinesButton />
