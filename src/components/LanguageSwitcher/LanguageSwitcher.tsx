@@ -36,6 +36,7 @@ const LanguageSwitcher = ({
             className="hover:underline"
             href={getLocalizedPathname({ locale, pathname })}
             prefetch={false}
+            scroll={false}
           >
             {locale}
           </Link>
