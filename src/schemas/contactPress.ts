@@ -4,7 +4,7 @@ const contactPressSchema = z.object({
   fullName: z.string().min(1),
   email: z.email().min(1),
   newspaperName: z.string().optional(),
-  message: z.string().optional(),
+  message: z.string().min(1),
 });
 
 type ContactPressFormData = z.infer<typeof contactPressSchema>;

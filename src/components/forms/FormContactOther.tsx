@@ -4,7 +4,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
 import { useTransition } from 'react';
 import { Controller, useForm } from 'react-hook-form';
-import { actionSendEmailFromRestaurant } from '@/actions/actionSendEmailFromRestaurant';
+import { actionSendEmailFromOtherContact } from '@/actions/actionSendEmailFromOtherContact';
 import { Button } from '@/components/buttons/LoadingButton/LoadingButton';
 import {
   Field,
@@ -17,27 +17,26 @@ import { Textarea } from '@/components/ui/textarea';
 import { ROUTES } from '@/constants/routes';
 import { useRouter } from '@/i18n/navigation';
 import {
-  ContactRestaurantFormData,
-  contactRestaurantSchema,
-} from '@/schemas/contactRestaurant';
+  ContactOtherFormData,
+  contactOtherSchema,
+} from '@/schemas/contactOther';
 
-const FormContactRestaurant = () => {
+const FormContactOther = () => {
   const router = useRouter();
   const t = useTranslations('forms');
   const [isPending, startTransition] = useTransition();
-  const form = useForm<ContactRestaurantFormData>({
+  const form = useForm<ContactOtherFormData>({
     defaultValues: {
       email: '',
       fullName: '',
       message: '',
-      restaurantName: '',
     },
-    resolver: zodResolver(contactRestaurantSchema),
+    resolver: zodResolver(contactOtherSchema),
   });
 
-  const onSendEmail = (formData: ContactRestaurantFormData) => {
+  const onSendEmail = (formData: ContactOtherFormData) => {
     startTransition(async () => {
-      const { error } = await actionSendEmailFromRestaurant(formData);
+      const { error } = await actionSendEmailFromOtherContact(formData);
 
       if (error) {
         router.push(ROUTES.forms.error);
@@ -50,24 +49,21 @@ const FormContactRestaurant = () => {
   };
 
   return (
-    <form
-      id="form-contact-restaurant"
-      onSubmit={form.handleSubmit(onSendEmail)}
-    >
+    <form id="form-contact-other" onSubmit={form.handleSubmit(onSendEmail)}>
       <FieldGroup>
         <Controller
           control={form.control}
           name="fullName"
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="form-contact-restaurant-fullName">
+              <FieldLabel htmlFor="form-contact-other-fullName">
                 {t('common.fields.fullName.label')}
               </FieldLabel>
               <Input
                 {...field}
                 aria-invalid={fieldState.invalid}
                 aria-required
-                id="form-contact-restaurant-fullName"
+                id="form-contact-other-fullName"
                 placeholder={t('common.fields.fullName.placeholder')}
                 required
               />
@@ -81,35 +77,16 @@ const FormContactRestaurant = () => {
           name="email"
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="form-contact-restaurant-email">
+              <FieldLabel htmlFor="form-contact-other-email">
                 {t('common.fields.email.label')}
               </FieldLabel>
               <Input
                 {...field}
                 aria-invalid={fieldState.invalid}
                 aria-required
-                id="form-contact-restaurant-email"
+                id="form-contact-other-email"
                 placeholder={t('common.fields.email.placeholder')}
                 required
-              />
-              {fieldState.invalid && <FieldError errors={[fieldState.error]} />}
-            </Field>
-          )}
-        />
-
-        <Controller
-          control={form.control}
-          name="restaurantName"
-          render={({ field, fieldState }) => (
-            <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="form-contact-restaurant-restaurantName">
-                {t('common.fields.restaurantName.label')}
-              </FieldLabel>
-              <Input
-                {...field}
-                aria-invalid={fieldState.invalid}
-                id="form-contact-restaurant-restaurantName"
-                placeholder={t('common.fields.restaurantName.placeholder')}
               />
               {fieldState.invalid && <FieldError errors={[fieldState.error]} />}
             </Field>
@@ -121,7 +98,7 @@ const FormContactRestaurant = () => {
           name="message"
           render={({ field, fieldState }) => (
             <Field data-invalid={fieldState.invalid}>
-              <FieldLabel htmlFor="form-contact-restaurant-message">
+              <FieldLabel htmlFor="form-contact-other-message">
                 {t('common.fields.message.label')}
               </FieldLabel>
               <Textarea
@@ -129,8 +106,8 @@ const FormContactRestaurant = () => {
                 aria-invalid={fieldState.invalid}
                 aria-required
                 className="h-40"
-                id="form-contact-restaurant-message"
-                placeholder={t('common.fields.message.placeholders.restaurant')}
+                id="form-contact-other-message"
+                placeholder={t('common.fields.message.placeholders.other')}
                 required
               />
               {fieldState.invalid && <FieldError errors={[fieldState.error]} />}
@@ -152,4 +129,4 @@ const FormContactRestaurant = () => {
   );
 };
 
-export { FormContactRestaurant };
+export { FormContactOther };

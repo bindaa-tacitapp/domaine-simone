@@ -73,7 +73,11 @@
         },
         "message": {
           "label": "Message",
-          "placeholder": "Bonjour, j'aimerais servir vos bouteilles dans mon restaurant."
+          "placeholders": {
+            "other": "Bonjour, j'aimerais vous contacter concernant votre domaine.",
+            "press": "Bonjour, j'aimerais écrire un article sur votre domaine.",
+            "restaurant": "Bonjour, j'aimerais servir vos bouteilles dans mon restaurant."
+          }
         },
         "newspaperName": {
           "label": "Nom du journal",
@@ -89,10 +93,26 @@
         "other": "Si vous n'êtes ni journaliste, ni restaurateur",
         "press": "Si vous êtes journaliste",
         "restaurant": "Si vous êtes restaurateur"
+      },
+      "results": {
+        "error": {
+          "text": "Nous rencontrons actuellement des difficultés techniques. Veuillez réessayer ultérieurement.",
+          "title": "Une erreur est survenue lors de l'envoi de votre message"
+        },
+        "success": {
+          "text": "Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.",
+          "title": "Message envoyé avec succès"
+        }
       }
     },
+    "other": {
+      "title": "Formulaire de contact"
+    },
+    "press": {
+      "title": "Vous êtes journaliste"
+    },
     "restaurant": {
-      "title": "Je suis restaurateur"
+      "title": "Vous êtes restaurateur"
     }
   },
   "home": {
