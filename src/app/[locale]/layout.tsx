@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Barlow, Imbue } from 'next/font/google';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import '../globals.css';
+import '@/styles/globals.css';
 import { notFound } from 'next/navigation';
 import { ReactNode } from 'react';
 import { Header } from '@/components/Header/Header';

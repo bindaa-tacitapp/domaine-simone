@@ -42,7 +42,7 @@
     "contact": {
       "other": "Other contact",
       "press": "You are a journalist",
-      "restaurant": "You are a restaurant",
+      "restaurant": "You are a restaurateur",
       "title": "Contact"
     },
     "legal": {
@@ -56,6 +56,64 @@
       "title": "Domaine Simone"
     },
     "title": "Useful information"
+  },
+  "forms": {
+    "common": {
+      "buttons": {
+        "submit": "Send"
+      },
+      "fields": {
+        "email": {
+          "label": "Email address",
+          "placeholder": "john.doe@example.com"
+        },
+        "fullName": {
+          "label": "Full name",
+          "placeholder": "John Doe"
+        },
+        "message": {
+          "label": "Message",
+          "placeholders": {
+            "other": "Hello, I would like to contact you regarding your estate.",
+            "press": "Hello, I would like to write an article about your estate.",
+            "restaurant": "Hello, I would like to serve your wines in my restaurant."
+          }
+        },
+        "newspaperName": {
+          "label": "Newspaper name",
+          "placeholder": "Tribune de Genève"
+        },
+        "restaurantName": {
+          "label": "Restaurant name",
+          "placeholder": "L’Aparté"
+        }
+      },
+      "otherForms": {
+        "cta": "use this form",
+        "other": "If you are neither a journalist nor a restaurateur",
+        "press": "If you are a journalist",
+        "restaurant": "If you are a restaurateur"
+      },
+      "results": {
+        "error": {
+          "text": "We are currently experiencing technical difficulties. Please try again later.",
+          "title": "An error occurred while sending your message"
+        },
+        "success": {
+          "text": "Your message has been sent successfully. We will reply as soon as possible.",
+          "title": "Message sent successfully"
+        }
+      }
+    },
+    "other": {
+      "title": "Contact form"
+    },
+    "press": {
+      "title": "You are a journalist"
+    },
+    "restaurant": {
+      "title": "You are a restaurateur"
+    }
   },
   "home": {
     "imageAlt": "Bottle or red wine Calvaire",

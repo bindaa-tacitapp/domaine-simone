@@ -12,6 +12,31 @@ export const routing = defineRouting({
       en: '/general-terms-and-conditions',
       it: '/condizioni-generali-di-vendita',
     },
+    '/contact-autre': {
+      de: '/kontakt-sonstiges',
+      en: '/contact-other',
+      it: '/contatto-altro',
+    },
+    '/contact-presse': {
+      de: '/kontakt-presse',
+      en: '/contact-press',
+      it: '/contatto-stampa',
+    },
+    '/contact-restaurant': {
+      de: '/kontakt-restaurant', // On pourrait aussi mettre /kontakt-gastronomie, mais rester sur "restaurant" garde la cohérence avec les autres langues
+      en: '/contact-restaurant',
+      it: '/contatto-ristorante',
+    },
+    '/demande-envoyee': {
+      de: '/anfrage-gesendet',
+      en: '/request-sent',
+      it: '/richiesta-inviata',
+    },
+    '/erreur-demande': {
+      de: '/anfrage-fehler',
+      en: '/request-error',
+      it: '/errore-richiesta',
+    },
     '/la-marque': {
       de: '/die-marke',
       en: '/the-brand',

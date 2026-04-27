@@ -6,7 +6,7 @@ import { Text } from '@/components/Text/Text';
 import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
-export default async function DomainePage() {
+export default async function BrandPage() {
   const t = await getTranslations('brand');
   const tCommon = await getTranslations('common');
 

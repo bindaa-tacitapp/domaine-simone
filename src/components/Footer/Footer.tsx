@@ -34,9 +34,24 @@ const Footer = async () => {
             </header>
 
             <ul className={cn('')}>
-              <li>{t('contact.restaurant')}</li>
-              <li>{t('contact.press')}</li>
-              <li>{t('contact.other')}</li>
+              <li>
+                <Link
+                  className="hover:underline"
+                  href={ROUTES.forms.restaurant}
+                >
+                  {t('contact.restaurant')}
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:underline" href={ROUTES.forms.press}>
+                  {t('contact.press')}
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:underline" href={ROUTES.forms.other}>
+                  {t('contact.other')}
+                </Link>
+              </li>
             </ul>
           </div>
 

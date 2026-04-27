@@ -42,7 +42,7 @@
     "contact": {
       "other": "Altro contatto",
       "press": "Siete un giornalista",
-      "restaurant": "Siete un ristorante",
+      "restaurant": "Siete un ristoratore",
       "title": "Contatti"
     },
     "legal": {
@@ -56,6 +56,64 @@
       "title": "Domaine Simone"
     },
     "title": "Informazioni utili"
+  },
+  "forms": {
+    "common": {
+      "buttons": {
+        "submit": "Invia"
+      },
+      "fields": {
+        "email": {
+          "label": "Indirizzo email",
+          "placeholder": "mario.rossi@example.com"
+        },
+        "fullName": {
+          "label": "Nome e cognome",
+          "placeholder": "Mario Rossi"
+        },
+        "message": {
+          "label": "Messaggio",
+          "placeholders": {
+            "other": "Buongiorno, vorrei contattarvi in merito alla vostra tenuta.",
+            "press": "Buongiorno, vorrei scrivere un articolo sulla vostra tenuta.",
+            "restaurant": "Buongiorno, vorrei servire i vostri vini nel mio ristorante."
+          }
+        },
+        "newspaperName": {
+          "label": "Nome della testata",
+          "placeholder": "Tribune de Genève"
+        },
+        "restaurantName": {
+          "label": "Nome del ristorante",
+          "placeholder": "L’Aparté"
+        }
+      },
+      "otherForms": {
+        "cta": "utilizzate questo modulo",
+        "other": "Se non siete un giornalista né un ristoratore",
+        "press": "Se siete un giornalista",
+        "restaurant": "Se siete un ristoratore"
+      },
+      "results": {
+        "error": {
+          "text": "Al momento riscontriamo difficoltà tecniche. Vi preghiamo di riprovare più tardi.",
+          "title": "Si è verificato un errore durante l'invio del vostro messaggio"
+        },
+        "success": {
+          "text": "Il vostro messaggio è stato inviato con successo. Vi risponderemo il prima possibile.",
+          "title": "Messaggio inviato con successo"
+        }
+      }
+    },
+    "other": {
+      "title": "Modulo di contatto"
+    },
+    "press": {
+      "title": "Siete un giornalista"
+    },
+    "restaurant": {
+      "title": "Siete un ristoratore"
+    }
   },
   "home": {
     "imageAlt": "Bottiglia di vino rosso Calvaire",

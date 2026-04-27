@@ -41,8 +41,8 @@
   "footer": {
     "contact": {
       "other": "Autre contact",
-      "press": "Vous êtes un journaliste",
-      "restaurant": "Vous êtes un restaurant",
+      "press": "Vous êtes journaliste",
+      "restaurant": "Vous êtes restaurateur",
       "title": "Contact"
     },
     "legal": {
@@ -56,6 +56,64 @@
       "title": "Domaine Simone"
     },
     "title": "Informations utiles"
+  },
+  "forms": {
+    "common": {
+      "buttons": {
+        "submit": "Envoyer"
+      },
+      "fields": {
+        "email": {
+          "label": "Adresse e-mail",
+          "placeholder": "jean.dupont@example.com"
+        },
+        "fullName": {
+          "label": "Nom complet",
+          "placeholder": "Jean Dupont"
+        },
+        "message": {
+          "label": "Message",
+          "placeholders": {
+            "other": "Bonjour, j'aimerais vous contacter concernant votre domaine.",
+            "press": "Bonjour, j'aimerais écrire un article sur votre domaine.",
+            "restaurant": "Bonjour, j'aimerais servir vos bouteilles dans mon restaurant."
+          }
+        },
+        "newspaperName": {
+          "label": "Nom du journal",
+          "placeholder": "Tribune de Genève"
+        },
+        "restaurantName": {
+          "label": "Nom du restaurant",
+          "placeholder": "L’Aparté"
+        }
+      },
+      "otherForms": {
+        "cta": "utilisez ce formulaire",
+        "other": "Si vous n'êtes ni journaliste, ni restaurateur",
+        "press": "Si vous êtes journaliste",
+        "restaurant": "Si vous êtes restaurateur"
+      },
+      "results": {
+        "error": {
+          "text": "Nous rencontrons actuellement des difficultés techniques. Veuillez réessayer ultérieurement.",
+          "title": "Une erreur est survenue lors de l'envoi de votre message"
+        },
+        "success": {
+          "text": "Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.",
+          "title": "Message envoyé avec succès"
+        }
+      }
+    },
+    "other": {
+      "title": "Formulaire de contact"
+    },
+    "press": {
+      "title": "Vous êtes journaliste"
+    },
+    "restaurant": {
+      "title": "Vous êtes restaurateur"
+    }
   },
   "home": {
     "imageAlt": "Bouteille de vin rouge Calvaire",
