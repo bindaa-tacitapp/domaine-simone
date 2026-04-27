@@ -1,6 +1,5 @@
 {
   "brand": {
-    "alt": "Photo d'une grappe de raisins sur la parcelle",
     "content": {
       "p1": "« Le Calvaire » c'est ainsi que les vignerons de Russin désignent depuis toujours ce coteau d'exception, l'un des plus pentus du Canton de Genève. Une pente si sévère que chaque geste y devient une épreuve, que chaque opération doit être accomplie à la main, dans l'effort et la précision. Un terrain qui n'accepte que ceux qui le méritent.",
       "p2": "Lorsque son ancien propriétaire décide de se séparer de cette parcelle, nous saisissons l'opportunité qu'il nous offre de lui redonner vie. C'est notre première parcelle.Nous la replantons avec des cépages soigneusement sélectionnés, choisis pour leur résilience face aux défis climatiques de demain autant que pour leur capacité à exprimer pleinement ce terroir d'exception.",
@@ -8,10 +7,9 @@
       "p4": "Depuis, le Domaine a grandi, de nouvelles parcelles sont venues enrichir notre histoire. Mais c'est ce nom, <strong>Calvaire</strong>, que nous avons choisi de donner à l'ensemble de notre gamme, en hommage à cette vigne fondatrice, et à l'homme qui, en nous faisant confiance, nous a permis de nous élever un peu plus vers les étoiles. Sic itur ad astra"
     },
     "images": {
-      "p2": "Image d'un pied planté depuis peu"
+      "p2": "Image d'un pied planté depuis peu",
+      "p3": "Magnifique grappe de vignes sous le soleil"
     },
-    "intro": "« Le Calvaire » est le nom que les vignerons de Russin donnaient à cette petite parcelle aux pentes extrêmes, où chaque intervention relevait autrefois d’une véritable épreuve. Parmi les vignes les plus escarpées du canton de Genève, elle est la première que le Domaine ait reprise et replantée ; elle est à l’origine de son histoire et de son exigence.",
-    "outro": "Aujourd’hui, le Calvaire donne son nom à notre gamme, en hommage à cette terre fondatrice et à l’homme qui nous l’a confiée.<br></br><br></br>Notre gamme se compose d’un blanc « Sélection » et d’un rouge « Grande Réserve », cuvée parcellaire issue exclusivement des raisins de la parcelle du Calvaire. Ils sont façonnés avec le même soin sur des pentes de même intensité, puis produites en quantités confidentielles et numérotées.",
     "title": "Calvaire. Du relief naît le caractère."
   },
   "common": {

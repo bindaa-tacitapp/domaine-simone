@@ -26,7 +26,7 @@ export default async function BrandPage() {
       />
 
       <ImageAndText
-        alt={t('images.p2')}
+        alt={t('images.p3')}
         reverse
         src="/img/new.grown.grape.webp"
         text={t.rich('content.p3', handleRichTags)}
