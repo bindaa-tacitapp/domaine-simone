@@ -42,7 +42,7 @@
     "contact": {
       "other": "Anderer Kontakt",
       "press": "Sie sind Journalist",
-      "restaurant": "Sie sind ein Restaurant",
+      "restaurant": "Sie sind Gastronom",
       "title": "Kontakt"
     },
     "legal": {
@@ -56,6 +56,64 @@
       "title": "Domaine Simone"
     },
     "title": "Nützliche Informationen"
+  },
+  "forms": {
+    "common": {
+      "buttons": {
+        "submit": "Senden"
+      },
+      "fields": {
+        "email": {
+          "label": "E-Mail-Adresse",
+          "placeholder": "hans.muster@example.com"
+        },
+        "fullName": {
+          "label": "Vollständiger Name",
+          "placeholder": "Hans Muster"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholders": {
+            "other": "Guten Tag, ich möchte Sie bezüglich Ihres Weinguts kontaktieren.",
+            "press": "Guten Tag, ich möchte einen Artikel über Ihr Weingut schreiben.",
+            "restaurant": "Guten Tag, ich möchte Ihre Weine in meinem Restaurant anbieten."
+          }
+        },
+        "newspaperName": {
+          "label": "Name der Zeitung",
+          "placeholder": "Tribune de Genève"
+        },
+        "restaurantName": {
+          "label": "Name des Restaurants",
+          "placeholder": "L’Aparté"
+        }
+      },
+      "otherForms": {
+        "cta": "nutzen Sie dieses Formular",
+        "other": "Wenn Sie weder Journalist noch Gastronom sind",
+        "press": "Wenn Sie Journalist sind",
+        "restaurant": "Wenn Sie Gastronom sind"
+      },
+      "results": {
+        "error": {
+          "text": "Wir haben derzeit technische Schwierigkeiten. Bitte versuchen Sie es später erneut.",
+          "title": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten"
+        },
+        "success": {
+          "text": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden Ihnen so schnell wie möglich antworten.",
+          "title": "Nachricht erfolgreich gesendet"
+        }
+      }
+    },
+    "other": {
+      "title": "Kontaktformular"
+    },
+    "press": {
+      "title": "Sie sind Journalist"
+    },
+    "restaurant": {
+      "title": "Sie sind Gastronom"
+    }
   },
   "home": {
     "imageAlt": "Flasche Rotwein Calvaire",
