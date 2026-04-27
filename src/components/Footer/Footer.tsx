@@ -33,15 +33,26 @@ const Footer = async () => {
               {t('contact.title')}
             </header>
 
-            <p>
-              {t('contact.text')}&nbsp;
-              <a
-                className="hover:underline"
-                href="mailto:info@domaine-simone.ch"
-              >
-                info@domaine-simone.ch
-              </a>
-            </p>
+            <ul className={cn('')}>
+              <li>
+                <Link
+                  className="hover:underline"
+                  href={ROUTES.forms.restaurant}
+                >
+                  {t('contact.restaurant')}
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:underline" href={ROUTES.forms.press}>
+                  {t('contact.press')}
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:underline" href={ROUTES.forms.other}>
+                  {t('contact.other')}
+                </Link>
+              </li>
+            </ul>
           </div>
 
           <div>

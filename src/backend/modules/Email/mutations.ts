@@ -10,7 +10,7 @@ const sendEmail = async ({ subject, html }: SendEmailProps) => {
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   const { error } = await resend.emails.send({
-    from: 'domaine-simone@resend.dev',
+    from: 'contact@email.domaine-simone.ch',
     html,
     subject,
     to: process.env.CONTACT_EMAIL_ADDRESS as string,
