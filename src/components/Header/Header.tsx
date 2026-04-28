@@ -71,7 +71,7 @@ const Header = () => {
 
         <div
           className={cn(
-            'not-peer-checked:opacity-0 not-peer-checked:-translate-y-[2vh] not-peer-checked:hidden starting:peer-checked:opacity-0 starting:peer-checked:transform-[translateY(-2vh)] peer-checked:block peer-checked:opacity-100 peer-checked:translate-y-0 transition-all transition-discrete duration-300 ease-in-out',
+            'not-peer-checked:opacity-0 not-peer-checked:translate-y-[-2vh] not-peer-checked:hidden starting:peer-checked:opacity-0 starting:peer-checked:transform-[translateY(-2vh)] peer-checked:block peer-checked:opacity-100 peer-checked:translate-y-0 transition-all transition-discrete duration-300 ease-in-out',
             'fixed z-30 top-0 left-0 right-0 bottom-0 bg-white',
             'lg:static lg:block lg:opacity-100 lg:not-peer-checked:opacity-100 lg:not-peer-checked:block lg:not-peer-checked:translate-y-0',
           )}
@@ -79,10 +79,10 @@ const Header = () => {
           <ul
             className={cn(
               'h-full flex flex-col gap-10 items-center justify-center',
-              'lg:flex-row lg:gap-[unset] lg:items-center lg:justify-between lg:max-w-5xl lg:m-auto',
+              'lg:flex-row lg:gap-[unset] lg:items-center lg:justify-evenly lg:max-w-5xl lg:m-auto',
             )}
           >
-            <li>
+            <li className={cn('lg:w-24 lg:shrink-0')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.domain}
@@ -91,7 +91,7 @@ const Header = () => {
                 {t('nav.domain')}
               </Link>
             </li>
-            <li>
+            <li className={cn('lg:w-24 lg:shrink-0')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.brand}
@@ -118,7 +118,7 @@ const Header = () => {
                 />
               </Link>
             </li>
-            <li>
+            <li className={cn('lg:w-24 lg:shrink-0')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.wines}
@@ -127,7 +127,7 @@ const Header = () => {
                 {t('nav.wines')}
               </Link>
             </li>
-            <li>
+            <li className={cn('lg:w-24 lg:shrink-0')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.men}

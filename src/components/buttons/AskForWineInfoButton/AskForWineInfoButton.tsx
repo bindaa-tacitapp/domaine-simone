@@ -10,7 +10,7 @@ const AskForWineInfoButton = () => {
   const t = useTranslations('common');
 
   const handleOnClick = () => {
-    router.push(ROUTES.wines);
+    router.push(ROUTES.forms.other);
   };
 
   return (
