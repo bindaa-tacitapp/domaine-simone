@@ -1,12 +1,16 @@
+'use client';
+
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { ROUTES } from '@/constants/routes';
+import { useIsInViewport } from '@/hooks/useElementIsInsideViewport';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
 
-const Footer = async () => {
-  const t = await getTranslations('footer');
+const Footer = () => {
+  const t = useTranslations('footer');
+  const { isInViewport, trackIfInViewport, clear } = useIsInViewport();
 
   return (
     <footer
@@ -16,6 +20,15 @@ const Footer = async () => {
         'sm:py-15',
         'md:py-20',
       )}
+      ref={(el) => {
+        if (!el) {
+          return;
+        }
+
+        trackIfInViewport(el, { offset: 40 });
+
+        return () => clear();
+      }}
     >
       <h3 className="sr-only">{t('title')}</h3>
 
@@ -102,7 +115,15 @@ const Footer = async () => {
         </div>
       </ContentWrapper>
 
-      {/* <div className="fixed bottom-0 left-0 right-0 h-2.5 bg-black" /> */}
+      {/* this entire code is only for iPhone, to make sure the bottom of safari turns black when you reach the bottom of the page... */}
+      {isInViewport ? (
+        <div
+          className={cn(
+            'fixed bottom-0 left-0 right-0 h-2.5 bg-black',
+            'sm:hidden',
+          )}
+        />
+      ) : null}
     </footer>
   );
 };
