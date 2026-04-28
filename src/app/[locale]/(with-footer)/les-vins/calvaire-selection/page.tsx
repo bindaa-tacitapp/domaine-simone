@@ -75,8 +75,10 @@ export default async function WhiteWinePage() {
       <WineShowcase
         alcohol={13}
         name="Sélection"
+        quantity={5492}
         src="/img/bottle.white.wine.webp"
         type="white"
+        volume={750}
         year={2025}
       />
 

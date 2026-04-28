@@ -11,7 +11,7 @@ const WineCTABox = ({ type }: WineCTABoxProps) => {
     <div
       className={cn(
         'mx-5 mb-10 flex flex-col gap-5',
-        'sm:flex-row sm:justify-center',
+        'sm:flex-row sm:justify-center sm:mb-15',
         'md:mb-15',
         'lg:mb-30',
       )}

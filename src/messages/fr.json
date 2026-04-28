@@ -295,7 +295,9 @@
         "variety": "Cépage",
         "viticulture": "Viticulture"
       },
-      "vintage": "Millésime"
+      "quantity": "Nb de bouteilles",
+      "vintage": "Collection",
+      "volume": "Contenance"
     },
     "reserve": {
       "intro": "C’est le vin fondateur, celui qui porte l’ambition du domaine et qui en fixe le niveau d’exigence. Il porte une vision sans compromis : atteindre ce que le terroir, l’Homme et le temps peuvent offrir de plus élevé, dans le sillage de la devise du blason familial, Sic itur ad astra. Pierre angulaire du projet, Calvaire « Grande réserve » exprime notre volonté de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale.",

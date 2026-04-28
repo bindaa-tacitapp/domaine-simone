@@ -25,6 +25,7 @@ export default async function WinesPage() {
           title="Calvaire – Sélection"
           url={ROUTES.wine.selection}
         />
+
         <WineCard
           price={250}
           src="/img/bottle.red.wine.full.webp"

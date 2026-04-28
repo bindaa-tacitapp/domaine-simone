@@ -1,14 +1,17 @@
 import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Property } from '@/components/Property/Property';
+import { formatVolume } from '@/components/WineShowcase/libs';
 import { cn } from '@/libs/cn';
 
 type WineDetailProps = {
+  alcohol: number;
   name: string;
   src: string;
-  year: number;
-  alcohol: number;
   type: 'red' | 'white';
+  quantity: number;
+  volume: number;
+  year: number;
 };
 
 const WineShowcase = async ({
@@ -17,11 +20,14 @@ const WineShowcase = async ({
   year,
   alcohol,
   type,
+  volume,
+  quantity,
 }: WineDetailProps) => {
   const t = await getTranslations('wine');
+  const locale = await getLocale();
 
   return (
-    <div className={cn('mb-10', 'md:mb-15')}>
+    <div className={cn('mb-10', 'sm:mb-15')}>
       <header className={cn('text-center mb-8', 'lg:mb-10')}>
         <h1
           className={cn('font-imbue uppercase', 'text-6xl', 'lg:text-8xl', {
@@ -37,7 +43,7 @@ const WineShowcase = async ({
         <div
           className={cn(
             'relative animate-slide-up',
-            'mb-10 h-[calc(100vh-15vh)]',
+            'mb-10 h-[85vh]',
             'md:mb-15',
             'lg:mb-15',
           )}
@@ -54,19 +60,22 @@ const WineShowcase = async ({
           />
         </div>
 
-        <ul
+        <div
           className={cn(
-            'grid grid-cols-2 gap-10 px-5',
+            'grid grid-cols-2 grid-rows-2 gap-5 px-5',
+            'sm:grid-cols-4 sm:grid-rows-1',
             'lg:flex lg:items-end lg:justify-end lg:gap-15 lg:sticky lg:bottom-10 lg:left-0 lg:right-0 lg:px-10',
           )}
         >
-          <li>
-            <Property label={t('common.alcohol')} value={`${alcohol}%`} />
-          </li>
-          <li>
-            <Property label={t('common.vintage')} value={year} />
-          </li>
-        </ul>
+          <Property label={t('common.vintage')} value={year} />
+          <Property label={t('common.quantity')} value={`${quantity}`} />
+          <div className="hidden lg:block lg:grow" />
+          <Property
+            label={t('common.volume')}
+            value={formatVolume(volume, locale)}
+          />
+          <Property label={t('common.alcohol')} value={`${alcohol}%`} />
+        </div>
       </section>
     </div>
   );
