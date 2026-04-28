@@ -277,6 +277,7 @@
   "wine": {
     "common": {
       "alcohol": "Alcol",
+      "bottles": "bt",
       "properties": {
         "alcoholicFermentation": "Fermentazione alcolica",
         "bottling": "Imbottigliamento",
@@ -295,7 +296,7 @@
         "variety": "Vitigno",
         "viticulture": "Viticoltura"
       },
-      "quantity": "N. di bottiglie",
+      "quantity": "Cuvée numerata",
       "vintage": "Collezione",
       "volume": "Volume"
     },

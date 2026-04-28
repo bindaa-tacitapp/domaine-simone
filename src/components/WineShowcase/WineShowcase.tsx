@@ -68,7 +68,10 @@ const WineShowcase = async ({
           )}
         >
           <Property label={t('common.vintage')} value={year} />
-          <Property label={t('common.quantity')} value={`${quantity}`} />
+          <Property
+            label={t('common.quantity')}
+            value={`${quantity} ${t('common.bottles')}`}
+          />
           <div className="hidden lg:block lg:grow" />
           <Property
             label={t('common.volume')}

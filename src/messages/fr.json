@@ -277,6 +277,7 @@
   "wine": {
     "common": {
       "alcohol": "Alcool",
+      "bottles": "btls",
       "properties": {
         "alcoholicFermentation": "Fermentation alcoolique",
         "bottling": "Mise en bouteille",
@@ -295,7 +296,7 @@
         "variety": "Cépage",
         "viticulture": "Viticulture"
       },
-      "quantity": "Nb de bouteilles",
+      "quantity": "Cuvée numérotée",
       "vintage": "Collection",
       "volume": "Contenance"
     },

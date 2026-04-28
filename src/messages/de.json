@@ -277,6 +277,7 @@
   "wine": {
     "common": {
       "alcohol": "Alkohol",
+      "bottles": "Fl.",
       "properties": {
         "alcoholicFermentation": "Alkoholische Gärung",
         "bottling": "Abfüllung",
@@ -295,7 +296,7 @@
         "variety": "Rebsorte",
         "viticulture": "Weinbau"
       },
-      "quantity": "Anz. Flaschen",
+      "quantity": "Nummerierte Cuvée",
       "vintage": "Kollektion",
       "volume": "Inhalt"
     },
