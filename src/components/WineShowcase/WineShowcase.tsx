@@ -62,7 +62,7 @@ const WineShowcase = async ({
 
         <div
           className={cn(
-            'grid grid-cols-2 grid-rows-2 gap-5 px-5',
+            'grid grid-cols-2 gap-5 px-5',
             'sm:grid-cols-4 sm:grid-rows-1',
             'lg:flex lg:items-end lg:justify-end lg:gap-15 lg:sticky lg:bottom-10 lg:left-0 lg:right-0 lg:px-10',
           )}
@@ -74,10 +74,15 @@ const WineShowcase = async ({
           />
           <div className="hidden lg:block lg:grow" />
           <Property
+            className={cn('hidden', 'sm:flex')}
             label={t('common.volume')}
             value={formatVolume(volume, locale)}
           />
-          <Property label={t('common.alcohol')} value={`${alcohol}%`} />
+          <Property
+            className={cn('hidden', 'sm:flex')}
+            label={t('common.alcohol')}
+            value={`${alcohol}%`}
+          />
         </div>
       </section>
     </div>
