@@ -295,7 +295,9 @@
         "variety": "Grape Variety",
         "viticulture": "Viticulture"
       },
-      "vintage": "Vintage"
+      "quantity": "No. of bottles",
+      "vintage": "Collection",
+      "volume": "Volume"
     },
     "reserve": {
       "intro": "This is the founding wine, the one that carries the estate's ambition and sets its standard of excellence. It bears an uncompromising vision: to reach what the terroir, Man and time can offer at their highest, in the spirit of the family crest's motto, Sic itur ad astra. The cornerstone of the project, Calvaire \"Grande Réserve\" expresses our will to create a wine that is at once a work of art, a strong identity and an international reference.",

@@ -295,7 +295,9 @@
         "variety": "Vitigno",
         "viticulture": "Viticoltura"
       },
-      "vintage": "Annata"
+      "quantity": "N. di bottiglie",
+      "vintage": "Collezione",
+      "volume": "Volume"
     },
     "reserve": {
       "intro": "È il vino fondatore, quello che porta l'ambizione del domaine e ne fissa il livello di esigenza. Porta una visione senza compromessi: raggiungere ciò che il terroir, l'Uomo e il tempo possono offrire di più elevato, nel solco del motto dello stemma di famiglia, Sic itur ad astra. Pietra angolare del progetto, Calvaire \"Grande Réserve\" esprime la nostra volontà di creare un vino che sia allo stesso tempo un'opera, un'identità forte e un riferimento internazionale.",

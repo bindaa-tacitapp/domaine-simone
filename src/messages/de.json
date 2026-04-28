@@ -295,7 +295,9 @@
         "variety": "Rebsorte",
         "viticulture": "Weinbau"
       },
-      "vintage": "Jahrgang"
+      "quantity": "Anz. Flaschen",
+      "vintage": "Kollektion",
+      "volume": "Inhalt"
     },
     "reserve": {
       "intro": "Dies ist der Gründungswein, der die Ambitionen des Weinguts trägt und den Massstab setzt. Er steht für eine kompromisslose Vision: das Höchste zu erreichen, was Terroir, Mensch und Zeit zu bieten haben, ganz im Sinne des Familienmottos «Sic itur ad astra». Als Grundstein des Projekts drückt der Calvaire «Grande Réserve» unseren Willen aus, einen Wein zu erschaffen, der gleichzeitig ein Meisterwerk, eine starke Marke und eine internationale Referenz ist.",
