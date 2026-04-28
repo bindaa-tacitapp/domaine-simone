@@ -82,7 +82,7 @@ const Header = () => {
               'lg:flex-row lg:gap-[unset] lg:items-center lg:justify-evenly lg:max-w-5xl lg:m-auto',
             )}
           >
-            <li className={cn('lg:w-24 lg:shrink-0')}>
+            <li className={cn('lg:w-24 lg:shrink-0', '2xl:w-35')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.domain}
@@ -91,7 +91,7 @@ const Header = () => {
                 {t('nav.domain')}
               </Link>
             </li>
-            <li className={cn('lg:w-24 lg:shrink-0')}>
+            <li className={cn('lg:w-24 lg:shrink-0', '2xl:w-35')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.brand}
@@ -118,7 +118,7 @@ const Header = () => {
                 />
               </Link>
             </li>
-            <li className={cn('lg:w-24 lg:shrink-0')}>
+            <li className={cn('lg:w-24 lg:shrink-0', '2xl:w-35')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.wines}
@@ -127,7 +127,7 @@ const Header = () => {
                 {t('nav.wines')}
               </Link>
             </li>
-            <li className={cn('lg:w-24 lg:shrink-0')}>
+            <li className={cn('lg:w-24 lg:shrink-0', '2xl:w-35')}>
               <Link
                 className={cn('hover:text-primary-yellow transition-colors')}
                 href={ROUTES.men}
