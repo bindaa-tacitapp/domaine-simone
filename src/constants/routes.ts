@@ -1,4 +1,4 @@
-import type { AppPathname } from '@/i18n/navigation';
+import type { AppPathname } from "@/i18n/navigation";
 
 type RoutesConfig = {
   [key: string]: AppPathname | { [key: string]: AppPathname };
