@@ -74,7 +74,7 @@ function Field({
   ...props
 }: React.ComponentProps<'div'> & VariantProps<typeof fieldVariants>) {
   return (
-    // biome-ignore lint/a11y/useSemanticElements: <explanation>
+    // biome-ignore lint/a11y/useSemanticElements: shadcn code I'm not fixing
     <div
       className={cn(fieldVariants({ orientation }), className)}
       data-orientation={orientation}
@@ -202,7 +202,7 @@ function FieldError({
       <ul className="ml-4 flex list-disc flex-col gap-1">
         {uniqueErrors.map(
           (error, index) =>
-            // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+            // biome-ignore lint/suspicious/noArrayIndexKey: shadcn code I'm not fixing
             error?.message && <li key={index}>{error.message}</li>,
         )}
       </ul>
