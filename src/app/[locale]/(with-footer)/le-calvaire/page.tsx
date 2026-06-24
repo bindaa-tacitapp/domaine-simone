@@ -13,7 +13,11 @@ export default async function BrandPage() {
     <div>
       <h1 className="sr-only">{tCommon('nav.brand')}</h1>
 
-      <HeroImage src="/img/calvaire.webp" title={t('title')} />
+      <HeroImage
+        alt={t('alt')}
+        src="/img/calvaire.webp"
+        title={t.rich('title', handleRichTags)}
+      />
 
       <Text align="center" textSize="lg">
         {t('content.p1')}
@@ -28,11 +32,19 @@ export default async function BrandPage() {
       <ImageAndText
         alt={t('images.p3')}
         reverse
-        src="/img/new.grown.grape.webp"
+        src="/img/soil.webp"
         text={t.rich('content.p3', handleRichTags)}
       />
 
-      <Text align="center">{t.rich('content.p4', handleRichTags)}</Text>
+      <ImageAndText
+        alt={t('images.p4')}
+        src="/img/grape-result.webp"
+        text={t.rich('content.p4', handleRichTags)}
+      />
+
+      <Text align="center" textSize="lg">
+        {t.rich('content.p5', handleRichTags)}
+      </Text>
 
       <Text align="center" className="text-center">
         <SeeWinesButton />

@@ -5,7 +5,7 @@ type RoutesConfig = {
 };
 
 const ROUTES = {
-  brand: '/la-marque',
+  brand: '/le-calvaire',
   domain: '/le-domaine',
   forms: {
     error: '/erreur-demande',
@@ -15,7 +15,7 @@ const ROUTES = {
     success: '/demande-envoyee',
   },
   legalNotice: '/mentions-legales',
-  men: '/les-hommes',
+  men: '/les-fondateurs',
   privacyPolicy: '/politique-de-confidentialite',
   termsAndConditions: '/conditions-generales-de-vente',
   wine: {

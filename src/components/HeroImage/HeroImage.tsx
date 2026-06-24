@@ -1,12 +1,14 @@
 import Image from 'next/image';
+import { ReactNode } from 'react';
 import { cn } from '@/libs/cn';
 
 type HeroImageProps = {
+  alt: string;
   src: string;
-  title: string;
+  title: ReactNode;
 };
 
-const HeroImage = ({ src, title }: HeroImageProps) => {
+const HeroImage = ({ alt, src, title }: HeroImageProps) => {
   return (
     <div
       className={cn(
@@ -16,7 +18,7 @@ const HeroImage = ({ src, title }: HeroImageProps) => {
       )}
     >
       <Image
-        alt={title}
+        alt={alt}
         blurDataURL="/img/placeholder-blur-picture.webp"
         className="brightness-75 object-cover"
         fetchPriority="high"

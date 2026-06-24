@@ -1,16 +1,19 @@
 {
   "brand": {
+    "alt": "Foto von Damien Simone bei der Arbeit auf der Parzelle des Weinguts",
     "content": {
-      "p1": "«Le Calvaire» – so nennen die Winzer von Russin seit jeher diesen aussergewöhnlichen Hang, einen der steilsten im Kanton Genf. Ein so extremes Gefälle, dass jeder Handgriff zur Prüfung wird, dass jeder Arbeitsschritt von Hand, mit Mühe und Präzision ausgeführt werden muss. Ein Terrain, das nur jene akzeptiert, die es auch verdienen.",
-      "p2": "Als der frühere Besitzer beschloss, sich von dieser Parzelle zu trennen, ergriffen wir die Chance, die er uns bot, um sie wieder zum Leben zu erwecken. Es ist unsere erste Parzelle. Wir haben sie mit sorgfältig ausgewählten Rebsorten neu bepflanzt – ausgewählt wegen ihrer Widerstandsfähigkeit gegenüber den klimatischen Herausforderungen von morgen ebenso wie für ihre Fähigkeit, dieses aussergewöhnliche Terroir voll zum Ausdruck zu bringen.",
-      "p3": "Alles Weitere liegt in der Hand der Rebe. Saison für Saison sprechen die Sorgfalt bei der Pflege, der hohe Anspruch an die geleistete Arbeit und die Qualität der ersten Weinlese schliesslich für sich selbst. Die Winzer von Russin, die unsere Ankunft mit Neugierde beobachtet hatten, zollen uns nach und nach ihren Respekt.<br></br><br></br>Eine Anerkennung, die mehr zählt als jede Auszeichnung.",
-      "p4": "Seither ist das Weingut gewachsen, neue Parzellen bereichern unsere Geschichte. Aber es ist dieser Name, <strong>Calvaire</strong>, den wir unserer gesamten Linie gegeben haben – als Hommage an diesen Gründungsrebberg und an den Mann, der uns durch sein Vertrauen ermöglichte, uns den Sternen ein Stück weiter zu nähern. Sic itur ad astra"
+      "p1": "Das Calvaire ist einer der steilsten Hänge im Kanton Genf, reine Westlage, unmöglich zu mechanisieren. 40 % Gefälle, brennend heiss im Sommer, rutschig im Winter – jeder Handgriff wird hier von Hand erledigt, mit Anstrengung, ohne Abkürzungen. Dieser Charakter hat ihm seinen Namen eingebracht. Und genau dieser Charakter hat lange Zeit dazu geführt, dass viele die benachbarten Parzellen vorzogen.",
+      "p2": "Damien Simone war schon da, bevor er Eigentümer wurde. Auf dieser kahlen, gerodeten, rohen Parzelle begann er, sie von Hand zu pflügen, ganz allein, noch bevor die Unterschrift geleistet war. Dann pflanzte er 900 sorgfältig ausgewählte Rebstöcke neu: Cabernet Franc, Cabernet Sauvignon, Merlot – Rebsorten, die aufgrund ihrer Widerstandsfähigkeit gegenüber den klimatischen Herausforderungen von morgen ausgewählt wurden.",
+      "p3": "Keine Chemie mehr, keine Unkrautvernichter. Zugabe von organischen Bodenverbesserern, um einen viel zu lange verdichteten Boden wieder zu erwecken. Und Geduld, die Dinge geschehen zu lassen, nichts zu erzwingen, zu verstehen, dass sich die Erde nicht in einer einzigen Saison korrigieren lässt. Die Rebe hat reagiert. Der Boden wurde begrünt. Die Eidechsen, die Bestäuber, die Gründüngung sind zurückgekehrt.",
+      "p4": "Was das Calvaire nimmt, gibt es uns zurück. Die ersten Weinlesen sprachen für sich. Eine Qualität, die man nicht erfinden kann, die man bereits in der Traube erkennt, bevor man sie im Glas schmeckt. Und die Winzer von Russin, die unsere Ankunft mit der für Fremde reservierten Neugierde beobachtet hatten, blickten nun mit anderen Augen auf diesen Hang, den sie schon immer kannten.",
+      "p5": "Deshalb haben wir uns entschieden, unserer gesamten Linie diesen Namen zu geben. Nicht aus Nostalgie. Sondern weil alles, was wir tun, dort beginnt, an diesem Hang, in dieser Anstrengung, und das wird sich nicht ändern."
     },
     "images": {
       "p2": "Bild eines kürzlich gepflanzten Rebstocks",
-      "p3": "Wunderschöne Traube im Sonnenschein"
+      "p3": "Bild einer Blume auf der Parzelle",
+      "p4": "Wunderschöne Traube, gehalten von Damien Simone"
     },
-    "title": "Calvaire. Aus dem Relief entsteht Charakter."
+    "title": "Le Calvaire.<br></br>Das Erbe einer vergessenen Parzelle."
   },
   "common": {
     "button": {
@@ -23,27 +26,32 @@
       "toggle": "Navigation öffnen / schliessen"
     },
     "nav": {
-      "brand": "Die Marke",
+      "brand": "Calvaire",
       "domain": "Das Weingut",
       "home": "Wappen",
-      "men": "Die Macher",
+      "men": "Die Gründer",
       "wines": "Die Weine"
     }
   },
   "domain": {
+    "alt": "Luftaufnahme des Weinguts",
     "text": {
-      "intro": "Genf hat Bankiers, Diplomaten und geniale Uhrmacher hervorgebracht. Es war an der Zeit, dass es auch einen grossen Wein hervorbringt. Das ist das Projekt der Domaine Simone: ein Wein, geschaffen für höchste Ansprüche, verwurzelt in einem aussergewöhnlichen Terroir und mit nur einer Ambition angebaut: den grossen weltweiten Referenzen in nichts nachzustehen.",
-      "outro": "Ein Terroir wie geschaffen für höchste Ansprüche, ganz nach dem Vorbild der Weine des Weinguts.",
+      "intro": "Unsere Parzellen sind als AOC Premier Cru Côtes de Russin klassifiziert.<br></br><br></br>Dieses Terroir, eines der anspruchsvollsten in Genf, zeichnet sich durch drei besondere Merkmale aus: steinige Ton-Schluff-Böden, markante Hänge, die vom Fluss Allondon geformt wurden, und eine reine Westlage, die den Charakter jedes Jahrgangs prägt.",
+      "outro": "Die Hälfte unserer Reben sind alte Reben. Ihre Wurzeln haben die Oberfläche längst hinter sich gelassen, um das zu suchen, was die Tiefe des Bodens zu bieten hat. Was sie zutage fördern, ist eine Komplexität, die keine Kellertechnik herstellen kann. Sie war schon immer da, in der Erde, lange bevor Damien Simone beschloss, etwas daraus zu machen.",
       "slope": {
-        "alt": "Foto des Steilhangs im Rebberg",
-        "text": "Steigungen von 30 bis 40 % disziplinieren die Reben, fördern eine tiefe Verwurzelung und bewirken einen kontrollierten Trockenstress, der für Konzentration und Komplexität sorgt.<br></br><br></br>Diese reinen Westlagen fangen die späte Nachmittagssonne grosszügig ein, was eine langsame und vollständige phenolische Reife begünstigt. Die Hälfte unserer Rebstöcke sind alte Reben, deren tiefe Wurzeln geduldig aus dem Innersten des Terroirs schöpfen und eine Substanz von seltener Intensität und natürlicher Komplexität liefern, die nur die Zeit erschaffen kann."
+        "alt": "Foto des Rebberghangs",
+        "text": "Dann die Hänge. 30 bis 40 %. Steil. Die Rebe arbeitet, wurzelt tief, sucht. Dieser kontrollierte Trockenstress ist genau das, was die Substanz konzentriert und für Länge im Gaumen sorgt. Keine einfachen Erträge. Keine Verwässerung."
       },
       "soil": {
         "alt": "Foto des Bodens im Rebberg",
-        "text": "Eingebettet in die AOC Premier Cru Côtes de Russin ruhen unsere Parzellen auf tonig-schluffigen, grosszügig mit Kies durchsetzten Böden – ein Erbe der grossen Gletscherbewegungen des Quartärs und der tertiären Molasse. Ein Terroir des Gleichgewichts, in dem der feine Wasserrückhalt des Schluffs mit der natürlichen Drainage der Steine harmoniert."
+        "text": "Zuerst die Böden. Eine Mischung aus Ton, Schluff und Steinen – ein direktes Erbe der Eiszeiten und der tertiären Molasse. Der Ton speichert genau die richtige Menge an Wasser. Die Steine leiten den Rest ab. Der Rebe fehlt es nie an etwas, aber sie bekommt auch nie zu viel. Es ist genau diese Spannung, die jene Präzision und Mineralität aufbaut, die man im Glas wiederfindet."
+      },
+      "sun": {
+        "alt": "Foto einer Traube aus dem Rebberg",
+        "text": "Schliesslich die Ausrichtung. Reine Westlage. Die späte Nachmittagssonne, lang und schräg, die langsam reift, ohne jemals zu verbrennen. Eine vollkommene Reife, aufgebaut mit Geduld, was das Gleichgewicht zwischen Frische und Volumen erklärt, das unsere Weine systematisch entwickeln."
       }
     },
-    "title": "Genf ist kein Detail. Es ist das Thema."
+    "title": "Genf ist kein Detail.<br></br>Es ist das Thema."
   },
   "footer": {
     "contact": {

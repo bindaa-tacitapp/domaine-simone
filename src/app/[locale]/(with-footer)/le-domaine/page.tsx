@@ -13,16 +13,20 @@ export default async function DomainePage() {
     <div>
       <h1 className="sr-only">{tCommon('nav.domain')}</h1>
 
-      <HeroImage src="/img/domain.drone.webp" title={t('title')} />
+      <HeroImage
+        alt={t('alt')}
+        src="/img/domain.drone.webp"
+        title={t.rich('title', handleRichTags)}
+      />
 
       <Text align="center" textSize="lg">
-        {t('text.intro')}
+        {t.rich('text.intro', handleRichTags)}
       </Text>
 
       <ImageAndText
         alt={t('text.soil.alt')}
         src="/img/soil.webp"
-        text={t('text.soil.text')}
+        text={t.rich('text.soil.text', handleRichTags)}
       />
 
       <ImageAndText
@@ -31,6 +35,13 @@ export default async function DomainePage() {
         reverse
         src="/img/slope.webp"
         text={t.rich('text.slope.text', handleRichTags)}
+      />
+
+      <ImageAndText
+        alt={t('text.sun.alt')}
+        className="mb-20"
+        src="/img/new.grown.grape.webp"
+        text={t.rich('text.sun.text', handleRichTags)}
       />
 
       <Text align="center" textSize="lg">

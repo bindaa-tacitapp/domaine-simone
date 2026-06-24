@@ -37,20 +37,20 @@ export const routing = defineRouting({
       en: '/request-error',
       it: '/errore-richiesta',
     },
-    '/la-marque': {
-      de: '/die-marke',
-      en: '/the-brand',
-      it: '/il-marchio',
+    '/le-calvaire': {
+      de: '/calvaire',
+      en: '/calvaire',
+      it: '/calvaire',
     },
     '/le-domaine': {
       de: '/das-weingut',
       en: '/the-domain',
       it: '/la-tenuta',
     },
-    '/les-hommes': {
-      de: '/die-macher',
-      en: '/the-men',
-      it: '/gli-uomini',
+    '/les-fondateurs': {
+      de: '/die-gruender',
+      en: '/the-founders',
+      it: '/i-fondatori',
     },
     '/les-vins': {
       de: '/die-weine',

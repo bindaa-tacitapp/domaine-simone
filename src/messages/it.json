@@ -1,16 +1,19 @@
 {
   "brand": {
+    "alt": "Foto di Damien Simone che lavora la parcella della Tenuta",
     "content": {
-      "p1": "“Le Calvaire” è così che i viticoltori di Russin chiamano da sempre questa collina eccezionale, una delle più ripide del Canton Ginevra. Una pendenza così severa che ogni gesto diventa una prova, che ogni operazione deve essere compiuta a mano, con fatica e precisione. Un terreno che accetta solo chi lo merita.",
-      "p2": "Quando il suo ex proprietario ha deciso di separarsi da questo appezzamento, abbiamo colto l'opportunità che ci ha offerto di riportarlo in vita. È la nostra prima parcella. L'abbiamo ripiantata con vitigni accuratamente selezionati, scelti per la loro resilienza alle sfide climatiche di domani tanto quanto per la loro capacità di esprimere appieno questo eccezionale terroir.",
-      "p3": "Il resto appartiene alla vigna. Stagione dopo stagione, la cura dedicata alla sua coltivazione, l'esigenza del lavoro compiuto e la qualità delle prime vendemmie finiscono per parlare da sole. I viticoltori di Russin, che ci avevano visto arrivare con curiosità, ci accordano a poco a poco il loro rispetto.<br></br><br></br>Un riconoscimento che conta più di qualsiasi onorificenza.",
-      "p4": "Da allora la Tenuta è cresciuta, nuove parcelle sono andate ad arricchire la nostra storia. Ma è questo nome, <strong>Calvaire</strong>, che abbiamo scelto di dare a tutta la nostra gamma, in omaggio a questa vigna fondatrice e all'uomo che, dandoci fiducia, ci ha permesso di innalzarci un po' più verso le stelle. Sic itur ad astra"
+      "p1": "Il Calvaire è una delle colline più ripide del Canton Ginevra, esposta a ovest, impossibile da meccanizzare. Pendenza del 40%, rovente d'estate, scivolosa d'inverno, ogni gesto vi si compie a mano, con fatica, senza scorciatoie. È questo carattere che gli è valso il nome. Ed è questo stesso carattere che, per lungo tempo, ha fatto preferire a molti le parcelle vicine.",
+      "p2": "Damien Simone è arrivato ancor prima di esserne il proprietario. Su questa parcella nuda, estirpata, a vivo, ha iniziato ad ararla a mano, da solo, prima ancora di apporre la firma. Poi ha ripiantato 900 ceppi scelti con cura: Cabernet Franc, Cabernet Sauvignon, Merlot, vitigni selezionati per la loro resilienza di fronte alle sfide climatiche di domani.",
+      "p3": "Niente più chimica, niente più diserbanti. Apporti di ammendanti organici per risvegliare un suolo compattato per troppo tempo. E la pazienza, quella di lasciar fare, di non forzare, di capire che la terra non si corregge in una sola stagione. La vigna ha risposto. Il suolo si è inerbito. Le lucertole, gli impollinatori, i sovesci sono tornati.",
+      "p4": "Ciò che il Calvaire prende, ce lo restituisce. Le prime vendemmie hanno parlato da sole. Una qualità che non si inventa, che si legge nel grappolo prima ancora di essere gustata nel bicchiere. E i viticoltori di Russin, che ci avevano guardato arrivare con la curiosità riservata agli stranieri, hanno posato uno sguardo diverso su questa collina che conoscevano da sempre.",
+      "p5": "Ecco perché abbiamo scelto di dare questo nome a tutta la nostra gamma. Non per nostalgia. Ma perché tutto ciò che facciamo inizia lì, su quella pendenza, in quello sforzo, e questo non cambierà."
     },
     "images": {
       "p2": "Immagine di una vite piantata di recente",
-      "p3": "Magnifico grappolo d'uva sotto il sole"
+      "p3": "Immagine di un fiore sulla parcella",
+      "p4": "Magnifico grappolo d'uva tenuto da Damien Simone"
     },
-    "title": "Calvaire. Dal rilievo nasce il carattere."
+    "title": "Le Calvaire.<br></br>L'eredità di una parcella dimenticata."
   },
   "common": {
     "button": {
@@ -23,27 +26,32 @@
       "toggle": "Apri / chiudi la navigazione"
     },
     "nav": {
-      "brand": "Il Marchio",
+      "brand": "Calvaire",
       "domain": "La Tenuta",
       "home": "Stemma",
-      "men": "Gli Uomini",
+      "men": "I Fondatori",
       "wines": "I Vini"
     }
   },
   "domain": {
+    "alt": "Foto aerea della tenuta",
     "text": {
-      "intro": "Ginevra ha prodotto banchieri, diplomatici, orologiai di genio. Era tempo che producesse un grande vino. Questo è il progetto del Domaine Simone: un vino fatto per l'esigenza, radicato in un terroir d'eccezione coltivato con una sola ambizione: non avere nulla da invidiare ai grandi riferimenti mondiali.",
-      "outro": "Un terroir votato all'eccellenza, a immagine dei vini del domaine.",
+      "intro": "Le nostre parcelle sono classificate AOC Premier Cru Côtes de Russin.<br></br><br></br>Questo terroir, uno dei più esigenti di Ginevra, si articola attorno a tre tipicità distinte: terreni argillo-limosi ricchi di ciottoli, pendenze marcate modellate dal fiume Allondon e un'esposizione a ovest che definisce il carattere di ogni annata.",
+      "outro": "Metà delle nostre viti sono vecchie vigne. Le loro radici hanno da tempo superato la superficie per andare a cercare ciò che la profondità del suolo ha da offrire. Ciò che riportano in superficie è una complessità che nessuna tecnica di cantina può fabbricare. È lì, nella terra, da prima che Damien Simone decidesse di farne qualcosa.",
       "slope": {
         "alt": "Foto del pendio del vigneto",
-        "text": "Pendii dal 30 al 40% disciplinano la vite, favoriscono un radicamento profondo e inducono uno stress idrico controllato, vettore di concentrazione e complessità.<br></br><br></br>Esposte a pieno Ovest, queste parcelle si offrono generosamente al sole del tardo pomeriggio, propizio a una maturità fenolica lenta e completa. La metà delle nostre viti sono vecchie vigne, le cui radici profonde attingono con pazienza alle viscere del terroir, offrendo una materia di rara intensità e di una complessità naturale che solo il tempo sa costruire."
+        "text": "Poi, le pendenze. Dal 30 al 40%. Ripide. La vigna lavora, si radica in profondità, cerca. Questo stress controllato è esattamente ciò che concentra la materia e conferisce persistenza al palato. Niente rese facili. Niente diluizione."
       },
       "soil": {
-        "alt": "Foto della terra del vigneto",
-        "text": "Iscritte nell'AOC Premier Cru Côtes de Russin, le nostre parcelle poggiano su suoli argillo-limosi generosamente sassosi, eredità delle grandi migrazioni glaciali del Quaternario e della molassa terziaria. Un terroir d'equilibrio, dove la fine ritenzione dei limi dialoga con il drenaggio naturale dei sassi."
+        "alt": "Foto del terreno del vigneto",
+        "text": "In primo luogo, i terreni. Una miscela di argilla, limo e ciottoli — eredità diretta delle glaciazioni e della molassa terziaria. L'argilla trattiene l'acqua quanto basta. I ciottoli drenano il resto. Alla vigna non manca mai nulla, ma non riceve mai troppo. È questa tensione che costruisce la precisione e la mineralità che ritroviamo nel bicchiere."
+      },
+      "sun": {
+        "alt": "Foto di un grappolo d'uva del vigneto",
+        "text": "Infine, l'esposizione. Pieno Ovest. Il sole di fine giornata, lungo e obliquo, che matura lentamente senza mai bruciare. Una maturità completa, costruita con pazienza, il che spiega l'equilibrio tra freschezza e volume che i nostri vini sviluppano sistematicamente."
       }
     },
-    "title": "Ginevra non è un dettaglio. È il soggetto."
+    "title": "Ginevra non è un dettaglio.<br></br>È il soggetto."
   },
   "footer": {
     "contact": {

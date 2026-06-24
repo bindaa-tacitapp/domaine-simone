@@ -1,16 +1,19 @@
 {
   "brand": {
+    "alt": "Photo of Damien Simone working the Estate's plot",
     "content": {
-      "p1": "“Le Calvaire” is how the winemakers of Russin have always referred to this exceptional hillside, one of the steepest in the Canton of Geneva. A slope so severe that every gesture becomes an ordeal, where every operation must be done by hand, with effort and precision. A terrain that only accepts those who earn it.",
-      "p2": "When its former owner decided to part with this plot, we seized the opportunity he offered us to bring it back to life. It is our first plot. We replanted it with carefully selected grape varieties, chosen for their resilience to the climate challenges of tomorrow as much as for their ability to fully express this exceptional terroir.",
-      "p3": "The rest belongs to the vine. Season after season, the care given to its cultivation, the high standards of the work accomplished, and the quality of the first harvests end up speaking for themselves. The winemakers of Russin, who had watched us arrive with curiosity, gradually grant us their respect.<br></br><br></br>An acknowledgment that means more than any award.",
-      "p4": "Since then, the Estate has grown, new plots have come to enrich our history. But it is this name, <strong>Calvaire</strong>, that we have chosen to give to our entire range, as a tribute to this founding vine, and to the man who, by trusting us, allowed us to rise a little closer to the stars. Sic itur ad astra"
+      "p1": "Le Calvaire is one of the steepest hillsides in the Canton of Geneva, facing due west, impossible to mechanize. A 40% slope, scorching in summer, slippery in winter, every gesture is done by hand, with effort, without shortcuts. It is this character that earned it its name. And it is this same character that, for a long time, made many prefer its neighboring plots.",
+      "p2": "Damien Simone arrived even before being the owner. On this bare, uprooted, raw plot, he started by plowing it by hand, alone, even before the signature was placed. Then he replanted 900 carefully chosen vines: Cabernet Franc, Cabernet Sauvignon, Merlot, grape varieties selected for their resilience against the climatic challenges of tomorrow.",
+      "p3": "No more chemicals, no more weedkillers. Additions of organic amendments to awaken a soil compacted for too long. And patience, that of letting things happen, of not forcing, of understanding that the earth cannot be corrected in a single season. The vine responded. The soil became grassed. Lizards, pollinators, and cover crops returned.",
+      "p4": "What the Calvaire takes, it gives back to us. The first harvests spoke for themselves. A quality that cannot be invented, that can be read in the bunch even before being tasted in the glass. And the winemakers of Russin, who had watched us arrive with the curiosity reserved for strangers, cast a different look on this hillside they had known forever.",
+      "p5": "This is why we chose to give this name to our entire range. Not out of nostalgia. But because everything we do starts there, on this slope, in this effort, and that will not change."
     },
     "images": {
       "p2": "Image of a recently planted vine",
-      "p3": "Beautiful bunch of grapes in the sun"
+      "p3": "Image of a flower on the plot",
+      "p4": "Beautiful bunch of grapes held by Damien Simone"
     },
-    "title": "Calvaire. From the terrain comes character."
+    "title": "Le Calvaire.<br></br>The legacy of a forgotten plot."
   },
   "common": {
     "button": {
@@ -23,27 +26,32 @@
       "toggle": "Open / close navigation"
     },
     "nav": {
-      "brand": "The Brand",
+      "brand": "Calvaire",
       "domain": "The Domain",
       "home": "Coat of Arms",
-      "men": "The Men",
+      "men": "The Founders",
       "wines": "The Wines"
     }
   },
   "domain": {
+    "alt": "Aerial photo of the estate",
     "text": {
-      "intro": "Geneva has produced bankers, diplomats, watchmakers of genius. It was time it produced a great wine. That is the Domaine Simone project: a wine built for excellence, rooted in an exceptional terroir cultivated with a single ambition: to rival the greatest references in the world.",
-      "outro": "A terroir built for excellence, in the image of the estate's wines.",
+      "intro": "Our plots are classified as AOC Premier Cru Côtes de Russin.<br></br><br></br>This terroir, one of the most demanding in Geneva, is built around three distinct characteristics: stony clay-silt soils, pronounced slopes shaped by the Allondon river, and a due West exposure that defines the character of each vintage.",
+      "outro": "Half of our vines are old vines. Their roots have long since bypassed the surface to seek out what the depth of the soil has to offer. What they bring up is a complexity that no cellar technique can manufacture. It has been there, in the earth, since before Damien Simone decided to make something of it.",
       "slope": {
-        "alt": "Picture of the vineyard slope",
-        "text": "Slopes of 30 to 40% discipline the vine, encourage deep rooting and induce a controlled water stress, a vector of concentration and complexity.<br></br><br></br>Facing due West, these plots generously embrace the late afternoon sun, conducive to a slow and complete phenolic ripeness. Half of our vines are old vines, whose deep roots draw patiently from the depths of the terroir, offering a substance of rare intensity and natural complexity that only time can build."
+        "alt": "Photo of the vineyard slope",
+        "text": "Then, the slopes. 30 to 40%. Steep. The vine works, roots deeply, searches. This controlled stress is exactly what concentrates the substance and provides length on the palate. No easy yields. No dilution."
       },
       "soil": {
-        "alt": "Picture of the vineyard soil",
-        "text": "Registered in the AOC Premier Cru Côtes de Russin, our plots rest on generously stony clay-silt soils, a legacy of the great glacial migrations of the Quaternary and the Tertiary molasse. A balanced terroir, where the fine retention of silts dialogues with the natural drainage of the stones."
+        "alt": "Photo of the vineyard soil",
+        "text": "First, the soils. A mixture of clay, silt, and stones—a direct legacy of glaciations and Tertiary molasse. The clay retains just the right amount of water. The stones drain the rest. The vine never lacks anything, but it never receives too much. It is this tension that builds the precision and minerality found in the glass."
+      },
+      "sun": {
+        "alt": "Photo of a bunch of grapes from the vineyard",
+        "text": "Finally, the exposure. Due West. The late afternoon sun, long and oblique, which ripens slowly without ever burning. A complete ripeness, built with patience, which explains the balance between freshness and volume that our wines consistently develop."
       }
     },
-    "title": "Geneva is not a detail. It is the subject."
+    "title": "Geneva is not a detail.<br></br>It is the subject."
   },
   "footer": {
     "contact": {

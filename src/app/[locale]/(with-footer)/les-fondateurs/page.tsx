@@ -13,7 +13,7 @@ export default async function MenPage() {
     <div>
       <h1 className="sr-only">{tCommon('nav.men')}</h1>
 
-      <HeroImage src="/img/the-man.webp" title={t('title')} />
+      <HeroImage alt={t('alt')} src="/img/the-man.webp" title={t('title')} />
 
       <Text align="center" snug textSize="lg">
         {t('intro')}
