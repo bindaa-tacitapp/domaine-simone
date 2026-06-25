@@ -13,6 +13,10 @@ export default async function WhiteWinePage() {
 
   const properties: WineCharacteristicProps[] = [
     {
+      label: t('common.properties.conservation'),
+      value: t('selection.properties.consumption'),
+    },
+    {
       label: t('common.properties.variety'),
       value: '59% Chasselas, 41% Chardonnay',
     },
@@ -73,9 +77,9 @@ export default async function WhiteWinePage() {
   return (
     <>
       <WineShowcase
-        alcohol={13}
+        alcohol={12.3}
         name="Sélection"
-        quantity={5492}
+        quantity={5473}
         src="/img/bottle.white.wine.webp"
         type="white"
         volume={750}
@@ -85,7 +89,10 @@ export default async function WhiteWinePage() {
       <WineCTABox type="selection" />
 
       <Text align="center" className="md:mb-30">
-        {t('selection.intro')}
+        {t('selection.intro.p1')}
+        <br />
+        <br />
+        {t('selection.intro.p2')}
       </Text>
 
       <Quote className="text-primary-yellow">{t('selection.quote')}</Quote>

@@ -6,6 +6,7 @@ type RoutesConfig = {
 
 const ROUTES = {
   brand: '/le-calvaire',
+  contact: '/contact',
   domain: '/le-domaine',
   forms: {
     error: '/erreur-demande',
@@ -17,6 +18,7 @@ const ROUTES = {
   legalNotice: '/mentions-legales',
   men: '/les-fondateurs',
   privacyPolicy: '/politique-de-confidentialite',
+  professionals: '/professionnels',
   termsAndConditions: '/conditions-generales-de-vente',
   wine: {
     reserve: '/les-vins/calvaire-grande-reserve',

@@ -9,6 +9,16 @@ const handleRichTags = {
       {chunks}
     </a>
   ),
+  linkChangins: () => (
+    <a
+      className="hover:text-primary-yellow transition-colors cursor-pointer"
+      href="https://www.changins.ch"
+      rel="noopener"
+      target="_blank"
+    >
+      www.changins.ch
+    </a>
+  ),
   list: (chunks: ReactNode) => (
     <ul className="pl-5 list-disc mb-2">{chunks}</ul>
   ),

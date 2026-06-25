@@ -79,7 +79,7 @@ const Header = () => {
           <ul
             className={cn(
               'h-full flex flex-col gap-10 items-center justify-center',
-              'lg:flex-row lg:gap-[unset] lg:items-center lg:justify-evenly lg:max-w-5xl lg:m-auto',
+              'lg:flex-row lg:gap-[unset] lg:items-center lg:justify-evenly lg:max-w-5xl lg:m-auto lg:text-center',
             )}
           >
             <li className={cn('lg:w-24 lg:shrink-0', '2xl:w-35')}>

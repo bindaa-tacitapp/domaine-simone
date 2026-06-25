@@ -13,6 +13,10 @@ export default async function RedWinePage() {
 
   const properties: WineCharacteristicProps[] = [
     {
+      label: t('common.properties.conservation'),
+      value: t('reserve.properties.consumption'),
+    },
+    {
       label: t('common.properties.variety'),
       value: '33% Merlot, 33% Cabernet Sauvignon, 34% Cabernet franc',
     },
@@ -82,9 +86,17 @@ export default async function RedWinePage() {
         year={2025}
       />
 
-      <WineCTABox type="reserve" />
+      <WineCTABox soldOut type="reserve" />
 
-      <Text align="center">{t('reserve.intro')}</Text>
+      <Text align="center">
+        {t('reserve.intro.p1')}
+        <br />
+        <br />
+        {t('reserve.intro.p2')}
+        <br />
+        <br />
+        {t('reserve.intro.p3')}
+      </Text>
 
       <Quote className=" text-primary-red">{t('reserve.quote')}</Quote>
 

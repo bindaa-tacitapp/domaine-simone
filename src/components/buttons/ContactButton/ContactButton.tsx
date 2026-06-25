@@ -5,19 +5,15 @@ import { Button } from '@/components/ui/button';
 import { ROUTES } from '@/constants/routes';
 import { useRouter } from '@/i18n/navigation';
 
-const AskForWineInfoButton = () => {
+const ContactButton = () => {
   const router = useRouter();
   const t = useTranslations('common');
 
   const handleOnClick = () => {
-    router.push(ROUTES.contact);
+    router.push(ROUTES.forms.other);
   };
 
-  return (
-    <Button onClick={handleOnClick} variant="secondary">
-      {t('button.askForInfo')}
-    </Button>
-  );
+  return <Button onClick={handleOnClick}>{t('button.seeWines')}</Button>;
 };
 
-export { AskForWineInfoButton };
+export { ContactButton };

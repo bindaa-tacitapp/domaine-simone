@@ -19,6 +19,9 @@
     "button": {
       "askForInfo": "Mehr Informationen anfordern",
       "buyWine": "Kaufen",
+      "contact": {
+        "contactUs": "Kontaktieren Sie uns"
+      },
       "seeWines": "Weine ansehen"
     },
     "menu": {
@@ -173,18 +176,16 @@
     "alt": "Foto einer jungen Frau, die ein Glas Wein trinkt, mit Damien Simone im Hintergrund",
     "damien": {
       "alt": "Damien Simone – Önologe",
-      "text": "Ohne familiäres Weingut, ohne weinbauliches Erbe hat er sich alles selbst aufgebaut. Als Absolvent von Changins, der Hochschule für Weinbau und Önologie, bildete er sich in den Kellern renommierter Weingüter des Kantons weiter, bevor er beschloss, sein eigenes zu gründen.<br></br><br></br>Er pflegt die Reben, keltert die Weine und sitzt seit mehreren Jahren als Degustationsjuror in einigen der prestigeträchtigsten Wettbewerbe der Weinwelt: der Sélection des Vins de Genève, dem Concours Général Agricole in Paris, dem Grand Prix du Vin Suisse und der International Wine Challenge in London. Seine Besessenheit: höchster Anspruch bei jedem Schritt, von der Parzelle bis in die Flasche.",
+      "text": "Kein Familienweingut. Kein Erbe. Nur eine strenge Ausbildung in Changins (<linkChangins></linkChangins>) und Jahre, in denen er das Genfer Terroir kennenlernte, um es zu veredeln.<br></br><br></br>Er bewirtschaftet die Reben allein, kreiert jede Cuvée mit Präzision. Als Juror bei den anspruchsvollsten Wettbewerben der Weinwelt (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London) kennt er Exzellenz. Jene, die man in seinem eigenen Wein wiederfindet.",
       "title": "<strong>Damien Simone</strong> – Önologe"
     },
-    "intro": "Die Domaine Simone entstand aus einer einfachen Überzeugung: Weine zu erschaffen, die den allerhöchsten Ansprüchen gerecht werden.",
-    "introDamien": "<strong>Damien Simone</strong>, in Changins ausgebildeter Önologe, leitet jeden Schritt auf dem Weingut, vom Rebberg bis zum Keller, in Eigenregie. Dabei greift er auf seine über Jahre erworbene Präzision und fundierte Degustationserfahrung bei führenden Wettbewerben zurück.",
-    "introNatalio": "An seiner Seite sorgt <strong>Natalio Cano</strong> für Struktur, Strategie und Führung. Er wacht darüber, dass jeder Wein den Platz auf dem Tisch findet, den er verdient. Er ist es, der organisiert und die Verbindungen zu Gastronomen, Weinhändlern und Exportmärkten knüpft.",
+    "intro": "Zwei Männer. Eine gemeinsame Überzeugung: dass Genf einen grossen Wein hervorbringen kann. Keinen netten lokalen Tropfen. Einen Wein, der niemandem etwas nachstehen muss.",
     "natalio": {
-      "alt": "Natalio Cano – Operativer Partner",
-      "text": "Streng, methodisch und tief in den Erfolg des Weinguts investiert, sichert er dessen Struktur und Leitung mit einem ausgeprägten Sinn für Präzision.<br></br><br></br>Er ist es, der die Partnerschaften mit Gastronomen, Weinhändlern und Exportmärkten pflegt und dafür sorgt, dass jede Flasche auf den Tischen landet, die sie verdient. Sein Engagement und seine Sorgfalt haben es dem Weingut ermöglicht, sich schnell und unter den besten Bedingungen zu etablieren.\n",
-      "title": "<strong>Natalio Cano</strong> – Operativer Partner"
+      "alt": "Natalio Cano – Partner",
+      "text": "Er strukturiert, knüpft Netzwerke, öffnet Türen. Er sorgt dafür, dass jede Flasche den Tisch findet, den sie verdient: Gastronomen, Weinhändler, Exportmärkte. Rigoros, methodisch, zutiefst engagiert für den Erfolg des Weinguts.",
+      "title": "<strong>Natalio Cano</strong> – Partner"
     },
-    "outro": "Gemeinsam haben sie beschlossen, in Russin anzupflanzen: eine Appellation mit den wohl strengsten Regeln im Kanton Genf, an Hängen, die jeden Handgriff im Weinbau erschweren und keine Bequemlichkeit zulassen. Hier sind die Erträge limitiert, die Praktiken werden überwacht, und das Pflichtenheft lässt keinen Raum für Mittelmässigkeit.<br></br><br></br>Genau das haben die beiden Partner gesucht. Kein bequemes Terroir, sondern ein anspruchsvolles. Eines, das, wenn man es beherrscht, Weine von seltener Präzision und Tiefe hervorbringt. Russin ist keine Notlösung. Es ist eine Entscheidung aus Überzeugung.",
+    "outro": "Gemeinsam haben sie sich für Russin entschieden. Nicht aus Mangel an Alternativen, sondern aus Überzeugung. Eine Appellation mit den strengsten Regeln im Kanton, an Hängen, die keine Geschenke machen. Hier ist nichts einfach. Und genau das haben sie gesucht.",
     "title": "Man baut sich keinen Ruf auf, um Wein zu verkaufen. Man macht Wein. Der Rest folgt von selbst."
   },
   "otherProducts": {
@@ -285,11 +286,14 @@
   "wine": {
     "common": {
       "alcohol": "Alkohol",
+      "areYouAPro": "Sind Sie Geschäftskunde?",
       "bottles": "Fl.",
+      "outOfStock": "Cuvée ausverkauft",
       "properties": {
         "alcoholicFermentation": "Alkoholische Gärung",
         "bottling": "Abfüllung",
         "clearing": "Vorklärung",
+        "conservation": "Reifepotenzial",
         "harvest": "Weinlese",
         "harvestProcessing": "Traubenverarbeitung",
         "maceration": "Mazeration",
@@ -309,10 +313,15 @@
       "volume": "Inhalt"
     },
     "reserve": {
-      "intro": "Dies ist der Gründungswein, der die Ambitionen des Weinguts trägt und den Massstab setzt. Er steht für eine kompromisslose Vision: das Höchste zu erreichen, was Terroir, Mensch und Zeit zu bieten haben, ganz im Sinne des Familienmottos «Sic itur ad astra». Als Grundstein des Projekts drückt der Calvaire «Grande Réserve» unseren Willen aus, einen Wein zu erschaffen, der gleichzeitig ein Meisterwerk, eine starke Marke und eine internationale Referenz ist.",
+      "intro": {
+        "p1": "Drei Rebsorten, eine einzige Parzelle, 36 Monate im Barrique und 12 Monate in der Flasche. Dieser Wein ist das Resultat eines kompromisslosen Weinbereitungsprotokolls, das man im Glas deutlich spürt.",
+        "p2": "Tiefes Schwarzpurpur. In der Nase kandierte dunkle Früchte, Cassis und Brombeere, mit süssen Gewürzen, Veilchen und einem gut eingebundenen rauchigen Hauch. Am Gaumen ist der Auftakt füllig und seidig, die Tanninstruktur dicht und edel, der Abgang lang und salzig. Das 40%ige Gefälle erledigt den Rest: eine aromatische und phenolische Reife, die durch keine Technik zu ersetzen ist.",
+        "p3": "Als Grundstein des Projekts drückt die Cuvée Réserve den Willen des Weinguts aus, einen Wein zu schaffen, der zugleich ein Kunstwerk, eine starke Marke und eine internationale Referenz ist."
+      },
       "properties": {
         "alcoholicFermentation": "Im Edelstahltank",
         "bottling": "Ohne Filtration und Schönung",
+        "consumption": "15 bis 25 Jahre",
         "harvest": "Von Hand gelesen in 13-kg-Kisten am 16., 24. und 25. September",
         "harvestProcessing": "Entrappt, nicht gequetscht",
         "maceration": "Kaltmazeration vor der Gärung für 48 Stunden bei 2 °C",
@@ -329,11 +338,15 @@
       "quote": "Wir machen keine Kompromisse. Wir machen Wein."
     },
     "selection": {
-      "intro": "Der Calvaire «Sélection» ist der erste Schritt einer Geschichte, die wir für die Ewigkeit schreiben wollen. Ein Wein, der aus einer einfachen Überzeugung geboren wurde: Grösse wird erarbeitet, nicht einfach beansprucht. Mit ihm wollen wir weniger verführen, als vielmehr einen Ort, eine Spannung, eine Identität offenbaren. Es ist ein Versprechen, das wir geben und das sich jede Kollektion verdienen muss.",
+      "intro": {
+        "p1": "59 % Chasselas, 41 % Chardonnay. Sechs Monate auf der Hefe, ein Teil im Barrique. Das Ergebnis ist ein trockener, präziser Weisswein mit Spannung und Tiefe, was man von Genf nicht unbedingt erwartet. Genau das ist der Punkt.",
+        "p2": "Im Glas: eine leuchtend goldene Farbe. Die Nase ist blumig und fruchtig (weisse Blüten, Pfirsich, Zitrusfrüchte) mit einer leichten buttrigen Note durch den Ausbau. Am Gaumen ist der Auftakt frisch und lebhaft, die Mitte vollmundig und texturiert, der Abgang lang und mineralisch. Ein gastronomischer Wein, gemacht als echter Speisebegleiter."
+      },
       "properties": {
         "alcoholicFermentation": "Im Edelstahltank bei niedriger Temperatur (< 20 °C)",
         "bottling": "Ohne Filtration und Schönung",
         "clearing": "Statisch",
+        "consumption": "Jetzt geniessen oder 5 bis 8 Jahre lagern",
         "harvest": "Von Hand gelesen in 13-kg-Kisten am 8. und 11. September",
         "harvestProcessing": "Entrappt, nicht gequetscht",
         "maceration": "Kaltmazeration vor der Gärung für 48 Stunden bei 2 °C",

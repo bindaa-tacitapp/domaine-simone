@@ -19,6 +19,9 @@
     "button": {
       "askForInfo": "Richiedi maggiori informazioni",
       "buyWine": "Acquista",
+      "contact": {
+        "contactUs": "Contattateci"
+      },
       "seeWines": "Vedi i vini"
     },
     "menu": {
@@ -173,19 +176,17 @@
     "alt": "Foto di una giovane donna che beve un bicchiere di vino con Damien Simone sullo sfondo",
     "damien": {
       "alt": "Damien Simone – Enologo",
-      "text": "Senza domaine di famiglia, senza eredità viticola, si è costruito da solo. Laureato a Changins, Haute École de Viticulture et Œnologie, poi formatosi nelle cantine di domaine riconosciuti del cantone prima di decidere che era giunto il momento di crearne uno proprio.<br></br><br></br>Conduce la vigna, elabora i vini e siede da diversi anni in qualità di giurato di degustazione in alcuni dei concorsi più prestigiosi del mondo viticolo: la Sélection des Vins de Genève, il Concours Général Agricole de Paris, il Grand Prix des Vins Suisses e l'International Wine Challenge di Londra. La sua ossessione: l'esigenza a ogni tappa, dalla parcella alla bottiglia.",
+      "text": "Nessuna tenuta di famiglia. Nessuna eredità. Solo una rigorosa formazione a Changins (<linkChangins></linkChangins>) e anni trascorsi a imparare a conoscere il terroir ginevrino per sublimarlo.<br></br><br></br>Conduce la vigna da solo, elabora ogni cuvée con precisione. Giurato nei concorsi più esigenti del mondo vitivinicolo (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge a Londra), conosce l'eccellenza. Quella che si ritrova nel suo stesso vino.",
       "title": "<strong>Damien Simone</strong> – Enologo"
     },
-    "intro": "Il Domaine Simone è nato da una convinzione semplice: far nascere vini all'altezza delle più grandi esigenze.",
-    "introDamien": "<strong>Damien Simone</strong>, enologo formato a Changins, conduce da solo ogni tappa del domaine, dalla vigna alla cantina, con la precisione acquisita nel corso degli anni e una solida esperienza come giurato in concorsi di riferimento.",
-    "introNatalio": "Al suo fianco, <strong>Natalio Cano</strong> apporta rigore, strategia e direzione, assicurandosi che ogni vino trovi il posto che merita sulla tavola. È lui che struttura, che tesse i legami con i ristoratori, gli enoteche e i mercati all'export.",
+    "intro": "Due uomini. Una convinzione condivisa: che Ginevra potesse produrre un grande vino. Non un simpatico vino locale. Un vino che non ha nulla da invidiare a nessuno.",
     "natalio": {
-      "alt": "Natalio Cano – Socio Operativo",
-      "text": "Rigoroso, metodico e profondamente investito nel successo del domaine, ne assicura la struttura e la direzione con un acuto senso della precisione.<br></br><br></br>È lui che tesse le partnership con i ristoratori, le enoteche e i mercati all'export, e che si assicura che ogni bottiglia trovi le tavole che merita. La sua dedizione e il suo rigore hanno permesso al domaine di affermarsi rapidamente e nelle migliori condizioni.\n",
-      "title": "<strong>Natalio Cano</strong> – Socio Operativo"
+      "alt": "Natalio Cano – Socio",
+      "text": "Struttura, tesse legami, apre le porte. È lui che si assicura che ogni bottiglia trovi la tavola che merita: ristoratori, enoteche, mercati di esportazione. Rigoroso, metodico, profondamente investito nel successo della tenuta.",
+      "title": "<strong>Natalio Cano</strong> – Socio"
     },
-    "outro": "Insieme, hanno scelto di piantare a Russin: un'appellation con alcune delle regole più severe del canton Ginevra, su pendii che complicano ogni gesto viticolo e non concedono alcuna facilità. Qui, le rese sono regolamentate, le pratiche monitorate, e il disciplinare non lascia alcuno spazio alla mediocrità.<br></br><br></br>È precisamente ciò che i due soci sono venuti a cercare. Non un terroir comodo, ma un terroir esigente. Quello che, quando è padroneggiato, produce vini di rara precisione e profondità. Russin non è una scelta di ripiego. È una scelta di convinzione.",
-    "title": "Non si costruisce una reputazione per vendere vino. Si fa vino. Il resto viene da sé."
+    "outro": "Insieme, hanno scelto Russin. Non per ripiego, ma per convinzione. Un'appellazione con regole tra le più severe del cantone, su pendii che non fanno sconti. Qui niente è facile. È esattamente ciò che sono venuti a cercare.",
+    "title": "Non si costruisce una reputazione per vendere vino. Si fa il vino. Il resto segue."
   },
   "otherProducts": {
     "title": "Altro vino del Domaine"
@@ -285,11 +286,14 @@
   "wine": {
     "common": {
       "alcohol": "Alcol",
+      "areYouAPro": "Siete un professionista?",
       "bottles": "bt",
+      "outOfStock": "Cuvée esaurita",
       "properties": {
         "alcoholicFermentation": "Fermentazione alcolica",
         "bottling": "Imbottigliamento",
         "clearing": "Sfecciatura",
+        "conservation": "Potenziale di invecchiamento",
         "harvest": "Vendemmia",
         "harvestProcessing": "Trattamento della vendemmia",
         "maceration": "Macerazione",
@@ -309,10 +313,15 @@
       "volume": "Volume"
     },
     "reserve": {
-      "intro": "È il vino fondatore, quello che porta l'ambizione del domaine e ne fissa il livello di esigenza. Porta una visione senza compromessi: raggiungere ciò che il terroir, l'Uomo e il tempo possono offrire di più elevato, nel solco del motto dello stemma di famiglia, Sic itur ad astra. Pietra angolare del progetto, Calvaire \"Grande Réserve\" esprime la nostra volontà di creare un vino che sia allo stesso tempo un'opera, un'identità forte e un riferimento internazionale.",
+      "intro": {
+        "p1": "Tre vitigni, una sola parcella, 36 mesi in barrique e 12 mesi in bottiglia. Questo vino è il risultato di un protocollo di vinificazione senza compromessi, che si fa sentire nel bicchiere.",
+        "p2": "Porpora nero profondo. Un naso di frutti neri canditi, ribes nero e mora, con spezie dolci, violetta e un tocco affumicato ben integrato. Al palato, l'attacco è ampio e setoso, la struttura tannica densa e nobile, il finale lungo e salino. La pendenza del 40% fa il resto: una maturità aromatica e fenolica che nessuna tecnica può sostituire.",
+        "p3": "Pietra angolare del progetto, la cuvée Réserve esprime la volontà della Tenuta di creare un vino che sia al contempo un'opera, un marchio forte e un punto di riferimento internazionale."
+      },
       "properties": {
         "alcoholicFermentation": "In vasca d'acciaio inox",
         "bottling": "Senza filtrazione né collaggio",
+        "consumption": "Da 15 a 25 anni",
         "harvest": "Vendemmia manuale in cassette da 13 kg, il 16, 24 e 25 settembre",
         "harvestProcessing": "Diraspatura, senza pigiatura",
         "maceration": "Macerazione prefermentativa a freddo di 48h a 2°C",
@@ -329,11 +338,15 @@
       "quote": "Non facciamo compromessi. Facciamo vino."
     },
     "selection": {
-      "intro": "Le Calvaire \"Sélection\" è il primo passo di una storia che vogliamo iscrivere nel tempo. Un vino nato da una convinzione semplice: la grandezza si costruisce, non si rivendica. Attraverso di esso, cerchiamo meno di sedurre che di rivelare un luogo, una tensione, un'identità. È una promessa che facciamo, e che ogni Collection dovrà meritare.",
+      "intro": {
+        "p1": "59% Chasselas, 41% Chardonnay. Sei mesi sui lieviti, una frazione in barrique. Il risultato è un bianco secco, preciso, con tensione e profondità, qualcosa che non ci si aspetta necessariamente da Ginevra. Ed è esattamente questo il punto.",
+        "p2": "Nel bicchiere: una veste dorata e luminosa. Il naso è floreale e fruttato (fiori bianchi, pesca, agrumi) con un leggero tocco burroso conferito dall'affinamento. Al palato, l'attacco è fresco e vivace, il centro bocca pieno e strutturato, il finale lungo e minerale. Un vino gastronomico, nato per accompagnare i pasti."
+      },
       "properties": {
         "alcoholicFermentation": "In vasca d'acciaio inox a bassa temperatura (< 20°C)",
         "bottling": "Senza filtrazione né collaggio",
         "clearing": "Sfecciatura statica",
+        "consumption": "Da bere subito, o da conservare per 5-8 anni",
         "harvest": "Vendemmia manuale in cassette da 13 kg, l'8 e l'11 settembre",
         "harvestProcessing": "Diraspatura, senza pigiatura",
         "maceration": "Macerazione prefermentativa a freddo di 48h a 2°C",

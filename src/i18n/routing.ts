@@ -12,6 +12,11 @@ export const routing = defineRouting({
       en: '/general-terms-and-conditions',
       it: '/condizioni-generali-di-vendita',
     },
+    '/contact': {
+      de: '/kontakt',
+      en: '/contact',
+      it: '/contatto',
+    },
     '/contact-autre': {
       de: '/kontakt-sonstiges',
       en: '/contact-other',
@@ -76,6 +81,11 @@ export const routing = defineRouting({
       de: '/datenschutz',
       en: '/privacy-policy',
       it: '/informativa-sulla-privacy',
+    },
+    '/professionnels': {
+      de: '/geschaeftskunden',
+      en: '/professionals',
+      it: '/professionisti',
     },
   },
 });

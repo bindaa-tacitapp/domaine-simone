@@ -15,15 +15,9 @@ export default async function MenPage() {
 
       <HeroImage alt={t('alt')} src="/img/the-man.webp" title={t('title')} />
 
-      <Text align="center" snug textSize="lg">
+      <Text align="center" textSize="lg">
         {t('intro')}
       </Text>
-
-      <Text align="center" snug>
-        {t.rich('introDamien', handleRichTags)}
-      </Text>
-
-      <Text align="center">{t.rich('introNatalio', handleRichTags)}</Text>
 
       <ImageAndText
         alt={t('damien.alt')}

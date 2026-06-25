@@ -19,6 +19,9 @@
     "button": {
       "askForInfo": "Request more information",
       "buyWine": "Buy",
+      "contact": {
+        "contactUs": "Contact us"
+      },
       "seeWines": "View wines"
     },
     "menu": {
@@ -173,19 +176,17 @@
     "alt": "Photo of a young woman drinking a glass of wine with Damien Simone in the background",
     "damien": {
       "alt": "Damien Simone – Oenologist",
-      "text": "With no family estate, no viticultural heritage, he built himself alone. A graduate of Changins, Haute École de Viticulture et Œnologie, then trained in the cellars of recognised estates in the canton before deciding it was time to create his own.<br></br><br></br>He tends the vines, crafts the wines and has sat for several years as a tasting judge at some of the most prestigious competitions in the wine world: the Sélection des Vins de Genève, the Concours Général Agricole de Paris, the Grand Prix des Vins Suisses and the International Wine Challenge in London. His obsession: excellence at every stage, from the plot to the bottle.",
+      "text": "No family estate. No inheritance. Just a rigorous training at Changins (<linkChangins></linkChangins>) and years spent learning to know the Geneva terroir in order to sublimate it.<br></br><br></br>He tends the vines alone, crafts each cuvée with precision. A judge in the most demanding competitions in the wine world (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London), he knows excellence. The kind you find in his own wine.",
       "title": "<strong>Damien Simone</strong> – Oenologist"
     },
-    "intro": "Domaine Simone was born from a simple conviction: to produce wines that meet the highest standards of excellence.",
-    "introDamien": "<strong>Damien Simone</strong>, an oenologist trained at Changins, leads every stage of the estate alone, from vine to cellar, with the precision gained over the years and solid experience as a judge at leading wine competitions.",
-    "introNatalio": "By his side, <strong>Natalio Cano</strong> brings rigour, strategy and direction, ensuring that every wine finds its rightful place at the table. He is the one who structures, who builds relationships with restaurateurs, wine merchants and export markets.",
+    "intro": "Two men. One shared conviction: that Geneva could produce a great wine. Not just a nice local wine. A wine that has nothing to envy anyone.",
     "natalio": {
-      "alt": "Natalio Cano – Operating Partner",
-      "text": "Rigorous, methodical and deeply committed to the success of the estate, he ensures its structure and direction with a keen sense of precision.<br></br><br></br>He is the one who builds partnerships with restaurateurs, wine merchants and export markets, and who ensures that every bottle finds the tables it deserves. His dedication and rigour have allowed the estate to establish itself quickly and in the best conditions.",
-      "title": "<strong>Natalio Cano</strong> – Operating Partner"
+      "alt": "Natalio Cano – Partner",
+      "text": "He structures, weaves connections, opens doors. He ensures that every bottle finds the table it deserves: restaurateurs, wine merchants, export markets. Rigorous, methodical, deeply invested in the estate's success.",
+      "title": "<strong>Natalio Cano</strong> – Partner"
     },
-    "outro": "Together, they chose to plant in Russin: an appellation with some of the strictest rules in the canton of Geneva, on slopes that complicate every viticultural gesture and grant no concessions. Here, yields are regulated, practices monitored, and the specifications leave no room for mediocrity.<br></br><br></br>That is precisely what the two partners came looking for. Not a convenient terroir, but a demanding one. The kind that, when mastered, produces wines of rare precision and depth. Russin is not a default choice. It is a choice of conviction.",
-    "title": "One does not build a reputation to sell wine. One makes wine. The rest follows."
+    "outro": "Together, they chose Russin. Not by default, but by conviction. An appellation with some of the strictest rules in the canton, on slopes that give no quarter. Here, nothing is easy. That is exactly what they came looking for.",
+    "title": "You don't build a reputation to sell wine. You make wine. The rest follows."
   },
   "otherProducts": {
     "title": "Other estate wine"
@@ -285,11 +286,14 @@
   "wine": {
     "common": {
       "alcohol": "Alcohol",
+      "areYouAPro": "Are you a professional?",
       "bottles": "btls",
+      "outOfStock": "Cuvée sold out",
       "properties": {
         "alcoholicFermentation": "Alcoholic Fermentation",
         "bottling": "Bottling",
         "clearing": "Settling",
+        "conservation": "Aging potential",
         "harvest": "Harvest",
         "harvestProcessing": "Harvest Processing",
         "maceration": "Maceration",
@@ -309,10 +313,15 @@
       "volume": "Volume"
     },
     "reserve": {
-      "intro": "This is the founding wine, the one that carries the estate's ambition and sets its standard of excellence. It bears an uncompromising vision: to reach what the terroir, Man and time can offer at their highest, in the spirit of the family crest's motto, Sic itur ad astra. The cornerstone of the project, Calvaire \"Grande Réserve\" expresses our will to create a wine that is at once a work of art, a strong identity and an international reference.",
+      "intro": {
+        "p1": "Three grape varieties, a single plot, 36 months in barrels and 12 months in the bottle. This wine is the result of an uncompromising winemaking protocol, which can be felt in the glass.",
+        "p2": "Deep blackish-purple. A nose of candied black fruits, blackcurrant and blackberry, with sweet spices, violet, and a well-integrated smoky touch. On the palate, the attack is broad and silky, the tannic structure dense and noble, the finish long and saline. The 40% slope does the rest: an aromatic and phenolic ripeness that no technique can replace.",
+        "p3": "The cornerstone of the project, the Réserve cuvée expresses the Estate's desire to create a wine that is at once a work of art, a strong brand, and an international benchmark."
+      },
       "properties": {
         "alcoholicFermentation": "In stainless steel tank",
         "bottling": "Unfiltered and unfined",
+        "consumption": "15 to 25 years",
         "harvest": "Hand-harvested in 13 kg crates, on September 16th, 24th and 25th",
         "harvestProcessing": "Destemming, no crushing",
         "maceration": "Cold pre-fermentation maceration for 48h at 2°C",
@@ -329,11 +338,15 @@
       "quote": "We make no compromises. We make wine."
     },
     "selection": {
-      "intro": "Le Calvaire \"Sélection\" is the first step of a story we intend to inscribe in time. A wine born from a simple conviction: greatness is built, not claimed. Through it, we seek less to seduce than to reveal a place, a tension, an identity. It is a promise we make, and one that every Collection will have to deserve.",
+      "intro": {
+        "p1": "59% Chasselas, 41% Chardonnay. Six months on the lees, a fraction in barrels. The result is a dry, precise white, with tension and depth—something not necessarily expected from Geneva. That is exactly the point.",
+        "p2": "In the glass: a luminous golden color. The nose is floral and fruity (white flowers, peach, citrus) with a slight buttery touch brought by the aging. On the palate, the attack is fresh and lively, the mid-palate rich and textured, the finish long and mineral. A gastronomic wine, made to accompany food."
+      },
       "properties": {
         "alcoholicFermentation": "In stainless steel tank at low temperature (< 20°C)",
         "bottling": "Unfiltered and unfined",
         "clearing": "Static settling",
+        "consumption": "Drink now, or cellar for 5 to 8 years",
         "harvest": "Hand-harvested in 13 kg crates, on September 8th and 11th",
         "harvestProcessing": "Destemming, no crushing",
         "maceration": "Cold pre-fermentation maceration for 48h at 2°C",

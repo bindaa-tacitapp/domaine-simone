@@ -81,7 +81,7 @@ const WineShowcase = async ({
           <Property
             className={cn('hidden', 'sm:flex')}
             label={t('common.alcohol')}
-            value={`${alcohol}%`}
+            value={`${Intl.NumberFormat(locale).format(alcohol)}%`}
           />
         </div>
       </section>

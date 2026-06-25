@@ -93,7 +93,6 @@
   --font-imbue: var(--font-imbue), serif;
   --font-barlow: var(--font-barlow), system-ui, sans-serif;
 
-  /* --animate-slide-up: slide-up 1s cubic-bezier(0.68, 0.09, 0, 0.97); */
   --animate-slide-up: slide-up 1.6s cubic-bezier(0.25, 0.1, 0.25, 1);
 
   @keyframes slide-up {
