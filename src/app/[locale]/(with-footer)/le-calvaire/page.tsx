@@ -38,6 +38,7 @@ export default async function BrandPage() {
 
       <ImageAndText
         alt={t('images.p4')}
+        className="mb-20"
         src="/img/grape-result.webp"
         text={t.rich('content.p4', handleRichTags)}
       />

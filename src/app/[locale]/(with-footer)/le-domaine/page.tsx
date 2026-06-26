@@ -31,7 +31,6 @@ export default async function DomainePage() {
 
       <ImageAndText
         alt={t('text.slope.alt')}
-        className="mb-20"
         reverse
         src="/img/slope.webp"
         text={t.rich('text.slope.text', handleRichTags)}
