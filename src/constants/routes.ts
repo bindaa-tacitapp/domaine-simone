@@ -23,6 +23,7 @@ const ROUTES = {
     error: '/erreur-demande',
     success: '/demande-envoyee',
   },
+  legalInformations: '/informations-legales',
   legalNotice: '/mentions-legales',
   men: '/les-fondateurs',
   press: '/presse',

@@ -42,6 +42,11 @@ export const routing = defineRouting({
       en: '/request-error',
       it: '/errore-richiesta',
     },
+    '/informations-legales': {
+      de: '/rechtliche-hinweise',
+      en: '/legal-information',
+      it: '/informazioni-legali',
+    },
     '/le-calvaire': {
       de: '/calvaire',
       en: '/calvaire',
