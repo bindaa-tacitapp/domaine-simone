@@ -25,7 +25,7 @@ export default function HomePage() {
         fill
         placeholder="blur"
         priority
-        src="/img/red-trunk.webp"
+        src="/img/white-trunk.webp"
       />
 
       <span
