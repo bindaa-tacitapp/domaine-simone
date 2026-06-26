@@ -16,7 +16,7 @@ export default async function Professionals() {
         <p>{t('content.p1')}</p>
         <p>{t('content.p2')}</p>
         <p>{t('content.p3')}</p>
-        <p>{t.rich('content.list', handleRichTags)}</p>
+        <div>{t.rich('content.list', handleRichTags)}</div>
       </div>
 
       <p>
