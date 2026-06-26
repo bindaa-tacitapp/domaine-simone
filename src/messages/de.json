@@ -122,10 +122,10 @@
           "text": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden Ihnen so schnell wie möglich antworten.",
           "title": "Nachricht erfolgreich gesendet"
         }
-      }
-    },
-    "subtitle": "Für alle Anfragen (Bestellung, Partnerschaft oder Informationen) füllen Sie bitte das untenstehende Formular aus.",
-    "title": "Kontaktformular"
+      },
+      "subtitle": "Für alle Anfragen (Bestellung, Partnerschaft oder Informationen) füllen Sie bitte das untenstehende Formular aus.",
+      "title": "Kontaktformular"
+    }
   },
   "home": {
     "imageAlt": "Flasche Rotwein Calvaire",

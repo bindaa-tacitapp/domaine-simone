@@ -122,10 +122,10 @@
           "text": "Your message has been sent successfully. We will reply as soon as possible.",
           "title": "Message sent successfully"
         }
-      }
-    },
-    "subtitle": "For any request (order, partnership, or information), please fill out the form below.",
-    "title": "Contact form"
+      },
+      "subtitle": "For any request (order, partnership, or information), please fill out the form below.",
+      "title": "Contact form"
+    }
   },
   "home": {
     "imageAlt": "Bottle or red wine Calvaire",

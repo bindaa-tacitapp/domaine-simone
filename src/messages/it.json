@@ -122,10 +122,10 @@
           "text": "Il vostro messaggio è stato inviato con successo. Vi risponderemo il prima possibile.",
           "title": "Messaggio inviato con successo"
         }
-      }
-    },
-    "subtitle": "Per qualsiasi richiesta (ordine, partnership o informazioni), compilate il modulo sottostante.",
-    "title": "Modulo di contatto"
+      },
+      "subtitle": "Per qualsiasi richiesta (ordine, partnership o informazioni), compilate il modulo sottostante.",
+      "title": "Modulo di contatto"
+    }
   },
   "home": {
     "imageAlt": "Bottiglia di vino rosso Calvaire",
