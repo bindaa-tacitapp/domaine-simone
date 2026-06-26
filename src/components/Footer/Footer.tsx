@@ -48,33 +48,25 @@ const Footer = () => {
 
             <ul className={cn('')}>
               <li>
-                <Link
-                  className="hover:underline"
-                  href={{
-                    pathname: ROUTES.contact,
-                    query: {
-                      type: CONTACT_TYPE.restaurant,
-                    },
-                  }}
-                >
+                <Link className="hover:underline" href={ROUTES.professionals}>
                   {t('contact.restaurant')}
                 </Link>
               </li>
               <li>
+                <Link className="hover:underline" href={ROUTES.press}>
+                  {t('contact.press')}
+                </Link>
+              </li>
+              <li>
                 <Link
                   className="hover:underline"
                   href={{
                     pathname: ROUTES.contact,
                     query: {
-                      type: CONTACT_TYPE.press,
+                      type: CONTACT_TYPE.other,
                     },
                   }}
                 >
-                  {t('contact.press')}
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href={ROUTES.contact}>
                   {t('contact.other')}
                 </Link>
               </li>

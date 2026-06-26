@@ -25,6 +25,7 @@ const ROUTES = {
   },
   legalNotice: '/mentions-legales',
   men: '/les-fondateurs',
+  press: '/presse',
   privacyPolicy: '/politique-de-confidentialite',
   professionals: '/professionnels',
   termsAndConditions: '/conditions-generales-de-vente',

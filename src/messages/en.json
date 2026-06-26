@@ -184,6 +184,14 @@
   "otherProducts": {
     "title": "Other estate wine"
   },
+  "press": {
+    "content": {
+      "contact": "For any interview, press tasting, or publication request",
+      "link": "you can use our contact form",
+      "paragraph": "Our estate is a story in the making: that of a young Genevan oenologist building from scratch the ambition to put Geneva on the map of great wines."
+    },
+    "title": "Press"
+  },
   "privacyPolicy": {
     "content": {
       "applicableLaw": {
@@ -221,6 +229,17 @@
       }
     },
     "title": "Privacy Policy"
+  },
+  "professionals": {
+    "content": {
+      "contact": "For any partnership or tasting request",
+      "link": "you can use our contact form",
+      "list": "What we offer:<list><item>An exceptional white cuvée, Chasselas-Chardonnay blend, AOC Geneva</item><item>A comprehensive presentation kit for your teams</item><item>Direct access to Damien Simone for private tastings and events</item></list>",
+      "p1": "Domaine Simone works with a restricted circle of selected establishments. No mass distribution, no compromise on placement.",
+      "p2": "Our cuvées are produced in confidential, numbered quantities, which requires us to be rigorous in the choice of our partners.",
+      "p3": "What we offer you is a de facto exclusivity: a wine that your customers will not find everywhere, carried by a story that your team can make their own in the dining room or in the shop."
+    },
+    "title": "Professionals"
   },
   "termsAndConditions": {
     "content": {

@@ -37,8 +37,8 @@ const WineCTABox = async ({ type, soldOut = false }: WineCTABoxProps) => {
       </div>
 
       {soldOut ? null : (
-        <Link href={ROUTES.professionals}>
-          <span className="text-muted-foreground underline underline-offset-2 decoration-muted-foreground">
+        <Link className="text-muted-foreground" href={ROUTES.professionals}>
+          <span className="underline underline-offset-3 decoration-[currentColor] hover:text-primary-yellow">
             {t('areYouAPro')}
           </span>
         </Link>

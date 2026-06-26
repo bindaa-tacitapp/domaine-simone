@@ -3,21 +3,15 @@ import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { CONTACT_TYPE, ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
-import { handleRichTags } from '@/libs/i18n';
 
-export default async function Professionals() {
-  const t = await getTranslations('professionals');
+export default async function Press() {
+  const t = await getTranslations('press');
 
   return (
     <ContentWrapper className={cn('flex flex-col gap-10 mb-10')} narrow>
       <h1 className={cn('font-h1')}>{t('title')}</h1>
 
-      <div className="grid gap-5">
-        <p>{t('content.p1')}</p>
-        <p>{t('content.p2')}</p>
-        <p>{t('content.p3')}</p>
-        <p>{t.rich('content.list', handleRichTags)}</p>
-      </div>
+      <p>{t('content.paragraph')}</p>
 
       <p>
         {t('content.contact')},&nbsp;

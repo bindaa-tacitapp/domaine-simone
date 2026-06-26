@@ -184,6 +184,14 @@
   "otherProducts": {
     "title": "Altro vino del Domaine"
   },
+  "press": {
+    "content": {
+      "contact": "Per qualsiasi richiesta di intervista, degustazione per la stampa o pubblicazione",
+      "link": "potete utilizzare il nostro modulo di contatto",
+      "paragraph": "La nostra tenuta è una storia ancora in divenire: quella di un giovane enologo ginevrino che costruisce da zero l'ambizione di mettere Ginevra sulla mappa dei grandi vini."
+    },
+    "title": "Stampa"
+  },
   "privacyPolicy": {
     "content": {
       "applicableLaw": {
@@ -221,6 +229,17 @@
       }
     },
     "title": "Informativa sulla privacy"
+  },
+  "professionals": {
+    "content": {
+      "contact": "Per qualsiasi richiesta di partnership o degustazione",
+      "link": "potete utilizzare il nostro modulo di contatto",
+      "list": "Cosa offriamo:<list><item>Un'eccezionale cuvée bianca, uvaggio Chasselas-Chardonnay, AOC Ginevra</item><item>Un dossier di presentazione completo per i vostri team</item><item>Accesso diretto a Damien Simone per degustazioni ed eventi privati</item></list>",
+      "p1": "Il Domaine Simone lavora con una ristretta cerchia di strutture selezionate. Nessuna distribuzione di massa, nessun compromesso sul posizionamento.",
+      "p2": "Le nostre cuvée sono prodotte in quantità confidenziali e numerate, il che ci impone rigore nella scelta dei nostri partner.",
+      "p3": "Ciò che vi proponiamo è un'esclusività di fatto: un vino che i vostri clienti non troveranno ovunque, sostenuto da una storia che il vostro team può fare propria in sala o in negozio."
+    },
+    "title": "Professionisti"
   },
   "termsAndConditions": {
     "content": {

@@ -184,6 +184,14 @@
   "otherProducts": {
     "title": "Autre vin du Domaine"
   },
+  "press": {
+    "content": {
+      "contact": "Pour toute demande d'interview, de dégustation presse ou de parution",
+      "link": "vous pouvez utiliser notre formulaire de contact",
+      "paragraph": "Notre domaine est une histoire en train de s'écrire : celle d'un jeune œnologue genevois qui construit de zéro l'ambition de mettre Genève sur la carte des grands vins."
+    },
+    "title": "Presse"
+  },
   "privacyPolicy": {
     "content": {
       "applicableLaw": {
@@ -221,6 +229,17 @@
       }
     },
     "title": "Politique de confidentialité"
+  },
+  "professionals": {
+    "content": {
+      "contact": "Pour toute demande de partenariat ou de dégustation",
+      "link": "vous pouvez utiliser notre formulaire de contact",
+      "list": "Ce que nous offrons :<list><item>Une cuvée blanche d'exception, assemblage Chasselas-Chardonnay, AOC Genève</item><item>Un dossier de présentation complet pour vos équipes</item><item>Un accès direct à Damien Simone pour les dégustations et événements privés</item></list>",
+      "p1": "Le Domaine Simone travaille avec un cercle restreint d'établissements sélectionnés. Pas de distribution de masse, pas de compromis sur le placement.",
+      "p2": "Nos cuvées sont produites en quantités confidentielles et numérotées, ce qui nous impose une rigueur dans le choix de nos partenaires.",
+      "p3": "Ce que nous vous proposons est une exclusivité de fait : un vin que vos clients ne trouveront pas partout, porté par une histoire que votre équipe peut s'approprier en salle ou en magasin."
+    },
+    "title": "Professionnels"
   },
   "termsAndConditions": {
     "content": {

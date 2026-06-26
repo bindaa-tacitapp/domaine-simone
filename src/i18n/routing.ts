@@ -82,6 +82,11 @@ export const routing = defineRouting({
       en: '/privacy-policy',
       it: '/informativa-sulla-privacy',
     },
+    '/presse': {
+      de: '/presse',
+      en: '/press',
+      it: '/stampa',
+    },
     '/professionnels': {
       de: '/geschaeftskunden',
       en: '/professionals',

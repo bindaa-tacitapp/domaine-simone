@@ -184,6 +184,14 @@
   "otherProducts": {
     "title": "Anderer Wein der Domaine"
   },
+  "press": {
+    "content": {
+      "contact": "Für alle Anfragen betreffend Interviews, Presse-Degustationen oder Veröffentlichungen",
+      "link": "können Sie unser Kontaktformular nutzen",
+      "paragraph": "Unser Weingut ist eine Geschichte, die gerade erst geschrieben wird: die eines jungen Genfer Önologen, der von Grund auf die Ambition verfolgt, Genf auf der Karte der grossen Weine zu etablieren."
+    },
+    "title": "Presse"
+  },
   "privacyPolicy": {
     "content": {
       "applicableLaw": {
@@ -221,6 +229,17 @@
       }
     },
     "title": "Datenschutzerklärung"
+  },
+  "professionals": {
+    "content": {
+      "contact": "Für alle Partnerschafts- oder Degustationsanfragen",
+      "link": "können Sie unser Kontaktformular nutzen",
+      "list": "Was wir bieten:<list><item>Eine aussergewöhnliche weisse Cuvée, Chasselas-Chardonnay-Assemblage, AOC Genf</item><item>Ein umfassendes Präsentationsdossier für Ihre Teams</item><item>Direkten Zugang zu Damien Simone für Degustationen und private Anlässe</item></list>",
+      "p1": "Die Domaine Simone arbeitet mit einem kleinen, ausgewählten Kreis von Betrieben zusammen. Keine Massendistribution, keine Kompromisse bei der Platzierung.",
+      "p2": "Unsere Cuvées werden in streng limitierten und nummerierten Mengen produziert, was uns zu einer strikten Auswahl unserer Partner zwingt.",
+      "p3": "Was wir Ihnen anbieten, ist eine faktische Exklusivität: ein Wein, den Ihre Kunden nicht überall finden werden, getragen von einer Geschichte, die sich Ihr Team im Restaurant oder im Geschäft zu eigen machen kann."
+    },
+    "title": "Geschäftskunden"
   },
   "termsAndConditions": {
     "content": {
