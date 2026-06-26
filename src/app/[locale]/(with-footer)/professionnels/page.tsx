@@ -26,7 +26,7 @@ export default async function Professionals() {
           href={{
             pathname: ROUTES.contact,
             query: {
-              type: CONTACT_TYPE.press,
+              type: CONTACT_TYPE.restaurant,
             },
           }}
         >

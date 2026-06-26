@@ -42,7 +42,7 @@ const FormContact = ({ type }: FormContactProps) => {
 
   const typeSelected = useWatch({
     control: form.control,
-    defaultValue: '',
+    defaultValue: type || '',
     name: 'type',
   });
 
