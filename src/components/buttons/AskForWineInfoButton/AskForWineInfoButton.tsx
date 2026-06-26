@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { ROUTES } from '@/constants/routes';
+import { CONTACT_TYPE, ROUTES } from '@/constants/routes';
 import { useRouter } from '@/i18n/navigation';
 
 const AskForWineInfoButton = () => {
@@ -10,7 +10,12 @@ const AskForWineInfoButton = () => {
   const t = useTranslations('common');
 
   const handleOnClick = () => {
-    router.push(ROUTES.contact);
+    router.push({
+      pathname: ROUTES.contact,
+      query: {
+        type: CONTACT_TYPE.wine,
+      },
+    });
   };
 
   return (

@@ -92,11 +92,7 @@
         },
         "message": {
           "label": "Message",
-          "placeholders": {
-            "other": "Hello, I would like to contact you regarding your estate.",
-            "press": "Hello, I would like to write an article about your estate.",
-            "restaurant": "Hello, I would like to serve your wines in my restaurant."
-          }
+          "placeholder": "Type your message here..."
         },
         "newspaperName": {
           "label": "Newspaper name",
@@ -105,13 +101,17 @@
         "restaurantName": {
           "label": "Restaurant name",
           "placeholder": "L’Aparté"
+        },
+        "type": {
+          "label": "Reason for contact",
+          "options": {
+            "o": "Other",
+            "p": "I am from the press",
+            "r": "I am a restaurateur",
+            "w": "I would like information about a wine"
+          },
+          "placeholder": "Select an option..."
         }
-      },
-      "otherForms": {
-        "cta": "use this form",
-        "other": "If you are neither a journalist nor a restaurateur",
-        "press": "If you are a journalist",
-        "restaurant": "If you are a restaurateur"
       },
       "results": {
         "error": {
@@ -124,15 +124,8 @@
         }
       }
     },
-    "other": {
-      "title": "Contact form"
-    },
-    "press": {
-      "title": "You are a journalist"
-    },
-    "restaurant": {
-      "title": "You are a restaurateur"
-    }
+    "subtitle": "For any request (order, partnership, or information), please fill out the form below.",
+    "title": "Contact form"
   },
   "home": {
     "imageAlt": "Bottle or red wine Calvaire",

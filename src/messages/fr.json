@@ -92,11 +92,7 @@
         },
         "message": {
           "label": "Message",
-          "placeholders": {
-            "other": "Bonjour, j'aimerais vous contacter concernant votre domaine.",
-            "press": "Bonjour, j'aimerais écrire un article sur votre domaine.",
-            "restaurant": "Bonjour, j'aimerais servir vos bouteilles dans mon restaurant."
-          }
+          "placeholder": "Taper votre message ici..."
         },
         "newspaperName": {
           "label": "Nom du journal",
@@ -105,13 +101,17 @@
         "restaurantName": {
           "label": "Nom du restaurant",
           "placeholder": "L’Aparté"
+        },
+        "type": {
+          "label": "Raison du contact",
+          "options": {
+            "o": "Autre",
+            "p": "Je suis de la presse",
+            "r": "Je suis restaurateur",
+            "w": "Je souhaite des informations sur un vin"
+          },
+          "placeholder": "Sélectionner une option..."
         }
-      },
-      "otherForms": {
-        "cta": "utilisez ce formulaire",
-        "other": "Si vous n'êtes ni journaliste, ni restaurateur",
-        "press": "Si vous êtes journaliste",
-        "restaurant": "Si vous êtes restaurateur"
       },
       "results": {
         "error": {
@@ -122,16 +122,9 @@
           "text": "Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.",
           "title": "Message envoyé avec succès"
         }
-      }
-    },
-    "other": {
+      },
+      "subtitle": "Pour toute demande (commande, partenariat ou information), remplissez le formulaire ci-dessous.",
       "title": "Formulaire de contact"
-    },
-    "press": {
-      "title": "Vous êtes journaliste"
-    },
-    "restaurant": {
-      "title": "Vous êtes restaurateur"
     }
   },
   "home": {

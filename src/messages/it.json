@@ -92,11 +92,7 @@
         },
         "message": {
           "label": "Messaggio",
-          "placeholders": {
-            "other": "Buongiorno, vorrei contattarvi in merito alla vostra tenuta.",
-            "press": "Buongiorno, vorrei scrivere un articolo sulla vostra tenuta.",
-            "restaurant": "Buongiorno, vorrei servire i vostri vini nel mio ristorante."
-          }
+          "placeholder": "Scrivete qui il vostro messaggio..."
         },
         "newspaperName": {
           "label": "Nome della testata",
@@ -105,13 +101,17 @@
         "restaurantName": {
           "label": "Nome del ristorante",
           "placeholder": "L’Aparté"
+        },
+        "type": {
+          "label": "Motivo del contatto",
+          "options": {
+            "o": "Altro",
+            "p": "Sono della stampa",
+            "r": "Sono un ristoratore",
+            "w": "Desidero informazioni su un vino"
+          },
+          "placeholder": "Selezionare un'opzione..."
         }
-      },
-      "otherForms": {
-        "cta": "utilizzate questo modulo",
-        "other": "Se non siete un giornalista né un ristoratore",
-        "press": "Se siete un giornalista",
-        "restaurant": "Se siete un ristoratore"
       },
       "results": {
         "error": {
@@ -124,15 +124,8 @@
         }
       }
     },
-    "other": {
-      "title": "Modulo di contatto"
-    },
-    "press": {
-      "title": "Siete un giornalista"
-    },
-    "restaurant": {
-      "title": "Siete un ristoratore"
-    }
+    "subtitle": "Per qualsiasi richiesta (ordine, partnership o informazioni), compilate il modulo sottostante.",
+    "title": "Modulo di contatto"
   },
   "home": {
     "imageAlt": "Bottiglia di vino rosso Calvaire",

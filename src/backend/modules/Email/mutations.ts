@@ -1,10 +1,9 @@
 'use server';
 
+import { getTranslations } from 'next-intl/server';
 import { Resend } from 'resend';
 import { SendEmailProps } from '@/backend/modules/Email/types';
-import { ContactOtherFormData } from '@/schemas/contactOther';
-import { ContactPressFormData } from '@/schemas/contactPress';
-import { ContactRestaurantFormData } from '@/schemas/contactRestaurant';
+import { ContactFormData } from '@/schemas/contact';
 
 const sendEmail = async ({ subject, html }: SendEmailProps) => {
   const resend = new Resend(process.env.RESEND_API_KEY);
@@ -31,58 +30,23 @@ const sendEmail = async ({ subject, html }: SendEmailProps) => {
   };
 };
 
-const sendEmailFromRestaurant = async ({
+const sendEmailFromContact = async ({
   fullName,
   email,
-  restaurantName,
   message,
-}: ContactRestaurantFormData) => {
-  const subject = `🍽️ Nouveau message d'un restaurant ${restaurantName ? `(${restaurantName})` : ''}`;
+  type,
+}: ContactFormData) => {
+  const t = await getTranslations('forms.common');
+
+  const subject = `📨  Nouveau message d'un contact`;
   const html = `
-    <p><strong>Nom:</strong> ${fullName}</p>
-    <p><strong>Email:</strong> ${email}</p>
-    <p><strong>Restaurant:</strong> ${restaurantName || '/'}</p>
-    <p><strong>Message:</strong> ${message}</p>
+    <p><strong>Raison du contact :</strong> ${type ? t(`fields.type.options.${type}`) : 'Sans raison particulière'}</p>
+    <p><strong>Nom :</strong> ${fullName}</p>
+    <p><strong>Email :</strong> ${email}</p>
+    <p><strong>Message :</strong> ${message.replace(/\r\n|\r|\n/g, '<br />')}</p>
   `;
 
   return sendEmail({ html, subject });
 };
 
-const sendEmailFromPress = async ({
-  fullName,
-  email,
-  newspaperName,
-  message,
-}: ContactPressFormData) => {
-  const subject = `📰  Nouveau message de la presse ${newspaperName ? `(${newspaperName})` : ''}`;
-  const html = `
-    <p><strong>Nom:</strong> ${fullName}</p>
-    <p><strong>Email:</strong> ${email}</p>
-    <p><strong>Journal:</strong> ${newspaperName || '/'}</p>
-    <p><strong>Message:</strong> ${message}</p>
-  `;
-
-  return sendEmail({ html, subject });
-};
-
-const sendEmailFromOtherContact = async ({
-  fullName,
-  email,
-  message,
-}: ContactOtherFormData) => {
-  const subject = `📨  Nouveau message d'un autre contact`;
-  const html = `
-    <p><strong>Nom:</strong> ${fullName}</p>
-    <p><strong>Email:</strong> ${email}</p>
-    <p><strong>Message:</strong> ${message}</p>
-  `;
-
-  return sendEmail({ html, subject });
-};
-
-export {
-  sendEmail,
-  sendEmailFromOtherContact,
-  sendEmailFromPress,
-  sendEmailFromRestaurant,
-};
+export { sendEmail, sendEmailFromContact };

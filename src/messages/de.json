@@ -92,11 +92,7 @@
         },
         "message": {
           "label": "Nachricht",
-          "placeholders": {
-            "other": "Guten Tag, ich möchte Sie bezüglich Ihres Weinguts kontaktieren.",
-            "press": "Guten Tag, ich möchte einen Artikel über Ihr Weingut schreiben.",
-            "restaurant": "Guten Tag, ich möchte Ihre Weine in meinem Restaurant anbieten."
-          }
+          "placeholder": "Schreiben Sie Ihre Nachricht hier..."
         },
         "newspaperName": {
           "label": "Name der Zeitung",
@@ -105,13 +101,17 @@
         "restaurantName": {
           "label": "Name des Restaurants",
           "placeholder": "L’Aparté"
+        },
+        "type": {
+          "label": "Kontaktgrund",
+          "options": {
+            "o": "Sonstiges",
+            "p": "Ich bin von der Presse",
+            "r": "Ich bin Gastronom",
+            "w": "Ich wünsche Informationen zu einem Wein"
+          },
+          "placeholder": "Eine Option auswählen..."
         }
-      },
-      "otherForms": {
-        "cta": "nutzen Sie dieses Formular",
-        "other": "Wenn Sie weder Journalist noch Gastronom sind",
-        "press": "Wenn Sie Journalist sind",
-        "restaurant": "Wenn Sie Gastronom sind"
       },
       "results": {
         "error": {
@@ -124,15 +124,8 @@
         }
       }
     },
-    "other": {
-      "title": "Kontaktformular"
-    },
-    "press": {
-      "title": "Sie sind Journalist"
-    },
-    "restaurant": {
-      "title": "Sie sind Gastronom"
-    }
+    "subtitle": "Für alle Anfragen (Bestellung, Partnerschaft oder Informationen) füllen Sie bitte das untenstehende Formular aus.",
+    "title": "Kontaktformular"
   },
   "home": {
     "imageAlt": "Flasche Rotwein Calvaire",

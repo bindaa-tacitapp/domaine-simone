@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
-import { ROUTES } from '@/constants/routes';
+import { CONTACT_TYPE, ROUTES } from '@/constants/routes';
 import { useIsInViewport } from '@/hooks/useElementIsInsideViewport';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
@@ -50,18 +50,31 @@ const Footer = () => {
               <li>
                 <Link
                   className="hover:underline"
-                  href={ROUTES.forms.restaurant}
+                  href={{
+                    pathname: ROUTES.contact,
+                    query: {
+                      type: CONTACT_TYPE.restaurant,
+                    },
+                  }}
                 >
                   {t('contact.restaurant')}
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href={ROUTES.forms.press}>
+                <Link
+                  className="hover:underline"
+                  href={{
+                    pathname: ROUTES.contact,
+                    query: {
+                      type: CONTACT_TYPE.press,
+                    },
+                  }}
+                >
                   {t('contact.press')}
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href={ROUTES.forms.other}>
+                <Link className="hover:underline" href={ROUTES.contact}>
                   {t('contact.other')}
                 </Link>
               </li>
