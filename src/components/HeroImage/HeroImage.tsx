@@ -6,9 +6,10 @@ type HeroImageProps = {
   alt: string;
   src: string;
   title: ReactNode;
+  imgClassName?: string;
 };
 
-const HeroImage = ({ alt, src, title }: HeroImageProps) => {
+const HeroImage = ({ alt, src, title, imgClassName }: HeroImageProps) => {
   return (
     <div
       className={cn(
@@ -20,7 +21,7 @@ const HeroImage = ({ alt, src, title }: HeroImageProps) => {
       <Image
         alt={alt}
         blurDataURL="/img/placeholder-blur-picture.webp"
-        className="brightness-75 object-cover"
+        className={cn('brightness-75 object-cover', imgClassName)}
         fetchPriority="high"
         fill
         placeholder="blur"
