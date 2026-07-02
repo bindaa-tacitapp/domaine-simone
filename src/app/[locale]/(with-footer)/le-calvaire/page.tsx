@@ -3,6 +3,7 @@ import { SeeWinesButton } from '@/components/buttons/SeeWinesButton/SeeWinesButt
 import { HeroImage } from '@/components/HeroImage/HeroImage';
 import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
 import { Text } from '@/components/Text/Text';
+import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
 export default async function BrandPage() {
@@ -15,7 +16,8 @@ export default async function BrandPage() {
 
       <HeroImage
         alt={t('alt')}
-        src="/img/calvaire.webp"
+        imgClassName={cn('lg:object-[center_85%]')}
+        src="/img/white-trunk.webp"
         title={t.rich('title', handleRichTags)}
       />
 
