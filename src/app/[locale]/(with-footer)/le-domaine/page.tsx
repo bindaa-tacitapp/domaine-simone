@@ -3,7 +3,6 @@ import { SeeWinesButton } from '@/components/buttons/SeeWinesButton/SeeWinesButt
 import { HeroImage } from '@/components/HeroImage/HeroImage';
 import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
 import { Text } from '@/components/Text/Text';
-import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
 export default async function DomainePage() {
