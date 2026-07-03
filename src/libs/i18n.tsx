@@ -11,12 +11,12 @@ const handleRichTags = {
   ),
   linkChangins: () => (
     <a
-      className="hover:text-primary-yellow transition-colors cursor-pointer"
+      className="hover:text-primary-yellow transition-colors cursor-pointer underline underline-offset-2"
       href="https://www.changins.ch"
       rel="noopener"
       target="_blank"
     >
-      www.changins.ch
+      Changins
     </a>
   ),
   list: (chunks: ReactNode) => (

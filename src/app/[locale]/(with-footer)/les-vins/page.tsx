@@ -20,16 +20,17 @@ export default async function WinesPage() {
         <h1 className="sr-only">{tCommon('nav.wines')}</h1>
 
         <WineCard
-          price={30}
+          price={33}
           src="/img/bottle.white.wine.full.webp"
           title="Calvaire – Sélection"
+          type="white"
           url={ROUTES.wine.selection}
         />
 
         <WineCard
-          price={250}
-          src="/img/bottle.red.wine.full.webp"
+          src="/img/bottle.red.wine.hidden.full.webp"
           title="Calvaire - Grande Réserve"
+          type="red"
           url={ROUTES.wine.reserve}
         />
       </div>

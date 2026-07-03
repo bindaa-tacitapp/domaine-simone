@@ -2,7 +2,7 @@
   "brand": {
     "alt": "Photo of Damien Simone working the Estate's plot",
     "content": {
-      "p1": "Le Calvaire is one of the steepest hillsides in the Canton of Geneva, facing due west, impossible to mechanize. A 40% slope, scorching in summer, slippery in winter, every gesture is done by hand, with effort, without shortcuts. It is this character that earned it its name. And it is this same character that, for a long time, caused it to be abandoned in favor of neighboring plots.",
+      "p1": "Le Calvaire is one of the steepest hillsides in the Canton of Geneva, facing due west, impossible to mechanize. A 40% slope, scorching in summer, slippery in winter, every gesture is done by hand, with effort, without shortcuts. It is this character that earned it its name. And it is this same character that, for a long time, drove many of our peers to prefer the neighboring plots.",
       "p2": "Damien Simone arrived even before being the owner. On this bare, uprooted, raw plot, he started by plowing it by hand, alone, even before the signature was placed. Then he replanted 900 carefully chosen vines: Cabernet Franc, Cabernet Sauvignon, Merlot, grape varieties selected for their resilience against the climatic challenges of tomorrow.",
       "p3": "A work of meticulous observation, listening, and understanding of the living world. Additions of organic amendments to awaken a soil compacted for too long. And patience, that of letting things happen, of not forcing, of understanding that the earth cannot be corrected in a single season. A work that is seemingly manual but deeply intellectual, made possible by his training as an engineer in viticulture and oenology, which taught him to read the living world as much as to respect it. The vine responded. The soil became grassed. Lizards, pollinators, and cover crops returned.",
       "p4": "What the Calvaire takes, it gives back to us. The first harvests spoke for themselves. A quality that cannot be invented, that can be read in the bunch even before being tasted in the glass. And the winemakers of Russin, who had watched us arrive with the curiosity reserved for strangers, cast a different look on this hillside they had known forever.",
@@ -168,21 +168,21 @@
   "men": {
     "alt": "Photo of a young woman drinking a glass of wine with Damien Simone in the background",
     "damien": {
-      "alt": "Damien Simone – Oenologist",
-      "text": "No family estate. No inheritance. Just a rigorous training at Changins (<linkChangins></linkChangins>) and years spent learning to know the Geneva terroir in order to sublimate it.<br></br><br></br>He tends the vines alone, crafts each cuvée with precision. A judge in the most demanding competitions in the wine world (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London), he knows excellence. The kind you find in his own wine.",
+      "alt": "Photo of Damien Simone",
+      "text": "No family estate. No inheritance. Just a rigorous training at <linkChangins></linkChangins> and years spent learning to know the Geneva terroir in order to sublimate it.<br></br><br></br>He tends the vines alone, crafts each cuvée with precision. A judge in the most demanding competitions in the wine world (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London), he knows excellence. The kind you find in his own wine.",
       "title": "<strong>Damien Simone</strong> – Oenologist"
     },
     "intro": "Two men. One shared conviction: that Geneva could produce a great wine. Not just a nice local wine. A wine that has nothing to envy anyone.",
     "natalio": {
-      "alt": "Natalio Cano – Partner",
+      "alt": "Photo of Natalio Cano",
       "text": "He structures, weaves connections, opens doors. He ensures that every bottle finds the table it deserves: restaurateurs, wine merchants, export markets. Rigorous, methodical, deeply invested in the estate's success.",
-      "title": "<strong>Natalio Cano</strong> – Partner"
+      "title": "<strong>Natalio Cano</strong> – Sales & Export"
     },
     "outro": "Together, they chose Russin. Not by default, but by conviction. An appellation with some of the strictest rules in the canton, on slopes that give no quarter. Here, nothing is easy. That is exactly what they came looking for.",
     "title": "You don't build a reputation to sell wine. You make wine. The rest follows."
   },
   "otherProducts": {
-    "title": "Other estate wine"
+    "title": "Other estate wines"
   },
   "press": {
     "content": {
@@ -328,7 +328,7 @@
       "intro": {
         "p1": "Three grape varieties, a single plot, 36 months in barrels and 12 months in the bottle. This wine is the result of an uncompromising winemaking protocol, which can be felt in the glass.",
         "p2": "Deep blackish-purple. A nose of candied black fruits, blackcurrant and blackberry, with sweet spices, violet, and a well-integrated smoky touch. On the palate, the attack is broad and silky, the tannic structure dense and noble, the finish long and saline. The 40% slope does the rest: an aromatic and phenolic ripeness that no technique can replace.",
-        "p3": "The cornerstone of the project, the Réserve cuvée expresses the Estate's desire to create a wine that is at once a work of art, a strong brand, and an international benchmark."
+        "p3": "The cornerstone of the project, the Grande Réserve cuvée expresses the Estate's desire to create a wine that is at once a work of art, a strong brand, and an international benchmark."
       },
       "properties": {
         "alcoholicFermentation": "In stainless steel tank",
@@ -374,6 +374,11 @@
     }
   },
   "wines": {
-    "title": "The Wines"
+    "availability": "Available in 2029",
+    "title": "The Wines",
+    "type": {
+      "red": "Red cuvée",
+      "white": "White cuvée"
+    }
   }
 }

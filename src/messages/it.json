@@ -2,7 +2,7 @@
   "brand": {
     "alt": "Foto di Damien Simone che lavora la parcella della Tenuta",
     "content": {
-      "p1": "Il Calvaire è una delle colline più ripide del Canton Ginevra, esposta a ovest, impossibile da meccanizzare. Pendenza del 40%, rovente d'estate, scivolosa d'inverno, ogni gesto vi si compie a mano, con fatica, senza scorciatoie. È questo carattere che gli è valso il nome. Ed è questo stesso carattere che, per lungo tempo, l'ha fatto abbandonare a favore delle parcelle vicine.",
+      "p1": "Il Calvaire è una delle colline più ripide del Canton Ginevra, esposta a ovest, impossibile da meccanizzare. Pendenza del 40%, rovente d'estate, scivolosa d'inverno, ogni gesto vi si compie a mano, con fatica, senza scorciatoie. È questo carattere che gli è valso il nome. Ed è questo stesso carattere che, per lungo tempo, ha spinto molti dei nostri colleghi a preferirgli le parcelle vicine.",
       "p2": "Damien Simone è arrivato ancor prima di esserne il proprietario. Su questa parcella nuda, estirpata, a vivo, ha iniziato ad ararla a mano, da solo, prima ancora di apporre la firma. Poi ha ripiantato 900 ceppi scelti con cura: Cabernet Franc, Cabernet Sauvignon, Merlot, vitigni selezionati per la loro resilienza di fronte alle sfide climatiche di domani.",
       "p3": "Un lavoro di meticolosa osservazione, ascolto e comprensione del vivente. Apporti di ammendanti organici per risvegliare un suolo compattato per troppo tempo. E la pazienza, quella di lasciar fare, di non forzare, di capire che la terra non si corregge in una sola stagione. Un lavoro in apparenza manuale, ma profondamente intellettuale, reso possibile dalla sua formazione di ingegnere in viticoltura ed enologia, che gli ha insegnato a leggere il vivente e a rispettarlo. La vigna ha risposto. Il suolo si è inerbito. Le lucertole, gli impollinatori, i sovesci sono tornati.",
       "p4": "Ciò che il Calvaire prende, ce lo restituisce. Le prime vendemmie hanno parlato da sole. Una qualità che non si inventa, che si legge nel grappolo prima ancora di essere gustata nel bicchiere. E i viticoltori di Russin, che ci avevano guardato arrivare con la curiosità riservata agli stranieri, hanno posato uno sguardo diverso su questa collina che conoscevano da sempre.",
@@ -168,21 +168,21 @@
   "men": {
     "alt": "Foto di una giovane donna che beve un bicchiere di vino con Damien Simone sullo sfondo",
     "damien": {
-      "alt": "Damien Simone – Enologo",
-      "text": "Nessuna tenuta di famiglia. Nessuna eredità. Solo una rigorosa formazione a Changins (<linkChangins></linkChangins>) e anni trascorsi a imparare a conoscere il terroir ginevrino per sublimarlo.<br></br><br></br>Conduce la vigna da solo, elabora ogni cuvée con precisione. Giurato nei concorsi più esigenti del mondo vitivinicolo (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge a Londra), conosce l'eccellenza. Quella che si ritrova nel suo stesso vino.",
+      "alt": "Foto di Damien Simone",
+      "text": "Nessuna tenuta di famiglia. Nessuna eredità. Solo una rigorosa formazione a <linkChangins></linkChangins> e anni trascorsi a imparare a conoscere il terroir ginevrino per sublimarlo.<br></br><br></br>Conduce la vigna da solo, elabora ogni cuvée con precisione. Giurato nei concorsi più esigenti del mondo vitivinicolo (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge a Londra), conosce l'eccellenza. Quella che si ritrova nel suo stesso vino.",
       "title": "<strong>Damien Simone</strong> – Enologo"
     },
     "intro": "Due uomini. Una convinzione condivisa: che Ginevra potesse produrre un grande vino. Non un simpatico vino locale. Un vino che non ha nulla da invidiare a nessuno.",
     "natalio": {
-      "alt": "Natalio Cano – Socio",
+      "alt": "Foto di Natalio Cano",
       "text": "Struttura, tesse legami, apre le porte. È lui che si assicura che ogni bottiglia trovi la tavola che merita: ristoratori, enoteche, mercati di esportazione. Rigoroso, metodico, profondamente investito nel successo della tenuta.",
-      "title": "<strong>Natalio Cano</strong> – Socio"
+      "title": "<strong>Natalio Cano</strong> – Vendite ed Export"
     },
     "outro": "Insieme, hanno scelto Russin. Non per ripiego, ma per convinzione. Un'appellazione con regole tra le più severe del cantone, su pendii che non fanno sconti. Qui niente è facile. È esattamente ciò che sono venuti a cercare.",
     "title": "Non si costruisce una reputazione per vendere vino. Si fa il vino. Il resto segue."
   },
   "otherProducts": {
-    "title": "Altro vino del Domaine"
+    "title": "Altri vini della Tenuta"
   },
   "press": {
     "content": {
@@ -328,7 +328,7 @@
       "intro": {
         "p1": "Tre vitigni, una sola parcella, 36 mesi in barrique e 12 mesi in bottiglia. Questo vino è il risultato di un protocollo di vinificazione senza compromessi, che si fa sentire nel bicchiere.",
         "p2": "Porpora nero profondo. Un naso di frutti neri canditi, ribes nero e mora, con spezie dolci, violetta e un tocco affumicato ben integrato. Al palato, l'attacco è ampio e setoso, la struttura tannica densa e nobile, il finale lungo e salino. La pendenza del 40% fa il resto: una maturità aromatica e fenolica che nessuna tecnica può sostituire.",
-        "p3": "Pietra angolare del progetto, la cuvée Réserve esprime la volontà della Tenuta di creare un vino che sia al contempo un'opera, un marchio forte e un punto di riferimento internazionale."
+        "p3": "Pietra angolare del progetto, la cuvée Grande Réserve esprime la volontà della Tenuta di creare un vino che sia al contempo un'opera, un marchio forte e un punto di riferimento internazionale."
       },
       "properties": {
         "alcoholicFermentation": "In vasca d'acciaio inox",
@@ -374,6 +374,11 @@
     }
   },
   "wines": {
-    "title": "I Vini"
+    "availability": "Disponibile nel 2029",
+    "title": "I Vini",
+    "type": {
+      "red": "Cuvée rossa",
+      "white": "Cuvée bianca"
+    }
   }
 }

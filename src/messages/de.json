@@ -2,7 +2,7 @@
   "brand": {
     "alt": "Foto von Damien Simone bei der Arbeit auf der Parzelle des Weinguts",
     "content": {
-      "p1": "Das Calvaire ist einer der steilsten Hänge im Kanton Genf, reine Westlage, unmöglich zu mechanisieren. 40 % Gefälle, brennend heiss im Sommer, rutschig im Winter – jeder Handgriff wird hier von Hand erledigt, mit Anstrengung, ohne Abkürzungen. Dieser Charakter hat ihm seinen Namen eingebracht. Und genau dieser Charakter hat lange Zeit dazu geführt, dass es zugunsten der benachbarten Parzellen vernachlässigt wurde.",
+      "p1": "Das Calvaire ist einer der steilsten Hänge im Kanton Genf, reine Westlage, unmöglich zu mechanisieren. 40 % Gefälle, brennend heiss im Sommer, rutschig im Winter – jeder Handgriff wird hier von Hand erledigt, mit Anstrengung, ohne Abkürzungen. Dieser Charakter hat ihm seinen Namen eingebracht. Und genau dieser Charakter hat lange Zeit dazu geführt, dass viele unserer Berufskollegen die benachbarten Parzellen vorzogen.",
       "p2": "Damien Simone war schon da, bevor er Eigentümer wurde. Auf dieser kahlen, gerodeten, rohen Parzelle begann er, sie von Hand zu pflügen, ganz allein, noch bevor die Unterschrift geleistet war. Dann pflanzte er 900 sorgfältig ausgewählte Rebstöcke neu: Cabernet Franc, Cabernet Sauvignon, Merlot – Rebsorten, die aufgrund ihrer Widerstandsfähigkeit gegenüber den klimatischen Herausforderungen von morgen ausgewählt wurden.",
       "p3": "Eine Arbeit sorgfältiger Beobachtung, des Zuhörens und des Verstehens der lebendigen Natur. Zugabe von organischen Bodenverbesserern, um einen viel zu lange verdichteten Boden wieder zu erwecken. Und Geduld, die Dinge geschehen zu lassen, nichts zu erzwingen, zu verstehen, dass sich die Erde nicht in einer einzigen Saison korrigieren lässt. Eine Arbeit, die scheinbar manuell, aber zutiefst intellektuell ist, ermöglicht durch seine Ausbildung als Ingenieur für Weinbau und Önologie, die ihn gelehrt hat, das Lebendige ebenso zu lesen wie zu respektieren. Die Rebe hat reagiert. Der Boden wurde begrünt. Die Eidechsen, die Bestäuber, die Gründüngung sind zurückgekehrt.",
       "p4": "Was das Calvaire nimmt, gibt es uns zurück. Die ersten Weinlesen sprachen für sich. Eine Qualität, die man nicht erfinden kann, die man bereits in der Traube erkennt, bevor man sie im Glas schmeckt. Und die Winzer von Russin, die unsere Ankunft mit der für Fremde reservierten Neugierde beobachtet hatten, blickten nun mit anderen Augen auf diesen Hang, den sie schon immer kannten.",
@@ -168,21 +168,21 @@
   "men": {
     "alt": "Foto einer jungen Frau, die ein Glas Wein trinkt, mit Damien Simone im Hintergrund",
     "damien": {
-      "alt": "Damien Simone – Önologe",
-      "text": "Kein Familienweingut. Kein Erbe. Nur eine strenge Ausbildung in Changins (<linkChangins></linkChangins>) und Jahre, in denen er das Genfer Terroir kennenlernte, um es zu veredeln.<br></br><br></br>Er bewirtschaftet die Reben allein, kreiert jede Cuvée mit Präzision. Als Juror bei den anspruchsvollsten Wettbewerben der Weinwelt (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London) kennt er Exzellenz. Jene, die man in seinem eigenen Wein wiederfindet.",
+      "alt": "Foto von Damien Simone",
+      "text": "Kein Familienweingut. Kein Erbe. Nur eine strenge Ausbildung an der <linkChangins></linkChangins> und Jahre, in denen er das Genfer Terroir kennenlernte, um es zu veredeln.<br></br><br></br>Er bewirtschaftet die Reben allein, kreiert jede Cuvée mit Präzision. Als Juror bei den anspruchsvollsten Wettbewerben der Weinwelt (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge in London) kennt er Exzellenz. Jene, die man in seinem eigenen Wein wiederfindet.",
       "title": "<strong>Damien Simone</strong> – Önologe"
     },
     "intro": "Zwei Männer. Eine gemeinsame Überzeugung: dass Genf einen grossen Wein hervorbringen kann. Keinen netten lokalen Tropfen. Einen Wein, der niemandem etwas nachstehen muss.",
     "natalio": {
-      "alt": "Natalio Cano – Partner",
+      "alt": "Foto von Natalio Cano",
       "text": "Er strukturiert, knüpft Netzwerke, öffnet Türen. Er sorgt dafür, dass jede Flasche den Tisch findet, den sie verdient: Gastronomen, Weinhändler, Exportmärkte. Rigoros, methodisch, zutiefst engagiert für den Erfolg des Weinguts.",
-      "title": "<strong>Natalio Cano</strong> – Partner"
+      "title": "<strong>Natalio Cano</strong> – Verkauf & Export"
     },
     "outro": "Gemeinsam haben sie sich für Russin entschieden. Nicht aus Mangel an Alternativen, sondern aus Überzeugung. Eine Appellation mit den strengsten Regeln im Kanton, an Hängen, die keine Geschenke machen. Hier ist nichts einfach. Und genau das haben sie gesucht.",
     "title": "Man baut sich keinen Ruf auf, um Wein zu verkaufen. Man macht Wein. Der Rest folgt von selbst."
   },
   "otherProducts": {
-    "title": "Anderer Wein der Domaine"
+    "title": "Weitere Weine des Weinguts"
   },
   "press": {
     "content": {
@@ -328,7 +328,7 @@
       "intro": {
         "p1": "Drei Rebsorten, eine einzige Parzelle, 36 Monate im Barrique und 12 Monate in der Flasche. Dieser Wein ist das Resultat eines kompromisslosen Weinbereitungsprotokolls, das man im Glas deutlich spürt.",
         "p2": "Tiefes Schwarzpurpur. In der Nase kandierte dunkle Früchte, Cassis und Brombeere, mit süssen Gewürzen, Veilchen und einem gut eingebundenen rauchigen Hauch. Am Gaumen ist der Auftakt füllig und seidig, die Tanninstruktur dicht und edel, der Abgang lang und salzig. Das 40%ige Gefälle erledigt den Rest: eine aromatische und phenolische Reife, die durch keine Technik zu ersetzen ist.",
-        "p3": "Als Grundstein des Projekts drückt die Cuvée Réserve den Willen des Weinguts aus, einen Wein zu schaffen, der zugleich ein Kunstwerk, eine starke Marke und eine internationale Referenz ist."
+        "p3": "Als Grundstein des Projekts drückt die Cuvée Grande Réserve den Willen des Weinguts aus, einen Wein zu schaffen, der zugleich ein Kunstwerk, eine starke Marke und eine internationale Referenz ist."
       },
       "properties": {
         "alcoholicFermentation": "Im Edelstahltank",
@@ -374,6 +374,11 @@
     }
   },
   "wines": {
-    "title": "Die Weine"
+    "availability": "Verfügbar im Jahr 2029",
+    "title": "Die Weine",
+    "type": {
+      "red": "Rote Cuvée",
+      "white": "Weisse Cuvée"
+    }
   }
 }

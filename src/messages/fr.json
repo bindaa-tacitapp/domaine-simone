@@ -2,7 +2,7 @@
   "brand": {
     "alt": "Photo de Damien Simone qui travaille la parcelle du Domaine",
     "content": {
-      "p1": "Le Calvaire est l'un des coteaux les plus pentus du Canton de Genève, exposé plein ouest, impossible à mécaniser. 40% de pente, brûlant l'été, glissant l'hiver, chaque geste s'y fait à la main, dans l'effort, sans raccourci. C'est ce caractère qui lui a valu son nom. Et c'est ce même caractère qui, longtemps, l'a fait délaisser au profit des parcelles voisines.",
+      "p1": "Le Calvaire est l'un des coteaux les plus pentus du Canton de Genève, exposé plein ouest, impossible à mécaniser. 40% de pente, brûlant l'été, glissant l'hiver, chaque geste s'y fait à la main, dans l'effort, sans raccourci. C'est ce caractère qui lui a valu son nom. Et c'est ce même caractère qui, longtemps, a poussé beaucoup de nos pairs à lui préférer les parcelles voisines.",
       "p2": "Damien Simone est arrivé avant même d'être propriétaire. Sur cette parcelle nue, arrachée, à vif, il a commencé par la labourer à la main, seul, avant même que la signature soit posée. Puis il a replanté 900 ceps soigneusement choisis : Cabernet Franc, Cabernet Sauvignon, Merlot, des cépages sélectionnés pour leur résilience face aux défis climatiques de demain.",
       "p3": "Un travail d'observation minutieux, d'écoute et de compréhension du vivant. Des apports d'amendements organiques pour réveiller un sol trop longtemps compacté. Et la patience, celle de laisser faire, de ne pas forcer, de comprendre que la terre ne se corrige pas en une saison. Un travail en apparence manuel, mais profondément intellectuel, rendu possible par sa formation d'ingénieur\n\nen viticulture et œnologie, qui lui a appris à lire le vivant autant qu'à le respecter. La vigne a répondu. Le sol s'est enherbé. Les lézards, les pollinisateurs, les engrais verts sont revenus.",
       "p4": "Ce que le Calvaire prend, il nous le rend. Les premières vendanges ont parlé d'elles-mêmes. Une qualité qui ne s'invente pas, qui se lit dans la grappe avant même de se goûter dans le verre. Et les vignerons de Russin, qui nous avaient regardé arriver avec la curiosité réservée aux étrangers, ont posé un regard différent sur ce coteau qu'ils connaissaient depuis toujours.",
@@ -168,21 +168,21 @@
   "men": {
     "alt": "Photo d'une jeune femme buvant un verre de vin avec Damien Simone en fond",
     "damien": {
-      "alt": "Damien Simone – Œnologue",
-      "text": "Pas de domaine familial. Pas d'héritage. Juste une formation rigoureuse à Changins (<linkChangins></linkChangins>) et des années passées à apprendre à connaitre le terroir Genevois pour le sublimer.<br></br><br></br>Il conduit la vigne seul, élabore chaque cuvée avec précision. Juré dans les concours les plus exigeants du monde viticole (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge à Londres), il connaît l'excellence. Celle que l'on retrouve dans son propre vin.",
+      "alt": "Photo de Damien Simone",
+      "text": "Pas de domaine familial. Pas d'héritage. Juste une formation rigoureuse à <linkChangins></linkChangins> et des années passées à apprendre à connaitre le terroir Genevois pour le sublimer.<br></br><br></br>Il conduit la vigne seul, élabore chaque cuvée avec précision. Juré dans les concours les plus exigeants du monde viticole (Sélection des Vins de Genève, Concours Général Agricole de Paris, Grand Prix des Vins Suisses, International Wine Challenge à Londres), il connaît l'excellence. Celle que l'on retrouve dans son propre vin.",
       "title": "<strong>Damien Simone</strong> – Œnologue"
     },
     "intro": "Deux hommes. Une conviction partagée : que Genève pouvait produire un grand vin. Pas un vin local sympathique. Un vin qui n'a rien à envier à personne.",
     "natalio": {
-      "alt": "Natalio Cano – Associé",
+      "alt": "Photo de Natalio Cano",
       "text": "Il structure, tisse, ouvre les portes. C'est lui qui veille à ce que chaque bouteille trouve la table qu'elle mérite : restaurateurs, cavistes, marchés à l'export. Rigoureux, méthodique, profondément investi dans la réussite du domaine.",
-      "title": "<strong>Natalio Cano</strong> – Associé"
+      "title": "<strong>Natalio Cano</strong> – Vente & Export"
     },
     "outro": "Ensemble, ils ont choisi Russin. Pas par défaut, par conviction. Une appellation aux règles parmi les plus strictes du canton, sur des pentes qui ne font pas de cadeau. Ici, rien n'est facile. C'est exactement ce qu'ils sont venus chercher.",
     "title": "On ne construit pas une réputation pour vendre du vin. On fait du vin. Le reste suit."
   },
   "otherProducts": {
-    "title": "Autre vin du Domaine"
+    "title": "Autres vins du Domaine"
   },
   "press": {
     "content": {
@@ -328,7 +328,7 @@
       "intro": {
         "p1": "Trois cépages, une seule parcelle, 36 mois en barrique et 12 mois de bouteille. Ce vin est le résultat d'un protocole de vinification sans compromis, que l’on ressent dans le verre.",
         "p2": "Pourpre noir profond. Un nez de fruits noirs confits, cassis et mûre, avec des épices douces, de la violette, une touche fumée bien intégrée. En bouche, l'attaque est ample et soyeuse, la structure tannique dense et noble, la finale longue et saline. La pente à 40% fait le reste : une maturité aromatique et phénolique qu'aucune technique ne remplace.",
-        "p3": "Pierre angulaire du projet, la cuvée Réserve exprime la volonté du Domaine de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale."
+        "p3": "Pierre angulaire du projet, la cuvée Grande Réserve exprime la volonté du Domaine de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale."
       },
       "properties": {
         "alcoholicFermentation": "En cuve inox",
@@ -374,6 +374,11 @@
     }
   },
   "wines": {
-    "title": "Les Vins"
+    "availability": "Disponible en 2029",
+    "title": "Les Vins",
+    "type": {
+      "red": "Cuvée rouge",
+      "white": "Cuvée blanche"
+    }
   }
 }
