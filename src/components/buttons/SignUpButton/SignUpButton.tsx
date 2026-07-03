@@ -1,7 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, useState, useTransition } from 'react';
+import { actionJoinWaitlist } from '@/actions/actionJoinWaitlist';
 import { Button } from '@/components/buttons/LoadingButton/LoadingButton';
 import { Checkbox } from '@/components/ui/checkbox';
 import {
@@ -21,15 +22,34 @@ import { isEmail } from '@/libs/form';
 
 const SignUpButton = () => {
   const t = useTranslations('wine.common');
+  const [isPending, startTransition] = useTransition();
   const [email, setEmail] = useState<string>('');
+  const [open, setOpen] = useState<boolean>(false);
   const [wantsNewsletter, setWantsNewsletter] = useState<boolean>(false);
+
+  const handleOnOpenChange = (open: boolean) => {
+    setOpen(open);
+  };
 
   const handleOnEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
 
+  const handleOnSubmit = () => {
+    startTransition(async () => {
+      await actionJoinWaitlist({
+        email,
+        signup: wantsNewsletter,
+      });
+
+      setOpen(false);
+      setEmail('');
+      setWantsNewsletter(false);
+    });
+  };
+
   return (
-    <Dialog>
+    <Dialog onOpenChange={handleOnOpenChange} open={open}>
       <DialogTrigger asChild>
         <Button>{t('signup')}</Button>
       </DialogTrigger>
@@ -78,7 +98,12 @@ const SignUpButton = () => {
             </Button>
           </DialogClose>
 
-          <Button disabled={!isEmail(email)} type="submit">
+          <Button
+            disabled={!isEmail(email)}
+            isLoading={isPending}
+            onClick={handleOnSubmit}
+            type="submit"
+          >
             {t('modal.signup.buttons.submit')}
           </Button>
         </DialogFooter>

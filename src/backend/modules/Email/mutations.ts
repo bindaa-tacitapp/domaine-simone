@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { Resend } from 'resend';
 import { SendEmailProps } from '@/backend/modules/Email/types';
 import { ContactFormData } from '@/schemas/contact';
+import { ActionJoinWaitlistProps } from '@/types/actions';
 
 const sendEmail = async ({ subject, html }: SendEmailProps) => {
   const resend = new Resend(process.env.RESEND_API_KEY);
@@ -49,4 +50,17 @@ const sendEmailFromContact = async ({
   return sendEmail({ html, subject });
 };
 
-export { sendEmail, sendEmailFromContact };
+const sendEmailFromWaitlist = async ({
+  email,
+  signup,
+}: ActionJoinWaitlistProps) => {
+  const subject = `📨  Nouveau client pour la liste d'attente !`;
+  const html = `
+    <p><strong>Email :</strong> ${email}</p>
+    <p><strong>Newsletter :</strong> ${signup ? 'Oui ✅' : 'Non ❌'}</p>
+  `;
+
+  return sendEmail({ html, subject });
+};
+
+export { sendEmail, sendEmailFromContact, sendEmailFromWaitlist };
