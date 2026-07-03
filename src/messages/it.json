@@ -300,6 +300,25 @@
       "alcohol": "Alcol",
       "areYouAPro": "Siete un professionista?",
       "bottles": "bt",
+      "modal": {
+        "signup": {
+          "buttons": {
+            "cancel": "Annulla",
+            "submit": "Iscrivetevi"
+          },
+          "description": "Se desiderate essere avvisati della disponibilità di questa cuvée, vi preghiamo di inserire il vostro indirizzo email nel campo sottostante.",
+          "fields": {
+            "email": {
+              "label": "Indirizzo email",
+              "placeholder": "mario.rossi@esempio.com"
+            },
+            "newsletter": {
+              "label": "Desidero essere informato sulle novità della tenuta"
+            }
+          },
+          "title": "Iscrizione alla lista d'attesa"
+        }
+      },
       "outOfStock": "Cuvée esaurita",
       "properties": {
         "alcoholicFermentation": "Fermentazione alcolica",
@@ -321,6 +340,7 @@
         "viticulture": "Viticoltura"
       },
       "quantity": "Cuvée numerata",
+      "signup": "Iscriversi alla lista d'attesa",
       "vintage": "Collezione",
       "volume": "Volume"
     },

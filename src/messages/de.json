@@ -300,6 +300,25 @@
       "alcohol": "Alkohol",
       "areYouAPro": "Sind Sie Geschäftskunde?",
       "bottles": "Fl.",
+      "modal": {
+        "signup": {
+          "buttons": {
+            "cancel": "Abbrechen",
+            "submit": "Anmelden"
+          },
+          "description": "Wenn Sie über die Verfügbarkeit dieser Cuvée benachrichtigt werden möchten, geben Sie bitte Ihre E-Mail-Adresse in das folgende Feld ein.",
+          "fields": {
+            "email": {
+              "label": "E-Mail-Adresse",
+              "placeholder": "hans.muster@beispiel.ch"
+            },
+            "newsletter": {
+              "label": "Ich möchte über Neuigkeiten des Weinguts informiert werden"
+            }
+          },
+          "title": "In die Warteliste eintragen"
+        }
+      },
       "outOfStock": "Cuvée ausverkauft",
       "properties": {
         "alcoholicFermentation": "Alkoholische Gärung",
@@ -321,6 +340,7 @@
         "viticulture": "Weinbau"
       },
       "quantity": "Nummerierte Cuvée",
+      "signup": "In die Warteliste eintragen",
       "vintage": "Kollektion",
       "volume": "Inhalt"
     },

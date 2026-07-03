@@ -300,6 +300,25 @@
       "alcohol": "Alcohol",
       "areYouAPro": "Are you a professional?",
       "bottles": "btls",
+      "modal": {
+        "signup": {
+          "buttons": {
+            "cancel": "Cancel",
+            "submit": "Sign up"
+          },
+          "description": "If you wish to be notified when this cuvée becomes available, please enter your email address in the field below.",
+          "fields": {
+            "email": {
+              "label": "Email address",
+              "placeholder": "john.doe@example.com"
+            },
+            "newsletter": {
+              "label": "I would like to receive news from the estate"
+            }
+          },
+          "title": "Join the waitlist"
+        }
+      },
       "outOfStock": "Cuvée sold out",
       "properties": {
         "alcoholicFermentation": "Alcoholic Fermentation",
@@ -321,6 +340,7 @@
         "viticulture": "Viticulture"
       },
       "quantity": "Numbered cuvée",
+      "signup": "Join the waitlist",
       "vintage": "Collection",
       "volume": "Volume"
     },

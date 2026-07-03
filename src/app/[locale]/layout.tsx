@@ -44,16 +44,22 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       translate="no"
     >
-      <body
-        className={cn('min-h-svh pt-5 flex flex-col', 'md:pt-10', '2xl:pt-15')}
-      >
-        <NextIntlClientProvider>
-          <Header />
+      <body>
+        <div
+          className={cn(
+            'min-h-svh pt-5 flex flex-col',
+            'md:pt-10',
+            '2xl:pt-15',
+          )}
+        >
+          <NextIntlClientProvider>
+            <Header />
 
-          {children}
+            {children}
 
-          <LanguageSwitcher className="hidden lg:block" />
-        </NextIntlClientProvider>
+            <LanguageSwitcher className="hidden lg:block" />
+          </NextIntlClientProvider>
+        </div>
       </body>
     </html>
   );

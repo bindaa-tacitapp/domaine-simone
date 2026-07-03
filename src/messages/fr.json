@@ -300,6 +300,25 @@
       "alcohol": "Alcool",
       "areYouAPro": "Vous êtes un professionnel ?",
       "bottles": "btls",
+      "modal": {
+        "signup": {
+          "buttons": {
+            "cancel": "Annuler",
+            "submit": "S'inscrire"
+          },
+          "description": "Si vous souhaitez être prévenu de la disponibilité de cette cuvée, veuillez entrer votre adresse email dans le champ suivant.",
+          "fields": {
+            "email": {
+              "label": "Adresse email",
+              "placeholder": "jean.dupond@exemple.com"
+            },
+            "newsletter": {
+              "label": "Je souhaite être informé des actualités du domaine"
+            }
+          },
+          "title": "S'inscrire à la liste d'attente"
+        }
+      },
       "outOfStock": "Cuvée en rupture",
       "properties": {
         "alcoholicFermentation": "Fermentation alcoolique",
@@ -321,6 +340,7 @@
         "viticulture": "Viticulture"
       },
       "quantity": "Cuvée numérotée",
+      "signup": "S'inscrire à la liste d'attente",
       "vintage": "Collection",
       "volume": "Contenance"
     },

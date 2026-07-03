@@ -80,7 +80,7 @@ export default async function RedWinePage() {
         alcohol={14}
         name="Grande Réserve"
         quantity={300}
-        src="/img/bottle.red.wine.webp"
+        src="/img/bottle.red.wine.hidden.webp"
         type="red"
         volume={750}
         year={2025}

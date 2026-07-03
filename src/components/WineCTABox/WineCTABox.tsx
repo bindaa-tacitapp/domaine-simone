@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { AskForWineInfoButton } from '@/components/buttons/AskForWineInfoButton/AskForWineInfoButton';
 import { BuyWineButton } from '@/components/buttons/BuyWineButton/BuyWineButton';
+import { SignUpButton } from '@/components/buttons/SignUpButton/SignUpButton';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
@@ -12,6 +13,7 @@ type WineCTABoxProps = {
 
 const WineCTABox = async ({ type, soldOut = false }: WineCTABoxProps) => {
   const t = await getTranslations('wine.common');
+  const tWines = await getTranslations('wines');
 
   return (
     <div
@@ -25,8 +27,8 @@ const WineCTABox = async ({ type, soldOut = false }: WineCTABoxProps) => {
       >
         {soldOut ? (
           <>
-            <p className="text-muted-foreground">{t('outOfStock')}</p>
-            <AskForWineInfoButton />
+            <p className="text-muted-foreground">{tWines('availability')}</p>
+            <SignUpButton />
           </>
         ) : (
           <>

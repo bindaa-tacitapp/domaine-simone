@@ -36,6 +36,7 @@ const buttonVariants = cva(
           'bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40',
           'relative before:absolute before:content-[""] before:-top-1 before:-right-1 before:-bottom-1 before:-left-1 before:border-2 before:border-destructive/10 hover:before:border-destructive/20',
         ),
+        ghost: cn('bg-transparent'),
         link: 'text-black underline-offset-4 hover:underline',
         secondary: cn(
           'text-black hover:text-white hover:bg-black aria-expanded:bg-secondary aria-expanded:text-secondary-foreground',
