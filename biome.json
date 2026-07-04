@@ -21,7 +21,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!public"]
+    "includes": ["**", "!public", "!src/app/icon.svg"]
   },
   "formatter": {
     "enabled": true,

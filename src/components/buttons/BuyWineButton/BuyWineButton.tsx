@@ -10,6 +10,8 @@ type BuyWineButtonProps = {
 const BuyWineButton = ({ type }: BuyWineButtonProps) => {
   const t = useTranslations('common');
 
+  console.log(type);
+
   const handleOnClick = () => {
     window.open(
       'https://cave.domaine-simone.ch',
