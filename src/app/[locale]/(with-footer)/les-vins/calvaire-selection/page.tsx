@@ -102,7 +102,7 @@ export default async function WhiteWinePage() {
       <OtherProduct
         alt="Grande Réserve"
         name="Grande Réserve"
-        src="/img/bottle.red.wine.webp"
+        src="/img/bottle.red.wine.hidden.webp"
         type="red"
         url={ROUTES.wine.reserve}
       />
