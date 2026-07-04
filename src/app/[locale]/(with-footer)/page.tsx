@@ -12,7 +12,7 @@ export default function HomePage() {
       <Image
         alt={t('imageAlt')}
         blurDataURL="/img/placeholder-blur-picture.webp"
-        className={cn('object-cover object-[-85px]', 'lg:object-center')}
+        className={cn('object-cover object-[-85px]', 'sm:object-center')}
         fetchPriority="high"
         fill
         placeholder="blur"
