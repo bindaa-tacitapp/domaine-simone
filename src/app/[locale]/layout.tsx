@@ -2,10 +2,13 @@ import type { Metadata } from 'next';
 import { Barlow, Imbue } from 'next/font/google';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import '@/styles/globals.css';
+import { cookies } from 'next/headers';
 import { notFound } from 'next/navigation';
 import { ReactNode } from 'react';
+import { AgeGateModal } from '@/components/AgeGateModal/AgeGateModal';
 import { Header } from '@/components/Header/Header';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
+import { COOKIE_KEYS } from '@/constants/cookies';
 import { routing } from '@/i18n/routing';
 import { cn } from '@/libs/cn';
 
@@ -33,6 +36,8 @@ type Props = {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
+  const cookieStore = await cookies();
+  const hasValidatedAgeGate = cookieStore.get(COOKIE_KEYS.ageGate);
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -58,6 +63,8 @@ export default async function LocaleLayout({ children, params }: Props) {
             {children}
 
             <LanguageSwitcher className="hidden lg:block" />
+
+            {hasValidatedAgeGate?.value !== 'true' ? <AgeGateModal /> : null}
           </NextIntlClientProvider>
         </div>
       </body>

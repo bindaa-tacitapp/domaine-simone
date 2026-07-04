@@ -1,4 +1,14 @@
 {
+  "ageGate": {
+    "declined": "Sie sind nicht berechtigt, diese Website aufzurufen.<br></br><br></br>Bitte schliessen Sie dieses Fenster.",
+    "neutral": {
+      "description": "Es ist untersagt, Websites mit Bezug zu Alkohol vor Erreichen des gesetzlichen Mindestalters in Ihrem Wohnsitzland aufzurufen.",
+      "message": "Haben Sie das gesetzliche Mindestalter für den Kauf und Konsum von Alkohol in Ihrem Wohnsitzland erreicht?",
+      "no": "Nein",
+      "title": "Altersprüfung",
+      "yes": "Ja"
+    }
+  },
   "brand": {
     "alt": "Foto von Damien Simone bei der Arbeit auf der Parzelle des Weinguts",
     "content": {

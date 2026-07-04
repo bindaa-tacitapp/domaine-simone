@@ -1,4 +1,14 @@
 {
+  "ageGate": {
+    "declined": "Vous n'êtes pas autorisé à consulter ce site internet.<br></br><br></br>Veuillez fermer cette fenêtre.",
+    "neutral": {
+      "description": "Il est interdit de consulter des sites liés à l'alcool avant l'âge légal dans votre pays de résidence.",
+      "message": "Avez-vous l'âge d'acheter et consommer de l'alcool dans votre pays de résidence ?",
+      "no": "Non",
+      "title": "Vérification de votre âge",
+      "yes": "Oui"
+    }
+  },
   "brand": {
     "alt": "Photo de Damien Simone qui travaille la parcelle du Domaine",
     "content": {
