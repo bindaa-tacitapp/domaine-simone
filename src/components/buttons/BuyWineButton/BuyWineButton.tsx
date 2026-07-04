@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { ROUTES } from '@/constants/routes';
 
 type BuyWineButtonProps = {
   type: 'reserve' | 'selection';
@@ -13,7 +12,7 @@ const BuyWineButton = ({ type }: BuyWineButtonProps) => {
 
   const handleOnClick = () => {
     window.open(
-      `${ROUTES.wines}?type=${type}`,
+      'https://cave.domaine-simone.ch',
       '_blank',
       'noopener noreferrer',
     );
