@@ -175,36 +175,44 @@
   },
   "legalNotice": {
     "content": {
+      "alcoholConsumption": {
+        "content": "<p>Conformemente alla legislazione svizzera, la vendita e il consumo di bevande alcoliche sono vietati ai minori di 16 anni.</p><p>L'abuso di alcol è pericoloso per la salute. Da consumare con moderazione.</p>",
+        "title": "8. Consumo di alcol"
+      },
       "applicableLaw": {
-        "content": "<p>Il presente sito è soggetto al diritto svizzero.</p><p>Qualsiasi controversia è di competenza esclusiva dei tribunali del cantone di Ginevra.</p>",
-        "title": "7. Diritto applicabile"
+        "content": "<p>Le presenti note legali sono soggette al diritto svizzero. In caso di controversia, e in mancanza di una risoluzione amichevole, i tribunali del Canton Ginevra avranno competenza esclusiva.</p>",
+        "title": "9. Diritto applicabile"
       },
-      "hosting": {
-        "content": "<p>Il sito è ospitato da:</p><p><bold>Vercel Inc.</bold><br></br>440 N Barranca Ave #4133<br></br>Covina, CA 91723<br></br>Stati Uniti</p><p>vercel.com</p>",
-        "title": "3. Hosting"
+      "credits": {
+        "content": "<p><bold>Ideazione e strategia di marca:</bold> Pauline Pillon</p><p><bold>Fotografia:</bold> Domaine Simone / Selvain Sivapregassam</p><p><bold>Sviluppo web:</bold> xlbnd</p>",
+        "title": "5. Crediti"
       },
-      "intellectualProperty": {
-        "content": "<p>L'intero contenuto presente sul sito (testi, immagini, logo, identità visiva) è di proprietà esclusiva di Domaine Simone SARL, salvo diversa indicazione.</p><p>Qualsiasi riproduzione, distribuzione o utilizzo, totale o parziale, senza previa autorizzazione è severamente vietata.</p>",
-        "title": "4. Proprietà intellettuale"
-      },
-      "liability": {
-        "content": "<p>Domaine Simone SARL si impegna a garantire l'esattezza delle informazioni pubblicate sul sito.</p><p>Tuttavia, non viene fornita alcuna garanzia in merito alla loro completezza o al loro aggiornamento.</p><p>L'utilizzo del sito avviene sotto l'esclusiva responsabilità dell'utente.</p>",
-        "title": "6. Responsabilità"
-      },
-      "personalData": {
-        "content": "<p>I dati personali raccolti tramite il sito sono utilizzati esclusivamente nell'ambito del rapporto commerciale con Domaine Simone SARL.</p><p>Avete il diritto di accedere, rettificare o cancellare i vostri dati.</p><p>Per qualsiasi richiesta: <link>info@domaine-simone.ch</link></p>",
-        "title": "5. Dati personali"
-      },
-      "publicationDirector": {
-        "content": "<p>Il direttore della pubblicazione è:</p><p><bold>Pauline Pillon</bold>, responsabile della comunicazione</p>",
-        "title": "2. Direttore della pubblicazione"
-      },
-      "siteEditor": {
-        "content": "<p>Il presente sito è edito da:</p><p><bold>Domaine Simone SARL</bold><br></br>Società a garanzia limitata di diritto svizzero</p><p>Sede legale:<br></br>C/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Ginevra<br></br>Svizzera</p><p>Numero IDI: CHE-276.963.736</p><p>Email: <link>info@domaine-simone.ch</link></p>",
+      "editor": {
+        "content": "<p><bold>Ragione sociale:</bold> Domaine Simone Sàrl</p><p><bold>Indirizzo:</bold> c/o Natalio Cano, Rue de la Colline 16, 1205 Ginevra, Svizzera</p><p><bold>Numero IDE / IVA:</bold> CHE-276.963.736 IVA</p><p><bold>Forma giuridica:</bold> Società a garanzia limitata (Sàrl) di diritto svizzero</p><p><bold>Email:</bold> <link>info@domaine-simone.ch</link></p><p><bold>Telefono:</bold> +41 79 216 27 64</p><p><bold>Rappresentanti legali / Soci:</bold></p><list><item>Damien Simone</item><item>Natalio Cano</item></list>",
         "title": "1. Editore del sito"
       },
-      "title": "Note Legali"
+      "hosting": {
+        "content": "<p><bold>Hosting:</bold> Vercel Inc.</p><p><bold>Indirizzo:</bold> 340 S Lemon Ave #4133, Walnut, CA 91789, Stati Uniti</p>",
+        "title": "2. Hosting del sito"
+      },
+      "hyperlinks": {
+        "content": "<p>Il sito del Domaine Simone può contenere link verso altri siti (partner, rivenditori, social network). Domaine Simone Sàrl non può essere ritenuta responsabile del contenuto di questi siti terzi né delle loro specifiche pratiche di riservatezza.</p>",
+        "title": "6. Link ipertestuali"
+      },
+      "intellectualProperty": {
+        "content": "<p>L'intero contenuto presente su questo sito (testi, immagini, logo, etichette, identità visiva, elementi grafici, struttura del sito) è di proprietà esclusiva del Domaine Simone Sàrl, salvo diversa indicazione.</p><p>Qualsiasi riproduzione, rappresentazione, modifica, pubblicazione o adattamento di tutto o parte degli elementi del sito, indipendentemente dal mezzo o dal procedimento utilizzato, è vietata senza previa autorizzazione scritta del Domaine Simone Sàrl.</p><p>Qualsiasi uso non autorizzato del sito o di uno qualsiasi degli elementi in esso contenuti sarà considerato una contraffazione e potrà essere perseguito conformemente alle disposizioni del diritto svizzero (in particolare la Legge federale sul diritto d'autore, LDA).</p>",
+        "title": "4. Proprietà intellettuale"
+      },
+      "liabilityLimitation": {
+        "content": "<p>Domaine Simone Sàrl si impegna ad assicurare al meglio delle proprie possibilità l'esattezza e l'aggiornamento delle informazioni diffuse su questo sito, di cui si riserva il diritto di correggere il contenuto, in qualsiasi momento e senza preavviso.</p><p>Domaine Simone Sàrl non può essere ritenuta responsabile per eventuali errori, per la mancata disponibilità delle informazioni e/o per la presenza di virus sul proprio sito.</p>",
+        "title": "7. Limitazione di responsabilità"
+      },
+      "publicationManager": {
+        "content": "<p>Pauline Pillon, in qualità di Direttrice della comunicazione del Domaine Simone Sàrl.</p>",
+        "title": "3. Responsabile della pubblicazione"
+      }
     },
+    "lastUpdated": "Ultimo aggiornamento: 8 luglio 2026",
     "title": "Note Legali"
   },
   "men": {
@@ -236,41 +244,66 @@
   },
   "privacyPolicy": {
     "content": {
-      "applicableLaw": {
-        "content": "<p>La presente informativa è soggetta al diritto svizzero.</p><p>Qualsiasi controversia è di competenza esclusiva dei tribunali del cantone di Ginevra.</p>",
-        "title": "8. Diritto applicabile"
+      "contactAndComplaint": {
+        "content": "<p>Per qualsiasi domanda relativa ai vostri dati personali, potete contattare:</p><p><bold>Domaine Simone Sàrl</bold><br></br><link>info@domaine-simone.ch</link></p><p>Avete inoltre il diritto di presentare un reclamo all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT) se ritenete che i vostri diritti non siano rispettati.</p>",
+        "title": "13. Contatti e reclami"
       },
       "cookies": {
-        "content": "<p>Il sito può utilizzare i cookie per:</p><list><item>garantirne il corretto funzionamento</item><item>misurare l'audience</item><item>migliorare l'esperienza dell'utente</item></list><p>È possibile configurare il browser per rifiutare tutti o alcuni cookie.</p>",
-        "title": "5. Cookie"
+        "content": "<p>Il sito utilizza i cookie per:</p><list><item>garantire il suo corretto funzionamento tecnico (cookie essenziali);</item><item>misurare l'audience e migliorare l'esperienza utente (cookie statistici);</item><item>ove applicabile, personalizzare contenuti o pubblicità (cookie di marketing, soggetti a consenso).</item></list><p>Potete gestire le vostre preferenze sui cookie in qualsiasi momento tramite il banner dedicato visualizzato durante la vostra prima visita, o tramite le impostazioni del vostro browser.</p>",
+        "title": "7. Cookie"
       },
-      "dataCollection": {
-        "content": "<p>Il sito Domaine Simone può raccogliere determinati dati personali nei seguenti casi:</p><list><item>modulo di contatto</item><item>iscrizione alla newsletter</item><item>ordine o richiesta commerciale</item></list><p>I dati raccolti possono includere: cognome, nome, indirizzo email, numero di telefono.</p>",
-        "title": "1. Raccolta dei dati"
+      "dataCollected": {
+        "content": "<p>Nell'ambito dell'utilizzo del sito e del rapporto commerciale, la Tenuta può raccogliere i seguenti dati:</p><table><row><th>Categoria</th><th>Esempi</th><th>Finalità</th></row><row><cell>Identità</cell><cell>Cognome, nome</cell><cell>Elaborazione dell'ordine, fatturazione</cell></row><row><cell>Dati di contatto</cell><cell>Indirizzo postale, email, telefono</cell><cell>Consegna, comunicazioni di follow-up</cell></row><row><cell>Dati di pagamento</cell><cell>Informazioni bancarie (tramite fornitore terzo sicuro)</cell><cell>Elaborazione del pagamento</cell></row><row><cell>Dati di navigazione</cell><cell>Cookie, indirizzo IP, pagine visitate</cell><cell>Miglioramento del sito, statistiche</cell></row><row><cell>Dati di preferenza</cell><cell>Cronologia acquisti, prodotti visualizzati</cell><cell>Personalizzazione, newsletter (con consenso)</cell></row><row><cell>Verifica dell'età</cell><cell>Dichiarazione di maggiore età</cell><cell>Conformità legale (vendita di alcolici)</cell></row></table><p>La Tenuta non raccoglie dati sensibili (salute, opinioni politiche o religiose, ecc.) nel normale svolgimento della sua attività.</p>",
+        "title": "2. Dati raccolti"
       },
-      "dataRetention": {
-        "content": "<p>I dati sono conservati solo per il tempo necessario al loro utilizzo.</p><p>Possono essere cancellati in qualsiasi momento su richiesta.</p>",
-        "title": "3. Conservazione dei dati"
+      "dataController": {
+        "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Ginevra, Svizzera</p><p>Numero IDE / IVA: CHE-276.963.736 IVA</p><p>Contatto privacy: <link>info@domaine-simone.ch</link></p>",
+        "title": "1. Titolare del trattamento"
       },
-      "dataSharing": {
-        "content": "<p>I dati possono essere trattati da fornitori di servizi tecnici (es. hosting Vercel), esclusivamente nell'ambito del funzionamento del sito.</p><p>Nessun trasferimento a terzi per scopi commerciali.</p>",
-        "title": "4. Condivisione dei dati"
+      "dataSecurity": {
+        "content": "<p>La Tenuta implementa misure tecniche e organizzative ragionevoli per proteggere i vostri dati da accessi non autorizzati, perdita, alterazione o divulgazione, in particolare tramite:</p><list><item>la crittografia delle transazioni di pagamento (delegata a un fornitore terzo certificato);</item><item>l'accesso limitato ai dati all'interno dell'organizzazione;</item><item>aggiornamenti regolari degli strumenti tecnici utilizzati.</item></list>",
+        "title": "9. Sicurezza dei dati"
       },
-      "dataUsage": {
-        "content": "<p>I dati sono utilizzati esclusivamente per:</p><list><item>rispondere alle richieste</item><item>gestire il rapporto commerciale</item><item>comunicare informazioni relative alla tenuta (previo consenso)</item></list><p>Nessun dato viene venduto, ceduto o utilizzato per scopi esterni.</p>",
-        "title": "2. Utilizzo dei dati"
+      "internationalTransfer": {
+        "content": "<p>Se alcuni fornitori tecnici (hosting, strumenti CRM, pagamento) elaborano dati al di fuori della Svizzera, la Tenuta si assicura che tali trasferimenti rispettino un livello di protezione adeguato, conformemente ai requisiti della LPD (paesi riconosciuti come adeguati dall'Incaricato federale, o clausole contrattuali tipo).</p>",
+        "title": "10. Trasferimento internazionale dei dati"
       },
-      "security": {
-        "content": "<p>Domaine Simone SARL attua misure tecniche e organizzative adeguate per proteggere i dati personali.</p>",
-        "title": "7. Sicurezza"
+      "legalBasis": {
+        "content": "<p>Il trattamento dei vostri dati si basa su:</p><list><item>l'esecuzione del contratto (elaborazione dell'ordine, consegna);</item><item>il vostro consenso (newsletter, comunicazioni di marketing);</item><item>il rispetto di obblighi legali (fatturazione, IVA, verifica dell'età);</item><item>il legittimo interesse della Tenuta (miglioramento del servizio, sicurezza del sito).</item></list>",
+        "title": "4. Base giuridica del trattamento"
       },
-      "title": "Informativa sulla Privacy",
+      "minors": {
+        "content": "<p>Il sito non è destinato a minori. Conformemente alla legislazione sulla vendita di alcolici, nessun dato viene raccolto consapevolmente da persone di età inferiore a 16 anni nell'ambito di un ordine.</p>",
+        "title": "11. Minori"
+      },
+      "policyChanges": {
+        "content": "<p>La Tenuta si riserva il diritto di modificare la presente informativa in qualsiasi momento, in particolare per conformarsi a sviluppi legali o tecnici. La versione in vigore è quella pubblicata sul sito alla data di consultazione.</p>",
+        "title": "12. Modifiche all'informativa sulla privacy"
+      },
+      "preamble": {
+        "content": "<p>Domaine Simone Sàrl (di seguito \"la Tenuta\", \"noi\") attribuisce particolare importanza alla protezione dei dati personali dei propri clienti e visitatori. La presente informativa sulla privacy ha lo scopo di informarvi, in totale trasparenza, su come i vostri dati vengono raccolti, utilizzati, conservati e protetti, conformemente alla Legge federale sulla protezione dei dati (LPD) e alla sua ordinanza di applicazione (OPDa).</p>",
+        "title": "Preambolo"
+      },
+      "purposes": {
+        "content": "<p>I vostri dati sono trattati per le seguenti finalità:</p><orderedList><item><bold>Gestione degli ordini</bold>: elaborazione, fatturazione, consegna, servizio post-vendita;</item><item><bold>Relazioni con i clienti</bold>: risposta a richieste, gestione dei reclami (rotture, difetti enologici);</item><item><bold>Comunicazione commerciale</bold>: newsletter, novità della Tenuta, inviti a eventi — solo con il vostro esplicito consenso;</item><item><bold>Conformità legale</bold>: verifica della maggiore età, obblighi contabili e fiscali;</item><item><bold>Miglioramento del sito</bold>: statistiche di traffico, ottimizzazione dell'esperienza utente (tramite cookie, vedi Articolo 7).</item></orderedList>",
+        "title": "3. Finalità del trattamento"
+      },
+      "recipients": {
+        "content": "<p>I vostri dati possono essere condivisi con:</p><list><item><bold>La Posta Svizzera</bold> (corriere), per l'esecuzione della consegna;</item><item><bold>Fornitori di pagamento</bold> (carta di credito, Twint), per l'elaborazione sicura delle transazioni;</item><item><bold>Fornitori tecnici</bold> (hosting del sito, strumento CRM), strettamente nei limiti necessari alla loro missione;</item><item><bold>Autorità competenti</bold>, se un obbligo legale lo richiede.</item></list><p>La Tenuta non vende, non affitta e non condivide mai i vostri dati per fini commerciali di terzi senza il vostro esplicito consenso.</p>",
+        "title": "5. Destinatari dei dati"
+      },
+      "retention": {
+        "content": "<table><row><th>Tipo di dato</th><th>Periodo di conservazione</th></row><row><cell>Dati d'ordine / fatturazione</cell><cell>10 anni (obbligo contabile svizzero, art. 958f CO)</cell></row><row><cell>Dati della newsletter</cell><cell>Fino alla disiscrizione</cell></row><row><cell>Dati di navigazione (cookie)</cell><cell>Massimo 13 mesi</cell></row><row><cell>Reclami / scambi servizio clienti</cell><cell>3 anni dopo la risoluzione</cell></row></table>",
+        "title": "6. Periodo di conservazione"
+      },
+      "title": "Informativa sulla Privacy – Domaine Simone Sàrl",
       "yourRights": {
-        "content": "<p>Conformemente alle normative applicabili, disponete dei seguenti diritti:</p><list><item>accesso ai vostri dati</item><item>rettifica</item><item>cancellazione</item><item>opposizione al trattamento</item></list><p>Per esercitare tali diritti: <link>info@domaine-simone.ch</link></p>",
-        "title": "6. I vostri diritti"
+        "content": "<p>Conformemente alla LPD, avete i seguenti diritti riguardo ai vostri dati personali:</p><list><item><bold>Diritto di accesso</bold>: ottenere una copia dei dati che vi riguardano;</item><item><bold>Diritto di rettifica</bold>: correggere dati inesatti o incompleti;</item><item><bold>Diritto alla cancellazione</bold>: richiedere l'eliminazione dei vostri dati, fatte salve le obbligazioni legali di conservazione;</item><item><bold>Diritto di opposizione</bold>: opporvi in qualsiasi momento all'uso dei vostri dati a fini di marketing diretto;</item><item><bold>Diritto alla portabilità</bold>: ricevere i vostri dati in un formato strutturato e leggibile;</item><item><bold>Revoca del consenso</bold>: in qualsiasi momento, senza effetto retroattivo.</item></list><p>Per esercitare tali diritti, potete contattare la Tenuta al seguente indirizzo: <link>info@domaine-simone.ch</link></p><p>Vi verrà fornita una risposta in tempi ragionevoli, conformemente alla legge.</p>",
+        "title": "8. I vostri diritti"
       }
     },
-    "title": "Informativa sulla privacy"
+    "lastUpdated": "Ultimo aggiornamento: 8 luglio 2026",
+    "title": "Informativa sulla Privacy"
   },
   "professionals": {
     "content": {
@@ -286,55 +319,72 @@
   "termsAndConditions": {
     "content": {
       "alcoholSales": {
-        "content": "<p>La vendita di alcolici è strettamente riservata alle persone che hanno raggiunto l'età legale per il consumo nel loro paese di residenza.</p><p>In Svizzera, tale età è fissata a 16 anni per il vino.</p><p>Effettuando un ordine, il cliente certifica di rispettare la legislazione applicabile.</p>",
-        "title": "10. Vendita di alcolici"
-      },
-      "applicability": {
-        "content": "<p>Le presenti Condizioni Generali di Vendita (CGV) regolano tutte le vendite effettuate da Domaine Simone SARL, tramite il suo sito web o tramite vendita diretta.</p><p>Qualsiasi ordine implica l'accettazione piena e incondizionata delle presenti CGV.</p>",
-        "title": "1. Ambito di applicazione"
+        "content": "<p>La vendita di vino in Svizzera è strettamente riservata alle persone che hanno compiuto 16 anni.</p><p>Effettuando un ordine, il cliente dichiara e garantisce di avere almeno 16 anni. La Tenuta si riserva il diritto di richiedere una prova dell'età in qualsiasi momento, in particolare al momento della consegna o durante gli eventi, e di rifiutare o annullare qualsiasi ordine in caso di dubbi non chiariti.</p>",
+        "title": "4. Vendita di alcolici e maggiore età"
       },
       "applicableLaw": {
-        "content": "<p>Le presenti CGV sono regolate dal diritto svizzero.</p><p>Qualsiasi controversia è di competenza esclusiva dei tribunali del cantone di Ginevra.</p>",
-        "title": "12. Diritto applicabile"
+        "content": "<p>Le presenti CGV sono soggette al diritto svizzero.</p><p>In caso di controversia, e in mancanza di una risoluzione amichevole, i tribunali del Canton Ginevra avranno competenza esclusiva, fatte salve le disposizioni legali imperative applicabili ai consumatori.</p>",
+        "title": "16. Diritto applicabile e foro competente"
       },
       "delivery": {
-        "content": "<p>Le consegne sono garantite in Svizzera e in Europa.</p><p>Per qualsiasi richiesta al di fuori di queste aree, il cliente è invitato a contattare: <link>info@domaine-simone.ch</link></p><p>I tempi di consegna sono indicativi e dipendono dal corriere.</p><p>Le condizioni di consegna sono quelle del corriere incaricato.</p><p>In caso di problemi legati al trasporto (ritardo, rottura, smarrimento), la responsabilità è del corriere.</p>",
-        "title": "6. Consegna"
+        "content": "<p><strong>Zona di consegna</strong></p><p>Le consegne sono effettuate esclusivamente sul territorio svizzero.</p><p><strong>Corriere</strong></p><p>Le consegne sono effettuate tramite La Posta Svizzera o dalla Tenuta.</p><p><strong>Spese di spedizione</strong></p><table><row><th>Zona</th><th>Condizione</th><th>Spese di spedizione</th></row><row><cell>Canton Ginevra</cell><cell>A partire da 6 cartoni (CHF 33.- l'uno)</cell><cell>Gratuite</cell></row><row><cell>Tutta la Svizzera</cell><cell>A partire da 10 cartoni (CHF 1'980.- IVA inclusa)</cell><cell>Gratuite</cell></row><row><cell>Altri ordini</cell><cell>Al di sotto delle soglie di cui sopra</cell><cell>Fatturate secondo la tariffa in vigore, comunicata prima della convalida dell'ordine</cell></row></table><p><strong>Tempi di consegna</strong></p><p>I tempi di consegna indicativi sono comunicati al momento della conferma dell'ordine. La Tenuta non può essere ritenuta responsabile per ritardi imputabili al corriere.</p><p><strong>Trasferimento dei rischi</strong></p><p>Il trasferimento dei rischi (smarrimento, rottura, danno) avviene alla consegna del pacco al corriere. Vedi Articolo 10 per la gestione dei casi di rottura o difetti di consegna.</p>",
+        "title": "8. Consegna"
+      },
+      "intellectualProperty": {
+        "content": "<p>Tutti gli elementi del sito (testi, immagini, logo, etichette, identità di marca) sono di proprietà esclusiva del Domaine Simone Sàrl e non possono essere riprodotti senza previa autorizzazione scritta.</p>",
+        "title": "15. Proprietà intellettuale"
       },
       "liability": {
-        "content": "<p>Domaine Simone SARL non può essere ritenuta responsabile per una cattiva conservazione del vino dopo la consegna.</p><p>Il cliente è l'unico responsabile delle condizioni di conservazione.</p>",
-        "title": "9. Responsabilità"
+        "content": "<p>La Tenuta si impegna a prestare la massima cura nella preparazione e spedizione degli ordini. La sua responsabilità non può essere invocata in caso di:</p><list><item>forza maggiore;</item><item>uso o conservazione impropria del prodotto da parte del cliente dopo la consegna;</item><item>danni legati al trasporto (vedi Articolo 10).</item></list><p>La responsabilità della Tenuta, qualora dovesse essere accertata, è limitata all'importo dell'ordine in questione.</p>",
+        "title": "13. Responsabilità"
+      },
+      "oenologicalDefect": {
+        "content": "<p>In caso di comprovato difetto enologico su una bottiglia (sentore di tappo, ossidazione anomala, ecc.), il cliente deve:</p><orderedList><item>contattare la Tenuta il prima possibile;</item><item>restituire la bottiglia in questione (o la parte non consumata) alla Tenuta per un'analisi.</item></orderedList><p>Dopo la convalida del difetto da parte della Tenuta, la bottiglia sarà sostituita gratuitamente con una bottiglia equivalente, nei limiti delle scorte disponibili.</p><p>Non sono coperti da questa garanzia: i difetti legati a una cattiva conservazione da parte del cliente (esposizione a calore, luce, stoccaggio prolungato in posizione verticale, ecc.).</p>",
+        "title": "11. Difetto enologico e sostituzione"
       },
       "orders": {
-        "content": "<p>Qualsiasi ordine è considerato fermo e definitivo dopo la convalida.</p><p>Domaine Simone SARL si riserva il diritto di rifiutare un ordine, in particolare in caso di controversie precedenti o di dubbi sulla legittimità dello stesso.</p>",
-        "title": "4. Ordini"
+        "content": "<p>Gli ordini possono essere effettuati:</p><list><item>direttamente sul sito web della Tenuta;</item><item>durante gli eventi a cui partecipa la Tenuta;</item><item>presso i rivenditori partner autorizzati (enoteche, ristoranti), secondo le condizioni specifiche di ogni punto vendita.</item></list><p>Qualsiasi ordine effettuato tramite il sito è soggetto a una conferma via email che riepiloga i prodotti, le quantità, i prezzi e le modalità di consegna.</p><p>La Tenuta si riserva il diritto di rifiutare o annullare qualsiasi ordine in caso di dubbi sulla sua serietà, esaurimento scorte o mancato rispetto delle presenti CGV (in particolare l'Articolo 4).</p>",
+        "title": "6. Ordinazioni"
       },
       "payment": {
-        "content": "<p>I pagamenti possono essere effettuati:</p><list><item>online, tramite i metodi di pagamento sicuri offerti sul sito</item><item>su fattura</item></list><p>Condizioni di pagamento:</p><list><item><bold>Clienti privati</bold>: l'ordine viene spedito solo dopo il ricevimento del pagamento completo</item><item><bold>Clienti professionali</bold>: pagamento a 30 giorni dalla data della fattura</item></list>",
-        "title": "5. Pagamento"
+        "content": "<p>Il pagamento si effettua prima della consegna, tramite i seguenti metodi:</p><list><item>fattura;</item><item>carta di credito;</item><item>bonifico bancario;</item><item>Twint.</item></list><p>L'ordine è considerato fermo e definitivo una volta che il pagamento completo è stato ricevuto dalla Tenuta. Nessuna spedizione viene effettuata prima del ricevimento completo del pagamento.</p><p>In caso di pagamento tramite bonifico bancario, i tempi di consegna decorrono dalla ricezione effettiva dei fondi sul conto della Tenuta.</p>",
+        "title": "7. Modalità di pagamento"
       },
       "personalData": {
-        "content": "<p>I dati raccolti sono utilizzati esclusivamente nell'ambito del rapporto commerciale.</p><p>Non vengono né rivenduti né trasmessi a terzi senza consenso.</p>",
-        "title": "11. Dati personali"
+        "content": "<p>I dati personali raccolti nell'ambito degli ordini sono trattati conformemente alla Legge federale sulla protezione dei dati (LPD) e sono utilizzati esclusivamente per la gestione del rapporto commerciale (elaborazione degli ordini, consegna, servizio post-vendita, comunicazioni relative ai prodotti della Tenuta, salvo opposizione del cliente).</p>",
+        "title": "14. Protezione dei dati"
       },
       "pricing": {
-        "content": "<p>I prezzi sono indicati in franchi svizzeri (CHF), tutte le tasse incluse (IVA), escluse le spese di spedizione.</p><list><item><bold>Clienti privati</bold>: si applicano le spese di consegna in vigore</item><item><bold>Clienti professionali</bold>: le consegne sono gratuite nel cantone di Ginevra a partire da un cartone</item></list><p>Domaine Simone SARL si riserva il diritto di modificare i propri prezzi in qualsiasi momento. Il prezzo applicabile è quello in vigore al momento dell'ordine.</p>",
-        "title": "3. Prezzi"
+        "content": "<p>I prezzi sono indicati in franchi svizzeri (CHF), tutte le tasse incluse (IVA inclusa), escluse le spese di consegna salvo diversa indicazione all'Articolo 8.</p><p>La Tenuta applica una politica di prezzi fissi e non negoziabili, anche in occasione di eventi o tramite i suoi rivenditori partner, in linea con il suo posizionamento premium. Non vengono proposti sconti, saldi o pacchetti promozionali, ad eccezione di operazioni eccezionali esplicitamente comunicate dalla Tenuta.</p><p>La Tenuta si riserva il diritto di modificare i propri prezzi in qualsiasi momento, fermo restando che fa fede unicamente il prezzo visualizzato al momento della convalida dell'ordine.</p>",
+        "title": "5. Prezzi"
       },
       "products": {
-        "content": "<p>I vini offerti provengono da una produzione limitata.</p><p>Ogni cuvée è il riflesso di un lavoro preciso, rigoroso, e non può essere riprodotta in modo identico.</p><p>Domaine Simone SARL si riserva il diritto di modificare la propria offerta in qualsiasi momento, in base alla disponibilità.</p>",
-        "title": "2. Prodotti"
+        "content": "<p>I prodotti venduti dalla Tenuta sono vini di produzione del Domaine Simone, presentati con le loro caratteristiche essenziali (cuvée, annata, vitigni, gradazione alcolica, numerazione della bottiglia se applicabile).</p><p>Poiché le annate sono prodotte in quantità limitate, la disponibilità dei prodotti è soggetta a variazioni senza preavviso. La Tenuta si impegna a mantenere aggiornate le scorte visualizzate sul proprio sito, senza una garanzia assoluta di disponibilità al momento dell'ordine.</p><p>In caso di esaurimento scorte dopo l'effettuazione di un ordine, il cliente sarà informato il prima possibile e rimborsato integralmente se non desidera attendere una nuova disponibilità.</p>",
+        "title": "3. Prodotti"
       },
-      "qualityAndReturns": {
-        "content": "<p>Domaine Simone SARL non accetta compromessi sulla qualità dei propri vini.</p><p>In caso di difetto organolettico comprovato, la bottiglia potrà essere sostituita dopo verifica.</p><p>Il cliente deve, preventivamente, contattare: <link>info@domaine-simone.ch</link></p><p>La bottiglia in questione dovrà essere restituita per analisi.</p><p>Al di fuori di questo caso specifico, non saranno accettati resi né rimborsi.</p>",
-        "title": "8. Qualità e resi"
+      "resellers": {
+        "content": "<p>Le condizioni specifiche applicabili ai rivenditori partner (esclusiva territoriale, volumi, prezzo di vendita consigliato, promozione) sono oggetto di un accordo contrattuale separato e non sono coperte in dettaglio dalle presenti CGV.</p><p>Il rivenditore partner si impegna in particolare a rispettare il prezzo di vendita consigliato comunicato dalla Tenuta.</p>",
+        "title": "12. Rivenditori partner"
       },
-      "reception": {
-        "content": "<p>Il cliente è tenuto a verificare lo stato dei prodotti al momento della ricezione.</p><p>Qualsiasi anomalia deve essere segnalata direttamente al corriere, in conformità alle sue condizioni.</p>",
-        "title": "7. Ricezione degli ordini"
+      "scope": {
+        "content": "<p>Le presenti Condizioni Generali di Vendita (di seguito \"CGV\") disciplinano tutte le vendite di prodotti vitivinicoli offerti da Domaine Simone Sàrl (di seguito \"la Tenuta\"), siano esse:</p><list><item>tramite il sito web della Tenuta (vendita a distanza);</item><item>durante eventi organizzati o a cui partecipa la Tenuta;</item><item>tramite rivenditori partner autorizzati (enoteche, ristoranti).</item></list><p>Qualsiasi ordine implica l'accettazione piena e incondizionata delle presenti CGV, ad esclusione di qualsiasi altro documento, salvo specifico accordo scritto stipulato con un rivenditore partner (vedi Articolo 12).</p>",
+        "title": "1. Oggetto e campo di applicazione"
       },
-      "title": "Condizioni Generali di Vendita – Domaine Simone SARL"
+      "seller": {
+        "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Ginevra, Svizzera</p><p>Numero IDE / IVA: CHE-276.963.736 IVA</p><p>Contatto: <link>info@domaine-simone.ch</link> / +41 79 216 27 64</p>",
+        "title": "2. Identificazione del venditore"
+      },
+      "title": "Condizioni Generali di Vendita – Domaine Simone Sàrl",
+      "transportDamage": {
+        "content": "<p>In caso di rottura, bottiglia mancante o qualsiasi difetto legato al trasporto riscontrato alla ricezione del pacco, la responsabilità ricade esclusivamente sul corriere (La Posta Svizzera).</p><p>Il cliente è invitato a:</p><orderedList><item>constatare e fotografare il danno al momento della ricezione;</item><item>segnalare l'incidente il prima possibile (idealmente entro 48 ore) alla Tenuta, che assisterà il cliente nella procedura di reclamo presso il corriere;</item><item>conservare l'imballaggio originale fino alla risoluzione della pratica.</item></orderedList><p>La Tenuta si impegna a facilitare questa procedura, ma non può sostituirsi alla responsabilità del corriere per i danni legati al trasporto.</p>",
+        "title": "10. Rotture e difetti di consegna"
+      },
+      "withdrawal": {
+        "content": "<p>Conformemente al diritto svizzero applicabile alla vendita di prodotti alimentari e bevande, la vendita a distanza di vino non è soggetta a un diritto di recesso legale obbligatorio. Di conseguenza, qualsiasi ordine convalidato e pagato è fermo e definitivo, fatte salve le disposizioni degli Articoli 10 e 11 di seguito.</p>",
+        "title": "9. Assenza di diritto di recesso"
+      }
     },
+    "lastUpdated": "Ultimo aggiornamento: 8 luglio 2026",
     "title": "Condizioni Generali di Vendita"
   },
   "wine": {

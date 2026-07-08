@@ -175,36 +175,44 @@
   },
   "legalNotice": {
     "content": {
+      "alcoholConsumption": {
+        "content": "<p>In accordance with Swiss law, the sale and consumption of alcoholic beverages are prohibited for persons under 16 years of age.</p><p>Alcohol abuse is dangerous for your health. Consume in moderation.</p>",
+        "title": "8. Alcohol Consumption"
+      },
       "applicableLaw": {
-        "content": "<p>This site is subject to Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
-        "title": "7. Applicable Law"
+        "content": "<p>This legal notice is subject to Swiss law. In the event of a dispute, and failing an amicable resolution, the courts of the Canton of Geneva shall have exclusive jurisdiction.</p>",
+        "title": "9. Applicable Law"
+      },
+      "credits": {
+        "content": "<p><bold>Brand Strategy and Design:</bold> Pauline Pillon</p><p><bold>Photography:</bold> Domaine Simone / Selvain Sivapregassam</p><p><bold>Web Development:</bold> xlbnd</p>",
+        "title": "5. Credits"
+      },
+      "editor": {
+        "content": "<p><bold>Company Name:</bold> Domaine Simone Sàrl</p><p><bold>Address:</bold> c/o Natalio Cano, Rue de la Colline 16, 1205 Geneva, Switzerland</p><p><bold>IDE / VAT Number:</bold> CHE-276.963.736 TVA</p><p><bold>Legal Form:</bold> Limited Liability Company (Sàrl) under Swiss law</p><p><bold>Email:</bold> <link>info@domaine-simone.ch</link></p><p><bold>Phone:</bold> +41 79 216 27 64</p><p><bold>Legal Representatives / Partners:</bold></p><list><item>Damien Simone</item><item>Natalio Cano</item></list>",
+        "title": "1. Website Publisher"
       },
       "hosting": {
-        "content": "<p>The site is hosted by:</p><p><bold>Vercel Inc.</bold><br></br>440 N Barranca Ave #4133<br></br>Covina, CA 91723<br></br>United States</p><p>vercel.com</p>",
-        "title": "3. Hosting"
+        "content": "<p><bold>Hosting:</bold> Vercel Inc.</p><p><bold>Address:</bold> 340 S Lemon Ave #4133, Walnut, CA 91789, United States</p>",
+        "title": "2. Website Hosting"
+      },
+      "hyperlinks": {
+        "content": "<p>The Domaine Simone website may contain links to other websites (partners, retailers, social networks). Domaine Simone Sàrl cannot be held responsible for the content of these third-party sites or their specific privacy practices.</p>",
+        "title": "6. Hyperlinks"
       },
       "intellectualProperty": {
-        "content": "<p>All content on the site (texts, images, logo, visual identity) is the exclusive property of Domaine Simone SARL, unless otherwise stated.</p><p>Any reproduction, distribution, or use, in whole or in part, without prior authorization is strictly prohibited.</p>",
+        "content": "<p>All content present on this site (texts, images, logo, labels, visual identity, graphic elements, website structure) is the exclusive property of Domaine Simone Sàrl, unless otherwise stated.</p><p>Any reproduction, representation, modification, publication, or adaptation of all or part of the website elements, whatever the means or process used, is prohibited without the prior written consent of Domaine Simone Sàrl.</p><p>Any unauthorized use of the website or any of the elements it contains will be considered an infringement and may be prosecuted in accordance with the provisions of Swiss law (notably the Federal Act on Copyright and Related Rights, CopA).</p>",
         "title": "4. Intellectual Property"
       },
-      "liability": {
-        "content": "<p>Domaine Simone SARL strives to ensure the accuracy of the information published on the site.</p><p>However, no guarantee is given regarding its completeness or whether it is up to date.</p><p>The use of the site is under the sole responsibility of the user.</p>",
-        "title": "6. Liability"
+      "liabilityLimitation": {
+        "content": "<p>Domaine Simone Sàrl strives to ensure, to the best of its ability, the accuracy and updating of the information published on this site, and reserves the right to correct the content at any time and without notice.</p><p>Domaine Simone Sàrl cannot be held liable for errors, the lack of availability of information, and/or the presence of viruses on its site.</p>",
+        "title": "7. Limitation of Liability"
       },
-      "personalData": {
-        "content": "<p>Personal data collected via the site is used solely within the context of the commercial relationship with Domaine Simone SARL.</p><p>You have the right to access, rectify, or delete your data.</p><p>For any request: <link>info@domaine-simone.ch</link></p>",
-        "title": "5. Personal Data"
-      },
-      "publicationDirector": {
-        "content": "<p>The publication director is:</p><p><bold>Pauline Pillon</bold>, in charge of communication</p>",
-        "title": "2. Publication Director"
-      },
-      "siteEditor": {
-        "content": "<p>This site is edited by:</p><p><bold>Domaine Simone SARL</bold><br></br>Limited liability company under Swiss law</p><p>Registered office:<br></br>C/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Geneva<br></br>Switzerland</p><p>UID number: CHE-276.963.736</p><p>Email: <link>info@domaine-simone.ch</link></p>",
-        "title": "1. Site Editor"
-      },
-      "title": "Legal Notice"
+      "publicationManager": {
+        "content": "<p>Pauline Pillon, as Director of Communication for Domaine Simone Sàrl.</p>",
+        "title": "3. Publication Manager"
+      }
     },
+    "lastUpdated": "Last updated: July 8, 2026",
     "title": "Legal Notice"
   },
   "men": {
@@ -236,40 +244,65 @@
   },
   "privacyPolicy": {
     "content": {
-      "applicableLaw": {
-        "content": "<p>This policy is subject to Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
-        "title": "8. Applicable Law"
+      "contactAndComplaint": {
+        "content": "<p>For any questions regarding your personal data, you can contact:</p><p><bold>Domaine Simone Sàrl</bold><br></br><link>info@domaine-simone.ch</link></p><p>You also have the right to lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC) if you believe your rights are not being respected.</p>",
+        "title": "13. Contact and Complaints"
       },
       "cookies": {
-        "content": "<p>The site may use cookies to:</p><list><item>ensure its proper functioning</item><item>measure audience</item><item>improve user experience</item></list><p>You can configure your browser to refuse all or some cookies.</p>",
-        "title": "5. Cookies"
+        "content": "<p>The site uses cookies to:</p><list><item>ensure its proper technical functioning (essential cookies);</item><item>measure the audience and improve the user experience (statistical cookies);</item><item>where appropriate, personalize content or advertisements (marketing cookies, subject to consent).</item></list><p>You can manage your cookie preferences at any time via the dedicated banner displayed during your first visit, or through your browser settings.</p>",
+        "title": "7. Cookies"
       },
-      "dataCollection": {
-        "content": "<p>The Domaine Simone website may collect certain personal data in the following cases:</p><list><item>contact form</item><item>newsletter subscription</item><item>order or commercial request</item></list><p>The data collected may include: last name, first name, email address, phone number.</p>",
-        "title": "1. Data Collection"
+      "dataCollected": {
+        "content": "<p>In the context of the use of the site and the commercial relationship, the Estate may collect the following data:</p><table><row><th>Category</th><th>Examples</th><th>Purpose</th></row><row><cell>Identity</cell><cell>Last name, first name</cell><cell>Order processing, billing</cell></row><row><cell>Contact details</cell><cell>Postal address, email, phone</cell><cell>Delivery, follow-up communication</cell></row><row><cell>Payment data</cell><cell>Bank information (via secure third-party provider)</cell><cell>Payment processing</cell></row><row><cell>Browsing data</cell><cell>Cookies, IP address, visited pages</cell><cell>Site improvement, statistics</cell></row><row><cell>Preference data</cell><cell>Purchase history, viewed products</cell><cell>Personalization, newsletter (with consent)</cell></row><row><cell>Age verification</cell><cell>Declaration of majority</cell><cell>Legal compliance (sale of alcohol)</cell></row></table><p>The Estate does not collect any sensitive data (health, political or religious opinions, etc.) in the normal course of its business.</p>",
+        "title": "2. Data Collected"
       },
-      "dataRetention": {
-        "content": "<p>The data is kept only for the time necessary for its use.</p><p>It can be deleted at any time upon request.</p>",
-        "title": "3. Data Retention"
+      "dataController": {
+        "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Geneva, Switzerland</p><p>IDE / VAT Number: CHE-276.963.736 TVA</p><p>Privacy contact: <link>info@domaine-simone.ch</link></p>",
+        "title": "1. Data Controller"
       },
-      "dataSharing": {
-        "content": "<p>The data may be processed by technical service providers (e.g., Vercel hosting), solely for the purpose of operating the site.</p><p>No transfer to third parties for commercial purposes.</p>",
-        "title": "4. Data Sharing"
+      "dataSecurity": {
+        "content": "<p>The Estate implements reasonable technical and organizational measures to protect your data against unauthorized access, loss, alteration, or disclosure, notably through:</p><list><item>encryption of payment transactions (delegated to a certified third-party provider);</item><item>restricted access to data within the organization;</item><item>regular updates of the technical tools used.</item></list>",
+        "title": "9. Data Security"
       },
-      "dataUsage": {
-        "content": "<p>The data is used exclusively to:</p><list><item>respond to requests</item><item>manage the commercial relationship</item><item>communicate information related to the domain (if consented)</item></list><p>No data is sold, transferred, or used for external purposes.</p>",
-        "title": "2. Data Usage"
+      "internationalTransfer": {
+        "content": "<p>If certain technical providers (hosting, CRM tools, payment) process data outside of Switzerland, the Estate ensures that these transfers respect an adequate level of protection, in accordance with the requirements of the FADP (countries recognized as adequate by the Federal Commissioner, or standard contractual clauses).</p>",
+        "title": "10. International Data Transfer"
       },
-      "security": {
-        "content": "<p>Domaine Simone SARL implements appropriate technical and organizational measures to protect personal data.</p>",
-        "title": "7. Security"
+      "legalBasis": {
+        "content": "<p>The processing of your data is based on:</p><list><item>the performance of the contract (order processing, delivery);</item><item>your consent (newsletter, marketing communications);</item><item>compliance with legal obligations (billing, VAT, age verification);</item><item>the legitimate interest of the Estate (service improvement, site security).</item></list>",
+        "title": "4. Legal Basis for Processing"
       },
-      "title": "Privacy Policy",
+      "minors": {
+        "content": "<p>The site is not intended for minors. In accordance with the legislation on the sale of alcohol, no data is knowingly collected from persons under 16 years of age in connection with an order.</p>",
+        "title": "11. Minors"
+      },
+      "policyChanges": {
+        "content": "<p>The Estate reserves the right to modify this policy at any time, notably to comply with legal or technical developments. The current version is the one published on the site on the date of consultation.</p>",
+        "title": "12. Changes to the Privacy Policy"
+      },
+      "preamble": {
+        "content": "<p>Domaine Simone Sàrl (hereinafter \"the Estate\", \"we\", \"us\") attaches particular importance to the protection of the personal data of its customers and visitors. This privacy policy aims to inform you, with full transparency, about how your data is collected, used, stored, and protected, in accordance with the Federal Act on Data Protection (FADP) and its implementing ordinance (DPO).</p>",
+        "title": "Preamble"
+      },
+      "purposes": {
+        "content": "<p>Your data is processed for the following purposes:</p><orderedList><item><bold>Order management</bold>: processing, billing, delivery, after-sales service;</item><item><bold>Customer relations</bold>: responding to inquiries, handling complaints (breakage, oenological defects);</item><item><bold>Commercial communication</bold>: newsletter, Estate news, event invitations — only with your explicit consent;</item><item><bold>Legal compliance</bold>: age verification, accounting and tax obligations;</item><item><bold>Site improvement</bold>: traffic statistics, optimization of the user experience (via cookies, see Article 7).</item></orderedList>",
+        "title": "3. Purposes of Processing"
+      },
+      "recipients": {
+        "content": "<p>Your data may be shared with:</p><list><item><bold>Swiss Post</bold> (carrier), for the execution of the delivery;</item><item><bold>Payment providers</bold> (credit card, Twint), for the secure processing of transactions;</item><item><bold>Technical providers</bold> (site hosting, CRM tool), strictly within the limits necessary for their mission;</item><item><bold>Competent authorities</bold>, if a legal obligation requires it.</item></list><p>The Estate never sells, rents, or shares your data for third-party commercial purposes without your explicit consent.</p>",
+        "title": "5. Data Recipients"
+      },
+      "retention": {
+        "content": "<table><row><th>Data type</th><th>Retention period</th></row><row><cell>Order / billing data</cell><cell>10 years (Swiss accounting obligation, Art. 958f CO)</cell></row><row><cell>Newsletter data</cell><cell>Until unsubscription</cell></row><row><cell>Browsing data (cookies)</cell><cell>Maximum 13 months</cell></row><row><cell>Complaints / customer service exchanges</cell><cell>3 years after resolution</cell></row></table>",
+        "title": "6. Retention Period"
+      },
+      "title": "Privacy Policy – Domaine Simone Sàrl",
       "yourRights": {
-        "content": "<p>In accordance with applicable regulations, you have the following rights:</p><list><item>access to your data</item><item>rectification</item><item>deletion</item><item>opposition to processing</item></list><p>To exercise these rights: <link>info@domaine-simone.ch</link></p>",
-        "title": "6. Your Rights"
+        "content": "<p>In accordance with the FADP, you have the following rights regarding your personal data:</p><list><item><bold>Right of access</bold>: obtain a copy of the data concerning you;</item><item><bold>Right to rectification</bold>: correct inaccurate or incomplete data;</item><item><bold>Right to erasure</bold>: request the deletion of your data, subject to legal retention obligations;</item><item><bold>Right to object</bold>: object at any time to the use of your data for direct marketing purposes;</item><item><bold>Right to data portability</bold>: receive your data in a structured and readable format;</item><item><bold>Withdrawal of consent</bold>: at any time, without retroactive effect.</item></list><p>To exercise these rights, you can contact the Estate at the following address: <link>info@domaine-simone.ch</link></p><p>A response will be provided to you within a reasonable timeframe, in accordance with the law.</p>",
+        "title": "8. Your Rights"
       }
     },
+    "lastUpdated": "Last updated: July 8, 2026",
     "title": "Privacy Policy"
   },
   "professionals": {
@@ -286,55 +319,72 @@
   "termsAndConditions": {
     "content": {
       "alcoholSales": {
-        "content": "<p>The sale of alcohol is strictly reserved for persons of legal drinking age in their country of residence.</p><p>In Switzerland, this age is set at 16 for wine.</p><p>By placing an order, the customer certifies that they comply with applicable legislation.</p>",
-        "title": "10. Alcohol Sales"
-      },
-      "applicability": {
-        "content": "<p>These General Terms and Conditions (GTC) govern all sales made by Domaine Simone SARL, via its website or through direct sales.</p><p>Any order implies full and unreserved acceptance of these GTC.</p>",
-        "title": "1. Scope of Application"
+        "content": "<p>The sale of wine in Switzerland is strictly restricted to persons who are at least 16 years old.</p><p>By placing an order, the customer declares and guarantees to be at least 16 years of age. The Estate reserves the right to request proof of age at any time, in particular upon delivery or during events, and to refuse or cancel any order if a doubt is not resolved.</p>",
+        "title": "4. Sale of Alcohol and Legal Age"
       },
       "applicableLaw": {
-        "content": "<p>These GTC are governed by Swiss law.</p><p>Any dispute is subject to the exclusive jurisdiction of the courts of the canton of Geneva.</p>",
-        "title": "12. Applicable Law"
+        "content": "<p>These GTC are subject to Swiss law.</p><p>In the event of a dispute, and failing an amicable resolution, the courts of the Canton of Geneva shall have exclusive jurisdiction, subject to any mandatory legal provisions applicable to consumers.</p>",
+        "title": "16. Applicable Law and Jurisdiction"
       },
       "delivery": {
-        "content": "<p>Deliveries are provided in Switzerland and Europe.</p><p>For any request outside these areas, the customer is invited to contact: <link>info@domaine-simone.ch</link></p><p>Delivery times are indicative and depend on the carrier.</p><p>Delivery conditions are those of the mandated carrier.</p><p>In the event of a problem related to transport (delay, breakage, loss), responsibility lies with the carrier.</p>",
-        "title": "6. Delivery"
+        "content": "<p><strong>Delivery zone</strong></p><p>Deliveries are strictly limited to the Swiss territory.</p><p><strong>Carrier</strong></p><p>Deliveries are made via Swiss Post or by the Estate.</p><p><strong>Shipping costs</strong></p><table><row><th>Zone</th><th>Condition</th><th>Shipping costs</th></row><row><cell>Canton of Geneva</cell><cell>From 6 cases (CHF 33.- each)</cell><cell>Free</cell></row><row><cell>All of Switzerland</cell><cell>From 10 cases (CHF 1,980.- incl. VAT)</cell><cell>Free</cell></row><row><cell>Other orders</cell><cell>Below the above thresholds</cell><cell>Billed according to the current rate, communicated before order validation</cell></row></table><p><strong>Delivery times</strong></p><p>Indicative delivery times are communicated upon order confirmation. The Estate cannot be held responsible for delays attributable to the carrier.</p><p><strong>Transfer of risks</strong></p><p>The transfer of risks (loss, breakage, damage) occurs upon delivery of the package to the carrier. See Article 10 for the management of breakage or delivery defects.</p>",
+        "title": "8. Delivery"
+      },
+      "intellectualProperty": {
+        "content": "<p>All elements of the site (texts, visuals, logo, labels, brand identity) are the exclusive property of Domaine Simone Sàrl and may not be reproduced without prior written consent.</p>",
+        "title": "15. Intellectual Property"
       },
       "liability": {
-        "content": "<p>Domaine Simone SARL cannot be held responsible for poor preservation of the wine after delivery.</p><p>The customer is solely responsible for storage conditions.</p>",
-        "title": "9. Liability"
+        "content": "<p>The Estate undertakes to exercise the utmost care in the preparation and shipment of orders. Its liability cannot be invoked in the event of:</p><list><item>force majeure;</item><item>improper use or storage of the product by the customer after delivery;</item><item>transport-related damages (see Article 10).</item></list><p>The liability of the Estate, if it were to be retained, is limited to the amount of the relevant order.</p>",
+        "title": "13. Liability"
+      },
+      "oenologicalDefect": {
+        "content": "<p>In the event of a proven oenological defect on a bottle (cork taint, abnormal oxidation, etc.), the customer must:</p><orderedList><item>contact the Estate as soon as possible;</item><item>return the affected bottle (or the unconsumed portion) to the Estate for analysis.</item></orderedList><p>After validation of the defect by the Estate, the bottle will be exchanged free of charge for an equivalent bottle, subject to stock availability.</p><p>Not covered by this guarantee are: defects linked to improper storage by the customer (exposure to heat, light, prolonged upright storage, etc.).</p>",
+        "title": "11. Oenological Defect and Exchange"
       },
       "orders": {
-        "content": "<p>Any order is considered firm and final after validation.</p><p>Domaine Simone SARL reserves the right to refuse an order, particularly in the event of a previous dispute or doubt about its legitimacy.</p>",
-        "title": "4. Orders"
+        "content": "<p>Orders can be placed:</p><list><item>directly on the Estate's website;</item><item>during events in which the Estate participates;</item><item>through authorized partner retailers (wine merchants, restaurants), according to the specific conditions of each point of sale.</item></list><p>Any order placed via the website is subject to email confirmation summarizing the products, quantities, prices, and delivery terms.</p><p>The Estate reserves the right to refuse or cancel any order in case of doubt as to its legitimacy, stock shortage, or non-compliance with these GTC (notably Article 4).</p>",
+        "title": "6. Orders"
       },
       "payment": {
-        "content": "<p>Payments can be made:</p><list><item>online, via the secure payment methods offered on the site</item><item>by invoice</item></list><p>Payment terms:</p><list><item><bold>Private customers</bold>: the order is shipped only after receipt of full payment</item><item><bold>Professional customers</bold>: payment within 30 days from the invoice date</item></list>",
-        "title": "5. Payment"
+        "content": "<p>Payment is made prior to delivery, using the following methods:</p><list><item>invoice;</item><item>credit card;</item><item>bank transfer;</item><item>Twint.</item></list><p>The order is considered firm and final once full payment has been received by the Estate. No shipment is made before full receipt of payment.</p><p>In the case of payment by bank transfer, delivery times begin upon the actual receipt of funds in the Estate's account.</p>",
+        "title": "7. Payment Methods"
       },
       "personalData": {
-        "content": "<p>The data collected is used solely within the context of the commercial relationship.</p><p>It is neither resold nor transmitted to third parties without consent.</p>",
-        "title": "11. Personal Data"
+        "content": "<p>Personal data collected in connection with orders is processed in accordance with the Federal Act on Data Protection (FADP) and is used exclusively for the management of the commercial relationship (order processing, delivery, after-sales service, communication relating to the Estate's products, unless the customer objects).</p>",
+        "title": "14. Data Protection"
       },
       "pricing": {
-        "content": "<p>Prices are indicated in Swiss francs (CHF), all taxes included (VAT), excluding delivery costs.</p><list><item><bold>Private customers</bold>: current delivery costs apply</item><item><bold>Professional customers</bold>: deliveries are free of charge in the canton of Geneva starting from one case</item></list><p>Domaine Simone SARL reserves the right to modify its prices at any time. The applicable price is the one in effect at the time of the order.</p>",
-        "title": "3. Prices"
+        "content": "<p>Prices are indicated in Swiss francs (CHF), all taxes included (VAT included), excluding delivery costs unless otherwise stated in Article 8.</p><p>The Estate applies a fixed and non-negotiable pricing policy, including at events or through partner retailers, in line with its premium positioning. No discounts, clearance sales, or promotional bundles are offered, except for exceptional operations explicitly communicated by the Estate.</p><p>The Estate reserves the right to modify its prices at any time, it being understood that only the price displayed at the time of order validation is binding.</p>",
+        "title": "5. Pricing"
       },
       "products": {
-        "content": "<p>The wines offered come from a limited production.</p><p>Each cuvée is the reflection of precise, uncompromising work, and cannot be reproduced identically.</p><p>Domaine Simone SARL reserves the right to modify its offer at any time, depending on availability.</p>",
-        "title": "2. Products"
+        "content": "<p>The products sold by the Estate are wines produced by Domaine Simone, presented with their essential characteristics (cuvée, vintage, grape varieties, alcohol content, bottle numbering where applicable).</p><p>Since vintages are produced in limited quantities, product availability is subject to change without notice. The Estate strives to keep the stock displayed on its site up to date, without an absolute guarantee of availability at the time of ordering.</p><p>In the event of a stock shortage after an order has been placed, the customer will be informed as soon as possible and fully refunded if they do not wish to wait for a restock.</p>",
+        "title": "3. Products"
       },
-      "qualityAndReturns": {
-        "content": "<p>Domaine Simone SARL makes no compromises on the quality of its wines.</p><p>In the event of a proven organoleptic defect, the bottle may be replaced after verification.</p><p>The customer must first contact: <link>info@domaine-simone.ch</link></p><p>The bottle in question must be returned for analysis.</p><p>Outside of this specific case, no returns or refunds will be accepted.</p>",
-        "title": "8. Quality and Returns"
+      "resellers": {
+        "content": "<p>The specific conditions applicable to partner retailers (territorial exclusivity, volumes, recommended retail price, promotion) are the subject of a separate contractual agreement and are not covered in detail by these GTC.</p><p>The partner retailer undertakes in particular to respect the recommended retail price communicated by the Estate.</p>",
+        "title": "12. Partner Retailers"
       },
-      "reception": {
-        "content": "<p>The customer is required to check the condition of the products upon receipt.</p><p>Any anomaly must be reported directly to the carrier, in accordance with their conditions.</p>",
-        "title": "7. Receipt of Orders"
+      "scope": {
+        "content": "<p>These General Terms and Conditions (hereinafter \"GTC\") govern all sales of wine products offered by Domaine Simone Sàrl (hereinafter \"the Estate\"), whether:</p><list><item>via the Estate's website (distance selling);</item><item>during events organized by or in which the Estate participates;</item><item>through authorized partner retailers (wine merchants, restaurants).</item></list><p>Any order implies full and complete acceptance of these GTC, to the exclusion of any other document, unless a specific written agreement has been concluded with a partner retailer (see Article 12).</p>",
+        "title": "1. Purpose and Scope"
       },
-      "title": "General Terms and Conditions – Domaine Simone SARL"
+      "seller": {
+        "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Geneva, Switzerland</p><p>IDE / VAT Number: CHE-276.963.736 TVA</p><p>Contact: <link>info@domaine-simone.ch</link> / +41 79 216 27 64</p>",
+        "title": "2. Identification of the Seller"
+      },
+      "title": "General Terms and Conditions – Domaine Simone Sàrl",
+      "transportDamage": {
+        "content": "<p>In the event of breakage, a missing bottle, or any transport-related defect noted upon receipt of the package, responsibility lies exclusively with the carrier (Swiss Post).</p><p>The customer is invited to:</p><orderedList><item>note and photograph the damage upon receipt;</item><item>report the incident as soon as possible (ideally within 48h) to the Estate, which will assist the customer in the claim process with the carrier;</item><item>keep the original packaging until the case is resolved.</item></orderedList><p>The Estate is committed to facilitating this process but cannot substitute itself for the carrier's liability for transport-related damages.</p>",
+        "title": "10. Breakage and Delivery Defects"
+      },
+      "withdrawal": {
+        "content": "<p>In accordance with Swiss law applicable to the sale of food and beverages, the distance selling of wine is not subject to a mandatory legal right of withdrawal. Consequently, any validated and paid order is firm and final, subject to the provisions of Articles 10 and 11 below.</p>",
+        "title": "9. Absence of Right of Withdrawal"
+      }
     },
+    "lastUpdated": "Last updated: July 8, 2026",
     "title": "General Terms and Conditions"
   },
   "wine": {

@@ -7,24 +7,32 @@ export default async function TermsAndConditionsPage() {
   const t = await getTranslations('termsAndConditions');
 
   const articles = [
-    'applicability',
+    'scope',
+    'seller',
     'products',
+    'alcoholSales',
     'pricing',
     'orders',
     'payment',
     'delivery',
-    'reception',
-    'qualityAndReturns',
+    'withdrawal',
+    'transportDamage',
+    'oenologicalDefect',
+    'resellers',
     'liability',
-    'alcoholSales',
     'personalData',
+    'intellectualProperty',
     'applicableLaw',
   ] as const;
 
   return (
     <ContentWrapper>
       <article className={cn('mb-10')}>
-        <h1 className={cn('font-imbue text-4xl mb-10')}>{t('title')}</h1>
+        <header className={cn('mb-10')}>
+          <h1 className={cn('font-imbue text-4xl mb-2')}>{t('title')}</h1>
+          <p className="font-medium">Domaine Simone Sàrl</p>
+          <p className={cn('text-muted-foreground')}>{t('lastUpdated')}</p>
+        </header>
 
         {articles.map((key) => (
           <section key={key}>

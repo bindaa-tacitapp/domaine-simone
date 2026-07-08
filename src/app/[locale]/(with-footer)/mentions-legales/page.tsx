@@ -7,19 +7,25 @@ export default async function LegalNoticePage() {
   const t = await getTranslations('legalNotice');
 
   const articles = [
-    'siteEditor',
-    'publicationDirector',
+    'editor',
     'hosting',
+    'publicationManager',
     'intellectualProperty',
-    'personalData',
-    'liability',
+    'credits',
+    'hyperlinks',
+    'liabilityLimitation',
+    'alcoholConsumption',
     'applicableLaw',
   ] as const;
 
   return (
     <ContentWrapper>
       <article className={cn('mb-10')}>
-        <h1 className={cn('font-imbue text-4xl mb-10')}>{t('title')}</h1>
+        <header className={cn('mb-10')}>
+          <h1 className={cn('font-imbue text-4xl mb-2')}>{t('title')}</h1>
+          <p className="font-medium">Domaine Simone Sàrl</p>
+          <p className={cn('text-muted-foreground')}>{t('lastUpdated')}</p>
+        </header>
 
         {articles.map((key) => (
           <section key={key}>

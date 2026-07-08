@@ -7,20 +7,30 @@ export default async function PrivacyPolicyPage() {
   const t = await getTranslations('privacyPolicy');
 
   const articles = [
-    'dataCollection',
-    'dataUsage',
-    'dataRetention',
-    'dataSharing',
+    'preamble',
+    'dataController',
+    'dataCollected',
+    'purposes',
+    'legalBasis',
+    'recipients',
+    'retention',
     'cookies',
     'yourRights',
-    'security',
-    'applicableLaw',
+    'dataSecurity',
+    'internationalTransfer',
+    'minors',
+    'policyChanges',
+    'contactAndComplaint',
   ] as const;
 
   return (
     <ContentWrapper>
       <article className={cn('mb-10')}>
-        <h1 className={cn('font-imbue text-4xl mb-10')}>{t('title')}</h1>
+        <header className={cn('mb-10')}>
+          <h1 className={cn('font-imbue text-4xl mb-2')}>{t('title')}</h1>
+          <p className="font-medium">Domaine Simone Sàrl</p>
+          <p className={cn('text-muted-foreground')}>{t('lastUpdated')}</p>
+        </header>
 
         {articles.map((key) => (
           <section key={key}>
