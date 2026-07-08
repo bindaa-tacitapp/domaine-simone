@@ -63,6 +63,7 @@ const Header = () => {
         </div>
 
         <input
+          aria-label={t('menu.toggle')}
           className="sr-only peer"
           id="menu-toggle"
           ref={checkbox}
