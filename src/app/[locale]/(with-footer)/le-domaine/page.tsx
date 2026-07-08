@@ -25,7 +25,7 @@ export default async function DomainePage() {
 
       <ImageAndText
         alt={t('text.soil.alt')}
-        src="/img/soil.webp"
+        src="/img/calvaire.webp"
         text={t.rich('text.soil.text', handleRichTags)}
       />
 
