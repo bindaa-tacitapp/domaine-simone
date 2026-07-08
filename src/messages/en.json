@@ -2,8 +2,8 @@
   "ageGate": {
     "declined": "You are not authorized to view this website.<br></br><br></br>Please close this window.",
     "neutral": {
-      "description": "It is prohibited to view alcohol-related websites before reaching the legal age in your country of residence.",
-      "message": "Are you of legal age to purchase and consume alcohol in your country of residence?",
+      "description": "Access to alcohol-related content is restricted to individuals who have reached the legal age in their country of residence.",
+      "message": "Do you confirm that you are of legal age to purchase and consume alcohol?",
       "no": "No",
       "title": "Age verification",
       "yes": "Yes"

@@ -2,8 +2,8 @@
   "ageGate": {
     "declined": "Non siete autorizzati a consultare questo sito web.<br></br><br></br>Vi preghiamo di chiudere questa finestra.",
     "neutral": {
-      "description": "È vietato consultare siti legati all'alcol prima di aver raggiunto l'età legale nel vostro paese di residenza.",
-      "message": "Avete l'età legale per acquistare e consumare alcolici nel vostro paese di residenza?",
+      "description": "L'accesso ai contenuti legati all'alcol è riservato alle persone che hanno raggiunto l'età legale in vigore nel loro paese di residenza.",
+      "message": "Confermate di avere l'età legale per acquistare e consumare alcolici?",
       "no": "No",
       "title": "Verifica dell'età",
       "yes": "Sì"

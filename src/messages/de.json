@@ -2,8 +2,8 @@
   "ageGate": {
     "declined": "Sie sind nicht berechtigt, diese Website aufzurufen.<br></br><br></br>Bitte schliessen Sie dieses Fenster.",
     "neutral": {
-      "description": "Es ist untersagt, Websites mit Bezug zu Alkohol vor Erreichen des gesetzlichen Mindestalters in Ihrem Wohnsitzland aufzurufen.",
-      "message": "Haben Sie das gesetzliche Mindestalter für den Kauf und Konsum von Alkohol in Ihrem Wohnsitzland erreicht?",
+      "description": "Der Zugang zu alkoholbezogenen Inhalten ist Personen vorbehalten, die das in ihrem Wohnsitzland geltende gesetzliche Mindestalter erreicht haben.",
+      "message": "Bestätigen Sie, dass Sie das gesetzliche Mindestalter für den Kauf und Konsum von Alkohol erreicht haben?",
       "no": "Nein",
       "title": "Altersprüfung",
       "yes": "Ja"
