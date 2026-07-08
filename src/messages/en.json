@@ -316,6 +316,80 @@
     },
     "title": "Professionals"
   },
+  "seo": {
+    "brand": {
+      "description": "A historic plot with a 40% slope, planted even before the creation of the estate. Discover the history of Domaine Simone's first terroir.",
+      "h1": "Le Calvaire",
+      "h2": {
+        "1": "40% slope: the land nobody wanted",
+        "2": "Planted even before the signature",
+        "3": "Shaping the earth, reading the living, listening to the soil",
+        "4": "The first harvests: when the earth responds",
+        "5": "The Calvaire cuvée: a tribute to this plot "
+      },
+      "title": "Le Calvaire | Domaine Simone"
+    },
+    "domain": {
+      "description": "An estate located in AOC Premier Cru Côtes de Russin, clay-loam soils, 30-40% slopes, due west exposure. Discover the demanding terroir that gave birth to Domaine Simone.",
+      "h2": {
+        "1": "A demanding terroir: soils, slopes, exposure",
+        "2": "Clay-loam soils: the legacy of glaciations",
+        "3": "30 to 40% slope: the controlled stress that creates substance ",
+        "4": "Due west exposure: maturity built in patience",
+        "5": "Half of the vineyard in old vines"
+      },
+      "title": "Geneva, an exceptional terroir | Domaine Simone"
+    },
+    "founders": {
+      "description": "Discover Damien Simone, oenologist, and Natalio Cano, sales and export expert. Together, they created Domaine Simone and are putting Geneva on the map with a great, exceptional wine.",
+      "h1": "The Founders",
+      "h2": {
+        "1": "Two complementary profiles. One shared conviction",
+        "2": "A single goal: putting Geneva on the map"
+      },
+      "title": "The Founders | Domaine Simone"
+    },
+    "home": {
+      "description": "Domaine Simone, an exceptional Geneva wine born from an ambition: to put Geneva on the map of the world's great terroirs. Discover Le Calvaire.",
+      "h1": "Domaine Simone: exceptional wine in Geneva",
+      "h2": {
+        "1": "An estate created to write a story, not perpetuate one",
+        "2": "Le Calvaire, 40% slope. The plot that decided everything",
+        "3": "Calvaire Sélection: 5473 bottles of an exceptional blend",
+        "4": "Two profiles, one ambition: putting Geneva on the map"
+      },
+      "title": "Exceptional wine in Geneva | Domaine Simone"
+    },
+    "wineReserve": {
+      "description": "300 bottles. An exceptional red: 36 months in barrels, 12 months in bottle. Merlot, Cabernet Sauvignon, Cabernet Franc. Available in 2029. The Grande Réserve of Domaine Simone.",
+      "h1": "Calvaire Grande Réserve",
+      "h2": {
+        "1": "The ultimate expression of the Swiss terroir",
+        "2": "An uncompromising conviction",
+        "3": "Technical sheet"
+      },
+      "title": "Coming Soon: Calvaire Grande Réserve 2029 | Domaine Simone"
+    },
+    "wineSelection": {
+      "description": "Calvaire Sélection 2025: dry white 59% Chasselas, 41% Chardonnay. 5473 numbered bottles. Côtes de Russin terroir, aged in new oak barrels. Discover this wine of finesse and minerality.",
+      "h1": "Calvaire Sélection",
+      "h2": {
+        "1": "A golden color, a nose of peach and citrus with a buttery touch",
+        "2": "This wine tells a story: that of an underestimated terroir",
+        "3": "Technical sheet"
+      },
+      "title": "Calvaire Sélection 2025 — Chardonnay-Chasselas White | Domaine Simone"
+    },
+    "wines": {
+      "description": "Calvaire Sélection (white, 2025) and Calvaire Grande Réserve (red, 2029). The two expressions of Domaine Simone, from the premium Geneva AOC Russin terroir.",
+      "h1": "The Wines",
+      "h2": {
+        "1": "Le Calvaire Sélection: white cuvée, Chardonnay-Chasselas blend",
+        "2": "Le Calvaire Grande Réserve: availability 2029"
+      },
+      "title": "The wines of Le Calvaire | Domaine Simone"
+    }
+  },
   "termsAndConditions": {
     "content": {
       "alcoholSales": {

@@ -1,18 +1,34 @@
-'use client';
-
+import { Metadata } from 'next';
 import Image from 'next/image';
-import { useLocale, useTranslations } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
 import { Quote } from '@/components/Quote/Quote';
+import { Locale } from '@/i18n/config';
 import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
-export default function HomePage() {
-  const t = useTranslations('home');
-  const locale = useLocale();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'seo.home' });
+
+  return {
+    description: t('description'),
+    title: t('title'),
+  };
+}
+
+export default async function HomePage() {
+  const t = await getTranslations('home');
+  const tSeo = await getTranslations('seo.home');
+  const locale = await getLocale();
 
   return (
     <>
+      <h1 className="sr-only">{tSeo('h1')}</h1>
       <div
         className={cn('relative h-[80vh] mb-25', 'lg:h-[70vh] lg:m-35 lg:mt-0')}
       >
@@ -28,7 +44,10 @@ export default function HomePage() {
         />
       </div>
 
-      <Quote className={cn('mb-40')}>{t('title')}</Quote>
+      <Quote className={cn('mb-40')}>
+        <h2 className="sr-only">{tSeo('h2.1')}</h2>
+        {t('title')}
+      </Quote>
 
       <ImageAndText
         alt={t('domain.alt')}
@@ -37,6 +56,7 @@ export default function HomePage() {
         text={t.rich('domain.text', handleRichTags)}
       />
 
+      <h2 className="sr-only">{tSeo('h2.2')}</h2>
       <ImageAndText
         alt={t('calvaire.alt')}
         propertyValue={t('calvaire.data.value')}
@@ -45,6 +65,7 @@ export default function HomePage() {
         text={t.rich('calvaire.text', handleRichTags)}
       />
 
+      <h2 className="sr-only">{tSeo('h2.3')}</h2>
       <ImageAndText
         alt={t('wine.alt')}
         propertyValue={Intl.NumberFormat(locale).format(
@@ -54,6 +75,7 @@ export default function HomePage() {
         text={t.rich('wine.text', handleRichTags)}
       />
 
+      <h2 className="sr-only">{tSeo('h2.4')}</h2>
       <ImageAndText
         alt={t('founders.alt')}
         propertyValue={t('founders.data.value')}

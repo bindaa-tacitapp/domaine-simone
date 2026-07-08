@@ -316,6 +316,80 @@
     },
     "title": "Professionnels"
   },
+  "seo": {
+    "brand": {
+      "description": "Une parcelle historique à 40% de pente, plantée avant même la création du domaine. Découvrez l'histoire du premier terroir du Domaine Simone.",
+      "h1": "Le Calvaire",
+      "h2": {
+        "1": "40% de pente : le terrain que personne ne voulait",
+        "2": "Plantée avant même la signature",
+        "3": "Former la terre, lire le vivant, écouter le sol",
+        "4": "Les premières vendanges : quand la terre répond",
+        "5": "La cuvée du Calvaire : un hommage à cette parcelle "
+      },
+      "title": "Le Calvaire | Domaine Simone"
+    },
+    "domain": {
+      "description": "Un domaine situé en AOC Premier Cru Côtes de Russin, sols argilo-limoneux, pentes de 30-40%, exposition plein ouest. Découvrez le terroir exigeant qui a donné naissance au Domaine Simone.",
+      "h2": {
+        "1": "Un terroir exigeant : sols, pentes, exposition",
+        "2": "Les sols argilo-limoneux : l'héritage des glaciations",
+        "3": "30 à 40 % de pente : le stress maîtrisé qui crée la matière ",
+        "4": "L'exposition plein Ouest : une maturité construite dans la patience",
+        "5": "La moitié du vignoble en vieilles vignes"
+      },
+      "title": "Genève, terroir d'exception | Domaine Simone"
+    },
+    "founders": {
+      "description": "Découvrez Damien Simone, œnologue, et Natalio Cano, expert en vente et export. Ensemble, ils créent le Domaine Simone et mettent Genève sur la carte avec un grand vin d'exception.",
+      "h1": "Les Fondateurs",
+      "h2": {
+        "1": "Deux profils complémentaires. Une même conviction",
+        "2": "Un seul objectif : mettre Genève sur la carte"
+      },
+      "title": "Les Fondateurs | Domaine Simone"
+    },
+    "home": {
+      "description": "Domaine Simone, un vin genevois d'exception né d'une ambition : mettre Genève sur la carte des grands terroirs mondiaux. Découvrez le Calvaire.",
+      "h1": "Domaine Simone : vin d’exception à Genève",
+      "h2": {
+        "1": "Un domaine créé pour écrire une histoire, pas la perpétuer",
+        "2": "Le Calvaire, 40% de pente. La parcelle qui a tout décidé",
+        "3": "Calvaire Sélection : 5473 bouteilles d’un assemblage d'exception",
+        "4": "Deux profils, une ambition : mettre Genève sur la carte"
+      },
+      "title": "Vin d'exception à Genève | Domaine Simone"
+    },
+    "wineReserve": {
+      "description": "300 bouteilles. Un rouge d'exception : 36 mois en barrique, 12 mois en bouteille. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponible en 2029. La Grande Réserve du Domaine Simone.",
+      "h1": "Calvaire Grande Réserve",
+      "h2": {
+        "1": "L'expression ultime du terroir Suisse",
+        "2": "Une conviction sans compromis",
+        "3": "Fiche technique"
+      },
+      "title": "A Venir : Calvaire Grande Réserve 2029 | Domaine Simone"
+    },
+    "wineSelection": {
+      "description": "Calvaire Sélection 2025 : blanc sec 59% Chasselas, 41% Chardonnay. 5473 bouteilles numérotées. Terroir des Côtes de Russin, élevé en barriques neuves. Découvrez ce vin de finesse et de minéralité.",
+      "h1": "Calvaire Sélection",
+      "h2": {
+        "1": "Une robe dorée, un nez de pêche, agrumes avec une touche beurrée",
+        "2": "Ce vin raconte une histoire : celle d'un terroir sous-estimé",
+        "3": "Fiche technique"
+      },
+      "title": "Calvaire Sélection 2025 — Blanc Chardonnay-Chasselas | Domaine Simone"
+    },
+    "wines": {
+      "description": "Calvaire Sélection (blanc, 2025) et Calvaire Grande Réserve (rouge, 2029). Les deux expressions du Domaine Simone, issues du terroir genevois premium AOC Russin.",
+      "h1": "Les Vins",
+      "h2": {
+        "1": "Le Calvaire Sélection : cuvée blanche, assemblage Chardonnay-Chasselas",
+        "2": "Le Calvaire Grande Réserve : disponibilité 2029"
+      },
+      "title": "Les vins du Calvaire | Domaine Simone"
+    }
+  },
   "termsAndConditions": {
     "content": {
       "alcoholSales": {

@@ -316,6 +316,80 @@
     },
     "title": "Geschäftskunden"
   },
+  "seo": {
+    "brand": {
+      "description": "Eine historische Parzelle mit 40 % Gefälle, bepflanzt noch vor der Gründung des Weinguts. Entdecken Sie die Geschichte des ersten Terroirs der Domaine Simone.",
+      "h1": "Le Calvaire",
+      "h2": {
+        "1": "40 % Gefälle: das Land, das niemand wollte",
+        "2": "Bepflanzt noch vor der Unterschrift",
+        "3": "Die Erde formen, das Lebendige lesen, auf den Boden hören",
+        "4": "Die erste Weinlese: wenn die Erde antwortet",
+        "5": "Die Cuvée des Calvaire: eine Hommage an diese Parzelle "
+      },
+      "title": "Le Calvaire | Domaine Simone"
+    },
+    "domain": {
+      "description": "Ein Weingut in der AOC Premier Cru Côtes de Russin, Ton-Lehm-Böden, 30-40 % Gefälle, reine Westlage. Entdecken Sie das anspruchsvolle Terroir, aus dem die Domaine Simone entstanden ist.",
+      "h2": {
+        "1": "Ein anspruchsvolles Terroir: Böden, Hänge, Ausrichtung",
+        "2": "Die Ton-Lehm-Böden: das Erbe der Eiszeiten",
+        "3": "30 bis 40 % Gefälle: der kontrollierte Stress, der Substanz schafft ",
+        "4": "Reine Westlage: eine in Geduld aufgebaute Reife",
+        "5": "Die Hälfte des Weinbergs mit alten Reben"
+      },
+      "title": "Genf, ein aussergewöhnliches Terroir | Domaine Simone"
+    },
+    "founders": {
+      "description": "Entdecken Sie Damien Simone, Önologe, und Natalio Cano, Experte für Verkauf und Export. Gemeinsam gründen sie die Domaine Simone und setzen Genf mit einem grossen, aussergewöhnlichen Wein auf die Karte.",
+      "h1": "Die Gründer",
+      "h2": {
+        "1": "Zwei sich ergänzende Profile. Die gleiche Überzeugung",
+        "2": "Ein einziges Ziel: Genf auf die Karte zu setzen"
+      },
+      "title": "Die Gründer | Domaine Simone"
+    },
+    "home": {
+      "description": "Domaine Simone, ein aussergewöhnlicher Genfer Wein, entstanden aus einer Ambition: Genf auf die Karte der grossen Terroirs der Welt zu setzen. Entdecken Sie das Calvaire.",
+      "h1": "Domaine Simone: Aussergewöhnlicher Wein in Genf",
+      "h2": {
+        "1": "Ein Weingut, gegründet, um eine Geschichte zu schreiben, nicht um sie fortzuführen",
+        "2": "Das Calvaire, 40 % Gefälle. Die Parzelle, die alles entschied",
+        "3": "Calvaire Sélection: 5473 Flaschen einer aussergewöhnlichen Assemblage",
+        "4": "Zwei Profile, eine Ambition: Genf auf die Karte zu setzen"
+      },
+      "title": "Aussergewöhnlicher Wein in Genf | Domaine Simone"
+    },
+    "wineReserve": {
+      "description": "300 Flaschen. Ein aussergewöhnlicher Rotwein: 36 Monate im Barrique, 12 Monate in der Flasche. Merlot, Cabernet Sauvignon, Cabernet Franc. Verfügbar im Jahr 2029. Die Grande Réserve der Domaine Simone.",
+      "h1": "Calvaire Grande Réserve",
+      "h2": {
+        "1": "Der ultimative Ausdruck des Schweizer Terroirs",
+        "2": "Eine kompromisslose Überzeugung",
+        "3": "Technisches Datenblatt"
+      },
+      "title": "Demnächst: Calvaire Grande Réserve 2029 | Domaine Simone"
+    },
+    "wineSelection": {
+      "description": "Calvaire Sélection 2025: trockener Weisswein 59 % Chasselas, 41 % Chardonnay. 5473 nummerierte Flaschen. Terroir der Côtes de Russin, in neuen Barriques ausgebaut. Entdecken Sie diesen Wein voller Finesse und Mineralität.",
+      "h1": "Calvaire Sélection",
+      "h2": {
+        "1": "Eine goldene Farbe, ein Bukett von Pfirsich und Zitrusfrüchten mit einer buttrigen Note",
+        "2": "Dieser Wein erzählt eine Geschichte: die eines unterschätzten Terroirs",
+        "3": "Technisches Datenblatt"
+      },
+      "title": "Calvaire Sélection 2025 — Chardonnay-Chasselas Weisswein | Domaine Simone"
+    },
+    "wines": {
+      "description": "Calvaire Sélection (Weiss, 2025) und Calvaire Grande Réserve (Rot, 2029). Die beiden Ausdrücke der Domaine Simone, aus dem erstklassigen Genfer Terroir AOC Russin.",
+      "h1": "Die Weine",
+      "h2": {
+        "1": "Le Calvaire Sélection: weisse Cuvée, Chardonnay-Chasselas-Assemblage",
+        "2": "Le Calvaire Grande Réserve: Verfügbarkeit 2029"
+      },
+      "title": "Die Weine des Calvaire | Domaine Simone"
+    }
+  },
   "termsAndConditions": {
     "content": {
       "alcoholSales": {

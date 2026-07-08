@@ -316,6 +316,80 @@
     },
     "title": "Professionisti"
   },
+  "seo": {
+    "brand": {
+      "description": "Una parcella storica con una pendenza del 40%, piantata prima ancora della creazione della tenuta. Scoprite la storia del primo terroir del Domaine Simone.",
+      "h1": "Le Calvaire",
+      "h2": {
+        "1": "Pendenza del 40%: il terreno che nessuno voleva",
+        "2": "Piantata prima ancora della firma",
+        "3": "Plasmare la terra, leggere il vivente, ascoltare il suolo",
+        "4": "Le prime vendemmie: quando la terra risponde",
+        "5": "La cuvée del Calvaire: un omaggio a questa parcella "
+      },
+      "title": "Le Calvaire | Domaine Simone"
+    },
+    "domain": {
+      "description": "Una tenuta situata in AOC Premier Cru Côtes de Russin, suoli argillo-limosi, pendenze del 30-40%, esposizione a ovest. Scoprite il terroir esigente che ha dato vita al Domaine Simone.",
+      "h2": {
+        "1": "Un terroir esigente: suoli, pendenze, esposizione",
+        "2": "I suoli argillo-limosi: l'eredità delle glaciazioni",
+        "3": "Pendenza dal 30 al 40%: lo stress controllato che crea la materia ",
+        "4": "Esposizione a ovest: una maturità costruita con pazienza",
+        "5": "Metà del vigneto in vecchie vigne"
+      },
+      "title": "Ginevra, terroir d'eccezione | Domaine Simone"
+    },
+    "founders": {
+      "description": "Scoprite Damien Simone, enologo, e Natalio Cano, esperto in vendite ed export. Insieme, creano il Domaine Simone e mettono Ginevra sulla mappa con un grande vino d'eccezione.",
+      "h1": "I Fondatori",
+      "h2": {
+        "1": "Due profili complementari. Una stessa convinzione",
+        "2": "Un solo obiettivo: mettere Ginevra sulla mappa"
+      },
+      "title": "I Fondatori | Domaine Simone"
+    },
+    "home": {
+      "description": "Domaine Simone, un vino ginevrino d'eccezione nato da un'ambizione: mettere Ginevra sulla mappa dei grandi terroir mondiali. Scoprite il Calvaire.",
+      "h1": "Domaine Simone: vino d'eccezione a Ginevra",
+      "h2": {
+        "1": "Una tenuta creata per scrivere una storia, non per perpetuarla",
+        "2": "Il Calvaire, 40% di pendenza. La parcella che ha deciso tutto",
+        "3": "Calvaire Sélection: 5473 bottiglie di un assemblaggio d'eccezione",
+        "4": "Due profili, un'ambizione: mettere Ginevra sulla mappa"
+      },
+      "title": "Vino d'eccezione a Ginevra | Domaine Simone"
+    },
+    "wineReserve": {
+      "description": "300 bottiglie. Un rosso d'eccezione: 36 mesi in barrique, 12 mesi in bottiglia. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponibile nel 2029. La Grande Réserve del Domaine Simone.",
+      "h1": "Calvaire Grande Réserve",
+      "h2": {
+        "1": "L'espressione suprema del terroir svizzero",
+        "2": "Una convinzione senza compromessi",
+        "3": "Scheda tecnica"
+      },
+      "title": "Prossimamente: Calvaire Grande Réserve 2029 | Domaine Simone"
+    },
+    "wineSelection": {
+      "description": "Calvaire Sélection 2025: bianco secco 59% Chasselas, 41% Chardonnay. 5473 bottiglie numerate. Terroir delle Côtes de Russin, affinato in barrique nuove. Scoprite questo vino di finezza e mineralità.",
+      "h1": "Calvaire Sélection",
+      "h2": {
+        "1": "Un colore dorato, un naso di pesca e agrumi con un tocco burroso",
+        "2": "Questo vino racconta una storia: quella di un terroir sottovalutato",
+        "3": "Scheda tecnica"
+      },
+      "title": "Calvaire Sélection 2025 — Bianco Chardonnay-Chasselas | Domaine Simone"
+    },
+    "wines": {
+      "description": "Calvaire Sélection (bianco, 2025) e Calvaire Grande Réserve (rosso, 2029). Le due espressioni del Domaine Simone, dal terroir ginevrino premium AOC Russin.",
+      "h1": "I Vini",
+      "h2": {
+        "1": "Le Calvaire Sélection: cuvée bianca, assemblaggio Chardonnay-Chasselas",
+        "2": "Le Calvaire Grande Réserve: disponibilità 2029"
+      },
+      "title": "I vini del Calvaire | Domaine Simone"
+    }
+  },
   "termsAndConditions": {
     "content": {
       "alcoholSales": {

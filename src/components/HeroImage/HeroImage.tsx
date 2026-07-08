@@ -29,7 +29,7 @@ const HeroImage = ({ alt, src, title, imgClassName }: HeroImageProps) => {
         src={src}
       />
 
-      <p
+      <div
         className={cn(
           'absolute top-1/2 -translate-y-1/2',
           'font-imbue text-white text-center',
@@ -39,7 +39,7 @@ const HeroImage = ({ alt, src, title, imgClassName }: HeroImageProps) => {
         )}
       >
         {title}
-      </p>
+      </div>
     </div>
   );
 };

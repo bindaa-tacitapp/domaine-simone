@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { OtherProduct } from '@/components/OtherProduct/OtherProduct';
 import { Quote } from '@/components/Quote/Quote';
@@ -7,9 +8,25 @@ import { WineCharacteristics } from '@/components/WineCharacteristics/WineCharac
 import { WineCTABox } from '@/components/WineCTABox/WineCTABox';
 import { WineShowcase } from '@/components/WineShowcase/WineShowcase';
 import { ROUTES } from '@/constants/routes';
+import { Locale } from '@/i18n/config';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'seo.wineSelection' });
+
+  return {
+    description: t('description'),
+    title: t('title'),
+  };
+}
 
 export default async function WhiteWinePage() {
   const t = await getTranslations('wine');
+  const tSeo = await getTranslations('seo.wineSelection');
 
   const properties: WineCharacteristicProps[] = [
     {
@@ -76,6 +93,8 @@ export default async function WhiteWinePage() {
 
   return (
     <>
+      <h1 className="sr-only">{tSeo('h1')}</h1>
+
       <WineShowcase
         alcohol={12.3}
         name="Sélection"
@@ -88,6 +107,7 @@ export default async function WhiteWinePage() {
 
       <WineCTABox type="selection" />
 
+      <h2 className="sr-only">{tSeo('h2.1')}</h2>
       <Text align="center" className="md:mb-30">
         {t('selection.intro.p1')}
         <br />
@@ -95,8 +115,10 @@ export default async function WhiteWinePage() {
         {t('selection.intro.p2')}
       </Text>
 
+      <h2 className="sr-only">{tSeo('h2.2')}</h2>
       <Quote className="text-primary-yellow">{t('selection.quote')}</Quote>
 
+      <h2 className="sr-only">{tSeo('h2.3')}</h2>
       <WineCharacteristics items={properties} />
 
       <OtherProduct
