@@ -138,8 +138,40 @@
     }
   },
   "home": {
-    "imageAlt": "Bottiglia di vino rosso Calvaire",
-    "title": "Sic itur ad astra"
+    "calvaire": {
+      "alt": "Foto scattata a livello del suolo della parcella",
+      "data": {
+        "label": "Pendenza",
+        "value": "40%"
+      },
+      "text": "Tutto inizia da una pendenza. Inclinazione del 40%, esposta a ovest, su una delle colline più ripide di Russin.<br></br><br></br>Dove altri si sono arresi, Damien Simone ha scelto di restare. Ancor prima della prima firma, prima ancora che la tenuta esistesse, c'era questa parcella, lavorata da solo, a mano, per convinzione.<br></br>Oggi, in suo onore, diamo il suo nome a tutta la nostra gamma.<br></br><br></br><linkCalvaire>Scoprire la storia del Calvaire</linkCalvaire>"
+    },
+    "domain": {
+      "alt": "Foto delle parcelle della tenuta",
+      "data": {
+        "label": "Superficie",
+        "value": "1.4 ha"
+      },
+      "text": "2023, il Domaine Simone acquisisce ufficialmente la sua prima parcella. L'inizio ufficiale di una storia che, in realtà, era iniziata molto prima.<br></br><br></br>Nessuna vigna ereditata, nessuna cantina tramandata, nessun nome già scritto su un'etichetta. Solo un desiderio: quello di un giovane che voleva fare il vino, e un'ambizione, quella di fare di Ginevra un punto di riferimento.<br></br><br></br>Da allora, questa convinzione ha messo radici e, con oltre 1,4 ettari di vigneto in produzione, il Domaine Simone non perpetua una storia. Ne sta scrivendo una."
+    },
+    "founders": {
+      "alt": "Foto di Damien Simone e Natalio Cano",
+      "data": {
+        "label": "Fondazione",
+        "value": "2023"
+      },
+      "text": "Damien Simone ha trascorso mesi percorrendo il cantone alla ricerca dei terreni che potessero sostenere la sua ambizione. È stato durante questa ricerca che ha incontrato, e poi convinto, Natalio Cano. Due profili, una stessa ambizione.<br></br><br></br>Oggi, Damien segue la vigna e il vino, dalla parcella fino alla bottiglia. Natalio porta la voce della tenuta sul mercato, sia in Svizzera che a livello internazionale. Due mestieri, un unico obiettivo: mettere Ginevra sulla mappa.<br></br><br></br>Da questo incontro è nato il Domaine Simone. Non una tenuta che perpetua una storia di famiglia, ma una tenuta che ne crea una."
+    },
+    "imageAlt": "Stemma del Domaine Simone",
+    "title": "Il Domaine Simone non perpetua una storia. Ne sta scrivendo una.",
+    "wine": {
+      "alt": "Foto della bottiglia del vino bianco Sélection",
+      "data": {
+        "label": "Bottiglie",
+        "value": "5473"
+      },
+      "text": "5473 bottiglie di questo bianco elegante e complesso, nato dall'armoniosa alleanza tra Chasselas e Chardonnay.<br></br><br></br>Al naso, gli aromi floreali dello Chasselas (tiglio, fiori bianchi) dialogano con i frutti dello Chardonnay (pera, pesca bianca), arricchiti da una mineralità caratteristica dei suoli morenici e da discreti aromi terziari (burro, brioche, vaniglia, frutta a guscio tostata).<br></br><br></br>Al palato, si conferma l'equilibrio tra la tensione minerale dello Chasselas e la rotondità dello Chardonnay. L'assenza di filtrazione preserva l'autenticità del terroir.<br></br><br></br>Un finale bello, persistente e cristallino."
+    }
   },
   "legalNotice": {
     "content": {

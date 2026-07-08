@@ -1,4 +1,6 @@
 import { ReactNode } from 'react';
+import { ROUTES } from '@/constants/routes';
+import { Link } from '@/i18n/navigation';
 
 const handleRichTags = {
   bold: (chunks: ReactNode) => <strong>{chunks}</strong>,
@@ -8,6 +10,14 @@ const handleRichTags = {
     <a className="underline" href={`mailto:${String(chunks)}`}>
       {chunks}
     </a>
+  ),
+  linkCalvaire: (chunks: ReactNode) => (
+    <Link
+      className="hover:text-primary-yellow transition-colors cursor-pointer underline underline-offset-2"
+      href={ROUTES.brand}
+    >
+      {chunks}
+    </Link>
   ),
   linkChangins: () => (
     <a

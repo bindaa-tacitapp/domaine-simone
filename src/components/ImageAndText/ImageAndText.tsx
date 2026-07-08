@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { ReactNode } from 'react';
+import { Property } from '@/components/Property/Property';
 import { Text } from '@/components/Text/Text';
 import { cn } from '@/libs/cn';
 
@@ -11,6 +12,7 @@ type ImageAndTextProps = {
   title?: ReactNode;
   className?: string;
   imageClassName?: string;
+  propertyValue?: string;
 };
 
 const ImageAndText = ({
@@ -21,6 +23,7 @@ const ImageAndText = ({
   title,
   className,
   imageClassName,
+  propertyValue,
 }: ImageAndTextProps) => {
   return (
     <div
@@ -56,19 +59,23 @@ const ImageAndText = ({
       >
         <Image
           alt={alt}
-          blurDataURL={
-            src.startsWith('https://placekeanu.com')
-              ? undefined
-              : '/img/placeholder-blur-picture.webp'
-          }
+          blurDataURL="/img/placeholder-blur-picture.webp"
           className={cn('object-cover', imageClassName)}
           fill
-          placeholder={
-            src.startsWith('https://placekeanu.com') ? undefined : 'blur'
-          }
+          placeholder="blur"
           src={src}
-          unoptimized={src.startsWith('https://placekeanu.com')}
         />
+
+        {propertyValue ? (
+          <Property
+            className={cn(
+              'absolute bottom-5 right-5 text-white text-shadow-md/10',
+              'md:bottom-10 md:right-10',
+            )}
+            classNameValue={cn('md:text-6xl')}
+            value={propertyValue}
+          />
+        ) : null}
       </div>
     </div>
   );

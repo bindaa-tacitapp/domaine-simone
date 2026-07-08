@@ -98,7 +98,7 @@ export default async function RedWinePage() {
         {t('reserve.intro.p3')}
       </Text>
 
-      <Quote className=" text-primary-red">{t('reserve.quote')}</Quote>
+      <Quote className="text-primary-red">{t('reserve.quote')}</Quote>
 
       <WineCharacteristics items={properties} />
 
