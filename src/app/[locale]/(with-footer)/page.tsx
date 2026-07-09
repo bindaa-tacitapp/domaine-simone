@@ -71,7 +71,7 @@ export default async function HomePage() {
         propertyValue={Intl.NumberFormat(locale).format(
           parseInt(t('wine.data.value'), 10),
         )}
-        src="/img/home.wine.webp"
+        src="/img/home.bottle.webp"
         text={t.rich('wine.text', handleRichTags)}
       />
 
