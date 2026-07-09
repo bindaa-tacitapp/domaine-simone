@@ -1,8 +1,24 @@
+import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
 import { CONTACT_TYPE, ROUTES } from '@/constants/routes';
+import { Locale } from '@/i18n/config';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'seo.press' });
+
+  return {
+    description: t('description'),
+    title: t('title'),
+  };
+}
 
 export default async function Press() {
   const t = await getTranslations('press');

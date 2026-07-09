@@ -330,6 +330,10 @@
       },
       "title": "Le Calvaire | Domaine Simone"
     },
+    "contact": {
+      "description": "Whether you are a restaurateur, a journalist, or simply curious, we are at your disposal.",
+      "title": "Contact | Domaine Simone"
+    },
     "domain": {
       "description": "An estate located in AOC Premier Cru Côtes de Russin, clay-loam soils, 30-40% slopes, due west exposure. Discover the demanding terroir that gave birth to Domaine Simone.",
       "h2": {
@@ -360,6 +364,26 @@
         "4": "Two profiles, one ambition: putting Geneva on the map"
       },
       "title": "Exceptional wine in Geneva | Domaine Simone"
+    },
+    "legalNotice": {
+      "description": "Legal notice for Domaine Simone Sàrl. Information on the publisher, host, managers, copyright, and intellectual property. Applicable Swiss law.",
+      "title": "Legal Notice | Domaine Simone"
+    },
+    "press": {
+      "description": "Complete press kit for Domaine Simone. Portraits, high-resolution images, press releases, key figures. Contact Damien Simone or our team directly for interviews and events.",
+      "title": "Press | Geneva | Domaine Simone"
+    },
+    "privacyPolicy": {
+      "description": "Domaine Simone protects your personal data. Discover our privacy policy: collection, use, retention, security, and your rights under the Swiss FADP.",
+      "title": "Privacy Policy | Domaine Simone"
+    },
+    "professional": {
+      "description": "Add Domaine Simone to your wine list. Local exclusivity, limited quantities, authentic history. Selective partnership for demanding restaurateurs and wine merchants.",
+      "title": "Professionals | Domaine Simone"
+    },
+    "termsAndConditions": {
+      "description": "General terms and conditions of Domaine Simone. Order, delivery, return, and payment terms, withdrawal policy, and warranty. Consult our complete GTC.",
+      "title": "GTC | Domaine Simone"
     },
     "wineReserve": {
       "description": "300 bottles. An exceptional red: 36 months in barrels, 12 months in bottle. Merlot, Cabernet Sauvignon, Cabernet Franc. Available in 2029. The Réserve of Domaine Simone.",

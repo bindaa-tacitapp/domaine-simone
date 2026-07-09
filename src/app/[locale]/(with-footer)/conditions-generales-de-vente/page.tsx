@@ -1,7 +1,26 @@
+import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
+import { Locale } from '@/i18n/config';
 import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: 'seo.termsAndConditions',
+  });
+
+  return {
+    description: t('description'),
+    title: t('title'),
+  };
+}
 
 export default async function TermsAndConditionsPage() {
   const t = await getTranslations('termsAndConditions');

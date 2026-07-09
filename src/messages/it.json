@@ -330,6 +330,10 @@
       },
       "title": "Le Calvaire | Domaine Simone"
     },
+    "contact": {
+      "description": "Che siate ristoratori, giornalisti o semplicemente curiosi, siamo a vostra disposizione.",
+      "title": "Contatti | Domaine Simone"
+    },
     "domain": {
       "description": "Una tenuta situata in AOC Premier Cru Côtes de Russin, suoli argillo-limosi, pendenze del 30-40%, esposizione a ovest. Scoprite il terroir esigente che ha dato vita al Domaine Simone.",
       "h2": {
@@ -360,6 +364,26 @@
         "4": "Due profili, un'ambizione: mettere Ginevra sulla mappa"
       },
       "title": "Vino d'eccezione a Ginevra | Domaine Simone"
+    },
+    "legalNotice": {
+      "description": "Note legali del Domaine Simone Sàrl. Informazioni sull'editore, hosting, responsabili, diritti d'autore e proprietà intellettuale. Diritto svizzero applicabile.",
+      "title": "Note Legali | Domaine Simone"
+    },
+    "press": {
+      "description": "Cartella stampa completa del Domaine Simone. Ritratti, immagini ad alta risoluzione, comunicati, dati chiave. Contattate direttamente Damien Simone o il nostro team per interviste ed eventi.",
+      "title": "Stampa | Ginevra | Domaine Simone"
+    },
+    "privacyPolicy": {
+      "description": "Il Domaine Simone protegge i vostri dati personali. Scoprite la nostra informativa sulla privacy: raccolta, utilizzo, conservazione, sicurezza e i vostri diritti secondo la LPD svizzera.",
+      "title": "Informativa sulla Privacy | Domaine Simone"
+    },
+    "professional": {
+      "description": "Inserite il Domaine Simone nella vostra carta dei vini. Esclusività locale, quantità limitate, storia autentica. Partnership selettiva per ristoratori ed enoteche esigenti.",
+      "title": "Professionisti | Domaine Simone"
+    },
+    "termsAndConditions": {
+      "description": "Condizioni generali di vendita del Domaine Simone. Modalità d'ordine, consegna, reso, pagamento, politica di recesso e garanzia. Consultate le nostre CGV complete.",
+      "title": "CGV | Domaine Simone"
     },
     "wineReserve": {
       "description": "300 bottiglie. Un rosso d'eccezione: 36 mesi in barrique, 12 mesi in bottiglia. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponibile nel 2029. La Réserve del Domaine Simone.",
