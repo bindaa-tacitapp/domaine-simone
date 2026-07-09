@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { Product, WithContext } from 'schema-dts';
+import { JsonLd } from '@/components/JsonLd/JsonLd';
+import { buildBreadcrumb } from '@/components/JsonLd/libs';
 import { OtherProduct } from '@/components/OtherProduct/OtherProduct';
 import { Quote } from '@/components/Quote/Quote';
 import { Text } from '@/components/Text/Text';
@@ -9,6 +12,7 @@ import { WineCTABox } from '@/components/WineCTABox/WineCTABox';
 import { WineShowcase } from '@/components/WineShowcase/WineShowcase';
 import { ROUTES } from '@/constants/routes';
 import { Locale } from '@/i18n/config';
+import { getPathname } from '@/i18n/navigation';
 
 export async function generateMetadata({
   params,
@@ -26,7 +30,11 @@ export async function generateMetadata({
 
 export default async function WhiteWinePage() {
   const t = await getTranslations('wine');
+  const tWines = await getTranslations('wines');
   const tSeo = await getTranslations('seo.wineSelection');
+  const tCommon = await getTranslations('common');
+
+  const locale = await getLocale();
 
   const properties: WineCharacteristicProps[] = [
     {
@@ -91,8 +99,40 @@ export default async function WhiteWinePage() {
     },
   ];
 
+  const productSchema: WithContext<Product> = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    additionalProperty: properties.map(({ label, value }) => ({
+      '@type': 'PropertyValue',
+      name: label,
+      value,
+    })),
+    brand: { '@id': process.env.ORG_ID as string },
+    category: tWines('type.white'),
+    description: `${t('selection.intro.p1')} ${t('selection.intro.p2')}`,
+    image: `${process.env.BASE_URL}/img/bottle.white.wine.webp`,
+    name: 'Calvaire Sélection',
+    offers: {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      price: '33.00',
+      priceCurrency: 'CHF',
+      url: `${process.env.BASE_URL}${getPathname({ href: ROUTES.wine.selection, locale })}`,
+    },
+    url: `${process.env.BASE_URL}${getPathname({ href: ROUTES.wine.selection, locale })}`,
+  };
+
+  const breadcrumbSchema = buildBreadcrumb(locale, [
+    { href: ROUTES.home, name: tCommon('home') },
+    { href: ROUTES.wines, name: tCommon('nav.wines') },
+    { href: ROUTES.wine.selection, name: 'Calvaire Sélection' },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={productSchema} />
+
       <h1 className="sr-only">{tSeo('h1')}</h1>
 
       <WineShowcase

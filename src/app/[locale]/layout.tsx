@@ -5,8 +5,10 @@ import '@/styles/globals.css';
 import { cookies } from 'next/headers';
 import { notFound } from 'next/navigation';
 import { ReactNode } from 'react';
+import { Organization, WithContext } from 'schema-dts';
 import { AgeGateModal } from '@/components/AgeGateModal/AgeGateModal';
 import { Header } from '@/components/Header/Header';
+import { JsonLd } from '@/components/JsonLd/JsonLd';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
 import { COOKIE_KEYS } from '@/constants/cookies';
 import { routing } from '@/i18n/routing';
@@ -43,12 +45,24 @@ export default async function LocaleLayout({ children, params }: Props) {
     notFound();
   }
 
+  const orgSchema: WithContext<Organization> = {
+    '@context': 'https://schema.org',
+    '@id': process.env.ORG_ID,
+    '@type': 'Organization',
+    logo: `${process.env.BASE_URL}/img/coat-arms.svg`,
+    name: 'Domaine Simone',
+    url: process.env.BASE_URL,
+  };
+
   return (
     <html
       className={`${imbue.variable} ${barlow.className} antialiased`}
       lang={locale}
       translate="no"
     >
+      <head>
+        <JsonLd data={orgSchema} />
+      </head>
       <body>
         <div
           className={cn(

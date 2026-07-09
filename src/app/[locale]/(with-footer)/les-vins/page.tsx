@@ -1,9 +1,13 @@
 import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { ItemList, WithContext } from 'schema-dts';
 import { ContentWrapper } from '@/components/ContentWrapper/ContentWrapper';
+import { JsonLd } from '@/components/JsonLd/JsonLd';
+import { buildBreadcrumb } from '@/components/JsonLd/libs';
 import { WineCard } from '@/components/WineCard/WineCard';
 import { ROUTES } from '@/constants/routes';
 import { Locale } from '@/i18n/config';
+import { getPathname } from '@/i18n/navigation';
 import { cn } from '@/libs/cn';
 
 export async function generateMetadata({
@@ -22,9 +26,37 @@ export async function generateMetadata({
 
 export default async function WinesPage() {
   const tSeo = await getTranslations('seo.wines');
+  const tCommon = await getTranslations('common');
+
+  const locale = await getLocale();
+
+  const itemListSchema: WithContext<ItemList> = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        url: `${process.env.BASE_URL}${getPathname({ href: ROUTES.wine.selection, locale })}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        url: `${process.env.BASE_URL}${getPathname({ href: ROUTES.wine.reserve, locale })}`,
+      },
+    ],
+  };
+
+  const breadcrumbSchema = buildBreadcrumb(locale, [
+    { href: ROUTES.home, name: tCommon('home') },
+    { href: ROUTES.wines, name: tCommon('nav.wines') },
+  ]);
 
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={itemListSchema} />
+
       <h1 className="sr-only">{tSeo('h1')}</h1>
 
       <ContentWrapper wide>

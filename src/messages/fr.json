@@ -34,6 +34,7 @@
       },
       "seeWines": "Voir les vins"
     },
+    "home": "Accueil",
     "menu": {
       "label": "Menu",
       "toggle": "Ouvrir / fermer la navigation"
