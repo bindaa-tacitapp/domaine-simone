@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import { getLocale, getTranslations } from 'next-intl/server';
-import { Product, WithContext } from 'schema-dts';
 import { JsonLd } from '@/components/JsonLd/JsonLd';
 import { buildBreadcrumb } from '@/components/JsonLd/libs';
 import { OtherProduct } from '@/components/OtherProduct/OtherProduct';
@@ -12,7 +11,6 @@ import { WineCTABox } from '@/components/WineCTABox/WineCTABox';
 import { WineShowcase } from '@/components/WineShowcase/WineShowcase';
 import { ROUTES } from '@/constants/routes';
 import { Locale } from '@/i18n/config';
-import { getPathname } from '@/i18n/navigation';
 
 export async function generateMetadata({
   params,
@@ -30,7 +28,6 @@ export async function generateMetadata({
 
 export default async function RedWinePage() {
   const t = await getTranslations('wine');
-  const tWines = await getTranslations('wines');
   const tSeo = await getTranslations('seo.wineReserve');
   const tCommon = await getTranslations('common');
 
