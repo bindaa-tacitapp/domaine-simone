@@ -99,21 +99,6 @@ export default async function RedWinePage() {
     },
   ];
 
-  const productSchema: WithContext<Product> = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    additionalProperty: [
-      { '@type': 'PropertyValue', name: 'Production', value: '300 bouteilles' },
-    ],
-    brand: { '@id': process.env.ORG_ID as string },
-    category: tWines('type.red'),
-    description: `${t('reserve.intro.p1')} ${t('reserve.intro.p2')} ${t('reserve.intro.p3')}`,
-    image: `${process.env.BASE_URL}/img/bottle.red.wine.hidden.webp`,
-    name: 'Calvaire Grande Réserve',
-    releaseDate: '2029',
-    url: `${process.env.BASE_URL}${getPathname({ href: ROUTES.wine.reserve, locale })}`,
-  };
-
   const breadcrumbSchema = buildBreadcrumb(locale, [
     { href: ROUTES.home, name: tCommon('home') },
     { href: ROUTES.wines, name: tCommon('nav.wines') },
@@ -123,7 +108,6 @@ export default async function RedWinePage() {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <JsonLd data={productSchema} />
 
       <h1 className="sr-only">{tSeo('h1')}</h1>
 
