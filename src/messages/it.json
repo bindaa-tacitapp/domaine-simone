@@ -71,7 +71,7 @@
     "contact": {
       "other": "Altro contatto",
       "press": "Siete un giornalista",
-      "restaurant": "Siete un ristoratore",
+      "restaurant": "Siete un professionista",
       "text": "Per qualsiasi richiesta di contatto, potete raggiungerci al seguente indirizzo:",
       "title": "Contatti"
     },
@@ -118,7 +118,7 @@
           "options": {
             "o": "Altro",
             "p": "Sono della stampa",
-            "r": "Sono un ristoratore",
+            "r": "Sono un professionista",
             "w": "Desidero informazioni su un vino"
           },
           "placeholder": "Selezionare un'opzione..."

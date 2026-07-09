@@ -71,7 +71,7 @@
     "contact": {
       "other": "Anderer Kontakt",
       "press": "Sie sind Journalist",
-      "restaurant": "Sie sind Gastronom",
+      "restaurant": "Sie sind Geschäftskunde",
       "text": "Für alle Kontaktanfragen erreichen Sie uns unter der folgenden Adresse:",
       "title": "Kontakt"
     },
@@ -118,7 +118,7 @@
           "options": {
             "o": "Sonstiges",
             "p": "Ich bin von der Presse",
-            "r": "Ich bin Gastronom",
+            "r": "Ich bin Geschäftskunde",
             "w": "Ich wünsche Informationen zu einem Wein"
           },
           "placeholder": "Eine Option auswählen..."

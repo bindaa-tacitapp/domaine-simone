@@ -71,7 +71,7 @@
     "contact": {
       "other": "Other contact",
       "press": "You are a journalist",
-      "restaurant": "You are a restaurateur",
+      "restaurant": "You are a professional",
       "text": "For any inquiries, you can reach us at the following address:",
       "title": "Contact"
     },
@@ -118,7 +118,7 @@
           "options": {
             "o": "Other",
             "p": "I am from the press",
-            "r": "I am a restaurateur",
+            "r": "I am a professional",
             "w": "I would like information about a wine"
           },
           "placeholder": "Select an option..."
