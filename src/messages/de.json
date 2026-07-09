@@ -362,14 +362,14 @@
       "title": "Aussergewöhnlicher Wein in Genf | Domaine Simone"
     },
     "wineReserve": {
-      "description": "300 Flaschen. Ein aussergewöhnlicher Rotwein: 36 Monate im Barrique, 12 Monate in der Flasche. Merlot, Cabernet Sauvignon, Cabernet Franc. Verfügbar im Jahr 2029. Die Grande Réserve der Domaine Simone.",
-      "h1": "Calvaire Grande Réserve",
+      "description": "300 Flaschen. Ein aussergewöhnlicher Rotwein: 36 Monate im Barrique, 12 Monate in der Flasche. Merlot, Cabernet Sauvignon, Cabernet Franc. Verfügbar im Jahr 2029. Die Réserve der Domaine Simone.",
+      "h1": "Calvaire Réserve",
       "h2": {
         "1": "Der ultimative Ausdruck des Schweizer Terroirs",
         "2": "Eine kompromisslose Überzeugung",
         "3": "Technisches Datenblatt"
       },
-      "title": "Demnächst: Calvaire Grande Réserve 2029 | Domaine Simone"
+      "title": "Demnächst: Calvaire Réserve 2029 | Domaine Simone"
     },
     "wineSelection": {
       "description": "Calvaire Sélection 2025: trockener Weisswein 59 % Chasselas, 41 % Chardonnay. 5473 nummerierte Flaschen. Terroir der Côtes de Russin, in neuen Barriques ausgebaut. Entdecken Sie diesen Wein voller Finesse und Mineralität.",
@@ -382,11 +382,11 @@
       "title": "Calvaire Sélection 2025 — Chardonnay-Chasselas Weisswein | Domaine Simone"
     },
     "wines": {
-      "description": "Calvaire Sélection (Weiss, 2025) und Calvaire Grande Réserve (Rot, 2029). Die beiden Ausdrücke der Domaine Simone, aus dem erstklassigen Genfer Terroir AOC Russin.",
+      "description": "Calvaire Sélection (Weiss, 2025) und Calvaire Réserve (Rot, 2029). Die beiden Ausdrücke der Domaine Simone, aus dem erstklassigen Genfer Terroir AOC Russin.",
       "h1": "Die Weine",
       "h2": {
         "1": "Le Calvaire Sélection: weisse Cuvée, Chardonnay-Chasselas-Assemblage",
-        "2": "Le Calvaire Grande Réserve: Verfügbarkeit 2029"
+        "2": "Le Calvaire Réserve: Verfügbarkeit 2029"
       },
       "title": "Die Weine des Calvaire | Domaine Simone"
     }
@@ -515,7 +515,7 @@
       "intro": {
         "p1": "Drei Rebsorten, eine einzige Parzelle, 36 Monate im Barrique und 12 Monate in der Flasche. Dieser Wein ist das Resultat eines kompromisslosen Weinbereitungsprotokolls, das man im Glas deutlich spürt.",
         "p2": "Tiefes Schwarzpurpur. In der Nase kandierte dunkle Früchte, Cassis und Brombeere, mit süssen Gewürzen, Veilchen und einem gut eingebundenen rauchigen Hauch. Am Gaumen ist der Auftakt füllig und seidig, die Tanninstruktur dicht und edel, der Abgang lang und salzig. Das 40%ige Gefälle erledigt den Rest: eine aromatische und phenolische Reife, die durch keine Technik zu ersetzen ist.",
-        "p3": "Als Grundstein des Projekts drückt die Cuvée Grande Réserve den Willen des Weinguts aus, einen Wein zu schaffen, der zugleich ein Kunstwerk, eine starke Marke und eine internationale Referenz ist."
+        "p3": "Als Grundstein des Projekts drückt die Cuvée Réserve den Willen des Weinguts aus, einen Wein zu schaffen, der zugleich ein Kunstwerk, eine starke Marke und eine internationale Referenz ist."
       },
       "properties": {
         "alcoholicFermentation": "Im Edelstahltank",

@@ -162,8 +162,8 @@ export default async function WhiteWinePage() {
       <WineCharacteristics items={properties} />
 
       <OtherProduct
-        alt="Grande Réserve"
-        name="Grande Réserve"
+        alt="Réserve"
+        name="Réserve"
         src="/img/bottle.red.wine.hidden.webp"
         type="red"
         url={ROUTES.wine.reserve}

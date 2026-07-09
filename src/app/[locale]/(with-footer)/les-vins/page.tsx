@@ -80,7 +80,7 @@ export default async function WinesPage() {
           <h2 className="sr-only">{tSeo('h2.2')}</h2>
           <WineCard
             src="/img/bottle.red.wine.hidden.full.webp"
-            title="Calvaire - Grande Réserve"
+            title="Calvaire - Réserve"
             type="red"
             url={ROUTES.wine.reserve}
           />

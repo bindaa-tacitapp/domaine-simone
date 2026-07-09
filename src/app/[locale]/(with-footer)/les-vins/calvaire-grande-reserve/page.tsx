@@ -99,7 +99,7 @@ export default async function RedWinePage() {
   const breadcrumbSchema = buildBreadcrumb(locale, [
     { href: ROUTES.home, name: tCommon('home') },
     { href: ROUTES.wines, name: tCommon('nav.wines') },
-    { href: ROUTES.wine.selection, name: 'Calvaire Grande Réserve' },
+    { href: ROUTES.wine.selection, name: 'Calvaire Réserve' },
   ]);
 
   return (
@@ -110,7 +110,7 @@ export default async function RedWinePage() {
 
       <WineShowcase
         alcohol={14}
-        name="Grande Réserve"
+        name="Réserve"
         quantity={300}
         src="/img/bottle.red.wine.hidden.webp"
         type="red"

@@ -362,14 +362,14 @@
       "title": "Vin d'exception à Genève | Domaine Simone"
     },
     "wineReserve": {
-      "description": "300 bouteilles. Un rouge d'exception : 36 mois en barrique, 12 mois en bouteille. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponible en 2029. La Grande Réserve du Domaine Simone.",
-      "h1": "Calvaire Grande Réserve",
+      "description": "300 bouteilles. Un rouge d'exception : 36 mois en barrique, 12 mois en bouteille. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponible en 2029. La Réserve du Domaine Simone.",
+      "h1": "Calvaire Réserve",
       "h2": {
         "1": "L'expression ultime du terroir Suisse",
         "2": "Une conviction sans compromis",
         "3": "Fiche technique"
       },
-      "title": "A Venir : Calvaire Grande Réserve 2029 | Domaine Simone"
+      "title": "A Venir : Calvaire Réserve 2029 | Domaine Simone"
     },
     "wineSelection": {
       "description": "Calvaire Sélection 2025 : blanc sec 59% Chasselas, 41% Chardonnay. 5473 bouteilles numérotées. Terroir des Côtes de Russin, élevé en barriques neuves. Découvrez ce vin de finesse et de minéralité.",
@@ -382,11 +382,11 @@
       "title": "Calvaire Sélection 2025 — Blanc Chardonnay-Chasselas | Domaine Simone"
     },
     "wines": {
-      "description": "Calvaire Sélection (blanc, 2025) et Calvaire Grande Réserve (rouge, 2029). Les deux expressions du Domaine Simone, issues du terroir genevois premium AOC Russin.",
+      "description": "Calvaire Sélection (blanc, 2025) et Calvaire Réserve (rouge, 2029). Les deux expressions du Domaine Simone, issues du terroir genevois premium AOC Russin.",
       "h1": "Les Vins",
       "h2": {
         "1": "Le Calvaire Sélection : cuvée blanche, assemblage Chardonnay-Chasselas",
-        "2": "Le Calvaire Grande Réserve : disponibilité 2029"
+        "2": "Le Calvaire Réserve : disponibilité 2029"
       },
       "title": "Les vins du Calvaire | Domaine Simone"
     }
@@ -515,7 +515,7 @@
       "intro": {
         "p1": "Trois cépages, une seule parcelle, 36 mois en barrique et 12 mois de bouteille. Ce vin est le résultat d'un protocole de vinification sans compromis, que l’on ressent dans le verre.",
         "p2": "Pourpre noir profond. Un nez de fruits noirs confits, cassis et mûre, avec des épices douces, de la violette, une touche fumée bien intégrée. En bouche, l'attaque est ample et soyeuse, la structure tannique dense et noble, la finale longue et saline. La pente à 40% fait le reste : une maturité aromatique et phénolique qu'aucune technique ne remplace.",
-        "p3": "Pierre angulaire du projet, la cuvée Grande Réserve exprime la volonté du Domaine de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale."
+        "p3": "Pierre angulaire du projet, la cuvée Réserve exprime la volonté du Domaine de créer un vin qui soit à la fois une œuvre, une marque forte et une référence internationale."
       },
       "properties": {
         "alcoholicFermentation": "En cuve inox",

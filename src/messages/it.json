@@ -362,14 +362,14 @@
       "title": "Vino d'eccezione a Ginevra | Domaine Simone"
     },
     "wineReserve": {
-      "description": "300 bottiglie. Un rosso d'eccezione: 36 mesi in barrique, 12 mesi in bottiglia. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponibile nel 2029. La Grande Réserve del Domaine Simone.",
-      "h1": "Calvaire Grande Réserve",
+      "description": "300 bottiglie. Un rosso d'eccezione: 36 mesi in barrique, 12 mesi in bottiglia. Merlot, Cabernet Sauvignon, Cabernet Franc. Disponibile nel 2029. La Réserve del Domaine Simone.",
+      "h1": "Calvaire Réserve",
       "h2": {
         "1": "L'espressione suprema del terroir svizzero",
         "2": "Una convinzione senza compromessi",
         "3": "Scheda tecnica"
       },
-      "title": "Prossimamente: Calvaire Grande Réserve 2029 | Domaine Simone"
+      "title": "Prossimamente: Calvaire Réserve 2029 | Domaine Simone"
     },
     "wineSelection": {
       "description": "Calvaire Sélection 2025: bianco secco 59% Chasselas, 41% Chardonnay. 5473 bottiglie numerate. Terroir delle Côtes de Russin, affinato in barrique nuove. Scoprite questo vino di finezza e mineralità.",
@@ -382,11 +382,11 @@
       "title": "Calvaire Sélection 2025 — Bianco Chardonnay-Chasselas | Domaine Simone"
     },
     "wines": {
-      "description": "Calvaire Sélection (bianco, 2025) e Calvaire Grande Réserve (rosso, 2029). Le due espressioni del Domaine Simone, dal terroir ginevrino premium AOC Russin.",
+      "description": "Calvaire Sélection (bianco, 2025) e Calvaire Réserve (rosso, 2029). Le due espressioni del Domaine Simone, dal terroir ginevrino premium AOC Russin.",
       "h1": "I Vini",
       "h2": {
         "1": "Le Calvaire Sélection: cuvée bianca, assemblaggio Chardonnay-Chasselas",
-        "2": "Le Calvaire Grande Réserve: disponibilità 2029"
+        "2": "Le Calvaire Réserve: disponibilità 2029"
       },
       "title": "I vini del Calvaire | Domaine Simone"
     }
@@ -515,7 +515,7 @@
       "intro": {
         "p1": "Tre vitigni, una sola parcella, 36 mesi in barrique e 12 mesi in bottiglia. Questo vino è il risultato di un protocollo di vinificazione senza compromessi, che si fa sentire nel bicchiere.",
         "p2": "Porpora nero profondo. Un naso di frutti neri canditi, ribes nero e mora, con spezie dolci, violetta e un tocco affumicato ben integrato. Al palato, l'attacco è ampio e setoso, la struttura tannica densa e nobile, il finale lungo e salino. La pendenza del 40% fa il resto: una maturità aromatica e fenolica che nessuna tecnica può sostituire.",
-        "p3": "Pietra angolare del progetto, la cuvée Grande Réserve esprime la volontà della Tenuta di creare un vino che sia al contempo un'opera, un marchio forte e un punto di riferimento internazionale."
+        "p3": "Pietra angolare del progetto, la cuvée Réserve esprime la volontà della Tenuta di creare un vino che sia al contempo un'opera, un marchio forte e un punto di riferimento internazionale."
       },
       "properties": {
         "alcoholicFermentation": "In vasca d'acciaio inox",
