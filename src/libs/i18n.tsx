@@ -2,6 +2,9 @@ import { ReactNode } from 'react';
 import { ROUTES } from '@/constants/routes';
 import { Link } from '@/i18n/navigation';
 
+const linkClassName =
+  'hover:text-primary-yellow transition-colors cursor-pointer underline underline-offset-2';
+
 const handleRichTags = {
   bold: (chunks: ReactNode) => <strong>{chunks}</strong>,
   br: () => <br />,
@@ -15,22 +18,34 @@ const handleRichTags = {
     </a>
   ),
   linkCalvaire: (chunks: ReactNode) => (
-    <Link
-      className="hover:text-primary-yellow transition-colors cursor-pointer underline underline-offset-2"
-      href={ROUTES.brand}
-    >
+    <Link className={linkClassName} href={ROUTES.brand}>
       {chunks}
     </Link>
   ),
   linkChangins: () => (
     <a
-      className="hover:text-primary-yellow transition-colors cursor-pointer underline underline-offset-2"
+      className={linkClassName}
       href="https://www.changins.ch"
       rel="noopener"
       target="_blank"
     >
       Changins
     </a>
+  ),
+  linkDomain: (chunks: ReactNode) => (
+    <Link className={linkClassName} href={ROUTES.domain}>
+      {chunks}
+    </Link>
+  ),
+  linkFounders: (chunks: ReactNode) => (
+    <Link className={linkClassName} href={ROUTES.men}>
+      {chunks}
+    </Link>
+  ),
+  linkSelection: (chunks: ReactNode) => (
+    <Link className={linkClassName} href={ROUTES.wine.selection}>
+      {chunks}
+    </Link>
   ),
   list: (chunks: ReactNode) => (
     <ul className="pl-5 list-disc mb-2">{chunks}</ul>

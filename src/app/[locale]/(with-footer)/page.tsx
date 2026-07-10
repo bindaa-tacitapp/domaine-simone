@@ -78,6 +78,7 @@ export default async function HomePage() {
       <h2 className="sr-only">{tSeo('h2.4')}</h2>
       <ImageAndText
         alt={t('founders.alt')}
+        imageClassName={cn('2xl:object-[50%_45%]')}
         propertyValue={t('founders.data.value')}
         reverse
         src="/img/home.founders.webp"
