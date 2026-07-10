@@ -45,6 +45,7 @@ export default async function BrandPage() {
       <h2 className="sr-only">{tSeo('h2.2')}</h2>
       <ImageAndText
         alt={t('images.p2')}
+        imageClassName={cn('2xl:object-[50%_30%]')}
         src="/img/new.grape.webp"
         text={t.rich('content.p2', handleRichTags)}
       />

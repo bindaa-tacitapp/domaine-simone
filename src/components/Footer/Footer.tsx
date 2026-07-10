@@ -101,7 +101,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className={cn('flex items-center gap-4')}>
+          <Link className={cn('flex items-center gap-4')} href={ROUTES.home}>
             <div className={cn('aspect-square w-12 relative')}>
               <Image
                 alt={t('logo.alt')}
@@ -116,7 +116,7 @@ const Footer = () => {
             <p className={cn('font-imbue uppercase text-3xl')}>
               {t('logo.title')}
             </p>
-          </div>
+          </Link>
         </div>
       </ContentWrapper>
 

@@ -5,6 +5,7 @@ import { HeroImage } from '@/components/HeroImage/HeroImage';
 import { ImageAndText } from '@/components/ImageAndText/ImageAndText';
 import { Text } from '@/components/Text/Text';
 import { Locale } from '@/i18n/config';
+import { cn } from '@/libs/cn';
 import { handleRichTags } from '@/libs/i18n';
 
 export async function generateMetadata({
@@ -32,6 +33,7 @@ export default async function DomainePage() {
 
       <HeroImage
         alt={t('alt')}
+        imgClassName={cn('2xl:object-[50%_45%]')}
         src="/img/bottle.top.webp"
         title={<h1>{t.rich('title', handleRichTags)}</h1>}
       />

@@ -23,11 +23,11 @@ const WineCard = async ({ src, title, price, url, type }: WineCardProps) => {
 
   return (
     <Link href={url}>
-      <div className="relative aspect-square mb-5">
+      <div className="relative aspect-square mb-5 overflow-hidden">
         <Image
           alt={title}
           blurDataURL="/img/placeholder-blur-picture.webp"
-          className="object-cover"
+          className="object-cover hover:scale-104 transition-transform duration-500 ease-in-out"
           fill
           placeholder="blur"
           src={src}
