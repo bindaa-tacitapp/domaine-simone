@@ -419,71 +419,71 @@
     "content": {
       "alcoholSales": {
         "content": "<p>La vente de vin en Suisse est strictement réservée aux personnes âgées de 16 ans révolus.</p><p>En passant commande, le client déclare et garantit être âgé d'au moins 16 ans. Le Domaine se réserve le droit de demander une preuve d'âge à tout moment, notamment lors de la livraison ou lors d'événements, et de refuser ou d'annuler toute commande en cas de doute non levé.</p>",
-        "title": "4. Vente d'alcool et majorité légale"
+        "title": "Article 4 – Vente d'alcool et majorité légale"
       },
       "applicableLaw": {
         "content": "<p>Les présentes CGV sont soumises au droit suisse.</p><p>En cas de litige, et à défaut de résolution amiable, les tribunaux du canton de Genève seront seuls compétents, sous réserve des dispositions légales impératives applicables aux consommateurs.</p>",
-        "title": "16. Droit applicable et for juridique"
+        "title": "Article 16 – Droit applicable et for juridique"
       },
       "delivery": {
         "content": "<p><strong>Zone de livraison</strong></p><p>Les livraisons sont assurées exclusivement sur le territoire suisse.</p><p><strong>Transporteur</strong></p><p>Les livraisons sont effectuées via La Poste Suisse ou par le Domaine.</p><p><strong>Frais de port</strong></p><table><row><th>Zone</th><th>Condition</th><th>Frais de port</th></row><row><cell>Canton de Genève</cell><cell>À partir de 6 cartons (CHF 33.- l'unité)</cell><cell>Offerts</cell></row><row><cell>Suisse entière</cell><cell>À partir de 10 cartons (CHF 1'980.- TTC)</cell><cell>Offerts</cell></row><row><cell>Autres commandes</cell><cell>En dessous des seuils ci-dessus</cell><cell>Facturés selon le tarif en vigueur, communiqué avant validation de la commande</cell></row></table><p><strong>Délais</strong></p><p>Les délais de livraison indicatifs sont communiqués lors de la confirmation de commande. Le Domaine ne saurait être tenu responsable d'un retard imputable au transporteur.</p><p><strong>Transfert des risques</strong></p><p>Le transfert des risques (perte, casse, avarie) intervient à la remise du colis au transporteur. Voir Article 10 pour la gestion des cas de casse ou défaut de livraison.</p>",
-        "title": "8. Livraison"
+        "title": "Article 8 – Livraison"
       },
       "intellectualProperty": {
         "content": "<p>L'ensemble des éléments du site (textes, visuels, logo, étiquettes, identité de marque) sont la propriété exclusive du Domaine Simone Sàrl et ne peuvent être reproduits sans autorisation écrite préalable.</p>",
-        "title": "15. Propriété intellectuelle"
+        "title": "Article 15 – Propriété intellectuelle"
       },
       "liability": {
         "content": "<p>Le Domaine s'engage à apporter le plus grand soin à la préparation et à l'expédition des commandes. Sa responsabilité ne saurait être engagée en cas de :</p><list><item>force majeure ;</item><item>mauvaise utilisation ou conservation du produit par le client après livraison ;</item><item>dommages liés au transport (voir Article 10).</item></list><p>La responsabilité du Domaine, si elle devait être retenue, est limitée au montant de la commande concernée.</p>",
-        "title": "13. Responsabilité"
+        "title": "Article 13 – Responsabilité"
       },
       "oenologicalDefect": {
-        "content": "<p>En cas de défaut œnologique avéré sur une bouteille (défaut de bouchon, oxydation anormale, etc.), le client doit :</p><orderedList><item>prendre contact avec le Domaine dans les meilleurs délais ;</item><item>rapporter la bouteille concernée (ou la portion non consommée) au Domaine pour analyse.</item></orderedList><p>Après validation du défaut par le Domaine, la bouteille sera échangée gracieusement contre une bouteille équivalente, dans la limite des stocks disponibles.</p><p>Ne sont pas couverts par cette garantie : les défauts liés à une mauvaise conservation par le client (exposition à la chaleur, à la lumière, stockage debout prolongé, etc.).</p>",
-        "title": "11. Défaut œnologique et échange"
+        "content": "<p>En cas de défaut œnologique avéré sur une bouteille (défaut de bouchon, oxydation anormale, etc.), le client doit en priorité :</p><orderedList><item>prendre contact avec le Domaine dans les meilleurs délais dès la découverte du défaut ;</item><item>rapporter la bouteille concernée (ou la portion non consommée) au Domaine pour analyse.</item></orderedList><p>Après validation du défaut par le Domaine, la bouteille sera échangée gracieusement contre une bouteille équivalente, dans la limite des stocks disponibles.</p><p>Ne sont pas couverts par cette garantie : les défauts liés à une mauvaise conservation par le client (exposition à la chaleur, à la lumière, stockage debout prolongé, etc.).</p><p>En cas de rupture de stocks, le client aura le droit au remboursement de la bouteille.</p>",
+        "title": "Article 11 – Défaut œnologique et échange"
       },
       "orders": {
         "content": "<p>Les commandes peuvent être passées :</p><list><item>directement sur le site internet du Domaine ;</item><item>lors d'événements auxquels participe le Domaine ;</item><item>auprès des revendeurs partenaires agréés (cavistes, restaurants), selon les conditions propres à chaque point de vente.</item></list><p>Toute commande passée via le site fait l'objet d'une confirmation par email récapitulant les produits, quantités, prix et modalités de livraison.</p><p>Le Domaine se réserve le droit de refuser ou d'annuler toute commande en cas de doute sur son sérieux, de rupture de stock, ou de non-respect des présentes CGV (notamment Article 4).</p>",
-        "title": "6. Commande"
+        "title": "Article 6 – Commande"
       },
       "payment": {
         "content": "<p>Le paiement s'effectue préalablement à la livraison, selon les moyens suivants :</p><list><item>facture ;</item><item>carte bancaire ;</item><item>virement bancaire ;</item><item>Twint.</item></list><p>La commande est considérée comme ferme et définitive une fois le paiement intégralement reçu par le Domaine. Aucune expédition n'est effectuée avant réception complète du paiement.</p><p>En cas de paiement par virement bancaire, les délais de livraison courent à compter de la réception effective des fonds sur le compte du Domaine.</p>",
-        "title": "7. Modalités de paiement"
+        "title": "Article 7 – Modalités de paiement"
       },
       "personalData": {
         "content": "<p>Les données personnelles collectées dans le cadre des commandes sont traitées conformément à la Loi fédérale sur la protection des données (LPD) et sont utilisées exclusivement dans le cadre de la gestion de la relation commerciale (traitement des commandes, livraison, service après-vente, communication relative aux produits du Domaine, sauf opposition du client).</p>",
-        "title": "14. Protection des données"
+        "title": "Article 14 – Protection des données"
       },
       "pricing": {
         "content": "<p>Les prix sont indiqués en francs suisses (CHF), toutes taxes comprises (TVA incluse), hors frais de livraison sauf mention contraire à l'Article 8.</p><p>Le Domaine applique une politique de prix fixe et non négociable, y compris lors d'événements ou via ses revendeurs partenaires, conformément à son positionnement premium. Aucune remise, braderie ou lot promotionnel n'est proposé, sauf opération exceptionnelle explicitement communiquée par le Domaine.</p><p>Le Domaine se réserve le droit de modifier ses prix à tout moment, étant entendu que seul le prix affiché au moment de la validation de la commande fait foi.</p>",
-        "title": "5. Prix"
+        "title": "Article 5 – Prix"
       },
       "products": {
         "content": "<p>Les produits vendus par le Domaine sont des vins issus de la production du Domaine Simone, présentés avec leurs caractéristiques essentielles (cuvée, millésime, cépages, degré d'alcool, numérotation de la bouteille lorsque applicable).</p><p>Les millésimes étant produits en quantité limitée, la disponibilité des produits est susceptible de varier sans préavis. Le Domaine s'efforce de maintenir à jour les stocks affichés sur son site, sans garantie absolue de disponibilité au moment de la commande.</p><p>En cas de rupture de stock après passation de commande, le client sera informé dans les meilleurs délais et intégralement remboursé s'il ne souhaite pas attendre une réédition.</p>",
-        "title": "3. Produits"
+        "title": "Article 3 – Produits"
       },
       "resellers": {
         "content": "<p>Les conditions spécifiques applicables aux revendeurs partenaires (exclusivité territoriale, volumes, prix de vente conseillé, mise en avant) font l'objet d'un accord contractuel distinct et ne sont pas couvertes en détail par les présentes CGV.</p><p>Le revendeur partenaire s'engage notamment à respecter le prix de vente conseillé communiqué par le Domaine.</p>",
-        "title": "12. Revendeurs partenaires"
+        "title": "Article 12 – Revendeurs partenaires"
       },
       "scope": {
         "content": "<p>Les présentes Conditions Générales de Vente (ci-après « CGV ») régissent l'ensemble des ventes de produits viticoles proposés par Domaine Simone Sàrl (ci-après « le Domaine »), que ce soit :</p><list><item>via le site internet du Domaine (vente à distance) ;</item><item>lors d'événements organisés ou auxquels participe le Domaine ;</item><item>par l'intermédiaire de revendeurs partenaires (cavistes, restaurants) agréés.</item></list><p>Toute commande implique l'acceptation pleine et entière des présentes CGV, à l'exclusion de tout autre document, sauf accord écrit spécifique conclu avec un revendeur partenaire (voir Article 12).</p>",
-        "title": "1. Objet et champ d'application"
+        "title": "Article 1 – Objet et champ d'application"
       },
       "seller": {
         "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Genève, Suisse</p><p>Numéro IDE / TVA : CHE-276.963.736 TVA</p><p>Contact : <link>info@domaine-simone.ch</link> / +41 79 397 14 94</p>",
-        "title": "2. Identification du vendeur"
+        "title": "Article 2 – Identification du vendeur"
       },
       "title": "Conditions Générales de Vente – Domaine Simone Sàrl",
       "transportDamage": {
         "content": "<p>En cas de casse, de bouteille manquante ou de tout défaut lié au transport constaté à la réception du colis, la responsabilité incombe exclusivement au transporteur (La Poste).</p><p>Le client est invité à :</p><orderedList><item>constater et photographier le dommage dès réception ;</item><item>signaler l'incident dans les meilleurs délais (idéalement sous 48h) au Domaine, qui accompagnera le client dans sa démarche de réclamation auprès du transporteur ;</item><item>conserver l'emballage d'origine jusqu'à résolution du dossier.</item></orderedList><p>Le Domaine s'engage à faciliter cette démarche mais ne saurait se substituer à la responsabilité du transporteur pour les dommages liés à l'acheminement.</p>",
-        "title": "10. Casse et défauts de livraison"
+        "title": "Article 10 – Casse et défauts de livraison"
       },
       "withdrawal": {
-        "content": "<p>Conformément au droit suisse applicable à la vente de produits alimentaires et de boissons, la vente à distance de vin n'est pas soumise à un droit de rétractation légal obligatoire. En conséquence, toute commande validée et payée est ferme et définitive, sous réserve des dispositions des Articles 10 et 11 ci-dessous.</p>",
-        "title": "9. Absence de droit de rétractation"
+        "content": "<p>Conformément au droit suisse applicable à la vente de produits alimentaires et de boissons, la vente à distance de vin n'est pas soumise à un droit de révocation légal obligatoire. En conséquence, toute commande validée et payée est ferme et définitive, sous réserve des dispositions des Articles 10 et 11 ci-dessous.</p>",
+        "title": "Article 9 – Absence de droit de révocation"
       }
     },
-    "lastUpdated": "Dernière mise à jour : 8 juillet 2026",
+    "lastUpdated": "Dernière mise à jour : 22 septembre 2026",
     "title": "Conditions Générales de Vente"
   },
   "wine": {

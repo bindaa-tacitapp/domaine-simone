@@ -419,71 +419,71 @@
     "content": {
       "alcoholSales": {
         "content": "<p>The sale of wine in Switzerland is strictly restricted to persons who are at least 16 years old.</p><p>By placing an order, the customer declares and guarantees to be at least 16 years of age. The Estate reserves the right to request proof of age at any time, in particular upon delivery or during events, and to refuse or cancel any order if a doubt is not resolved.</p>",
-        "title": "4. Sale of Alcohol and Legal Age"
+        "title": "Article 4 – Sale of alcohol and legal age"
       },
       "applicableLaw": {
         "content": "<p>These GTC are subject to Swiss law.</p><p>In the event of a dispute, and failing an amicable resolution, the courts of the Canton of Geneva shall have exclusive jurisdiction, subject to any mandatory legal provisions applicable to consumers.</p>",
-        "title": "16. Applicable Law and Jurisdiction"
+        "title": "Article 16 – Applicable law and jurisdiction"
       },
       "delivery": {
         "content": "<p><strong>Delivery zone</strong></p><p>Deliveries are strictly limited to the Swiss territory.</p><p><strong>Carrier</strong></p><p>Deliveries are made via Swiss Post or by the Estate.</p><p><strong>Shipping costs</strong></p><table><row><th>Zone</th><th>Condition</th><th>Shipping costs</th></row><row><cell>Canton of Geneva</cell><cell>From 6 cases (CHF 33.- each)</cell><cell>Free</cell></row><row><cell>All of Switzerland</cell><cell>From 10 cases (CHF 1,980.- incl. VAT)</cell><cell>Free</cell></row><row><cell>Other orders</cell><cell>Below the above thresholds</cell><cell>Billed according to the current rate, communicated before order validation</cell></row></table><p><strong>Delivery times</strong></p><p>Indicative delivery times are communicated upon order confirmation. The Estate cannot be held responsible for delays attributable to the carrier.</p><p><strong>Transfer of risks</strong></p><p>The transfer of risks (loss, breakage, damage) occurs upon delivery of the package to the carrier. See Article 10 for the management of breakage or delivery defects.</p>",
-        "title": "8. Delivery"
+        "title": "Article 8 – Delivery"
       },
       "intellectualProperty": {
         "content": "<p>All elements of the site (texts, visuals, logo, labels, brand identity) are the exclusive property of Domaine Simone Sàrl and may not be reproduced without prior written consent.</p>",
-        "title": "15. Intellectual Property"
+        "title": "Article 15 – Intellectual property"
       },
       "liability": {
         "content": "<p>The Estate undertakes to exercise the utmost care in the preparation and shipment of orders. Its liability cannot be invoked in the event of:</p><list><item>force majeure;</item><item>improper use or storage of the product by the customer after delivery;</item><item>transport-related damages (see Article 10).</item></list><p>The liability of the Estate, if it were to be retained, is limited to the amount of the relevant order.</p>",
-        "title": "13. Liability"
+        "title": "Article 13 – Liability"
       },
       "oenologicalDefect": {
-        "content": "<p>In the event of a proven oenological defect on a bottle (cork taint, abnormal oxidation, etc.), the customer must:</p><orderedList><item>contact the Estate as soon as possible;</item><item>return the affected bottle (or the unconsumed portion) to the Estate for analysis.</item></orderedList><p>After validation of the defect by the Estate, the bottle will be exchanged free of charge for an equivalent bottle, subject to stock availability.</p><p>Not covered by this guarantee are: defects linked to improper storage by the customer (exposure to heat, light, prolonged upright storage, etc.).</p>",
-        "title": "11. Oenological Defect and Exchange"
+        "content": "<p>In the event of a proven oenological defect on a bottle (cork taint, abnormal oxidation, etc.), the customer must as a priority:</p><orderedList><item>contact the Estate as soon as possible upon discovery of the defect;</item><item>return the affected bottle (or the unconsumed portion) to the Estate for analysis.</item></orderedList><p>After validation of the defect by the Estate, the bottle will be exchanged free of charge for an equivalent bottle, subject to stock availability.</p><p>Not covered by this guarantee are: defects linked to improper storage by the customer (exposure to heat, light, prolonged upright storage, etc.).</p><p>In the event of a stock shortage, the customer will be entitled to a refund for the bottle.</p>",
+        "title": "Article 11 – Oenological defect and exchange"
       },
       "orders": {
         "content": "<p>Orders can be placed:</p><list><item>directly on the Estate's website;</item><item>during events in which the Estate participates;</item><item>through authorized partner retailers (wine merchants, restaurants), according to the specific conditions of each point of sale.</item></list><p>Any order placed via the website is subject to email confirmation summarizing the products, quantities, prices, and delivery terms.</p><p>The Estate reserves the right to refuse or cancel any order in case of doubt as to its legitimacy, stock shortage, or non-compliance with these GTC (notably Article 4).</p>",
-        "title": "6. Orders"
+        "title": "Article 6 – Orders"
       },
       "payment": {
         "content": "<p>Payment is made prior to delivery, using the following methods:</p><list><item>invoice;</item><item>credit card;</item><item>bank transfer;</item><item>Twint.</item></list><p>The order is considered firm and final once full payment has been received by the Estate. No shipment is made before full receipt of payment.</p><p>In the case of payment by bank transfer, delivery times begin upon the actual receipt of funds in the Estate's account.</p>",
-        "title": "7. Payment Methods"
+        "title": "Article 7 – Payment methods"
       },
       "personalData": {
         "content": "<p>Personal data collected in connection with orders is processed in accordance with the Federal Act on Data Protection (FADP) and is used exclusively for the management of the commercial relationship (order processing, delivery, after-sales service, communication relating to the Estate's products, unless the customer objects).</p>",
-        "title": "14. Data Protection"
+        "title": "Article 14 – Data protection"
       },
       "pricing": {
         "content": "<p>Prices are indicated in Swiss francs (CHF), all taxes included (VAT included), excluding delivery costs unless otherwise stated in Article 8.</p><p>The Estate applies a fixed and non-negotiable pricing policy, including at events or through partner retailers, in line with its premium positioning. No discounts, clearance sales, or promotional bundles are offered, except for exceptional operations explicitly communicated by the Estate.</p><p>The Estate reserves the right to modify its prices at any time, it being understood that only the price displayed at the time of order validation is binding.</p>",
-        "title": "5. Pricing"
+        "title": "Article 5 – Pricing"
       },
       "products": {
         "content": "<p>The products sold by the Estate are wines produced by Domaine Simone, presented with their essential characteristics (cuvée, vintage, grape varieties, alcohol content, bottle numbering where applicable).</p><p>Since vintages are produced in limited quantities, product availability is subject to change without notice. The Estate strives to keep the stock displayed on its site up to date, without an absolute guarantee of availability at the time of ordering.</p><p>In the event of a stock shortage after an order has been placed, the customer will be informed as soon as possible and fully refunded if they do not wish to wait for a restock.</p>",
-        "title": "3. Products"
+        "title": "Article 3 – Products"
       },
       "resellers": {
         "content": "<p>The specific conditions applicable to partner retailers (territorial exclusivity, volumes, recommended retail price, promotion) are the subject of a separate contractual agreement and are not covered in detail by these GTC.</p><p>The partner retailer undertakes in particular to respect the recommended retail price communicated by the Estate.</p>",
-        "title": "12. Partner Retailers"
+        "title": "Article 12 – Partner retailers"
       },
       "scope": {
         "content": "<p>These General Terms and Conditions (hereinafter \"GTC\") govern all sales of wine products offered by Domaine Simone Sàrl (hereinafter \"the Estate\"), whether:</p><list><item>via the Estate's website (distance selling);</item><item>during events organized by or in which the Estate participates;</item><item>through authorized partner retailers (wine merchants, restaurants).</item></list><p>Any order implies full and complete acceptance of these GTC, to the exclusion of any other document, unless a specific written agreement has been concluded with a partner retailer (see Article 12).</p>",
-        "title": "1. Purpose and Scope"
+        "title": "Article 1 – Purpose and scope"
       },
       "seller": {
         "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Geneva, Switzerland</p><p>IDE / VAT Number: CHE-276.963.736 TVA</p><p>Contact: <link>info@domaine-simone.ch</link> / +41 79 397 14 94</p>",
-        "title": "2. Identification of the Seller"
+        "title": "Article 2 – Identification of the seller"
       },
       "title": "General Terms and Conditions – Domaine Simone Sàrl",
       "transportDamage": {
         "content": "<p>In the event of breakage, a missing bottle, or any transport-related defect noted upon receipt of the package, responsibility lies exclusively with the carrier (Swiss Post).</p><p>The customer is invited to:</p><orderedList><item>note and photograph the damage upon receipt;</item><item>report the incident as soon as possible (ideally within 48h) to the Estate, which will assist the customer in the claim process with the carrier;</item><item>keep the original packaging until the case is resolved.</item></orderedList><p>The Estate is committed to facilitating this process but cannot substitute itself for the carrier's liability for transport-related damages.</p>",
-        "title": "10. Breakage and Delivery Defects"
+        "title": "Article 10 – Breakage and delivery defects"
       },
       "withdrawal": {
-        "content": "<p>In accordance with Swiss law applicable to the sale of food and beverages, the distance selling of wine is not subject to a mandatory legal right of withdrawal. Consequently, any validated and paid order is firm and final, subject to the provisions of Articles 10 and 11 below.</p>",
-        "title": "9. Absence of Right of Withdrawal"
+        "content": "<p>In accordance with Swiss law applicable to the sale of food and beverages, the distance selling of wine is not subject to a mandatory legal right of revocation. Consequently, any validated and paid order is firm and final, subject to the provisions of Articles 10 and 11 below.</p>",
+        "title": "Article 9 – Absence of right of revocation"
       }
     },
-    "lastUpdated": "Last updated: July 8, 2026",
+    "lastUpdated": "Last updated: September 22, 2026",
     "title": "General Terms and Conditions"
   },
   "wine": {

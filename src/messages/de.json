@@ -419,71 +419,71 @@
     "content": {
       "alcoholSales": {
         "content": "<p>Der Verkauf von Wein in der Schweiz ist strengstens Personen vorbehalten, die das 16. Lebensjahr vollendet haben.</p><p>Mit der Bestellung erklärt und garantiert der Kunde, mindestens 16 Jahre alt zu sein. Das Weingut behält sich das Recht vor, jederzeit, insbesondere bei der Lieferung oder bei Veranstaltungen, einen Altersnachweis zu verlangen und bei nicht ausgeräumten Zweifeln jede Bestellung abzulehnen oder zu stornieren.</p>",
-        "title": "4. Alkoholverkauf und gesetzliches Mindestalter"
+        "title": "Artikel 4 – Alkoholverkauf und gesetzliches Mindestalter"
       },
       "applicableLaw": {
         "content": "<p>Diese AGB unterliegen dem Schweizer Recht.</p><p>Im Falle einer Streitigkeit und bei Fehlen einer gütlichen Einigung sind ausschliesslich die Gerichte des Kantons Genf zuständig, vorbehältlich zwingender gesetzlicher Bestimmungen für Konsumenten.</p>",
-        "title": "16. Anwendbares Recht und Gerichtsstand"
+        "title": "Artikel 16 – Anwendbares Recht und Gerichtsstand"
       },
       "delivery": {
         "content": "<p><strong>Liefergebiet</strong></p><p>Lieferungen erfolgen ausschliesslich innerhalb der Schweiz.</p><p><strong>Spediteur</strong></p><p>Lieferungen erfolgen über Die Schweizerische Post oder durch das Weingut.</p><p><strong>Versandkosten</strong></p><table><row><th>Region</th><th>Bedingung</th><th>Versandkosten</th></row><row><cell>Kanton Genf</cell><cell>Ab 6 Kartons (CHF 33.- pro Einheit)</cell><cell>Kostenlos</cell></row><row><cell>Ganze Schweiz</cell><cell>Ab 10 Kartons (CHF 1'980.- inkl. MwSt.)</cell><cell>Kostenlos</cell></row><row><cell>Weitere Bestellungen</cell><cell>Unterhalb der obigen Schwellenwerte</cell><cell>Abrechnung gemäss gültigem Tarif, der vor Bestellabschluss mitgeteilt wird</cell></row></table><p><strong>Lieferfristen</strong></p><p>Die voraussichtlichen Lieferfristen werden bei der Bestellbestätigung mitgeteilt. Das Weingut haftet nicht für Verzögerungen, die auf den Spediteur zurückzuführen sind.</p><p><strong>Gefahrübergang</strong></p><p>Der Gefahrübergang (Verlust, Bruch, Beschädigung) erfolgt bei Übergabe des Pakets an den Spediteur. Siehe Artikel 10 zur Handhabung von Bruch oder Liefermängeln.</p>",
-        "title": "8. Lieferung"
+        "title": "Artikel 8 – Lieferung"
       },
       "intellectualProperty": {
         "content": "<p>Alle Elemente der Website (Texte, Bilder, Logo, Etiketten, Markenidentität) sind ausschliessliches Eigentum der Domaine Simone Sàrl und dürfen ohne vorherige schriftliche Zustimmung nicht reproduziert werden.</p>",
-        "title": "15. Geistiges Eigentum"
+        "title": "Artikel 15 – Geistiges Eigentum"
       },
       "liability": {
         "content": "<p>Das Weingut verpflichtet sich, Bestellungen mit grösster Sorgfalt vorzubereiten und zu versenden. Eine Haftung ist ausgeschlossen bei:</p><list><item>höherer Gewalt;</item><item>unsachgemässer Verwendung oder Lagerung des Produkts durch den Kunden nach der Lieferung;</item><item>Transportschäden (siehe Artikel 10).</item></list><p>Die Haftung des Weinguts, sofern sie festgestellt werden sollte, ist auf den Betrag der betreffenden Bestellung beschränkt.</p>",
-        "title": "13. Haftung"
+        "title": "Artikel 13 – Haftung"
       },
       "oenologicalDefect": {
-        "content": "<p>Im Falle eines nachgewiesenen önologischen Fehlers an einer Flasche (Korkschmecker, anormale Oxidation usw.) muss der Kunde:</p><orderedList><item>sich so schnell wie möglich mit dem Weingut in Verbindung setzen;</item><item>die betreffende Flasche (oder den nicht konsumierten Teil) zur Analyse an das Weingut zurücksenden.</item></orderedList><p>Nach Bestätigung des Fehlers durch das Weingut wird die Flasche kostenlos gegen eine gleichwertige Flasche umgetauscht, solange der Vorrat reicht.</p><p>Von dieser Garantie ausgeschlossen sind: Mängel, die auf eine unsachgemässe Lagerung durch den Kunden zurückzuführen sind (Hitze- oder Lichteinwirkung, längere stehende Lagerung usw.).</p>",
-        "title": "11. Önologischer Fehler und Umtausch"
+        "content": "<p>Im Falle eines nachgewiesenen önologischen Fehlers an einer Flasche (Korkschmecker, anormale Oxidation usw.) muss der Kunde vorrangig:</p><orderedList><item>sich so schnell wie möglich nach Entdeckung des Fehlers mit dem Weingut in Verbindung setzen;</item><item>die betreffende Flasche (oder den nicht konsumierten Teil) zur Analyse an das Weingut zurücksenden.</item></orderedList><p>Nach Bestätigung des Fehlers durch das Weingut wird die Flasche kostenlos gegen eine gleichwertige Flasche umgetauscht, solange der Vorrat reicht.</p><p>Von dieser Garantie ausgeschlossen sind: Mängel, die auf eine unsachgemässe Lagerung durch den Kunden zurückzuführen sind (Hitze- oder Lichteinwirkung, längere stehende Lagerung usw.).</p><p>Bei einem Lieferengpass hat der Kunde Anspruch auf Rückerstattung der Flasche.</p>",
+        "title": "Artikel 11 – Önologischer Fehler und Umtausch"
       },
       "orders": {
         "content": "<p>Bestellungen können aufgegeben werden:</p><list><item>direkt über die Website des Weinguts;</item><item>bei Veranstaltungen, an denen das Weingut teilnimmt;</item><item>über autorisierte Partnerhändler (Weinfachhandlungen, Restaurants) gemäss den für die jeweilige Verkaufsstelle geltenden Bedingungen.</item></list><p>Jede über die Website getätigte Bestellung wird durch eine E-Mail bestätigt, in der Produkte, Mengen, Preise und Lieferbedingungen zusammengefasst sind.</p><p>Das Weingut behält sich das Recht vor, Bestellungen bei Zweifeln an deren Seriosität, bei Lieferengpässen oder bei Nichteinhaltung dieser AGB (insbesondere Artikel 4) abzulehnen oder zu stornieren.</p>",
-        "title": "6. Bestellungen"
+        "title": "Artikel 6 – Bestellungen"
       },
       "payment": {
         "content": "<p>Die Zahlung erfolgt vor der Lieferung über folgende Zahlungsmittel:</p><list><item>Rechnung;</item><item>Kreditkarte;</item><item>Banküberweisung;</item><item>Twint.</item></list><p>Die Bestellung gilt als verbindlich und endgültig, sobald die vollständige Zahlung beim Weingut eingegangen ist. Es erfolgt kein Versand vor dem vollständigen Zahlungseingang.</p><p>Bei Zahlung per Banküberweisung beginnen die Lieferfristen mit dem tatsächlichen Eingang des Geldes auf dem Konto des Weinguts.</p>",
-        "title": "7. Zahlungsbedingungen"
+        "title": "Artikel 7 – Zahlungsbedingungen"
       },
       "personalData": {
         "content": "<p>Die im Rahmen von Bestellungen erhobenen personenbezogenen Daten werden gemäss dem Bundesgesetz über den Datenschutz (DSG) bearbeitet und ausschliesslich zur Verwaltung der Geschäftsbeziehung verwendet (Bestellabwicklung, Lieferung, Kundendienst, Kommunikation zu Produkten des Weinguts, sofern der Kunde nicht widerspricht).</p>",
-        "title": "14. Datenschutz"
+        "title": "Artikel 14 – Datenschutz"
       },
       "pricing": {
         "content": "<p>Die Preise verstehen sich in Schweizer Franken (CHF), einschliesslich aller Steuern (inkl. MwSt.), exklusive Lieferkosten, sofern in Artikel 8 nicht anders angegeben.</p><p>Das Weingut wendet eine feste und nicht verhandelbare Preispolitik an, auch bei Veranstaltungen oder über Partnerhändler, entsprechend seiner Premium-Positionierung. Es werden keine Rabatte, Ausverkäufe oder Aktionspakete angeboten, ausser bei aussergewöhnlichen Aktionen, die vom Weingut ausdrücklich kommuniziert werden.</p><p>Das Weingut behält sich das Recht vor, seine Preise jederzeit zu ändern, wobei nur der zum Zeitpunkt der Bestellbestätigung angezeigte Preis verbindlich ist.</p>",
-        "title": "5. Preise"
+        "title": "Artikel 5 – Preise"
       },
       "products": {
         "content": "<p>Die vom Weingut verkauften Produkte sind Weine aus der Produktion der Domaine Simone, die mit ihren wesentlichen Merkmalen (Cuvée, Jahrgang, Rebsorten, Alkoholgehalt, gegebenenfalls Flaschennummerierung) präsentiert werden.</p><p>Da die Jahrgänge in begrenzten Mengen produziert werden, kann sich die Verfügbarkeit der Produkte ohne Vorankündigung ändern. Das Weingut ist bestrebt, die auf seiner Website angezeigten Bestände aktuell zu halten, übernimmt jedoch keine absolute Garantie für die Verfügbarkeit zum Zeitpunkt der Bestellung.</p><p>Sollte ein Produkt nach der Bestellung nicht mehr vorrätig sein, wird der Kunde so schnell wie möglich informiert und vollständig zurückerstattet, falls er nicht auf eine neue Abfüllung warten möchte.</p>",
-        "title": "3. Produkte"
+        "title": "Artikel 3 – Produkte"
       },
       "resellers": {
         "content": "<p>Die spezifischen Bedingungen für Partnerhändler (territoriale Exklusivität, Volumina, empfohlener Verkaufspreis, Verkaufsförderung) sind Gegenstand einer separaten vertraglichen Vereinbarung und werden in diesen AGB nicht im Detail behandelt.</p><p>Der Partnerhändler verpflichtet sich insbesondere, den vom Weingut mitgeteilten empfohlenen Verkaufspreis einzuhalten.</p>",
-        "title": "12. Partnerhändler"
+        "title": "Artikel 12 – Partnerhändler"
       },
       "scope": {
         "content": "<p>Diese Allgemeinen Geschäftsbedingungen (im Folgenden „AGB“) regeln alle Verkäufe von Weinprodukten, die von der Domaine Simone Sàrl (im Folgenden „das Weingut“) angeboten werden, sei es:</p><list><item>über die Website des Weinguts (Fernabsatz);</item><item>bei Veranstaltungen, die das Weingut organisiert oder an denen es teilnimmt;</item><item>über autorisierte Partnerhändler (Weinfachhandlungen, Restaurants).</item></list><p>Jede Bestellung setzt die vollständige und uneingeschränkte Annahme dieser AGB unter Ausschluss jeglicher anderer Dokumente voraus, es sei denn, es wurde eine spezifische schriftliche Vereinbarung mit einem Partnerhändler getroffen (siehe Artikel 12).</p>",
-        "title": "1. Gegenstand und Geltungsbereich"
+        "title": "Artikel 1 – Gegenstand und Geltungsbereich"
       },
       "seller": {
         "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Genf, Schweiz</p><p>UID / MWST-Nummer: CHE-276.963.736 MWST</p><p>Kontakt: <link>info@domaine-simone.ch</link> / +41 79 397 14 94</p>",
-        "title": "2. Identifikation des Verkäufers"
+        "title": "Artikel 2 – Identifikation des Verkäufers"
       },
       "title": "Allgemeine Geschäftsbedingungen – Domaine Simone Sàrl",
       "transportDamage": {
         "content": "<p>Im Falle von Bruch, einer fehlenden Flasche oder einem beim Empfang des Pakets festgestellten Transportschaden liegt die Verantwortung ausschliesslich beim Spediteur (Die Schweizerische Post).</p><p>Der Kunde wird gebeten:</p><orderedList><item>den Schaden bei Erhalt festzustellen und zu fotografieren;</item><item>den Vorfall so schnell wie möglich (idealerweise innerhalb von 48 Stunden) dem Weingut zu melden, das den Kunden bei der Reklamation beim Spediteur unterstützt;</item><item>die Originalverpackung bis zum Abschluss des Falls aufzubewahren.</item></orderedList><p>Das Weingut verpflichtet sich, diesen Prozess zu erleichtern, kann jedoch nicht anstelle des Spediteurs für Transportschäden haftbar gemacht werden.</p>",
-        "title": "10. Bruch und Liefermängel"
+        "title": "Artikel 10 – Bruch und Liefermängel"
       },
       "withdrawal": {
         "content": "<p>Gemäss dem auf den Verkauf von Lebensmitteln und Getränken anwendbaren Schweizer Recht unterliegt der Fernabsatz von Wein keinem zwingenden gesetzlichen Widerrufsrecht. Folglich ist jede bestätigte und bezahlte Bestellung verbindlich und endgültig, vorbehältlich der Bestimmungen der Artikel 10 und 11 unten.</p>",
-        "title": "9. Kein Widerrufsrecht"
+        "title": "Artikel 9 – Kein Widerrufsrecht"
       }
     },
-    "lastUpdated": "Letzte Aktualisierung: 8. Juli 2026",
+    "lastUpdated": "Letzte Aktualisierung: 22. September 2026",
     "title": "Allgemeine Geschäftsbedingungen"
   },
   "wine": {

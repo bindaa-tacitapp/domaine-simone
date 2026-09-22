@@ -419,71 +419,71 @@
     "content": {
       "alcoholSales": {
         "content": "<p>La vendita di vino in Svizzera è strettamente riservata alle persone che hanno compiuto 16 anni.</p><p>Effettuando un ordine, il cliente dichiara e garantisce di avere almeno 16 anni. La Tenuta si riserva il diritto di richiedere una prova dell'età in qualsiasi momento, in particolare al momento della consegna o durante gli eventi, e di rifiutare o annullare qualsiasi ordine in caso di dubbi non chiariti.</p>",
-        "title": "4. Vendita di alcolici e maggiore età"
+        "title": "Articolo 4 – Vendita di alcolici e maggiore età"
       },
       "applicableLaw": {
         "content": "<p>Le presenti CGV sono soggette al diritto svizzero.</p><p>In caso di controversia, e in mancanza di una risoluzione amichevole, i tribunali del Canton Ginevra avranno competenza esclusiva, fatte salve le disposizioni legali imperative applicabili ai consumatori.</p>",
-        "title": "16. Diritto applicabile e foro competente"
+        "title": "Articolo 16 – Diritto applicabile e foro competente"
       },
       "delivery": {
         "content": "<p><strong>Zona di consegna</strong></p><p>Le consegne sono effettuate esclusivamente sul territorio svizzero.</p><p><strong>Corriere</strong></p><p>Le consegne sono effettuate tramite La Posta Svizzera o dalla Tenuta.</p><p><strong>Spese di spedizione</strong></p><table><row><th>Zona</th><th>Condizione</th><th>Spese di spedizione</th></row><row><cell>Canton Ginevra</cell><cell>A partire da 6 cartoni (CHF 33.- l'uno)</cell><cell>Gratuite</cell></row><row><cell>Tutta la Svizzera</cell><cell>A partire da 10 cartoni (CHF 1'980.- IVA inclusa)</cell><cell>Gratuite</cell></row><row><cell>Altri ordini</cell><cell>Al di sotto delle soglie di cui sopra</cell><cell>Fatturate secondo la tariffa in vigore, comunicata prima della convalida dell'ordine</cell></row></table><p><strong>Tempi di consegna</strong></p><p>I tempi di consegna indicativi sono comunicati al momento della conferma dell'ordine. La Tenuta non può essere ritenuta responsabile per ritardi imputabili al corriere.</p><p><strong>Trasferimento dei rischi</strong></p><p>Il trasferimento dei rischi (smarrimento, rottura, danno) avviene alla consegna del pacco al corriere. Vedi Articolo 10 per la gestione dei casi di rottura o difetti di consegna.</p>",
-        "title": "8. Consegna"
+        "title": "Articolo 8 – Consegna"
       },
       "intellectualProperty": {
         "content": "<p>Tutti gli elementi del sito (testi, immagini, logo, etichette, identità di marca) sono di proprietà esclusiva del Domaine Simone Sàrl e non possono essere riprodotti senza previa autorizzazione scritta.</p>",
-        "title": "15. Proprietà intellettuale"
+        "title": "Articolo 15 – Proprietà intellettuale"
       },
       "liability": {
         "content": "<p>La Tenuta si impegna a prestare la massima cura nella preparazione e spedizione degli ordini. La sua responsabilità non può essere invocata in caso di:</p><list><item>forza maggiore;</item><item>uso o conservazione impropria del prodotto da parte del cliente dopo la consegna;</item><item>danni legati al trasporto (vedi Articolo 10).</item></list><p>La responsabilità della Tenuta, qualora dovesse essere accertata, è limitata all'importo dell'ordine in questione.</p>",
-        "title": "13. Responsabilità"
+        "title": "Articolo 13 – Responsabilità"
       },
       "oenologicalDefect": {
-        "content": "<p>In caso di comprovato difetto enologico su una bottiglia (sentore di tappo, ossidazione anomala, ecc.), il cliente deve:</p><orderedList><item>contattare la Tenuta il prima possibile;</item><item>restituire la bottiglia in questione (o la parte non consumata) alla Tenuta per un'analisi.</item></orderedList><p>Dopo la convalida del difetto da parte della Tenuta, la bottiglia sarà sostituita gratuitamente con una bottiglia equivalente, nei limiti delle scorte disponibili.</p><p>Non sono coperti da questa garanzia: i difetti legati a una cattiva conservazione da parte del cliente (esposizione a calore, luce, stoccaggio prolungato in posizione verticale, ecc.).</p>",
-        "title": "11. Difetto enologico e sostituzione"
+        "content": "<p>In caso di comprovato difetto enologico su una bottiglia (sentore di tappo, ossidazione anomala, ecc.), il cliente deve in via prioritaria:</p><orderedList><item>contattare la Tenuta il prima possibile dal momento della scoperta del difetto;</item><item>restituire la bottiglia in questione (o la parte non consumata) alla Tenuta per un'analisi.</item></orderedList><p>Dopo la convalida del difetto da parte della Tenuta, la bottiglia sarà sostituita gratuitamente con una bottiglia equivalente, nei limiti delle scorte disponibili.</p><p>Non sono coperti da questa garanzia: i difetti legati a una cattiva conservazione da parte del cliente (esposizione a calore, luce, stoccaggio prolungato in posizione verticale, ecc.).</p><p>In caso di esaurimento scorte, il cliente avrà diritto al rimborso della bottiglia.</p>",
+        "title": "Articolo 11 – Difetto enologico e sostituzione"
       },
       "orders": {
         "content": "<p>Gli ordini possono essere effettuati:</p><list><item>direttamente sul sito web della Tenuta;</item><item>durante gli eventi a cui partecipa la Tenuta;</item><item>presso i rivenditori partner autorizzati (enoteche, ristoranti), secondo le condizioni specifiche di ogni punto vendita.</item></list><p>Qualsiasi ordine effettuato tramite il sito è soggetto a una conferma via email che riepiloga i prodotti, le quantità, i prezzi e le modalità di consegna.</p><p>La Tenuta si riserva il diritto di rifiutare o annullare qualsiasi ordine in caso di dubbi sulla sua serietà, esaurimento scorte o mancato rispetto delle presenti CGV (in particolare l'Articolo 4).</p>",
-        "title": "6. Ordinazioni"
+        "title": "Articolo 6 – Ordinazioni"
       },
       "payment": {
         "content": "<p>Il pagamento si effettua prima della consegna, tramite i seguenti metodi:</p><list><item>fattura;</item><item>carta di credito;</item><item>bonifico bancario;</item><item>Twint.</item></list><p>L'ordine è considerato fermo e definitivo una volta che il pagamento completo è stato ricevuto dalla Tenuta. Nessuna spedizione viene effettuata prima del ricevimento completo del pagamento.</p><p>In caso di pagamento tramite bonifico bancario, i tempi di consegna decorrono dalla ricezione effettiva dei fondi sul conto della Tenuta.</p>",
-        "title": "7. Modalità di pagamento"
+        "title": "Articolo 7 – Modalità di pagamento"
       },
       "personalData": {
         "content": "<p>I dati personali raccolti nell'ambito degli ordini sono trattati conformemente alla Legge federale sulla protezione dei dati (LPD) e sono utilizzati esclusivamente per la gestione del rapporto commerciale (elaborazione degli ordini, consegna, servizio post-vendita, comunicazioni relative ai prodotti della Tenuta, salvo opposizione del cliente).</p>",
-        "title": "14. Protezione dei dati"
+        "title": "Articolo 14 – Protezione dei dati"
       },
       "pricing": {
         "content": "<p>I prezzi sono indicati in franchi svizzeri (CHF), tutte le tasse incluse (IVA inclusa), escluse le spese di consegna salvo diversa indicazione all'Articolo 8.</p><p>La Tenuta applica una politica di prezzi fissi e non negoziabili, anche in occasione di eventi o tramite i suoi rivenditori partner, in linea con il suo posizionamento premium. Non vengono proposti sconti, saldi o pacchetti promozionali, ad eccezione di operazioni eccezionali esplicitamente comunicate dalla Tenuta.</p><p>La Tenuta si riserva il diritto di modificare i propri prezzi in qualsiasi momento, fermo restando che fa fede unicamente il prezzo visualizzato al momento della convalida dell'ordine.</p>",
-        "title": "5. Prezzi"
+        "title": "Articolo 5 – Prezzi"
       },
       "products": {
         "content": "<p>I prodotti venduti dalla Tenuta sono vini di produzione del Domaine Simone, presentati con le loro caratteristiche essenziali (cuvée, annata, vitigni, gradazione alcolica, numerazione della bottiglia se applicabile).</p><p>Poiché le annate sono prodotte in quantità limitate, la disponibilità dei prodotti è soggetta a variazioni senza preavviso. La Tenuta si impegna a mantenere aggiornate le scorte visualizzate sul proprio sito, senza una garanzia assoluta di disponibilità al momento dell'ordine.</p><p>In caso di esaurimento scorte dopo l'effettuazione di un ordine, il cliente sarà informato il prima possibile e rimborsato integralmente se non desidera attendere una nuova disponibilità.</p>",
-        "title": "3. Prodotti"
+        "title": "Articolo 3 – Prodotti"
       },
       "resellers": {
         "content": "<p>Le condizioni specifiche applicabili ai rivenditori partner (esclusiva territoriale, volumi, prezzo di vendita consigliato, promozione) sono oggetto di un accordo contrattuale separato e non sono coperte in dettaglio dalle presenti CGV.</p><p>Il rivenditore partner si impegna in particolare a rispettare il prezzo di vendita consigliato comunicato dalla Tenuta.</p>",
-        "title": "12. Rivenditori partner"
+        "title": "Articolo 12 – Rivenditori partner"
       },
       "scope": {
         "content": "<p>Le presenti Condizioni Generali di Vendita (di seguito \"CGV\") disciplinano tutte le vendite di prodotti vitivinicoli offerti da Domaine Simone Sàrl (di seguito \"la Tenuta\"), siano esse:</p><list><item>tramite il sito web della Tenuta (vendita a distanza);</item><item>durante eventi organizzati o a cui partecipa la Tenuta;</item><item>tramite rivenditori partner autorizzati (enoteche, ristoranti).</item></list><p>Qualsiasi ordine implica l'accettazione piena e incondizionata delle presenti CGV, ad esclusione di qualsiasi altro documento, salvo specifico accordo scritto stipulato con un rivenditore partner (vedi Articolo 12).</p>",
-        "title": "1. Oggetto e campo di applicazione"
+        "title": "Articolo 1 – Oggetto e campo di applicazione"
       },
       "seller": {
         "content": "<p>Domaine Simone Sàrl<br></br>c/o Natalio Cano<br></br>Rue de la Colline 16<br></br>1205 Ginevra, Svizzera</p><p>Numero IDE / IVA: CHE-276.963.736 IVA</p><p>Contatto: <link>info@domaine-simone.ch</link> / +41 79 397 14 94</p>",
-        "title": "2. Identificazione del venditore"
+        "title": "Articolo 2 – Identificazione del venditore"
       },
       "title": "Condizioni Generali di Vendita – Domaine Simone Sàrl",
       "transportDamage": {
         "content": "<p>In caso di rottura, bottiglia mancante o qualsiasi difetto legato al trasporto riscontrato alla ricezione del pacco, la responsabilità ricade esclusivamente sul corriere (La Posta Svizzera).</p><p>Il cliente è invitato a:</p><orderedList><item>constatare e fotografare il danno al momento della ricezione;</item><item>segnalare l'incidente il prima possibile (idealmente entro 48 ore) alla Tenuta, che assisterà il cliente nella procedura di reclamo presso il corriere;</item><item>conservare l'imballaggio originale fino alla risoluzione della pratica.</item></orderedList><p>La Tenuta si impegna a facilitare questa procedura, ma non può sostituirsi alla responsabilità del corriere per i danni legati al trasporto.</p>",
-        "title": "10. Rotture e difetti di consegna"
+        "title": "Articolo 10 – Rotture e difetti di consegna"
       },
       "withdrawal": {
-        "content": "<p>Conformemente al diritto svizzero applicabile alla vendita di prodotti alimentari e bevande, la vendita a distanza di vino non è soggetta a un diritto di recesso legale obbligatorio. Di conseguenza, qualsiasi ordine convalidato e pagato è fermo e definitivo, fatte salve le disposizioni degli Articoli 10 e 11 di seguito.</p>",
-        "title": "9. Assenza di diritto di recesso"
+        "content": "<p>Conformemente al diritto svizzero applicabile alla vendita di prodotti alimentari e bevande, la vendita a distanza di vino non è soggetta a un diritto di revoca legale obbligatorio. Di conseguenza, qualsiasi ordine convalidato e pagato è fermo e definitivo, fatte salve le disposizioni degli Articoli 10 e 11 di seguito.</p>",
+        "title": "Articolo 9 – Assenza di diritto di revoca"
       }
     },
-    "lastUpdated": "Ultimo aggiornamento: 8 luglio 2026",
+    "lastUpdated": "Ultimo aggiornamento: 22 settembre 2026",
     "title": "Condizioni Generali di Vendita"
   },
   "wine": {
