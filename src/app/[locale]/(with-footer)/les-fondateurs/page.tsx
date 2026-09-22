@@ -48,7 +48,8 @@ export default async function MenPage() {
       <ImageAndText
         alt={t('natalio.alt')}
         className="mb-20"
-        src="/img/natalio.working.webp"
+        imageClassName="object-top"
+        src="/img/natalio.business.webp"
         text={t.rich('natalio.text', handleRichTags)}
         title={t.rich('natalio.title', handleRichTags)}
       />
